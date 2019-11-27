@@ -1,0 +1,162 @@
+---
+title: List of posts
+layout: layouts/layout-page
+
+pagination:
+  data: collections.post
+  size: 3
+  reverse: true
+  alias: posts
+---
+<h1 class="full-bleed p-name">Welcome</h1>
+
+
+<section class="clearfix">
+	<h2>About</h2>
+	<img class="img-small left circle" src="/img/davidmead-social.jpg" alt="black and white profile photo">
+	<p>An Englishman abroad - Been working with the web since the 90's, main focus now is User Experience. Moved to Cleveland, Ohio in 2001.</p>
+</section>
+
+
+<section>
+	<h2>Last 3 posts:</h2>
+	{% for post in posts %}
+	<article class="tile-snippet">
+		<p><time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></p>
+		<h1><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></h1>
+		<p class="note">{{ post.data.summary }}</p>
+	</article>
+	{% endfor %}
+
+	<hr>
+
+
+
+
+
+
+
+	<h2>Last 3 posts:</h2>
+	<ul style="list-style: none; padding-left: 0;">
+	{% for post in posts %}
+	<li style="border: 1px solid #fff; margin: 0.25em 0;"><a style="display:inline-block; padding: 0.5em; width: 50%; background-color: #fff;" href="{{ post.url | url }}">{{ post.data.title }}<br><span class="note">{{ post.data.summary }}</span></a>
+    <time  style="display:inline-block; padding: 0.5em; width: 40%;" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></li>
+{% endfor %}
+</ul>
+See <a href="/tags/post/" title="">all posts</a>.
+</section>
+<hr>
+<section>
+	<h2>Elsewhere online:</h2>
+	<ul class="list-plain" style="column-count: 4; overflow-wrap: break-word;">
+		<li>
+            <i class="lab la-twitter"></i></i> <a href="https://twitter.com/davidmead" rel="me" class="u-url">Twitter</a>
+        </li>
+        <li>
+            <i class="lab la-instagram"></i> <a href="https://www.instagram.com/davidjohnmead/" rel="me" class="u-url">Instagram</a>
+        </li>
+        <li>
+            <i class="lab la-github"></i> <a href="https://github.com/davidmead" rel="me" class="u-url">Github</a>
+        </li>
+        <li>
+            <i class="lab la-snapchat"></i> <a href="https://www.snapchat.com/add/davidmead" rel="me" class="u-url">Snapchat</a>
+        </li>
+        <li>
+            <i class="lab la-linkedin"></i> <a href="https://www.linkedin.com/in/davidmead" rel="me" class="u-url">LinkedIn</a>
+        </li>
+        <li>
+            <i class="lab la-flickr"></i> <a href="http://www.flickr.com/people/davidmead/" rel="me" class="u-url">Flickr</a>
+        </li>
+        <li>
+            <i class="lab la-soundcloud"></i> <a href="http://soundcloud.com/davidmead-1" rel="me" class="u-url">Soundcloud</a>
+        </li>
+        <li>
+            <i class="las la-link"></i> <a href="https://indieweb.org/User:Davidjohnmead.com" rel="me" class="u-url">Indieweb</a>
+        </li>
+        <li>
+            <i class="las la-link"></i> <a href="https://huffduffer.com/davidmead" rel="me" class="u-url">Huffduffer</a>
+        </li>
+        <li>
+            <i class="las la-rss"></i> <a href="https://micro.blog/davidmead" rel="me" class="u-url">Micro.blog</a>
+        </li>
+        <li>
+            <i class="lab la-medium"></i> <a href="https://medium.com/@davidmead" rel="me" class="u-url">Medium</a>
+        </li>
+        <li>
+            <i class="las la-anchor"></i> <a href="https://anchor.fm/davidmead" rel="me" class="u-url">Anchor.FM</a>
+        </li>
+        <li>
+            <i class="lab la-keybase"></i> <a href="https://keybase.io/davidmead" rel="me" class="u-url">KeyBase</a>
+        </li>
+        <li>
+            <i class="lab la-foursquare"></i> <a href="https://foursquare.com/davidmead" rel="me" class="u-url">Foursquare</a>
+        </li>
+        <li>
+            <i class="lab la-lastfm"></i> <a href="http://www.last.fm/user/DaveMead" rel="me" class="u-url">Last.FM</a>
+        </li>
+        <li>
+            <i class="las la-calendar-day"></i> <a href="https://upcoming.org/@davidmead" rel="me" class="u-url">Upcoming</a>
+        </li>
+        <li>
+            <i class="lab la-google-plus"></i> <a href="http://plus.google.com/109486665432406578271" rel="me" class="u-url">Google+</a>
+        </li>
+        <li>
+            <i class="lab la-periscope"></i> <a href="https://www.periscope.tv/davidmead" rel="me" class="u-url">Periscope</a>
+        </li>
+        <li>
+            <i class="lab la-ello"></i> <a href="http://ello.co/davidmead" rel="me" class="u-url">Ello</a>
+        </li>
+        <li>
+            <i class="las la-link"></i> <a href="http://gentlemint.com/users/davidmead/" rel="me" class="u-url">Gentlemint</a>
+        </li>
+        <li>
+            <i class="lab la-pinterest"></i> <a href="https://www.pinterest.com/davidmead/" rel="me" class="u-url">Pinterest</a>
+        </li>
+        <li>
+            <i class="las la-link"></i> <a href="http://davidmead.listal.com/" rel="me" class="u-url">Listal</a>
+        </li>
+        <li>
+            <i class="las la-link"></i> <a href="http://www.neonmob.com/@davidmead" rel="me" class="u-url">Neonmob</a>
+        </li>
+        <li>
+            <i class="lab la-tumblr"></i> <a href="http://davidmead.tumblr.com/" rel="me" class="u-url">Tumblr</a>
+        </li>
+        <li>
+            <i class="lab la-vine"></i> <a href="http://vine.co/davidjohnmead" rel="me" class="u-url">Vine</a>
+        </li>
+        <li>
+            <i class="lab la-youtube"></i> <a href="http://www.youtube.com/user/davidjohnmead" rel="me" class="u-url">YouTube</a>
+        </li>
+        <li>
+            <i class="las la-money-bill"></i> <a href="http://cash.me/$davidmead" rel="me" class="u-url">Cash.me</a>
+        </li>
+        <li>
+            <i class="lab la-product-hunt"></i> <a href="https://www.producthunt.com/@davidmead" rel="me" class="u-url">Product Hunt</a>
+        </li>
+        <li>
+            <i class="lab la-delicious"></i> <a href="http://del.icio.us/davidmead" rel="me" class="u-url">del.icio.us</a>
+        </li>
+        <li>
+            <i class="lab la-codepen"></i> <a href="http://codepen.io/davidmead/" rel="me" class="u-url">Code Pen</a>
+        </li>
+        <li>
+            <i class="lab la-mixcloud"></i> <a href="https://www.mixcloud.com/davidmead/" rel="me" class="u-url">Mixcloud</a>
+        </li>
+        <li>
+            <i class="lab la-stack-overflow"></i> <a href="http://stackoverflow.com/users/4166790/david-mead" rel="me" class="u-url">Stack Overflow</a>
+        </li>
+        <li>
+            <i class="lab la-reddit"></i> <a href="https://www.reddit.com/user/davidjohnmead/" rel="me" class="u-url">Reddit</a>
+        </li>
+        <li>
+            <i class="lab la-twitch"></i> <a href="https://www.twitch.tv/davidmead" rel="me" class="u-url">Twitch</a>
+        </li>
+        <li>
+            <i class="lab la-untappd"></i> <a href="https://untappd.com/user/davidmead" rel="me" class="u-url">Untappd</a>
+        </li>
+        <li>
+            <i class="lab la-goodreads"></i> <a href="http://goodreads.com/davidmead" rel="me" class="u-url">Goodreads</a>
+        </li>
+	</ul>
+
+</section>
