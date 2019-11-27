@@ -11,17 +11,13 @@ pagination:
 <h1 class="full-bleed p-name">Welcome</h1>
 
 
+
+
+
 <section class="clearfix">
-	<h2>About</h2>
-	<img class="img-small left circle" src="/img/davidmead-social.jpg" alt="black and white profile photo">
-	<p>An Englishman abroad - Been working with the web since the 90's, main focus now is User Experience. Moved to Cleveland, Ohio in 2001.</p>
-</section>
-
-
-<section>
 	<h2>Last 3 posts:</h2>
 	{% for post in posts %}
-	<article class="tile-snippet">
+	<article class="tile-snippet left">
 		<p><time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></p>
 		<h1><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></h1>
 		<p class="note">{{ post.data.summary }}</p>
@@ -34,8 +30,7 @@ pagination:
 
 
 
-
-
+<!--
 	<h2>Last 3 posts:</h2>
 	<ul style="list-style: none; padding-left: 0;">
 	{% for post in posts %}
@@ -43,11 +38,23 @@ pagination:
     <time  style="display:inline-block; padding: 0.5em; width: 40%;" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></li>
 {% endfor %}
 </ul>
-See <a href="/tags/post/" title="">all posts</a>.
+-->
+<p>See <a href="/tags/post/" title="">all posts</a></p>.
 </section>
 <hr>
-<section>
-	<h2>Elsewhere online:</h2>
+
+
+<section class="clearfix">
+	<h2>About</h2>
+	<img class="img-small left circle" src="/img/davidmead-social.jpg" alt="black and white profile photo">
+	<p>An Englishman abroad - Been working with the web since the 90's, main focus now is User Experience. Moved to Cleveland, Ohio in 2001.</p>
+</section>
+
+
+
+
+<section class="clearfix">
+	<h3>Elsewhere online:</h3>
 	<ul class="list-plain" style="column-count: 4; overflow-wrap: break-word;">
 		<li>
             <i class="lab la-twitter"></i></i> <a href="https://twitter.com/davidmead" rel="me" class="u-url">Twitter</a>
