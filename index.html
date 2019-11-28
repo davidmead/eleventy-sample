@@ -8,23 +8,24 @@ pagination:
   reverse: true
   alias: posts
 ---
-<h1 class="full-bleed p-name">Welcome</h1>
+<h1 class="full-bleed p-name">David John Mead</h1>
 
-
-
-
-
-<section class="clearfix">
-	<h2>Last 3 posts:</h2>
+<section>
+	<div class="clearfix">
+	<h2>Recent posts:</h2>
+	<div class="wrapper">
 	{% for post in posts %}
-	<article class="tile-snippet left">
-		<p><time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></p>
+	<article class="tile">
+		<p class="center" style="margin-top:0;background-color: #350000; color: #fff;"><time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></p>
+		<div style="margin:1em">
 		<h1><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></h1>
 		<p class="note">{{ post.data.summary }}</p>
+		</div>
 	</article>
 	{% endfor %}
+	</div>
 
-	<hr>
+	</div>
 
 
 
