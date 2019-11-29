@@ -1,0 +1,10 @@
+{
+	"url":"https://davidjohnmead.com",
+	"feed": {
+		"filename":"feed.xml",
+		"path":"/feed/feed.xml",
+		"url":"https://davidjohnmead.com",
+		"id":"https://davidjohnmead.com"
+	}
+
+}

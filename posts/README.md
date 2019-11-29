@@ -3,8 +3,8 @@ title: Test post 001
 description: This is the first test post 
 date: Created
 tags:
-- post
-- read
+  - post
+  - read
 layout: layouts/layout-post
 ---
 some trivial words would go here.

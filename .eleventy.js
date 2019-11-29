@@ -1,4 +1,9 @@
+const pluginRss = require("@11ty/eleventy-plugin-rss");
+
 module.exports = function (eleventyConfig) {
+
+	//RSS feed
+	eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addFilter('dateIso', date => {
     return moment(date).toISOString();

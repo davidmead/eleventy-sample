@@ -3,8 +3,8 @@ title: Test post 003
 description: This is the third test post, trying with images 
 date: Created
 tags:
-- post
-- watch
+  - post
+  - watch
 layout: layouts/layout-photo
 imgSRC: /img/djm-in-a-band.png
 imgALT: me playing keyboards in a band
