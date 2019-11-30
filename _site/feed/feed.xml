@@ -8,45 +8,63 @@
 	<id>https://davidjohnmead.com</id>
 	<author>
 		<name></name>
+		<email></email>
 	</author>
 	
 	<entry>
 		<title>Test post 002</title>
-		<link href="/posts/README-2/"/>
+		<link href="https://davidjohnmead.com/posts/README-2/"/>
 		<updated>2015-12-31T19:00:00-05:00</updated>
 		<id>https://davidjohnmead.com/posts/README-2/</id>
-		<content type="html"></content>
+		<content type="html">&lt;p&gt;This is the second test post. Filed under &#39;watch&#39; and &#39;post&#39;. Add an image below.&lt;/p&gt;
+&lt;h2&gt;h2 goes here&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/data-breach-screenshot.jpg&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 1&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;h3&lt;/h3&gt;
+&lt;h4&gt;h4&lt;/h4&gt;
+</content>
 	</entry>
 	
 	<entry>
 		<title>Test for TextExpander</title>
-		<link href="/posts/test-for-textexpander/"/>
+		<link href="https://davidjohnmead.com/posts/test-for-textexpander/"/>
 		<updated>2016-02-21T19:00:00-05:00</updated>
 		<id>https://davidjohnmead.com/posts/test-for-textexpander/</id>
-		<content type="html"></content>
+		<content type="html">&lt;h1&gt;This is the H1&lt;/h1&gt;
+&lt;p&gt;And here&#39;s a paragraph of text with a &lt;a href=&quot;http://example.com/&quot; title=&quot;title attribute&quot;&gt;link text&lt;/a&gt;.&lt;/p&gt;
+</content>
 	</entry>
 	
 	<entry>
-		<title>Test post 001</title>
-		<link href="/posts/README/"/>
-		<updated>2019-11-17T10:47:01.853-05:00</updated>
-		<id>https://davidjohnmead.com/posts/README/</id>
-		<content type="html"></content>
+		<title>I&#39;m going to stop consuming &quot;the web&quot; for a while.</title>
+		<link href="https://davidjohnmead.com/posts/going-to-stop-consuming-the-web/"/>
+		<updated>2019-08-15T20:00:00-04:00</updated>
+		<id>https://davidjohnmead.com/posts/going-to-stop-consuming-the-web/</id>
+		<content type="html">&lt;p&gt;Twitter, YouTube, and Instagram have rampant ads and skewed toxicity that the companies can&#39;t (or won&#39;t) address.&lt;/p&gt;
+&lt;p&gt;Large swathes of &amp;quot;online news&amp;quot; sites are echo chambers from half-read tweets riding on anger and clickbait thumbnails &amp;amp; titles.&lt;/p&gt;
+&lt;p&gt;Even the community of how we build and publish on the web feels angry and combative.&lt;/p&gt;
+&lt;p&gt;So, I&#39;m going to take a break. Log out from these places. Shutter this site (I may take it down) as I still can&#39;t get it working the way I want.&lt;/p&gt;
+&lt;p&gt;I have hope for &lt;a href=&quot;https://indieweb.org/&quot; title=&quot;Indieweb&quot;&gt;the IndieWeb&lt;/a&gt; gaining more traction. I have hope that this is a dark valley social media can pull itself out from.&lt;/p&gt;
+&lt;p&gt;See you whenever. Have a better one.&lt;/p&gt;
+</content>
 	</entry>
 	
 	<entry>
 		<title>My first post using Eleventy.</title>
-		<link href="/posts/2019-11-20-my-first-post-using-eleventy/"/>
+		<link href="https://davidjohnmead.com/posts/2019-11-20-my-first-post-using-eleventy/"/>
 		<updated>2019-11-19T19:00:00-05:00</updated>
 		<id>https://davidjohnmead.com/posts/2019-11-20-my-first-post-using-eleventy/</id>
-		<content type="html"></content>
+		<content type="html">&lt;p&gt;This would be were I&#39;d type some content.&lt;/p&gt;
+&lt;h2&gt;Second level heading would go here.&lt;/h2&gt;
+</content>
 	</entry>
 	
 	<entry>
 		<title>Test post 003</title>
-		<link href="/posts/README-3/"/>
+		<link href="https://davidjohnmead.com/posts/README-3/"/>
 		<updated>2019-11-22T21:58:26.018-05:00</updated>
 		<id>https://davidjohnmead.com/posts/README-3/</id>
-		<content type="html"></content>
+		<content type="html">&lt;p&gt;12 years using Twitter, around 7 on Instagram, and I think I&#39;m done. I haven&#39;t logged in or posted to either in a while, so I could leave them inactive, but closing them feels like the right thing to do.&lt;/p&gt;
+&lt;p&gt;I&#39;ve already disconnected app &amp;amp; services to them. Also requested exports of my data.&lt;/p&gt;
+</content>
 	</entry>
 </feed>
