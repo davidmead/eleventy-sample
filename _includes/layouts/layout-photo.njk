@@ -14,7 +14,7 @@ layout: layouts/layout-base.njk
 		</div>
 		<footer class="meta">
 			<h2>Meta</h2>
-			<p>Originally posted on <time class="dt-published" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>.</p>
+			<p>Originally posted on <time class="dt-published" datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>.</p>
 			<p>Tagged:
 				{% for item in tags %}
 				<span>
@@ -24,6 +24,18 @@ layout: layouts/layout-base.njk
 			 </p>
 			<p>Link to, or bookmark, here using this <a href="{{ post.url | url }}" title="">permalink</a>.
 			<!-- <p>Syndicated to <a class="u-syndication" href="" title="syndicated content" rel="syndication"></a>.</p>-->
+
+			{% if urlTwitter or urlInstagram or urlFlickr %}
+ 		<p>I also posted this on:
+
+{% if urlTwitter %}
+<i class="lab la-twitter"></i><a class="u-syndication" href="{{ urlTwitter }}" title="view on Twitter" rel="syndication">Twitter</a>{% endif %}
+{% if urlInstagram %}
+<i class="lab la-instagram"></i><a class="u-syndication" href="{{ urlInstagram }}" title="view on Instagram" rel="syndication">Instagram</a>{% endif %}
+{% if urlFlickr %}
+<i class="lab la-flickr"></i><a class="u-syndication" href="{{ urlFlickr }}" title="view on Flickr" rel="syndication">Flickr</a>
+{% endif %}</p>
+{% else %}<p>I only posted this here.</p>{% endif %}
 		</footer>
 	</article>
 </main>

@@ -10,8 +10,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="David Mead">
 		<meta name="robots" content="index, follow">
-<!-- 	<base href="{{ metadata.url }}"> -->
-		<link rel="canonical" href=""/>
+		<!-- <base href="{{ metadata.url }}"> -->
+		<link rel="canonical" href="{{ metadata.url }}{{ page.url | url }}">
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 		<link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:800&display=swap" rel="stylesheet">
@@ -32,7 +32,7 @@
 		</header>
 		{{ content | safe }}
 		<footer class="pg-footer">
-			<p class="center">&copy; 2005-2019 David Mead | <i class="las la-rss"></i> <a href="/feed/feed.xml" title="Subscribe via RSS">RSS feed </a></p>
+			<p class="center">&copy; 2005-2019 David Mead | <i class="las la-rss"></i> <a href="{{ metadata.url }}/feed/feed.xml" title="Subscribe via RSS">RSS feed</a></p>
 		</footer>
 	</body>
 </html>

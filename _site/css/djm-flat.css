@@ -27,7 +27,7 @@ h6, .h6 {
 	font-family: /* : 2em/1.25 */ 'Nanum Gothic', Helvetica, Arial, sans-serif;
 }
 
-p, ul {font: 1.15em/1.25 'Bitter', serif;}
+p, ul, dl {font: 1.15em/1.25 'Bitter', serif;}
 
 
 nav ul {
@@ -44,7 +44,7 @@ nav ul li {
 
 main {
 	max-width: 760px;
-	margin-top: 2em;
+	margin-top: 0;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 4em;
@@ -119,7 +119,7 @@ blockquote {
 	display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(auto, auto);
 }
 
 /* .tile * { margin: 0; padding: 0;} */
@@ -135,7 +135,7 @@ blockquote {
 
 .u-photo {padding: 2.5%; background-color: #FFF; border:1px solid #CCC;}
 
-.p-name {/* padding-bottom: 0.25em; border-bottom: 1em solid #faefde; */ text-align: center; /* text-shadow: #ccc 0 4px; */ font-size: 4em; letter-spacing: -.04em; font-weight: 800;}
+.p-name {/* padding-bottom: 0.25em; border-bottom: 1em solid #faefde; */ text-align: center; /* text-shadow: #ccc 0 4px; */ font-size: 4em; letter-spacing: -.04em; font-weight: 800; margin-top:0;}
 
 .p-summary {color: #535252; font-style: italic; font-weight: 600; font-size: 1.25em; line-height: 1.5;}
 
@@ -147,4 +147,20 @@ blockquote {
   width: 100vw;
   margin-left: 50%;
   transform: translateX(-50%);
+  background: #000;
+}
+
+h1.full-bleed {
+color: #fff;
+
+}
+
+dt::after {
+  content: ": ";
+}
+
+
+dl.wrapper {grid-template-columns: 26% 74%; grid-gap: 1.5em 0;}
+dl.wrapper dd {margin-left: 0;}
+dl.wrapper dt {color: #666;
 }

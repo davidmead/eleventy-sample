@@ -12,9 +12,9 @@ permalink: /tags/{{ tag }}/
 ---
 <h1 class="p-name full-bleed">Everything tagged <span class="p-category"><i class="la la-tag"></i> {{ tag }} </span></h1>
 
-<ul>
+<dl class="wrapper">
 {% set taglist = collections[ tag ] %}
 {% for post in taglist | reverse %}
-  <li><a href="{{ post.url | url }}">{{ post.data.title }}</a>, <time  style="display:inline-block; padding: 0.5em; width: 40%;" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></li>
+  <dt><time  style="" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></dt> <dd><a href="{{ post.url | url }}">{{ post.data.title }}</a></dd>
 {% endfor %}
-</ul>
+</dl>

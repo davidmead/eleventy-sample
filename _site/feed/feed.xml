@@ -4,7 +4,7 @@
 	<subtitle></subtitle>
 	<link href="https://davidjohnmead.com" rel="self"/>
 	<link href="https://davidjohnmead.com"/>
-	<updated>2019-11-29T21:38:01.592-05:00</updated>
+	<updated>2019-11-28T19:00:00-05:00</updated>
 	<id>https://davidjohnmead.com</id>
 	<author>
 		<name></name>
@@ -31,6 +31,30 @@
 		<id>https://davidjohnmead.com/posts/test-for-textexpander/</id>
 		<content type="html">&lt;h1&gt;This is the H1&lt;/h1&gt;
 &lt;p&gt;And here&#39;s a paragraph of text with a &lt;a href=&quot;http://example.com/&quot; title=&quot;title attribute&quot;&gt;link text&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Breakfast</title>
+		<link href="https://davidjohnmead.com/posts/2019-05-30-breakfast/"/>
+		<updated>2019-05-29T20:00:00-04:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-05-30-breakfast/</id>
+		<content type="html">&lt;p&gt;Treated myself this morning. Stopped in to &lt;a href=&quot;https://dineron55th.com/&quot; title=&quot;official website&quot;&gt;The Diner on 55th&lt;/a&gt; and grabbed my go-to dish; Corned beef hash, poached eggs, and grits.&lt;/p&gt;
+&lt;p&gt;Delicious.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>TheDivisionGame - Another example of recalibration being confusing, frustrating, and useless</title>
+		<link href="https://davidjohnmead.com/posts/2019-08-12-thedivisiongame---another-example-of-recalibration-being-confusing-frustrating-and/"/>
+		<updated>2019-08-11T20:00:00-04:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-08-12-thedivisiongame---another-example-of-recalibration-being-confusing-frustrating-and/</id>
+		<content type="html">&lt;p&gt;I get a new chest piece (same brand &amp;amp; type that I already have) with better armor and health roles. So I want to move the 15% weapon from the old to the new - Nope. Gets capped at 12.5%.&lt;/p&gt;
+&lt;p&gt;So maybe I only have 12.5% of space on the new one to accept a red role - Nope. I can role 14.5% Critical Hit Damage onto it no problem.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/ee4f62f06ac94a7d5568b9b20b992916.png&quot; alt=&quot;screenshot showing red item being capped, while another is not, during recalibration&quot;&gt;&lt;/p&gt;
+&lt;p&gt;The whole &amp;quot;pie&amp;quot; analogy on this just doesn&#39;t hold up. Does the pie change size depending on the filling? Weapon damage takes up more space than Crit Hit Damage?&lt;/p&gt;
+&lt;p&gt;This is a huge part of why I don&#39;t try to update gear and end up trashing most of it. Whats the point? Does anyone have success at using the station to craft builds? Or is it just really relying on RNG?&lt;/p&gt;
+&lt;p&gt;Also &lt;a href=&quot;https://www.reddit.com/r/thedivision/comments/cpk5b2/another_example_of_recalibration_being_confusing/&quot; title=&quot;Read on Reddit&quot;&gt;Posted on Reddit&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -71,7 +95,7 @@
 	<entry>
 		<title>test numero ocho</title>
 		<link href="https://davidjohnmead.com/posts/numero-ocho/"/>
-		<updated>2019-11-29T21:38:01.592-05:00</updated>
+		<updated>2019-11-28T19:00:00-05:00</updated>
 		<id>https://davidjohnmead.com/posts/numero-ocho/</id>
 		<content type="html">&lt;p&gt;What can one say about mankind?&lt;/p&gt;
 </content>
