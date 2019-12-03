@@ -1,5 +1,5 @@
 ---
-title: List of posts
+title: Living and working on the web, with a British point of view.
 layout: layouts/layout-page
 
 pagination:
@@ -8,45 +8,36 @@ pagination:
   reverse: true
   alias: posts
 ---
-<h1 class="full-bleed p-name">David John Mead</h1>
+<h1 class="full-bleed p-name title">David John Mead</h1>
 
 <section>
-	<div class="clearfix">
+
 	<h2>Recent posts:</h2>
 	<div class="wrapper">
 	{% for post in posts %}
-	<article class="tile">
-		<p class="center" style="margin-top:0;background-color: #350000; color: #fff;"><time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></p>
-		<div style="margin:1em">
-		<h1><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></h1>
+	<div class="tile">
+		<div class="tile-head">
+			<time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+		</div>
+		<div class="tile-body">
+		<h2><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></h2>
 		<p class="note">{{ post.data.summary }}</p>
 		</div>
-	</article>
+	</div>
 	{% endfor %}
 	</div>
 
-	</div>
-
-
-
-
-<!--
-	<h2>Last 3 posts:</h2>
-	<ul style="list-style: none; padding-left: 0;">
-	{% for post in posts %}
-	<li style="border: 1px solid #fff; margin: 0.25em 0;"><a style="display:inline-block; padding: 0.5em; width: 50%; background-color: #fff;" href="{{ post.url | url }}">{{ post.data.title }}<br><span class="note">{{ post.data.summary }}</span></a>
-    <time  style="display:inline-block; padding: 0.5em; width: 40%;" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></li>
-{% endfor %}
-</ul>
--->
-<p>See <a href="/tags/post/" title="">all posts</a></p>.
+<p>See <a href="/tags/post/" title="">all posts</a>.</p>
 </section>
 <hr>
 
 
-<section class="clearfix">
-	<h2>About</h2>
-	<img class="img-small left circle" src="/img/davidmead-social.jpg" alt="black and white profile photo">
+<section class="clearfix p-author h-card">
+	<h2>About <span class="p-name"><a class="u-url url fn" href="https://davidjohnmead.com" rel="me">
+			<span class="p-given-name given-name">David</span>
+			<span class="p-family-name family-name">Mead</span>
+		</a></span></h2>
+	<img class="u-photo img-small left circle" src="/img/davidmead-social.jpg" alt="black and white profile photo">
 	<p>An Englishman abroad - Been working with the web since the 90's, main focus now is User Experience. Moved to Cleveland, Ohio in 2001.</p>
 </section>
 

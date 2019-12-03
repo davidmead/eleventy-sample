@@ -1,7 +1,7 @@
 ---
-title: Test post 003
+title: Test post 003, but this time it includes a photo
 description: This is the third test post, trying with images 
-date: Created
+date: 2019-12-04
 tags:
   - post
   - watch
