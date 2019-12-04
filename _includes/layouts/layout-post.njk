@@ -19,7 +19,7 @@ layout: layouts/layout-base.njk
                  </span>
                 {% endfor %}
 			 </p>
-			<p>Link to, or bookmark, here using this <a href="{{ metadata.url }}{{ page.url | url }}" title="">permalink</a>.
+			<p>Link to, or bookmark, here using this <a class="u-url" href="{{ page.url | url }}" title="{{ title }}">permalink</a>.
  		{% if urlTwitter or urlInstagram or urlFlickr %}
  		<p>I also posted this on:
 
