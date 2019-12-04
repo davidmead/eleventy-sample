@@ -5,12 +5,11 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
-        <title>{{ title }}</title>
-        <meta name="description" content="{{ description }}">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="author" content="David Mead">
+        <meta name="description" content="{{ description }}">
 		<meta name="robots" content="index, follow">
 		<base href="{{ metadata.url }}">
+		<link rel="author" href="/humans.txt">
 		<link rel="canonical" href="{{ metadata.url }}{{ page.url | url }}">
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 		<link rel="alternate" type="application/rss+xml" title="Subscribe to What's New" href="/feed/feed.xml" />
@@ -36,17 +35,23 @@
 
 		<!-- CSS Loaded Here -->
 		<link rel="stylesheet" href="{{ '/css/djm-flat.css' }}">
+
+		<title>{{ title }}</title>
 	</head>
 
 	<body>
 		<header>
+			{% if isFront %}
+    <!--
+  {% endif %}
+
 			<nav>
-				<ul>
-					<li><a href="/" title="read about the person writing this">home</a></li>
-					<!-- <li><a href="/" title="most recent post">latest</a></li> -->
-					<!-- <li><a href="/" title="post before this one">previous</a></li> -->
-				</ul>
+				<p class="center"><a href="/" title="read about the person writing this">home</a></p>
 			</nav>
+
+			{% if isFront %}
+    -->
+  {% endif %}
 		</header>
 		{{ content | safe }}
 		<footer class="pg-footer">

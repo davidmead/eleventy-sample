@@ -1,12 +1,15 @@
 ---
 title: Living and working on the web, with a British point of view.
-layout: layouts/layout-page
+
+isFront: true
 
 pagination:
   data: collections.post
   size: 3
   reverse: true
   alias: posts
+
+layout: layouts/layout-page
 ---
 <h1 class="full-bleed p-name title">David John Mead</h1>
 
@@ -32,7 +35,8 @@ pagination:
 <hr>
 
 
-<section class="clearfix p-author h-card">
+<section class="p-author h-card">
+<div class="clearfix">
 	<h2>About <span class="p-name"><a class="u-url url fn" href="https://davidjohnmead.com" rel="me">
 			<span class="p-given-name given-name">David</span>
 			<span class="p-family-name family-name">Mead</span>
@@ -40,14 +44,11 @@ pagination:
 	<img class="u-photo img-small left circle" src="/img/davidmead-social.jpg" alt="black and white profile photo">
 	<p>An Englishman abroad - Been working with the web since the 90's, main focus now is User Experience. Moved to Cleveland, Ohio in 2001.</p>
 	<p>This is my personal site where I post thoughts, links, and sometimes experiment with HTML &amp; CSS.</p>
-</section>
+	</div>
 
-
-
-
-<section class="clearfix">
+	<div>
 	<h3>Elsewhere online:</h3>
-	<ul class="list-plain" style="column-count: 4; overflow-wrap: break-word;">
+	<ul class="list-plain list-social">
 		<li>
             <i class="lab la-twitter"></i> <a href="https://twitter.com/davidmead" rel="me" class="u-url">Twitter</a>
         </li>
@@ -157,5 +158,5 @@ pagination:
             <i class="lab la-goodreads"></i> <a href="http://goodreads.com/davidmead" rel="me" class="u-url">Goodreads</a>
         </li>
 	</ul>
-
+	</div>
 </section>

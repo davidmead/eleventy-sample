@@ -1,0 +1,20 @@
+/* PROJECT */
+
+	Site Name:   David John Mead
+	Site URL:    https://davidjohnmead.com/
+	Standards:   HTML5, CSS3
+	Web Design:  David Mead
+
+/* AUTHOR */
+
+	Name:        David Mead
+	Location:    Cleveland, OH
+	Site:        https://davidjohnmead.com/
+
+/* META */
+
+	Built with: Eleventy, HTML, CSS, .htaccess
+
+/* THANKS */
+
+	To everyone who shares, likes, comments, and contributes!

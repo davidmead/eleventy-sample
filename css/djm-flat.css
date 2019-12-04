@@ -27,11 +27,7 @@ h5, .h5,
 h6, .h6,
 .p-summary {
 	font-family: 'Nanum Gothic', Helvetica, Arial, sans-serif;
-
 	}
-
-/* p, ul, dl {font: 1.15em/1.25 'Bitter', serif;} */
-
 
 nav ul {
 	margin:0;
@@ -62,6 +58,8 @@ img {
 }
 
 blockquote {
+ padding: 0.5em;
+ border-left: 2px solid #c7c7c7;
  background-color: #fff;
 }
 
@@ -96,6 +94,11 @@ blockquote {
 .img-small {
 	max-width: 25%;
 
+}
+
+.list-social {
+	column-count: 4;
+	overflow-wrap: break-word;
 }
 
 .circle {
@@ -172,3 +175,16 @@ dt::after {
 dl.wrapper {grid-template-columns: 26% 74%; grid-gap: 1.5em 0;}
 dl.wrapper dd {margin-left: 0;}
 dl.wrapper dt {color: #666;}
+
+
+@media screen and (max-width : 600px) {
+
+
+.wrapper {grid-template-columns: repeat(2, 1fr);
+}
+.list-social {column-count: 2;
+	line-height: 2;
+}
+.title {font-size: 3em;}
+
+}
