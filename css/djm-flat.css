@@ -26,7 +26,7 @@ h4, .h4,
 h5, .h5,
 h6, .h6,
 .p-summary {
-	font-family: 'Nanum Gothic', Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	}
 
 nav ul {
@@ -152,7 +152,14 @@ blockquote {
 
 .img-polaroid {border:25px solid #efefef; border-bottom: 115px solid #efefef; box-shadow: 3px 3px 3px #ccc; border-radius: 1%; }
 
-.title {/* padding-bottom: 0.25em; border-bottom: 1em solid #faefde; */ text-align: center; /* text-shadow: #ccc 0 4px; */ font-size: 4em; letter-spacing: -.04em; font-weight: 800; margin-top:0; font-family: 'Calistoga', cursive;}
+.title {
+	text-align: center;
+	font-size: 4em;
+	letter-spacing: -.04em;
+	font-weight: 800;
+	margin-top:0;
+	font-family: 'Calistoga', TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
+	}
 
 .p-summary {color: #535252; font-weight: 600; font-size: 1.25em; line-height: 1.5;}
 

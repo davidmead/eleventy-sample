@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Running Google&#39;s Lighthouse audit tool against new website">
+		<meta name="robots" content="index, follow">
+		<base href="https://davidjohnmead.com">
+		<link rel="author" href="/humans.txt">
+		<link rel="canonical" href="https://davidjohnmead.com/posts/2019-12-05-lighthouse-scores/">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="alternate" type="application/rss+xml" title="Subscribe to What's New" href="/feed/feed.xml" />
+
+		<!-- Webmentions -->
+		<link rel="webmention" href="https://webmention.io/davidjohnmead.com/webmention" />
+		<link rel="pingback" href="https://webmention.io/davidjohnmead.com/xmlrpc" />
+
+		<!-- IndieAuth -->
+		<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+		<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+
+		<!-- Microsub -->
+		<link rel="microsub" href="https://aperture.p3k.io/microsub/195">
+
+		<!-- Fonts Loaded Here -->
+		<link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+
+		<!-- Icons Loaded Here -->
+		<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+		<!-- CSS Loaded Here -->
+		<link rel="stylesheet" href="/css/djm-flat.css">
+
+		<title>Green across the board</title>
+	</head>
+
+	<body>
+		<header>
+			
+
+			<nav>
+				<p class="center"><a href="/" title="read about the person writing this">home</a></p>
+			</nav>
+
+			
+		</header>
+		<main>
+	<article class="h-entry">
+		<h1 class="p-name title">Green across the board</h1>
+		<p class="p-summary">It&#39;s a good feeling getting (almost) 100% passing score</p>
+		<div class="e-content">
+			<p>This was one of the things I had my fingers crossed for when deciding to use a Static Site Generator for my site. As I'm writing my own HTML and CSS from scratch I try and weave in all the best practices I've learned over the years.</p>
+<p>Navigating to the homepage in the Chrome browser (incognito mode to make sure no extensions are effecting the results) I opened the Developer tools and clicked audit.</p>
+<p><img src="/img/lighthouse-results-homepage.png" alt="Lighthouse audit results all green for new homepage" title="Audit results all green"></p>
+<p>Homepage returned the following results:</p>
+<ul>
+<li>98% Performance</li>
+<li>100% Accessibility</li>
+<li>100% Best Practices</li>
+<li>100% SEO (Search Engine Optimization)</li>
+</ul>
+<p>Not too shabby for a first run.</p>
+<p>My 'post' pages faired pretty well too. Only difference was a 97% score for performance.</p>
+<p><img src="/img/lighthouse-results-post.png" alt="Lighthouse audit results all green for post pages" title="Audit results all green"></p>
+<p>And yes, I know that you can get <a href="https://www.matuzo.at/blog/building-the-most-inaccessible-site-possible-with-a-perfect-lighthouse-score/" title="Manuel Matuzovic's post pointing out the dangers of automated testing">Lighthouse to give a 100% for accessibility on a completely inaccessible site</a>, but 100% is a great starting point to make changes from.</p>
+<p>The ding on performance, on both mobile and desktop tests, is from using Google Fonts. You'll get that regardless, and I personally think just using two is fairly restrained.</p>
+<p>Just to be sure I had ran the templates through an HTML validator, and the only thing that it reported was <code>rel=&quot;microsub&quot;</code> in the <code>&lt;head&gt;</code>. I'm sure as <a href="https://www.w3.org/TR/micropub/#endpoint-discovery" title="End point discovery in the spec">microsub is a W3C spec</a> this will be corrected soon.</p>
+<p>I will be keeping an eye on all of this, but not slavishly.</p>
+
+		</div>
+		<footer class="meta">
+			<h2>Meta</h2>
+			<p>Originally posted on <time class="dt-published" datetime="2019-12-05T00:00:00.000Z">December 4, 2019</time>, by <span class="p-author author h-card vcard"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span>.</p>
+			<p>Tagged:
+				
+				<span>
+                    <a class="p-category" href="/tags/post" title="all posts tagged post" rel="tag"><i class="la la-tag"></i> post</a>
+                 </span>
+                
+				<span>
+                    <a class="p-category" href="/tags/eleventy" title="all posts tagged eleventy" rel="tag"><i class="la la-tag"></i> eleventy</a>
+                 </span>
+                
+				<span>
+                    <a class="p-category" href="/tags/web" title="all posts tagged web" rel="tag"><i class="la la-tag"></i> web</a>
+                 </span>
+                
+				<span>
+                    <a class="p-category" href="/tags/code" title="all posts tagged code" rel="tag"><i class="la la-tag"></i> code</a>
+                 </span>
+                
+				<span>
+                    <a class="p-category" href="/tags/performance" title="all posts tagged performance" rel="tag"><i class="la la-tag"></i> performance</a>
+                 </span>
+                
+				<span>
+                    <a class="p-category" href="/tags/accessibility" title="all posts tagged accessibility" rel="tag"><i class="la la-tag"></i> accessibility</a>
+                 </span>
+                
+			 </p>
+			<p>Link to, or bookmark, here using this <a class="u-url" href="/posts/2019-12-05-lighthouse-scores/" title="Green across the board">permalink</a>.
+ 		<p>I only posted this here.</p>
+
+
+		</footer>
+	</article>
+</main>
+		<footer class="pg-footer">
+			<p class="center">&copy; 2005-2019 David Mead | <i class="las la-rss"></i> <a href="https://davidjohnmead.com/feed/feed.xml" title="Subscribe via RSS">RSS feed</a></p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Creating a 404 page for this static site">
+		<meta name="robots" content="index, follow">
+		<base href="https://davidjohnmead.com">
+		<link rel="author" href="/humans.txt">
+		<link rel="canonical" href="https://davidjohnmead.com/posts/2019-12-04-handling-broken-links/">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="alternate" type="application/rss+xml" title="Subscribe to What's New" href="/feed/feed.xml" />
+
+		<!-- Webmentions -->
+		<link rel="webmention" href="https://webmention.io/davidjohnmead.com/webmention" />
+		<link rel="pingback" href="https://webmention.io/davidjohnmead.com/xmlrpc" />
+
+		<!-- IndieAuth -->
+		<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+		<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+
+		<!-- Microsub -->
+		<link rel="microsub" href="https://aperture.p3k.io/microsub/195">
+
+		<!-- Fonts Loaded Here -->
+		<link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+
+		<!-- Icons Loaded Here -->
+		<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+		<!-- CSS Loaded Here -->
+		<link rel="stylesheet" href="/css/djm-flat.css">
+
+		<title>Handling broken links</title>
+	</head>
+
+	<body>
+		<header>
+			
+
+			<nav>
+				<p class="center"><a href="/" title="read about the person writing this">home</a></p>
+			</nav>
+
+			
+		</header>
+		<main>
+	<article class="h-entry">
+		<h1 class="p-name title">Handling broken links</h1>
+		<p class="p-summary">Trying to help with what I broke</p>
+		<div class="e-content">
+			<p>Deleting all of my existing content, and there was a lot, means I've left a lot of broken links in my wake. With something like Wordpress or Known this is handled for you as a 404 error, the <a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html" title="W3C information page">server error code for missing files</a>, will bring up a pre-built 404 page. Not so when rolling your own.</p>
+<p>I found <a href="https://www.11ty.io/docs/quicktips/not-found/" title="404 page for Eleventy">an article</a> with steps to create one on the Eleventy site. Not too hard to implement, just means a little editing of my .htaccess file, and creating a new page to upload.</p>
+<p>This should now be working.</p>
+<p>I included an explanation of why the content someone was looking for may not be there, along with a link to the Wayback Machine which has snapshots of billions of web pages.</p>
+<blockquote>
+<p>On December 2nd 2019 I deleted all my content, and started fresh. If you're following a link from elsewhere you can try the Wayback Machine which may have a copy.</p>
+<p>You can also visit the home page to read anything new I've posted.</p>
+</blockquote>
+<p>Hopefully that should be helpful.</p>
+
+		</div>
+		<footer class="meta">
+			<h2>Meta</h2>
+			<p>Originally posted on <time class="dt-published" datetime="2019-12-04T00:00:00.000Z">December 3, 2019</time>, by <span class="p-author author h-card vcard"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span>.</p>
+			<p>Tagged:
+				
+				<span>
+                    <a class="p-category" href="/tags/post" title="all posts tagged post" rel="tag"><i class="la la-tag"></i> post</a>
+                 </span>
+                
+				<span>
+                    <a class="p-category" href="/tags/code" title="all posts tagged code" rel="tag"><i class="la la-tag"></i> code</a>
+                 </span>
+                
+				<span>
+                    <a class="p-category" href="/tags/eleventy" title="all posts tagged eleventy" rel="tag"><i class="la la-tag"></i> eleventy</a>
+                 </span>
+                
+			 </p>
+			<p>Link to, or bookmark, here using this <a class="u-url" href="/posts/2019-12-04-handling-broken-links/" title="Handling broken links">permalink</a>.
+ 		<p>I only posted this here.</p>
+
+
+		</footer>
+	</article>
+</main>
+		<footer class="pg-footer">
+			<p class="center">&copy; 2005-2019 David Mead | <i class="las la-rss"></i> <a href="https://davidjohnmead.com/feed/feed.xml" title="Subscribe via RSS">RSS feed</a></p>
+		</footer>
+	</body>
+</html>

@@ -4,7 +4,7 @@
 	<subtitle></subtitle>
 	<link href="https://davidjohnmead.com" rel="self"/>
 	<link href="https://davidjohnmead.com"/>
-	<updated>2019-12-02T19:00:00-05:00</updated>
+	<updated>2019-12-04T19:00:00-05:00</updated>
 	<id>https://davidjohnmead.com</id>
 	<author>
 		<name></name>
@@ -35,6 +35,48 @@
 &lt;p&gt;I&#39;ll do a write up of getting started with Eleventy soon. Maybe try for a post a day.&lt;/p&gt;
 &lt;p&gt;OK. I&#39;m pushing this live. Hopefully the RSS feed is working.&lt;/p&gt;
 &lt;p&gt;Until next time.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Handling broken links</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-04-handling-broken-links/"/>
+		<updated>2019-12-03T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-04-handling-broken-links/</id>
+		<content type="html">&lt;p&gt;Deleting all of my existing content, and there was a lot, means I&#39;ve left a lot of broken links in my wake. With something like Wordpress or Known this is handled for you as a 404 error, the &lt;a href=&quot;https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html&quot; title=&quot;W3C information page&quot;&gt;server error code for missing files&lt;/a&gt;, will bring up a pre-built 404 page. Not so when rolling your own.&lt;/p&gt;
+&lt;p&gt;I found &lt;a href=&quot;https://www.11ty.io/docs/quicktips/not-found/&quot; title=&quot;404 page for Eleventy&quot;&gt;an article&lt;/a&gt; with steps to create one on the Eleventy site. Not too hard to implement, just means a little editing of my .htaccess file, and creating a new page to upload.&lt;/p&gt;
+&lt;p&gt;This should now be working.&lt;/p&gt;
+&lt;p&gt;I included an explanation of why the content someone was looking for may not be there, along with a link to the Wayback Machine which has snapshots of billions of web pages.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;On December 2nd 2019 I deleted all my content, and started fresh. If you&#39;re following a link from elsewhere you can try the Wayback Machine which may have a copy.&lt;/p&gt;
+&lt;p&gt;You can also visit the home page to read anything new I&#39;ve posted.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Hopefully that should be helpful.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Green across the board</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-05-lighthouse-scores/"/>
+		<updated>2019-12-04T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-05-lighthouse-scores/</id>
+		<content type="html">&lt;p&gt;This was one of the things I had my fingers crossed for when deciding to use a Static Site Generator for my site. As I&#39;m writing my own HTML and CSS from scratch I try and weave in all the best practices I&#39;ve learned over the years.&lt;/p&gt;
+&lt;p&gt;Navigating to the homepage in the Chrome browser (incognito mode to make sure no extensions are effecting the results) I opened the Developer tools and clicked audit.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/lighthouse-results-homepage.png&quot; alt=&quot;Lighthouse audit results all green for new homepage&quot; title=&quot;Audit results all green&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Homepage returned the following results:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;98% Performance&lt;/li&gt;
+&lt;li&gt;100% Accessibility&lt;/li&gt;
+&lt;li&gt;100% Best Practices&lt;/li&gt;
+&lt;li&gt;100% SEO (Search Engine Optimization)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Not too shabby for a first run.&lt;/p&gt;
+&lt;p&gt;My &#39;post&#39; pages faired pretty well too. Only difference was a 97% score for performance.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/lighthouse-results-post.png&quot; alt=&quot;Lighthouse audit results all green for post pages&quot; title=&quot;Audit results all green&quot;&gt;&lt;/p&gt;
+&lt;p&gt;And yes, I know that you can get &lt;a href=&quot;https://www.matuzo.at/blog/building-the-most-inaccessible-site-possible-with-a-perfect-lighthouse-score/&quot; title=&quot;Manuel Matuzovic&#39;s post pointing out the dangers of automated testing&quot;&gt;Lighthouse to give a 100% for accessibility on a completely inaccessible site&lt;/a&gt;, but 100% is a great starting point to make changes from.&lt;/p&gt;
+&lt;p&gt;The ding on performance, on both mobile and desktop tests, is from using Google Fonts. You&#39;ll get that regardless, and I personally think just using two is fairly restrained.&lt;/p&gt;
+&lt;p&gt;Just to be sure I had ran the templates through an HTML validator, and the only thing that it reported was &lt;code&gt;rel=&amp;quot;microsub&amp;quot;&lt;/code&gt; in the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;. I&#39;m sure as &lt;a href=&quot;https://www.w3.org/TR/micropub/#endpoint-discovery&quot; title=&quot;End point discovery in the spec&quot;&gt;microsub is a W3C spec&lt;/a&gt; this will be corrected soon.&lt;/p&gt;
+&lt;p&gt;I will be keeping an eye on all of this, but not slavishly.&lt;/p&gt;
 </content>
 	</entry>
 </feed>
