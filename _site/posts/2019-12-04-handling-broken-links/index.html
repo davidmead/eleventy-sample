@@ -36,19 +36,17 @@
 	</head>
 
 	<body>
-		<header>
+		<header class="pg-header">
 			
-
 			<nav>
-				<p class="center"><a href="/" title="read about the person writing this">home</a></p>
+				<p class="txt-center"><a href="/" title="read about the person writing this">home</a></p>
 			</nav>
-
 			
 		</header>
 		<main>
 	<article class="h-entry">
-		<h1 class="p-name title">Handling broken links</h1>
-		<p class="p-summary">Trying to help with what I broke</p>
+		<h1 class="title txt-center p-name">Handling broken links</h1>
+		<p class="p-summary"><i class="la la-pen-nib"></i> Trying to help with what I broke</p>
 		<div class="e-content">
 			<p>Deleting all of my existing content, and there was a lot, means I've left a lot of broken links in my wake. With something like Wordpress or Known this is handled for you as a 404 error, the <a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html" title="W3C information page">server error code for missing files</a>, will bring up a pre-built 404 page. Not so when rolling your own.</p>
 <p>I found <a href="https://www.11ty.io/docs/quicktips/not-found/" title="404 page for Eleventy">an article</a> with steps to create one on the Eleventy site. Not too hard to implement, just means a little editing of my .htaccess file, and creating a new page to upload.</p>
@@ -63,7 +61,7 @@
 		</div>
 		<footer class="meta">
 			<h2>Meta</h2>
-			<p>Originally posted on <time class="dt-published" datetime="2019-12-04T00:00:00.000Z">December 3, 2019</time>, by <span class="p-author author h-card vcard"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span>.</p>
+			<p>Originally posted on <time class="dt-published" datetime="2019-12-04T00:00:00.000Z">December 3, 2019</time>, by <span class="p-author author h-card vcard"><img class="u-photo hide" src="/img/davidmead-social.jpg" alt="Black and white photo of my face"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span>.</p>
 			<p>Tagged:
 				
 				<span>
@@ -86,8 +84,8 @@
 		</footer>
 	</article>
 </main>
-		<footer class="pg-footer">
-			<p class="center">&copy; 2005-2019 David Mead | <i class="las la-rss"></i> <a href="https://davidjohnmead.com/feed/feed.xml" title="Subscribe via RSS">RSS feed</a></p>
+		<footer class="pg-footer txt-center">
+			<p><small>&copy; 2005-2019 David Mead</small> | <i class="las la-rss"></i> <a href="https://davidjohnmead.com/feed/feed.xml" title="Subscribe via RSS">RSS feed</a></p>
 		</footer>
 	</body>
 </html>

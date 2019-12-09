@@ -12,20 +12,19 @@ pagination:
 
 layout: layouts/layout-page
 ---
-<h1 class="full-bleed p-name title">David John Mead</h1>
-
+<h1 class="title txt-center">David John Mead</h1>
 <section>
 
 	<h2>Recent posts:</h2>
-	<div class="wrapper">
+	<div class="wrapper-tiles">
 	{% for post in posts %}
-	<div class="tile">
-		<div class="tile-head">
+		<div class="tile">
+			<div class="tile-head txt-center">
 			<time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
 		</div>
 		<div class="tile-body">
-		<h2><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></h2>
-		<p class="note">{{ post.data.summary }}</p>
+		<p><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></p>
+		<p class="hide-sml">{{ post.data.summary }}</p>
 		</div>
 	</div>
 	{% endfor %}
@@ -33,18 +32,16 @@ layout: layouts/layout-page
 
 <p>See <a href="/tags/post/" title="">all posts</a>.</p>
 </section>
-<hr>
-
 
 <section class="p-author h-card">
-<div class="clearfix">
-	<h2>About <span class="p-name"><a class="u-url url fn" href="https://davidjohnmead.com" rel="me">
+	<div class="clearfix">
+		<img class="u-photo img-small left circle" src="/img/davidmead-social.jpg" alt="black and white profile photo">
+		<h2>About <span class="p-name"><a class="u-url url fn" href="https://davidjohnmead.com" rel="me">
 			<span class="p-given-name given-name">David</span>
 			<span class="p-family-name family-name">Mead</span>
 		</a></span></h2>
-	<img class="u-photo img-small left circle" src="/img/davidmead-social.jpg" alt="black and white profile photo">
 	<p>An Englishman abroad - Been working with the web since the 90's, main focus now is User Experience. Moved to Cleveland, Ohio in 2001.</p>
-	<p>This is my personal site where I post thoughts, links, and sometimes experiment with HTML &amp; CSS.</p>
+	<p>This is my personal site where I post thoughts, photos, links, and sometimes experiment with HTML &amp; CSS.</p>
 	</div>
 
 	<div>

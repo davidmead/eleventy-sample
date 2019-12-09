@@ -4,7 +4,7 @@
 	<subtitle></subtitle>
 	<link href="https://davidjohnmead.com" rel="self"/>
 	<link href="https://davidjohnmead.com"/>
-	<updated>2019-12-04T19:00:00-05:00</updated>
+	<updated>2019-12-07T19:00:00-05:00</updated>
 	<id>https://davidjohnmead.com</id>
 	<author>
 		<name></name>
@@ -77,6 +77,70 @@
 &lt;p&gt;The ding on performance, on both mobile and desktop tests, is from using Google Fonts. You&#39;ll get that regardless, and I personally think just using two is fairly restrained.&lt;/p&gt;
 &lt;p&gt;Just to be sure I had ran the templates through an HTML validator, and the only thing that it reported was &lt;code&gt;rel=&amp;quot;microsub&amp;quot;&lt;/code&gt; in the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;. I&#39;m sure as &lt;a href=&quot;https://www.w3.org/TR/micropub/#endpoint-discovery&quot; title=&quot;End point discovery in the spec&quot;&gt;microsub is a W3C spec&lt;/a&gt; this will be corrected soon.&lt;/p&gt;
 &lt;p&gt;I will be keeping an eye on all of this, but not slavishly.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Ambient music from an American painter</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-06-listen-empty-city/"/>
+		<updated>2019-12-05T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-06-listen-empty-city/</id>
+		<content type="html">&lt;p&gt;I can&#39;t remember when I first heard &lt;a href=&quot;http://torlundvall.com/&quot; title=&quot;official site&quot;&gt;Tor Lundvall&lt;/a&gt;&#39;s work, but I&#39;ve now got 3 of his albums I tend to play back-to-back. Out of the 3, &lt;a href=&quot;https://torlundvall.bandcamp.com/album/empty-city&quot; title=&quot;Buy it on Bandcamp&quot;&gt;Empty City&lt;/a&gt; is my favourite.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;During the night trips, I&#39;d stare out the window at abandoned factories, empty warehouses and other structures bathed in the dull orange or greenish glow of streetlights. I wanted to crawl into that hidden world.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;- Tor Lundvall&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It&#39;s the kind of ambient music that mixes big spaces with intimate voices to create a definite mood. And it&#39;s equally great played in any season. It changes slightly if listening in Winter or Summer, but fits both.&lt;/p&gt;
+&lt;p&gt;Some of his later albums have a mix of instrumental and lyrical tracks.&lt;/p&gt;
+&lt;p&gt;Definitely worth checking out.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Tis The Season</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-06-tis-the-season/"/>
+		<updated>2019-12-05T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-06-tis-the-season/</id>
+		<content type="html"></content>
+	</entry>
+	
+	<entry>
+		<title>All trimmed up</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-07-all-trimmed-up/"/>
+		<updated>2019-12-06T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-07-all-trimmed-up/</id>
+		<content type="html">&lt;p&gt;We get a live tree every year. Normally we all pick it out, but this year I dropped the ball. Ended going by myself.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Code cleanup and the emergency room</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-08-code-and-er/"/>
+		<updated>2019-12-07T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-08-code-and-er/</id>
+		<content type="html">&lt;p&gt;I had an idea of the look and layout I wanted for this blog, but I didn&#39;t do a mock in Sketch or anything. I wanted to &amp;quot;find&amp;quot; it while I was marking up the templates. It came together pretty quick. I changed the fonts a couple of times but that was about it.&lt;/p&gt;
+&lt;p&gt;But after I launched it I saw there was quite a bit I could clean up. Yeah it validated and was semantic, but there was a few things I could do better with CSS Grid..&lt;/p&gt;
+&lt;p&gt;Looking back through my notes from &lt;a href=&quot;https://rachelandrew.co.uk/&quot; title=&quot;official site&quot;&gt;Rachel Andrews&lt;/a&gt;&#39;s workshop at &lt;a href=&quot;https://rustbeltrefresh.com/&quot; title=&quot;Web conference in Cleveland&quot;&gt;Rustbelt Refresh&lt;/a&gt;, as well as a couple of videos from &lt;a href=&quot;https://youtu.be/FEnRpy9Xfes&quot; title=&quot;Layout Land video on YouTube&quot;&gt;Jen Simmons&lt;/a&gt; and &lt;a href=&quot;https://youtu.be/KOvGeFUHAC0&quot; title=&quot;Mozilla Dev video on YouTube&quot;&gt;Miriam Suzanne&lt;/a&gt;, I quickly dumped a lot of classes and employed grid in 3 of the Eleventy templates.&lt;/p&gt;
+&lt;h2&gt;Base template&lt;/h2&gt;
+&lt;p&gt;My main HTML template now uses grid for its structure. The &lt;code&gt;&amp;lt;header&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;main&amp;gt;&lt;/code&gt;, and &lt;code&gt;&amp;lt;footer&amp;gt;&lt;/code&gt; are set as rows. With the footer always being at the bottom of the page with just four lines of CSS.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;display:grid;
+grid-gap: 1em;
+grid-template-rows: auto 1fr auto;
+min-height: 100vh;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Content templates&lt;/h2&gt;
+&lt;p&gt;I have a couple of different templates at the moment, for different types of content. One for mini album reviews, one for photos, etc.&lt;/p&gt;
+&lt;p&gt;With these few lines of CSS I can get 2 columns laid out for the &#39;listen&#39; type, within the grid that wraps the whole page.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;display: grid;
+grid-template-columns: 240px 1fr;
+grid-gap: 1.5em;
+grid-auto-rows: minmax(auto, auto);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Emergency room&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2019-12-08-jjm-er.jpg&quot; alt=&quot;Josh in a triage room&quot; title=&quot;Josh in a triage room&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Halfway through writing this Josh came home with Julie. He had been complaining about a pain in his back in the morning. It hadn&#39;t got better with an Advil. Seeing as the local Urgent Care isn&#39;t open on Sunday, it was a trip to the ER as he was in pain walking around.&lt;/p&gt;
+&lt;p&gt;Pain pills, muscle relaxant injection, and an icy-hot patch later, he feels a little better and has a note to excuse hime from gym this week.&lt;/p&gt;
+&lt;p&gt;Hopefully that&#39;s all the excitement for the week out the way.&lt;/p&gt;
 </content>
 	</entry>
 </feed>

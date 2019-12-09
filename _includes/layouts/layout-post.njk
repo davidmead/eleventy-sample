@@ -4,14 +4,14 @@ layout: layouts/layout-base.njk
 ---
 <main>
 	<article class="h-entry">
-		<h1 class="p-name title">{{ title }}</h1>
-		<p class="p-summary">{{ summary }}</p>
+		<h1 class="title txt-center p-name">{{ title }}</h1>
+		<p class="p-summary"><i class="la la-pen-nib"></i> {{ summary }}</p>
 		<div class="e-content">
 			{{ content | safe }}
 		</div>
 		<footer class="meta">
 			<h2>Meta</h2>
-			<p>Originally posted on <time class="dt-published" datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>, by <span class="p-author author h-card vcard"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span>.</p>
+			<p>Originally posted on <time class="dt-published" datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>, by <span class="p-author author h-card vcard"><img class="u-photo hide" src="/img/davidmead-social.jpg" alt="Black and white photo of my face"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span>.</p>
 			<p>Tagged:
 				{% for item in tags %}
 				<span>
