@@ -9,6 +9,8 @@ tags:
   - post
 
 layout: layouts/layout-post
+
+urlTwitter: https://twitter.com/davidmead/status/1204007423717056512
 ---
 Call it a very hard reset, but I wanted to build something new. From the ground up.
 

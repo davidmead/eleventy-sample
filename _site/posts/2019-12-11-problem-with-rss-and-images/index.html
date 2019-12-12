@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Some images show in my RSS feed, and some don&#39;t.">
+		<meta name="robots" content="index, follow">
+		<base href="https://davidjohnmead.com">
+		<link rel="author" href="/humans.txt">
+		<link rel="canonical" href="https://davidjohnmead.com/posts/2019-12-11-problem-with-rss-and-images/">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="alternate" type="application/rss+xml" title="Subscribe to What's New" href="/feed/feed.xml" />
+
+		<!-- Webmentions -->
+		<link rel="webmention" href="https://webmention.io/davidjohnmead.com/webmention" />
+		<link rel="pingback" href="https://webmention.io/davidjohnmead.com/xmlrpc" />
+
+		<!-- IndieAuth -->
+		<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+		<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+
+		<!-- Microsub -->
+		<link rel="microsub" href="https://aperture.p3k.io/microsub/195">
+
+		<!-- Fonts Loaded Here -->
+		<link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+
+		<!-- Icons Loaded Here -->
+		<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+		<!-- CSS Loaded Here -->
+		<link rel="stylesheet" href="/css/djm-flat.css">
+
+		<title>Problem with Eleventy, RSS, and images</title>
+	</head>
+
+	<body>
+		<header class="pg-header">
+			
+			<nav>
+				<p class="txt-center"><a href="/" title="read about the person writing this">home</a></p>
+			</nav>
+			
+		</header>
+		<main>
+	<article class="h-entry">
+		<h1 class="title txt-center p-name">Problem with Eleventy, RSS, and images</h1>
+		<p class="p-summary"><i class="la la-pen-nib"></i> Some images show in my RSS feed, and some don&#39;t. I think it&#39;s to do with how and when the content is &quot;built&quot;</p>
+		<div class="e-content">
+			<p>I've noticed that in the RSS feed of this site, images within posts only show up some of the time.</p>
+<p>Looking at the generated source code, they are all within the main block of the content being displayed in the item.</p>
+<p>A quick duck-duck-go-ing and I came across a couple of general RSS issues along the same lines. Some was where the <code>&lt;img&gt;</code> was being ignored as it wasn't in a containing element. Easy fix I thought. I made sure all the images were in a <code>&lt;p&gt;</code>, as the ones showing up in the feed were part of the written post (in the middle of content) as opposed to a specific &quot;photo post&quot; which was just the <code>&lt;img&gt;</code> element on its own.</p>
+<p>Didn't make any difference.</p>
+<h2>Here comes CDATA</h2>
+<p>Then I noticed a <a href="https://chat.indieweb.org/dev/2019-12-11/1576080408129100">conversation on the indieweb chat</a> about images and RSS. Wrapping things between <code>&lt;![CDATA[</code> and <code>]]&gt;</code> was a recommendation. I checked at <a href="https://granary.io/" title="The social web translator">Granary.io</a>. After plugging a URL of one of my posts in that, the output did have those CDATA tags around it. So I added those into my <code>feed.njk</code> file. No luck. In fact it made the HTML be written out.</p>
+<p>I then re-read through the <a href="https://www.11ty.dev/docs/plugins/rss/">Eleventy post about adding RSS</a> a couple of times. Everything in my code matched, but something nagged at me about the <code>htmlToAbsoluteUrls</code> part. What if the URL for the image wasn't there when the page is being built?</p>
+<h2>Photo post template</h2>
+<p>I created a specific template for photo posts. I use this in the front matter...</p>
+<pre><code>layout: layouts/layout-photo
+imgSRC: /img/
+imgALT:
+</code></pre>
+<p>...to pull in the photo so I can style it. So if it's not in the actual content until the flat HTML is &quot;built&quot; the feed file won't pull it in.</p>
+<p>I guess this is an issue with all static site generators.</p>
+
+		</div>
+		<footer class="meta">
+			<h2>Meta</h2>
+			<p>Originally posted on <time class="dt-published" datetime="2019-12-11T00:00:00.000Z">December 10, 2019</time>, by <span class="p-author author h-card vcard"><img class="u-photo hide" src="/img/davidmead-social.jpg" alt="Black and white photo of my face"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span>.</p>
+			<p>Tagged:
+				
+				<span>
+                    <a class="p-category" href="/tags/post" title="all posts tagged post" rel="tag"><i class="la la-tag"></i> post</a>
+                 </span>
+                
+				<span>
+                    <a class="p-category" href="/tags/eleventy" title="all posts tagged eleventy" rel="tag"><i class="la la-tag"></i> eleventy</a>
+                 </span>
+                
+				<span>
+                    <a class="p-category" href="/tags/problem" title="all posts tagged problem" rel="tag"><i class="la la-tag"></i> problem</a>
+                 </span>
+                
+				<span>
+                    <a class="p-category" href="/tags/code" title="all posts tagged code" rel="tag"><i class="la la-tag"></i> code</a>
+                 </span>
+                
+			 </p>
+			<p>Link to, or bookmark, here using this <a class="u-url" href="/posts/2019-12-11-problem-with-rss-and-images/" title="Problem with Eleventy, RSS, and images">permalink</a>.
+ 		<p>I only posted this here.</p>
+
+
+		</footer>
+	</article>
+</main>
+		<footer class="pg-footer txt-center">
+			<p><small>&copy; 2005-2019 David Mead</small> | <i class="las la-rss"></i> <a href="https://davidjohnmead.com/feed/feed.xml" title="Subscribe via RSS">RSS feed</a></p>
+		</footer>
+	</body>
+</html>

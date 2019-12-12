@@ -55,7 +55,7 @@ h6, .h6 {
 
 .p-summary {
 	font-size: 1.3333em; /* 24px */
-	line-height: 1.8333em; /* 44px */
+	/*line-height: 1.8333em;  44px */
 	margin-top: 0.9167em;
 	margin-bottom: 1.8333em;
 	font-weight: 600;

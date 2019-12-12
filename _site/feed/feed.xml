@@ -4,7 +4,7 @@
 	<subtitle></subtitle>
 	<link href="https://davidjohnmead.com" rel="self"/>
 	<link href="https://davidjohnmead.com"/>
-	<updated>2019-12-07T19:00:00-05:00</updated>
+	<updated>2019-12-10T19:00:00-05:00</updated>
 	<id>https://davidjohnmead.com</id>
 	<author>
 		<name></name>
@@ -101,7 +101,7 @@
 		<link href="https://davidjohnmead.com/posts/2019-12-06-tis-the-season/"/>
 		<updated>2019-12-05T19:00:00-05:00</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-06-tis-the-season/</id>
-		<content type="html"></content>
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-06-xmas-decoration.jpg&quot; alt=&quot;Lit Xmas decoration throwing light pattern on wall&quot;&gt;&lt;/p&gt;</content>
 	</entry>
 	
 	<entry>
@@ -109,8 +109,8 @@
 		<link href="https://davidjohnmead.com/posts/2019-12-07-all-trimmed-up/"/>
 		<updated>2019-12-06T19:00:00-05:00</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-07-all-trimmed-up/</id>
-		<content type="html">&lt;p&gt;We get a live tree every year. Normally we all pick it out, but this year I dropped the ball. Ended going by myself.&lt;/p&gt;
-</content>
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-07-xmas-tree.jpg&quot; alt=&quot;Xmas tree, decorated and lit.&quot;&gt;&lt;/p&gt;
+We get a live tree every year. Normally we all pick it out, but this year I dropped the ball. Ended going by myself.</content>
 	</entry>
 	
 	<entry>
@@ -142,5 +142,48 @@ grid-auto-rows: minmax(auto, auto);
 &lt;p&gt;Pain pills, muscle relaxant injection, and an icy-hot patch later, he feels a little better and has a note to excuse hime from gym this week.&lt;/p&gt;
 &lt;p&gt;Hopefully that&#39;s all the excitement for the week out the way.&lt;/p&gt;
 </content>
+	</entry>
+	
+	<entry>
+		<title>Art or Decoration?</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-10-art-or-decoration/"/>
+		<updated>2019-12-09T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-10-art-or-decoration/</id>
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-10-xmas-art.jpg&quot; alt=&quot;Hanging pieces make up shape of xmas tree&quot;&gt;&lt;/p&gt;
+We have a &#39;Main Street&#39; at my work. The centre place on our ground floor. This year it contains this great piece.
+&lt;p&gt;We have art all around the HQ (not surprising with one of &lt;a href=&quot;https://www.cleveland.com/arts/2019/12/dealer-tire-ceo-scott-mueller-leads-by-example-as-new-chairman-of-cleveland-museum-of-art.html&quot; title=&quot;newspaper article&quot;&gt;our owners&lt;/a&gt; is Chairman of Cleveland Museum of Art) and having something like this beats the normal corporate Xmas trees you see at a lot of places.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Problem with Eleventy, RSS, and images</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-11-problem-with-rss-and-images/"/>
+		<updated>2019-12-10T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-11-problem-with-rss-and-images/</id>
+		<content type="html">&lt;p&gt;I&#39;ve noticed that in the RSS feed of this site, images within posts only show up some of the time.&lt;/p&gt;
+&lt;p&gt;Looking at the generated source code, they are all within the main block of the content being displayed in the item.&lt;/p&gt;
+&lt;p&gt;A quick duck-duck-go-ing and I came across a couple of general RSS issues along the same lines. Some was where the &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; was being ignored as it wasn&#39;t in a containing element. Easy fix I thought. I made sure all the images were in a &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt;, as the ones showing up in the feed were part of the written post (in the middle of content) as opposed to a specific &amp;quot;photo post&amp;quot; which was just the &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; element on its own.&lt;/p&gt;
+&lt;p&gt;Didn&#39;t make any difference.&lt;/p&gt;
+&lt;h2&gt;Here comes CDATA&lt;/h2&gt;
+&lt;p&gt;Then I noticed a &lt;a href=&quot;https://chat.indieweb.org/dev/2019-12-11/1576080408129100&quot;&gt;conversation on the indieweb chat&lt;/a&gt; about images and RSS. Wrapping things between &lt;code&gt;&amp;lt;![CDATA[&lt;/code&gt; and &lt;code&gt;]]&amp;gt;&lt;/code&gt; was a recommendation. I checked at &lt;a href=&quot;https://granary.io/&quot; title=&quot;The social web translator&quot;&gt;Granary.io&lt;/a&gt;. After plugging a URL of one of my posts in that, the output did have those CDATA tags around it. So I added those into my &lt;code&gt;feed.njk&lt;/code&gt; file. No luck. In fact it made the HTML be written out.&lt;/p&gt;
+&lt;p&gt;I then re-read through the &lt;a href=&quot;https://www.11ty.dev/docs/plugins/rss/&quot;&gt;Eleventy post about adding RSS&lt;/a&gt; a couple of times. Everything in my code matched, but something nagged at me about the &lt;code&gt;htmlToAbsoluteUrls&lt;/code&gt; part. What if the URL for the image wasn&#39;t there when the page is being built?&lt;/p&gt;
+&lt;h2&gt;Photo post template&lt;/h2&gt;
+&lt;p&gt;I created a specific template for photo posts. I use this in the front matter...&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;layout: layouts/layout-photo
+imgSRC: /img/
+imgALT:
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;...to pull in the photo so I can style it. So if it&#39;s not in the actual content until the flat HTML is &amp;quot;built&amp;quot; the feed file won&#39;t pull it in.&lt;/p&gt;
+&lt;p&gt;I guess this is an issue with all static site generators.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>NOM - Spicy Chao Shou</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-11-spicy-chao-shou/"/>
+		<updated>2019-12-10T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-11-spicy-chao-shou/</id>
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-11-spicy-chao-shou.jpg&quot; alt=&quot;Pork stuffed wontons in spicy chili oil&quot;&gt;&lt;/p&gt;
+Not only did I have the normal serving of soup dumplings, but today&#39;s sharp cold weather called for something a little hotter. Love those spicy chao shou from [LJ Shanghai](https://www.yelp.com/biz/lj-shanghai-cleveland &quot;official Yelp page&quot;).</content>
 	</entry>
 </feed>
