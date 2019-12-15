@@ -26,6 +26,11 @@ main {
 	padding: 0 1.5em;
 	}
 
+header p,
+footer p {
+	margin-bottom: 0;
+}
+
 section {
 	margin-bottom: 4em;
 	}
@@ -55,7 +60,7 @@ h6, .h6 {
 
 .p-summary {
 	font-size: 1.3333em; /* 24px */
-	/*line-height: 1.8333em;  44px */
+/*  line-height: 1.8333em;  44px */
 	margin-top: 0.9167em;
 	margin-bottom: 1.8333em;
 	font-weight: 600;
@@ -72,11 +77,17 @@ blockquote {
 	color: #6c6c6c;
 	}
 
+pre {
+/* makes the <code> wrap */
+	white-space:pre-line;
+
+}
+
 .title {
 	font-size: 3.5556em; /* 64px */
 	line-height: 1.0313em; /* 66px */
-	margin-top: 0.3438em;
-	margin-bottom: 1.0313em;
+ 	margin-top: /*0.3438em*/ 0;
+	margin-bottom: /* 1.0313em */ 0;
 	letter-spacing: -.04em;
 	font-weight: 800;
 	font-family: 'Calistoga';

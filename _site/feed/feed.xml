@@ -4,7 +4,7 @@
 	<subtitle></subtitle>
 	<link href="https://davidjohnmead.com" rel="self"/>
 	<link href="https://davidjohnmead.com"/>
-	<updated>2019-12-10T19:00:00-05:00</updated>
+	<updated>2019-12-13T19:00:00-05:00</updated>
 	<id>https://davidjohnmead.com</id>
 	<author>
 		<name></name>
@@ -184,6 +184,45 @@ imgALT:
 		<updated>2019-12-10T19:00:00-05:00</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-11-spicy-chao-shou/</id>
 		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-11-spicy-chao-shou.jpg&quot; alt=&quot;Pork stuffed wontons in spicy chili oil&quot;&gt;&lt;/p&gt;
-Not only did I have the normal serving of soup dumplings, but today&#39;s sharp cold weather called for something a little hotter. Love those spicy chao shou from [LJ Shanghai](https://www.yelp.com/biz/lj-shanghai-cleveland &quot;official Yelp page&quot;).</content>
+&lt;p&gt;Not only did I have the normal serving of soup dumplings, but today&#39;s sharp cold weather called for something a little hotter. Love those spicy chao shou from &lt;a href=&quot;https://www.yelp.com/biz/lj-shanghai-cleveland&quot; title=&quot;official Yelp page&quot;&gt;LJ Shanghai&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Hypertext in my Markdown</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-12-hypertext-in-my-markdown/"/>
+		<updated>2019-12-11T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-12-hypertext-in-my-markdown/</id>
+		<content type="html">&lt;p&gt;In my &lt;a href=&quot;https://davidjohnmead.com/posts/2019-12-11-problem-with-rss-and-images/&quot; title=&quot;Problem with Eleventy, RSS, and images&quot;&gt;previous post about this&lt;/a&gt; I thought I&#39;d solved it, but no.&lt;/p&gt;
+&lt;p&gt;Well now I really think I have, but it meant a slight template change as well as adding some HTML into my Markdown files.&lt;/p&gt;
+&lt;p&gt;In my &lt;code&gt;layout-photo.njk&lt;/code&gt; file I had the following block&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;e-content&amp;quot;&amp;gt;
+	&amp;lt;p&amp;gt;&amp;lt;img class=&amp;quot;u-photo img-polaroid&amp;quot; src=&amp;quot;&#39;{&#39;{ imgSRC }&#39;}&#39;&amp;quot; alt=&amp;quot;&#39;{&#39;{ imgALT }&#39;}&#39;&amp;quot;&amp;gt;&amp;lt;/p&amp;gt;
+	&#39;{&#39;{ content | safe }&#39;}&#39;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This would then pull the &lt;code&gt;imgSRC&lt;/code&gt; and &lt;code&gt;imgALT&lt;/code&gt; that I had in the &lt;code&gt;post.md&lt;/code&gt; frontmatter when built.  I &lt;em&gt;think&lt;/em&gt; this is what was causing the images not to show.&lt;/p&gt;
+&lt;p&gt;Commenting out the &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; element in the template and moving that into the post actually seemed to cause the images to show up in my feed.&lt;/p&gt;
+&lt;p&gt;I&#39;m not sure if pasting the HTML wholesale into the Markdown file is &amp;quot;right&amp;quot;, but it seems to work.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Crow Tree</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-14-crow-tree/"/>
+		<updated>2019-12-13T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-14-crow-tree/</id>
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-14-crow-tree.jpg&quot; alt=&quot;Black and white photo of crows in the Winter trees&quot;&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Lunch with Josh</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-14-lunch-with-josh/"/>
+		<updated>2019-12-13T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-14-lunch-with-josh/</id>
+		<content type="html">&lt;p&gt;After getting Josh&#39;s haircut, a new style of his choosing, we headed to &lt;a href=&quot;https://sugarbowlwilloughby.com/&quot; title=&quot;Pho and bakery&quot;&gt;Sugar Bowl&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We both had a bowl Pho Tai. A big serving of Vietnamese noodle soup with rare steak topped with cilantro, scallion and onions. Delicious on a cold rainy day like today. Also shared an appetizer of &#39;Country Wings&#39; (crispy fried with a sweet chili sauce to dip).&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-14-pho.jpg&quot; alt=&quot;Close up of bowl containing Pho&quot;&gt;&lt;/p&gt;</content>
 	</entry>
 </feed>

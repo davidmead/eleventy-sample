@@ -4,10 +4,9 @@ layout: layouts/layout-base.njk
 ---
 <main>
 	<article class="h-entry">
-		<h1 class="title txt-center p-name">{{ title }}</h1>
-		<p class="p-summary"><i class="la la-camera-retro"></i> {{ summary }}</p>
+		<h1 class="title txt-center p-name"><i class="la la-camera-retro"></i> {{ title }}</h1>
+		<p class="p-summary txt-center">{{ summary }}</p>
 		<div class="e-content">
-			<!--<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>-->
 			{{ content | safe }}
 		</div>
 		<footer class="meta">
