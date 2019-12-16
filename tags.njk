@@ -10,11 +10,12 @@ pagination:
 permalink: /tags/{{ tag }}/
 
 ---
-<h1 class="p-name full-bleed title">Everything tagged <span class="p-category"><i class="la la-tag"></i> {{ tag }} </span></h1>
+<h1 class="title txt-center">Everything tagged<br><span class="p-category"><i class="la la-tag"></i> {{ tag }} </span></h1>
 
-<dl class="wrapper">
+<dl class="wrapper-taglist">
 {% set taglist = collections[ tag ] %}
 {% for post in taglist | reverse %}
-  <dt><time  style="" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></dt> <dd><a href="{{ post.url | url }}">{{ post.data.title }}</a></dd>
+  <dt><time  style="" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></dt>
+  <dd><a href="{{ post.url | url }}">{{ post.data.title }}</a></dd>
 {% endfor %}
 </dl>

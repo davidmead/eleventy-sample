@@ -225,4 +225,24 @@ imgALT:
 &lt;p&gt;We both had a bowl Pho Tai. A big serving of Vietnamese noodle soup with rare steak topped with cilantro, scallion and onions. Delicious on a cold rainy day like today. Also shared an appetizer of &#39;Country Wings&#39; (crispy fried with a sweet chili sauce to dip).&lt;/p&gt;
 &lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-14-pho.jpg&quot; alt=&quot;Close up of bowl containing Pho&quot;&gt;&lt;/p&gt;</content>
 	</entry>
+	
+	<entry>
+		<title>People are starting to want to own content again?</title>
+		<link href="https://davidjohnmead.com/posts/2019-12014-people-want-own-the-content/"/>
+		<updated>2019-12-13T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12014-people-want-own-the-content/</id>
+		<content type="html">&lt;p&gt;There seems to be a fair amount of chatter recently about hosting your own content again. This is a good thing.&lt;/p&gt;
+&lt;p&gt;Nathan Curtis tweeted out about how Medium is now changing their policy, and how it effects him...&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;So, &lt;a href=&quot;https://twitter.com/Medium?ref_src=twsrc%5Etfw&quot;&gt;@medium&lt;/a&gt; has done it? Only one free article per user even for authors that don&amp;#39;t want a paywall? Glad &lt;a href=&quot;https://twitter.com/eightshapes?ref_src=twsrc%5Etfw&quot;&gt;@eightshapes&lt;/a&gt; has setup and partially migrated to our .com too. I know what I&amp;#39;m getting done by 1/1/2020. 😠 Too sad.&lt;/p&gt;&amp;mdash; Nathan Curtis (@nathanacurtis) &lt;a href=&quot;https://twitter.com/nathanacurtis/status/1204889629276676096?ref_src=twsrc%5Etfw&quot;&gt;December 11, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;p&gt;Laura Kalbag wrote &lt;a href=&quot;https://24ways.org/2019/its-time-to-get-personal/&quot; title=&quot;article on 24 ways&quot;&gt;It’s Time to Get Personal&lt;/a&gt; where she looks at the wasteland of personal websites, that could start to become a lush community garden of shared thoughts.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Essentially it means when we are not paying for mainstream tech with money, we are paying for it with our privacy.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Even Jack Dorsey tweeted out that they are funding a team to develop something &amp;quot;new&amp;quot;...&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Twitter is funding a small independent team of up to five open source architects, engineers, and designers to develop an open and decentralized standard for social media. The goal is for Twitter to ultimately be a client of this standard. 🧵&lt;/p&gt;&amp;mdash; jack 🌍🌏🌎 (@jack) &lt;a href=&quot;https://twitter.com/jack/status/1204766078468911106?ref_src=twsrc%5Etfw&quot;&gt;December 11, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;p&gt;...which of course led to a load of replies pointing out the already abundant ideas already in place on the web including Indieweb, ActivityPub, etc. Naturally blockchain got thrown around a lot too.&lt;/p&gt;
+&lt;p&gt;A great read was Anil Dash&#39;s &lt;a href=&quot;https://anildash.com/2019/12/10/link-in-bio-is-how-they-tried-to-kill-the-web/&quot; title=&quot;post on his website&quot;&gt;“Link In Bio” is a slow knife&lt;/a&gt; where he lays out how Instagram (and other silo&#39;s) keep people in the walled garden by limiting the access to external content.&lt;/p&gt;
+&lt;p&gt;Maybe 2020 will see the rise of something federated and syndicated, yet personal.&lt;/p&gt;
+</content>
+	</entry>
 </feed>
