@@ -4,7 +4,7 @@
 	<subtitle></subtitle>
 	<link href="https://davidjohnmead.com" rel="self"/>
 	<link href="https://davidjohnmead.com"/>
-	<updated>2019-12-13T19:00:00-05:00</updated>
+	<updated>2019-12-22T19:00:00-05:00</updated>
 	<id>https://davidjohnmead.com</id>
 	<author>
 		<name></name>
@@ -228,9 +228,9 @@ imgALT:
 	
 	<entry>
 		<title>People are starting to want to own content again?</title>
-		<link href="https://davidjohnmead.com/posts/2019-12014-people-want-own-the-content/"/>
+		<link href="https://davidjohnmead.com/posts/2019-12-14-people-want-own-the-content/"/>
 		<updated>2019-12-13T19:00:00-05:00</updated>
-		<id>https://davidjohnmead.com/posts/2019-12014-people-want-own-the-content/</id>
+		<id>https://davidjohnmead.com/posts/2019-12-14-people-want-own-the-content/</id>
 		<content type="html">&lt;p&gt;There seems to be a fair amount of chatter recently about hosting your own content again. This is a good thing.&lt;/p&gt;
 &lt;p&gt;Nathan Curtis tweeted out about how Medium is now changing their policy, and how it effects him...&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;So, &lt;a href=&quot;https://twitter.com/Medium?ref_src=twsrc%5Etfw&quot;&gt;@medium&lt;/a&gt; has done it? Only one free article per user even for authors that don&amp;#39;t want a paywall? Glad &lt;a href=&quot;https://twitter.com/eightshapes?ref_src=twsrc%5Etfw&quot;&gt;@eightshapes&lt;/a&gt; has setup and partially migrated to our .com too. I know what I&amp;#39;m getting done by 1/1/2020. 😠 Too sad.&lt;/p&gt;&amp;mdash; Nathan Curtis (@nathanacurtis) &lt;a href=&quot;https://twitter.com/nathanacurtis/status/1204889629276676096?ref_src=twsrc%5Etfw&quot;&gt;December 11, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
@@ -243,6 +243,94 @@ imgALT:
 &lt;p&gt;...which of course led to a load of replies pointing out the already abundant ideas already in place on the web including Indieweb, ActivityPub, etc. Naturally blockchain got thrown around a lot too.&lt;/p&gt;
 &lt;p&gt;A great read was Anil Dash&#39;s &lt;a href=&quot;https://anildash.com/2019/12/10/link-in-bio-is-how-they-tried-to-kill-the-web/&quot; title=&quot;post on his website&quot;&gt;“Link In Bio” is a slow knife&lt;/a&gt; where he lays out how Instagram (and other silo&#39;s) keep people in the walled garden by limiting the access to external content.&lt;/p&gt;
 &lt;p&gt;Maybe 2020 will see the rise of something federated and syndicated, yet personal.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Declaring podcast bankruptcy</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-16-podcast-bankruptcy/"/>
+		<updated>2019-12-15T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-16-podcast-bankruptcy/</id>
+		<content type="html">&lt;p&gt;As with e-mail I&#39;ve hit the tipping point where I can&#39;t possible listen to all the podcasts I subscribe to.&lt;/p&gt;
+&lt;p&gt;I can only listen to &amp;quot;conversational&amp;quot; podcasts when I&#39;m either driving or doing nothing. That doesn&#39;t amount to a lot of time.&lt;/p&gt;
+&lt;h2&gt;Daily time&lt;/h2&gt;
+&lt;p&gt;During the day I&#39;m either in meetings, or trying to get back into that &#39;&lt;a href=&quot;https://en.wikipedia.org/wiki/Flow_(psychology)&quot;&gt;flow state&lt;/a&gt;&#39;. Neither of which let me drop in-and-out of narrative or conversation audio.&lt;/p&gt;
+&lt;p&gt;I do have some music podcasts which I&#39;ll keep for that time. &lt;a href=&quot;https://www.sheeldz.co.uk/radio/blog/&quot;&gt;Monday Graveyard&lt;/a&gt;, &lt;a href=&quot;http://www.ultimathule.info/&quot;&gt;Ultima Thule&lt;/a&gt;, &lt;a href=&quot;https://www.theblackdogma.com/&quot;&gt;The Black Dog&lt;/a&gt;, and &lt;a href=&quot;https://echoes.org/&quot;&gt;Echoes&lt;/a&gt; are a few.  These range from ambient to electronic dance with a little conversation between mixes.&lt;/p&gt;
+&lt;p&gt;Ones I&#39;m having to let go are the long form conversations.  Now that, I guess, podcasts are &amp;quot;a thing&amp;quot; the length and advertising have increased. They aren&#39;t bad, and I&#39;ll miss them, but that&#39;s the problem right now-I&#39;m missing them.&lt;/p&gt;
+&lt;h2&gt;An ungodly amount&lt;/h2&gt;
+&lt;p&gt;I currently have 58 episodes sitting in my queue. Most around 40-60 minutes in length. &lt;a href=&quot;https://pca.st/h5ovwmhi&quot;&gt;John Gruber&#39;s 2hr 45m episode&lt;/a&gt; will go unheard.&lt;/p&gt;
+&lt;p&gt;And they keeping piling in. Some have even ended and I haven&#39;t got around to hearing them all.  So I&#39;m saying goodbye to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://davidjohnmead.com/posts/2019-12-16-podcast-bankruptcy/daringfireball.net/thetalkshow&quot;&gt;The Talk Show With John Gruber&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://offcamera.com/&quot;&gt;Off Camera with Sam Jones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://evergreenpodcasts.com/design-everywhere&quot;&gt;Design Everywhere&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://tanispodcast.com/&quot;&gt;Tanis&lt;/a&gt; (great, but I don&#39;t know when it&#39;ll be back)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.publicradioalliance.com/the-last-movie&quot;&gt;The Last movie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rabbitspodcast.com/&quot;&gt;Rabbits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://trailersfromhell.com/podcast&quot;&gt;The Movies That Made Me&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://longnow.org/&quot;&gt;Long Now: Seminars About Long-term Thinking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://eureka.baronfig.com/&quot;&gt;Eureka by Baron Fig&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.npr.org/programs/invisibilia&quot;&gt;Invisibilia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://audioboom.com/channel/soundtrackingwithedithbowman&quot;&gt;Soundtracking with Edith Bowman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.ctrlclickcast.com/&quot;&gt;CTRL+Click Cast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I list them here in the hope I can pick them back up again. Who knows.&lt;/p&gt;
+&lt;p&gt;Now my list is down, and with the Xmas holidays coming up, I may actually catch up.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Departmental cooking</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-19-departmental-cooking/"/>
+		<updated>2019-12-18T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-19-departmental-cooking/</id>
+		<content type="html">&lt;p&gt;As with most companies, I imagine, we&#39;d went for our departmental Xmas lunch. But this was a bit different for me.&lt;/p&gt;
+&lt;p&gt;Out in Chesterland is the &lt;a href=&quot;https://www.lpscinc.com/&quot; title=&quot;Ohio&#39;s premier professional and recreational culinary institute for all levels&quot;&gt;The Loretta Paganini School of Cooking&lt;/a&gt;. Today we were to cook a 3-course meal of Caprese Salad with Balsamic Drizzle, Homemade Pasta with vegetables topped with Chicken Scallopine in Lemon Caper Sauce, and ending with a Peach Cobbler &amp;amp; ice-cream.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2019-12-19-cooking-teams.jpg&quot; alt=&quot;teams cooking in professional kitchen&quot; title=&quot;teams cooking in professional kitchen&quot;&gt;&lt;/p&gt;
+&lt;p&gt;After being introduced to our instructors we split into groups. Each handling a certain part of the meal. I was in &#39;Team Chicken&#39;. 3 of us trimmed, cut, and smashed chicken into thin pieces. Then dredged them in seasoned flour.&lt;/p&gt;
+&lt;p&gt;The other 3 prepped vegetables and roasted them for our vegetarians. We all took turns cooking the chicken in oil &amp;amp; butter, making the lemon and caper sauce, and finally adding the chicken back in the sauce.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2019-12-19-lunch.jpg&quot; alt=&quot;the final dish - Chicken Scallopine in Lemon Caper Sauce on a bed of pasta and vegetables&quot; title=&quot;the final dish&quot;&gt;&lt;/p&gt;
+&lt;p&gt;It&#39;s always interesting seeing what, and how, other people work. I picked up a few tips from our great instructors, as well as getting to have some fun with my co-workers and eat a very delicious meal.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>WFH Breakfast</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-19-wfh-breakfast/"/>
+		<updated>2019-12-18T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-19-wfh-breakfast/</id>
+		<content type="html">&lt;p&gt;On the odd occasion I do work from home, it&#39;s always a treat to cook breakfast. Bacon, egg, and a fried slice is my go-to.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-19-breakfast.jpg&quot; alt=&quot;Bacon, egg, and fried bread with a black coffee&quot;&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Thank you breakfast</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-20-breakfast/"/>
+		<updated>2019-12-19T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-20-breakfast/</id>
+		<content type="html">&lt;p&gt;As a thank you our bosses cooked us breakfast this morning. Various tamales from Texas including pork, beef, spinach, and black bean. Eggs, blueberry french toast, oats, and (of course) bacon.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-20-breakfast.jpg&quot; alt=&quot;Various tamales, bacon, eggs, and queso&quot;&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>BACON</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-22-bacon/"/>
+		<updated>2019-12-21T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-22-bacon/</id>
+		<content type="html">&lt;p&gt;Not much beats bacon on a warm baguette for breakfast.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-22-breakfast.jpg&quot; alt=&quot;close up of cooked bacon on a baguette&quot;&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>A warm Christmas</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-23-a-warm-christmas/"/>
+		<updated>2019-12-22T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-23-a-warm-christmas/</id>
+		<content type="html">&lt;p&gt;Only two days from Xmas and it&#39;s an odd one. In the 50&#39;s and the days don&#39;t seem to be as short as they normally are.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-23-sunset.jpg&quot; alt=&quot;Sunset with dark trees in front&quot;&gt;&lt;/p&gt;
 </content>
 	</entry>
 </feed>
