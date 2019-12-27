@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Pagination control in the frontmatter is creating extra folders.">
+		<meta name="robots" content="index, follow">
+		<!--<base href="https://davidjohnmead.com">-->
+		<link rel="author" href="/humans.txt">
+		<link rel="canonical" href="https://davidjohnmead.com/posts/2019-12-25-pagination-problems/">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="alternate" type="application/rss+xml" title="Subscribe to What's New" href="/feed/feed.xml" />
+
+		<!-- Webmentions -->
+		<link rel="webmention" href="https://webmention.io/davidjohnmead.com/webmention" />
+		<link rel="pingback" href="https://webmention.io/davidjohnmead.com/xmlrpc" />
+
+		<!-- IndieAuth -->
+		<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+		<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+
+		<!-- Microsub -->
+		<link rel="microsub" href="https://aperture.p3k.io/microsub/195">
+
+		<!-- Fonts Loaded Here -->
+		<link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+
+		<!-- Icons Loaded Here -->
+		<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+		<!-- CSS Loaded Here -->
+		<link rel="stylesheet" href="/css/djm-flat.css">
+
+		<title>Problems with Eleventy pagination</title>
+	</head>
+
+	<body>
+		<header class="pg-header">
+			
+			<nav>
+				<p class="txt-center"><a href="/" title="read about the person writing this">home</a></p>
+			</nav>
+			
+		</header>
+		<main>
+	<article class="h-entry">
+		<h1 class="title txt-center p-name">Problems with Eleventy pagination</h1>
+		<p class="p-summary txt-center">Showing the last 3 posts is causing extra folders to be created and I don&#39;t know why.</p>
+		<div class="e-content">
+			<p>Everytime I ran a build I started to notice extra folders being written in the <code>_site</code> folder. These were named 1, 2, 3, etc. Inside was a copy of the <code>index.html</code> file - Weird.</p>
+<p>I am up to 6. I normally just delete them but they'd always came back. I did some searching of the usual places for answers but nothing turned up.</p>
+<p>Logging back into Twitter I <a href="https://twitter.com/davidmead/status/1209137921393152006" title="tweet">posted a cry for help</a> and, lo &amp; behold, <a href="https://twitter.com/zachleat/status/1209138266148085761" title="Zach Leatherman's reply">an answer</a> from &quot;the creator&quot; himself.</p>
+<blockquote>
+<p>Sounds like a pagination template to me!</p>
+</blockquote>
+<h2>Pagination</h2>
+<p>A lot of me getting this Eleventy blog off the ground was cribbing from other peoples posts and tutorials. I wasn't aware of using any particular pagination templates for generating pages <em>but</em> I did have something in the frontmatter of the home page that showed the last 3 posts.</p>
+<pre><code>pagination:
+  data: collections.post
+  size: 3
+  reverse: true
+  alias: posts
+</code></pre>
+<p>Stopping the server, removing this, deleting the extra folders from <code>_site</code>,  and restarting solved the problem. No more extra folders.</p>
+<p>Also meant not showing the last three posts on the home page either.</p>
+<p>I then tried using a different way to show these with this code.</p>
+<pre><code>&lt;div class=&quot;wrapper-tiles&quot;&gt;
+{\%- for post in collections.post | reverse -%\}
+  &lt;div class=&quot;tile&quot;&gt;
+			&lt;div class=&quot;tile-head txt-center&quot;&gt;
+			&lt;time datetime=&quot;2019-12-27T21:58:36.598Z&quot;&gt;December 27, 2019&lt;/time&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;tile-body&quot;&gt;
+		&lt;p&gt;&lt;a href=&quot;.&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+		&lt;p class=&quot;snippet hide-sml&quot;&gt;&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+{\%- endfor -%\}
+&lt;/div&gt;
+
+</code></pre>
+<p>But that lists every post, and I haven't figured out a way to limit it to only the last 3.</p>
+<p>So, I've added back the pagination to the frontmatter and added this to my clean-up list for 2020.</p>
+
+		</div>
+		<footer class="meta">
+			<h2>Meta</h2>
+			<p>Originally posted on <time class="dt-published" datetime="2019-12-25T00:00:00.000Z">December 24, 2019</time>, by <span class="p-author author h-card vcard"><img class="u-photo hide" src="/img/davidmead-social.jpg" alt="Black and white photo of my face"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span>.</p>
+			<p>Tagged:
+				
+				<span>
+                    <a class="p-category" href="/tags/post" title="all posts tagged post" rel="tag"><i class="la la-tag"></i> post</a>
+                 </span>
+                
+				<span>
+                    <a class="p-category" href="/tags/code" title="all posts tagged code" rel="tag"><i class="la la-tag"></i> code</a>
+                 </span>
+                
+				<span>
+                    <a class="p-category" href="/tags/eleventy" title="all posts tagged eleventy" rel="tag"><i class="la la-tag"></i> eleventy</a>
+                 </span>
+                
+				<span>
+                    <a class="p-category" href="/tags/problem" title="all posts tagged problem" rel="tag"><i class="la la-tag"></i> problem</a>
+                 </span>
+                
+			 </p>
+			<p>Link to, or bookmark, here using this <a class="u-url" href="/posts/2019-12-25-pagination-problems/" title="Problems with Eleventy pagination">permalink</a>.
+ 		<p>I only posted this here.</p>
+
+
+		</footer>
+	</article>
+</main>
+		<footer class="pg-footer txt-center">
+			<p><small>&copy; 2005-2019 David Mead</small> | <i class="las la-rss"></i> <a href="https://davidjohnmead.com/feed/feed.xml" title="Subscribe via RSS">RSS feed</a></p>
+		</footer>
+	</body>
+</html>

@@ -226,6 +226,14 @@ img {
 	shape-margin: 1em;
 	}
 
+.snippet {
+	max-height: 66px;
+	overflow: hidden;
+	display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
 
 /* =MEDIA QUERIES
 -------------------------------------------------------*/

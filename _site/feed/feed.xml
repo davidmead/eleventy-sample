@@ -4,7 +4,7 @@
 	<subtitle></subtitle>
 	<link href="https://davidjohnmead.com" rel="self"/>
 	<link href="https://davidjohnmead.com"/>
-	<updated>2019-12-22T19:00:00-05:00</updated>
+	<updated>2019-12-25T19:00:00-05:00</updated>
 	<id>https://davidjohnmead.com</id>
 	<author>
 		<name></name>
@@ -331,6 +331,98 @@ imgALT:
 		<id>https://davidjohnmead.com/posts/2019-12-23-a-warm-christmas/</id>
 		<content type="html">&lt;p&gt;Only two days from Xmas and it&#39;s an odd one. In the 50&#39;s and the days don&#39;t seem to be as short as they normally are.&lt;/p&gt;
 &lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-23-sunset.jpg&quot; alt=&quot;Sunset with dark trees in front&quot;&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Problems with Eleventy pagination</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-25-pagination-problems/"/>
+		<updated>2019-12-24T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-25-pagination-problems/</id>
+		<content type="html">&lt;p&gt;Everytime I ran a build I started to notice extra folders being written in the &lt;code&gt;_site&lt;/code&gt; folder. These were named 1, 2, 3, etc. Inside was a copy of the &lt;code&gt;index.html&lt;/code&gt; file - Weird.&lt;/p&gt;
+&lt;p&gt;I am up to 6. I normally just delete them but they&#39;d always came back. I did some searching of the usual places for answers but nothing turned up.&lt;/p&gt;
+&lt;p&gt;Logging back into Twitter I &lt;a href=&quot;https://twitter.com/davidmead/status/1209137921393152006&quot; title=&quot;tweet&quot;&gt;posted a cry for help&lt;/a&gt; and, lo &amp;amp; behold, &lt;a href=&quot;https://twitter.com/zachleat/status/1209138266148085761&quot; title=&quot;Zach Leatherman&#39;s reply&quot;&gt;an answer&lt;/a&gt; from &amp;quot;the creator&amp;quot; himself.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sounds like a pagination template to me!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Pagination&lt;/h2&gt;
+&lt;p&gt;A lot of me getting this Eleventy blog off the ground was cribbing from other peoples posts and tutorials. I wasn&#39;t aware of using any particular pagination templates for generating pages &lt;em&gt;but&lt;/em&gt; I did have something in the frontmatter of the home page that showed the last 3 posts.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;pagination:
+  data: collections.post
+  size: 3
+  reverse: true
+  alias: posts
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Stopping the server, removing this, deleting the extra folders from &lt;code&gt;_site&lt;/code&gt;,  and restarting solved the problem. No more extra folders.&lt;/p&gt;
+&lt;p&gt;Also meant not showing the last three posts on the home page either.&lt;/p&gt;
+&lt;p&gt;I then tried using a different way to show these with this code.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;wrapper-tiles&amp;quot;&amp;gt;
+{\%- for post in collections.post | reverse -%\}
+  &amp;lt;div class=&amp;quot;tile&amp;quot;&amp;gt;
+			&amp;lt;div class=&amp;quot;tile-head txt-center&amp;quot;&amp;gt;
+			&amp;lt;time datetime=&amp;quot;2019-12-27T21:58:36.598Z&amp;quot;&amp;gt;December 27, 2019&amp;lt;/time&amp;gt;
+		&amp;lt;/div&amp;gt;
+		&amp;lt;div class=&amp;quot;tile-body&amp;quot;&amp;gt;
+		&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;.&amp;quot; title=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+		&amp;lt;p class=&amp;quot;snippet hide-sml&amp;quot;&amp;gt;&amp;lt;/p&amp;gt;
+		&amp;lt;/div&amp;gt;
+	&amp;lt;/div&amp;gt;
+{\%- endfor -%\}
+&amp;lt;/div&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;But that lists every post, and I haven&#39;t figured out a way to limit it to only the last 3.&lt;/p&gt;
+&lt;p&gt;So, I&#39;ve added back the pagination to the frontmatter and added this to my clean-up list for 2020.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Considered blogging</title>
+		<link href="https://davidjohnmead.com/posts/2019-12-26-considered-blogging/"/>
+		<updated>2019-12-25T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2019-12-26-considered-blogging/</id>
+		<content type="html">&lt;p&gt;Part of my decision to blow my previous blog/site away and start afresh was technology based. &lt;a href=&quot;https://wordpress.com/&quot;&gt;Wordpress&lt;/a&gt; was becoming too convoluted. &lt;a href=&quot;https://withknown.com/&quot;&gt;Known&lt;/a&gt; (while a lot better) still has too much developer tinkering to get it where I wanted.&lt;/p&gt;
+&lt;p&gt;Enter &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt; and the Static Site Generator choice. It still has its learning curve and frustrations, but they stay on my laptop. Everything I publish to the web is a flat HTML file, which is nice.&lt;/p&gt;
+&lt;h2&gt;But what else?&lt;/h2&gt;
+&lt;p&gt;The other part of my decision was borne from the current state of world online. The megalithic silos of Facebook, Twitter, and Google  &lt;em&gt;are&lt;/em&gt; the web for a large part of those online in The West. And you can see why people stay in those silos to get news and opinions.&lt;/p&gt;
+&lt;p&gt;Paywall reminders, newsletter subscription popups, embedded advertising, and (shudder) “content recommendation” advertising.  This seems to be the make up of most sites outside the silos.&lt;/p&gt;
+&lt;p&gt;Both options are also riddled with tracking cookies. Harvesting interactions &amp;amp; attention to sell, or leak, to the highest bidder.&lt;/p&gt;
+&lt;p&gt;So was it a &amp;quot;tin foil hat&amp;quot; decision? No. I&#39;ve made my peace with the trade-off of privacy and access long ago.&lt;/p&gt;
+&lt;p&gt;It&#39;s more about putting consideration over impulse.&lt;/p&gt;
+&lt;h2&gt;Impulse&lt;/h2&gt;
+&lt;p&gt;I&#39;m sure there are studies on how the increase in information retrieval speed, has effected us.&lt;/p&gt;
+&lt;p&gt;A month long pilgrimage to the &amp;quot;local&amp;quot; monastery vs. millisecond glances at the always on pocket computer &lt;strong&gt;must&lt;/strong&gt; have some impact.&lt;/p&gt;
+&lt;p&gt;Pair that with the ability for almost anyone to contribute and &lt;em&gt;change&lt;/em&gt; that information, rather than the monks-Huge!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;im·pulse
+/ˈimˌpəls/
+a sudden strong and unreflective urge or desire to act.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;But with that access and speed has come the proliferation of the &amp;quot;&lt;a href=&quot;https://en.wikipedia.org/wiki/Hot_take&quot; title=&quot;Wikipedia entry&quot;&gt;hot take&lt;/a&gt;&amp;quot;, the &amp;quot;well actually&amp;quot;, &amp;quot;&lt;a href=&quot;https://en.wikipedia.org/wiki/Virtue_signalling&quot; title=&quot;Wikipedia entry&quot;&gt;virtue signalling&lt;/a&gt;&amp;quot;, and the business models that feed off of (and in to) this.  The dopamine + financial reward of &amp;quot;likes&amp;quot; for impulsiveness is rampant.&lt;/p&gt;
+&lt;p&gt;This is very recent, even in the silo&#39;s history. Early Twitter had stars that, for me at least, doubled as a way to bookmark shared links/tweets. That went out as the potential business models became clear.&lt;/p&gt;
+&lt;h2&gt;Consideration&lt;/h2&gt;
+&lt;p&gt;This year I logged out of Twitter and Instagram (deleting my Facebook account some time ago) and didn&#39;t miss them.&lt;/p&gt;
+&lt;p&gt;Unsubscribed from certain RSS feeds, YouTube channels, and podcasts. Reduced the amount of stuff I consume.&lt;/p&gt;
+&lt;p&gt;I also didn&#39;t post anything to my site. But I wanted to.&lt;/p&gt;
+&lt;p&gt;A few words kept floating around me; mindful, thoughtful, measured. But one stuck more than most.&lt;/p&gt;
+&lt;p&gt;Considered. I wanted consideration to play a part of what I put out.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;con·sid·er·a·tion
+/kənˌsidərˈāSH(ə)n/
+careful thought, typically over a period of time.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is what made the choice of a static site generator the right one.&lt;/p&gt;
+&lt;p&gt;Removing the easy instant access to post anything forces me to consider what I&#39;m putting out.&lt;/p&gt;
+&lt;p&gt;I still jot down notes, take photos, bookmark links. But the act of waiting until I get home to generate the file and FTP it to the web is...refreshing.&lt;/p&gt;
+&lt;p&gt;Don&#39;t get me wrong. This doesn&#39;t make what I post any better per se, but it does make me think more before I do.&lt;/p&gt;
+&lt;h2&gt;Sharing&lt;/h2&gt;
+&lt;p&gt;This site is for me. My, considered, thoughts. I put them on the web for any crawler, RSS reader, or browser to look at. For anyone to consume and share.&lt;/p&gt;
+&lt;p&gt;I&#39;m currently not interested in who/what comes and looks, how many times it happens, or if it happens at all. I have implemented zero analytics on this site.&lt;/p&gt;
+&lt;p&gt;At this point-in-time I am also not concerned with sharing them into the silos. Or what others think of them.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/amyhoy/status/1210253110599241728&quot; title=&quot;tweet&quot;&gt;Amy Hoy&lt;/a&gt; summed up how I feel...&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;i extremely do not care about who faved 2 of my tweets! that’s the equivalent of a notification popping up that “this random person in the convenience store glanced at your sneakers”&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
 	</entry>
 </feed>
