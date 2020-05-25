@@ -4,7 +4,7 @@
 	<subtitle></subtitle>
 	<link href="https://davidjohnmead.com" rel="self"/>
 	<link href="https://davidjohnmead.com"/>
-	<updated>2019-12-25T19:00:00-05:00</updated>
+	<updated>2020-05-25T00:00:00-04:00</updated>
 	<id>https://davidjohnmead.com</id>
 	<author>
 		<name></name>
@@ -360,7 +360,7 @@ imgALT:
 {\%- for post in collections.post | reverse -%\}
   &amp;lt;div class=&amp;quot;tile&amp;quot;&amp;gt;
 			&amp;lt;div class=&amp;quot;tile-head txt-center&amp;quot;&amp;gt;
-			&amp;lt;time datetime=&amp;quot;2019-12-27T21:58:36.598Z&amp;quot;&amp;gt;December 27, 2019&amp;lt;/time&amp;gt;
+			&amp;lt;time datetime=&amp;quot;2020-05-25T15:34:53.820Z&amp;quot;&amp;gt;May 25, 2020&amp;lt;/time&amp;gt;
 		&amp;lt;/div&amp;gt;
 		&amp;lt;div class=&amp;quot;tile-body&amp;quot;&amp;gt;
 		&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;.&amp;quot; title=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
@@ -423,6 +423,327 @@ careful thought, typically over a period of time.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;i extremely do not care about who faved 2 of my tweets! that’s the equivalent of a notification popping up that “this random person in the convenience store glanced at your sneakers”&lt;/p&gt;
 &lt;/blockquote&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Capturing something</title>
+		<link href="https://davidjohnmead.com/posts/2020-01-19-capturing-something/"/>
+		<updated>2020-01-18T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-01-19-capturing-something/</id>
+		<content type="html">&lt;p&gt;I&#39;ve never been a diarist, but I keep coming back to the idea of capturing a feel of moment/day/week.&lt;/p&gt;
+&lt;p&gt;With that in mind I am going to try something. A &#39;retrospect&#39; of sorts. Jot down observations at the end of the day, but not daily.&lt;/p&gt;
+&lt;p&gt;I hope this will help me get back in the habit of posting, without having drafts on specific things pile up. Which is what is happening now.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Fridge sandwich</title>
+		<link href="https://davidjohnmead.com/posts/2020-01-19-lunch/"/>
+		<updated>2020-01-18T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-01-19-lunch/</id>
+		<content type="html">&lt;p&gt;Fancied a simple lunch, with whatever we had in the fridge - Sliced turkey on sourdough bread, with fried egg.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-01-19-lunch.jpg&quot; alt=&quot;Egg and turkey on sourdough sandwich&quot;&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>2020-01-20 retro</title>
+		<link href="https://davidjohnmead.com/posts/2020-01-20-retro/"/>
+		<updated>2020-01-19T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-01-20-retro/</id>
+		<content type="html">&lt;p&gt;The unearthly reverberation of a snow plow working above you in a multi-story garage reminds me of going to music shops in the 80’s and playing with synths.&lt;/p&gt;
+&lt;p&gt;Being ruthless with unsubscribing and getting my Gmail Inbox under 2000&lt;/p&gt;
+&lt;p&gt;I’ve been using Evernote since the beta in 2008&lt;/p&gt;
+&lt;p&gt;More and more parts of Google Play Music don’t work/are available&lt;/p&gt;
+&lt;p&gt;You can donate used LEGO and they&#39;ll even pay for shipping. &lt;a href=&quot;https://givebackbox.com/lego/&quot; title=&quot;donate LEGO page&quot;&gt;https://givebackbox.com/lego/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Rectify the fact I no longer owned any music by The Stranglers&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>2020-01-22 retro</title>
+		<link href="https://davidjohnmead.com/posts/2020-01-22-retro/"/>
+		<updated>2020-01-21T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-01-22-retro/</id>
+		<content type="html">&lt;p&gt;I&#39;m always interested in what old art really looked like. So much of our view is informed by previous generations tinkering, not the original creators vision - &lt;a href=&quot;https://www.bbc.com/news/world-europe-51205614&quot; title=&quot;BBC article on painting restoration&quot;&gt;https://www.bbc.com/news/world-europe-51205614&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Terry Jones died today&lt;/p&gt;
+&lt;p&gt;This, &lt;a href=&quot;https://www.nytimes.com/2020/01/18/technology/clearview-privacy-facial-recognition.html&quot; title=&quot;NY Times article on privacy company scanning faces&quot;&gt;https://www.nytimes.com/2020/01/18/technology/clearview-privacy-facial-recognition.html&lt;/a&gt;, is how we&#39;ll end up with the &amp;quot;scramble suits&amp;quot; from &#39;A Scanner Darkly&#39;. Sometimes I hate how much Sci-Fi I read is now coming to fruition.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>2020-01-26 retro</title>
+		<link href="https://davidjohnmead.com/posts/2020-01-26-retro/"/>
+		<updated>2020-01-25T19:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-01-26-retro/</id>
+		<content type="html">&lt;p&gt;Steamed Chinese pork bun and a strong cuppa for breakfast.&lt;/p&gt;
+&lt;p&gt;A day of catching up on old things.&lt;/p&gt;
+&lt;p&gt;After cleaning the house I decided to start clearing out my &#39;Watch later&#39; on YouTube:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Qv73ByzrcdA&quot;&gt;Our Norwegian Tiny Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=nKsSM-8iRlE&quot; title=&quot;Pathe news archive film&quot;&gt;Oldest Inn(1958)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=1PHLgrYJLTk&quot; title=&quot;Londonist short&quot;&gt;The Gates of the City of London&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=IJj7QaTtb2s&quot; title=&quot;Londonist Short&quot;&gt;Londons Lost Railways-Mill Hill East&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=jjuD288JlCs&quot; title=&quot;film by Jay Foreman&quot;&gt;The Unfinished Northern Line&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Listened &amp;amp; watched &lt;a href=&quot;https://youtu.be/G1m0aX9Lpts&quot;&gt;Sam Aaron live coding an ambient electro set w/ Sonic Pi&lt;/a&gt; followed by an hour of &lt;a href=&quot;https://youtu.be/Riz6AKeBpa0&quot;&gt;brian eno - thursday afternoon (14 video paintings 1981-1984)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Finished &lt;a href=&quot;https://www.amazon.com/Normal-Novel-Warren-Ellis-ebook/dp/B00W1FQYHK/ref=sr_1_1?keywords=warren+ellis+normal&amp;amp;qid=1580093772&amp;amp;sr=8-1&quot; title=&quot;non-affiliate amazon link&quot;&gt;Normal: A Novel&lt;/a&gt; by &lt;a href=&quot;http://www.warrenellis.com/&quot;&gt;Warren Ellis&lt;/a&gt;, and started &lt;a href=&quot;https://www.amazon.com/Burglars-Guide-City-Geoff-Manaugh-ebook/dp/B00V35U0TM/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;amp;qid=1580093958&amp;amp;sr=8-1&quot; title=&quot;non-affiliate amazon link&quot;&gt;A Burglar&#39;s Guide to the City&lt;/a&gt; by &lt;a href=&quot;https://geoffmanaugh.com/&quot;&gt;Geoff Manaugh&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Birthday Pie</title>
+		<link href="https://davidjohnmead.com/posts/2020-02-04-birthday-pie/"/>
+		<updated>2020-02-04T00:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-02-04-birthday-pie/</id>
+		<content type="html">&lt;p&gt;51 years old today.&lt;/p&gt;
+&lt;p&gt;Shared my, now traditional, Chinese dinner of potstickers, sweet &amp;amp; sour chicken, and Special Fried Rice with Josh. Rounded off the evening with a lovely slice of my favourite-Lemon Meringue Pie.&lt;/p&gt;
+&lt;p&gt;Big thanks to everyone who sent my brthday wishes.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-02-04-pie.jpg&quot; alt=&quot;A slice of lemon meringue pie&quot;&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>A new Middle Ages?</title>
+		<link href="https://davidjohnmead.com/posts/2020-02-18-a-new-middles-ages/"/>
+		<updated>2020-02-18T00:00:00-05:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-02-18-a-new-middles-ages/</id>
+		<content type="html">&lt;p&gt;Walking the dog I had one of those trains of thought that builds on itself. When did hoods become a thing?&lt;/p&gt;
+&lt;p&gt;It used to be only something I saw in history books, mainly The Middle Ages. Then used in film/TV to indicate someone &amp;quot;out-of-time&amp;quot; or with something to hide. Maybe it&#39;s the &lt;a href=&quot;https://en.wikipedia.org/wiki/Robin_Hood&quot; title=&quot;Wikipedia article&quot;&gt;Robin Hood&lt;/a&gt; connection, but now it seems to have been adopted as a indicator of &lt;a href=&quot;https://www.theguardian.com/uk/2011/aug/09/power-of-the-hoodie&quot; title=&quot;article from The Guardian about the power of the hoodie&quot;&gt;groups of unrest and those who want to avoid indentification&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;Then I started thinking about the rise of isolationsim. Nations starting to retreat inwards, &lt;a href=&quot;https://www.psychologytoday.com/us/blog/the-couch/201603/how-can-we-understand-our-fear-the-other&quot; title=&quot;Psychology today article&quot;&gt;distrusting &amp;quot;the other&amp;quot;&lt;/a&gt;. How large swathes of populations now huddle around the digital fiefdoms of Facebook, Twitter, etc. Trusting &amp;quot;information&amp;quot; from only those sources, much like the Abbots and Barons of old.&lt;/p&gt;
+&lt;p&gt;Our media seems full of stories concerning survivalism, social breakdown, the &amp;quot;end times&amp;quot;.  It all smacks of that Medieval outlook we attribute to the Dark Ages.&lt;/p&gt;
+&lt;p&gt;Are we heading towards a 21st Century Middle Ages? Not one of us scrabbling in the mud, but adopting a closed mindset where science and learning are distrusted. Giving way to a more faith-based view, but not Christian or Muslim per se, that of &amp;quot;someone&amp;quot; is looking out for them.&lt;/p&gt;
+&lt;p&gt;Turns out there&#39;s quite a few papers and articles on this very thought:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://link.springer.com/chapter/10.1057%2F9781137283481_5&quot;&gt;A 21st-century medievalism?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.researchgate.net/publication/232026312_Tanaka_Akihiko_The_New_Middle_Ages_The_World_System_in_the_21st_Century_translated_by_Jean_Connell_Hoff_Tokyo_International_House_of_Japan_2002_264_pp_first_published_as_Atarashii_&#39;chusei&#39;_21seiki_no_&quot;&gt;Tanaka Akihiko, The New Middle Ages: The World System in the 21st Century&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Talk:Neo-medievalism&quot;&gt;Talk:Neo-medievalism&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/2007/03/04/weekinreview/04ouroussoff.html&quot;&gt;Medieval Modern: Design Strikes a Defensive Posture&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Living in a Pandemic</title>
+		<link href="https://davidjohnmead.com/posts/2020-03-18-living-in-a-pandemic/"/>
+		<updated>2020-03-18T00:00:00-04:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-03-18-living-in-a-pandemic/</id>
+		<content type="html">&lt;p&gt;Since &lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019&quot; title=&quot;official WHO page&quot;&gt;Coronavirus (COVID-19)&lt;/a&gt; was officially declared a pandemic by World Health Organization things have been getting serious, and weird, quick.&lt;/p&gt;
+&lt;p&gt;About a week ago our local Aldi had run out of white bread, bottled water, dried pasta, toilet paper, and chicken within 2 hours of them opening. Other large chain stores closed for restocking where they&#39;d normally be open 24 hours.&lt;/p&gt;
+&lt;p&gt;Schools shut for Spring Break early, opting for a form of remote learning for the remainder. Work from home is being trialed, or mandated, for most office workers.&lt;/p&gt;
+&lt;p&gt;Only today:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.bbc.com/news/world-us-canada-51949243&quot; title=&quot;BBC article&quot;&gt;The border between Canada and the U.S. is closed to non-essential travel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.usatoday.com/story/money/cars/2020/03/18/ford-gm-fca-plant-closures-coronavirus/2866944001/&quot; title=&quot;USA Today article&quot;&gt;Ford, General Motors, Fiat Chrysler agree to close all US plants due to coronavirus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.bbc.com/news/world-europe-51952712&quot; title=&quot;BBC article&quot;&gt;Italy coronavirus deaths rise by record 475 in a day&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;So far 8,657 people have died worldwide from reported cases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The phrases &lt;a href=&quot;https://www.bbc.com/news/uk-51506729&quot; title=&quot;title attribute&quot;&gt;&#39;social distancing&#39; and &#39;self-isolation&#39;&lt;/a&gt; are common place.&lt;/p&gt;
+&lt;p&gt;We&#39;ve stocked up on some things. Limit our exposure to others. Follow the guidlines of handwashing, etc. Check in our our family and friends through phone &amp;amp; video chat.&lt;/p&gt;
+&lt;p&gt;Now we wait as cases appear close to us.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Work From Home</title>
+		<link href="https://davidjohnmead.com/posts/2020-03-22-work-from-home/"/>
+		<updated>2020-03-22T00:00:00-04:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-03-22-work-from-home/</id>
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-03-22-wfh-setup.jpg&quot; alt=&quot;Black and white photo of desk and computer in basement&quot;&gt;&lt;/p&gt;
+&lt;p&gt;With the &lt;a href=&quot;https://ohio.gov/wps/portal/gov/site/media-center/news-and-events/ohio-issues-stay-at-home-order-and-new-restrictions-placed-on-day-cares-for-children&quot; title=&quot;State website article&quot;&gt;Ohio Governor&#39;s order of &amp;quot;stay at home&amp;quot;&lt;/a&gt;, I went Sunday and got my monitor, mouse, and keyboard from the office.&lt;/p&gt;
+&lt;p&gt;I had to re-attach the desktop to the legs as it shifted when I cleared it off. Now this is where I spend most of my work day.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>NOM - Leftovers for breakfast</title>
+		<link href="https://davidjohnmead.com/posts/2020-03-23-breakfast/"/>
+		<updated>2020-03-23T00:00:00-04:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-03-23-breakfast/</id>
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-03-23-breakfast.jpg&quot; alt=&quot;fried egg with tomatoes and chilis on top of refried beans and tostados&quot;&gt;&lt;/p&gt;
+&lt;p&gt;As my commute is now walking downstairs to the basement I decided to cook breakfast, using the leftovers from last night. We had tostados, so the broken ones (held together by refried beans) made the base. Topped with an egg which I cooked along with the tomatoes &amp;amp; chili&#39;s. Delicious with a big mug of black coffee.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>...everyone is in this thing together and this too shall pass</title>
+		<link href="https://davidjohnmead.com/posts/2020-03-26-listen-ghosts-v-and-ghosts-vi/"/>
+		<updated>2020-03-26T00:00:00-04:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-03-26-listen-ghosts-v-and-ghosts-vi/</id>
+		<content type="html">&lt;p&gt;As a lot of us are sitting around, self-isolating, Trent Reznor releases two new instrumental works in his &#39;Ghosts&#39; series.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As the news seems to turn ever more grim by the hour, we’ve found ourselves vacillating wildly between feeling like there may be hope at times to utter despair – often changing minute to minute. Although each of us define ourselves as antisocial-types who prefer being on our own, this situation has really made us appreciate the power and need for CONNECTION.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.nin.com/nine-inch-nails-ghosts-v-vi-available-now/&quot; title=&quot;from the album release notes&quot;&gt;Trent Reznor&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Both come with a colon title - Ghosts V:Together and Ghosts VI:Locusts...&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ghosts V: Together is for when things seem like it might all be okay, and Ghosts VI: Locusts… well, you’ll figure it out.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I&#39;ve now found the starter to my Pandemic iPod playlist. Both albums can be downloaded for free.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Laid-off today</title>
+		<link href="https://davidjohnmead.com/posts/2020-04-02-laid-off/"/>
+		<updated>2020-04-02T00:00:00-04:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-04-02-laid-off/</id>
+		<content type="html">&lt;p&gt;I was laid-off today. Looking for UX/UI opportunities. Reach out at &lt;a href=&quot;https://www.linkedin.com/in/davidmead/&quot; title=&quot;profile&quot;&gt;LinkedIn&lt;/a&gt; if you&#39;re hiring.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Coffee prep</title>
+		<link href="https://davidjohnmead.com/posts/2020-04-15-coffee-prep/"/>
+		<updated>2020-04-15T00:00:00-04:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-04-15-coffee-prep/</id>
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-04-15-coffee-prep.jpg&quot; alt=&quot;Pour over coffee set up&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Trying for a little &amp;quot;normal&amp;quot; whilst unemployed during a pandemic.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>2020-04-16 retro</title>
+		<link href="https://davidjohnmead.com/posts/2020-04-16-retro/"/>
+		<updated>2020-04-16T00:00:00-04:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-04-16-retro/</id>
+		<content type="html">&lt;p&gt;A day without interviews.&lt;/p&gt;
+&lt;p&gt;Found out my last paycheck &lt;strong&gt;won&#39;t&lt;/strong&gt; include the severance money. Instead will only be for 3 days worked and any accrued vacation days. Severance not coming until May 1st.&lt;/p&gt;
+&lt;p&gt;Having no health insurance kinda sucks&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Paid $400+ for medicine to prevent blood clots&lt;/li&gt;
+&lt;li&gt;Paid $600+ as a &lt;abbr title=&quot;Consolidated Omnibus Budget Reconciliation Act&quot;&gt;COBRA&lt;/abbr&gt; payment to &lt;a href=&quot;https://www.daveramsey.com/blog/what-is-cobra-insurance&quot; title=&quot;article on what COBRA is&quot;&gt;reinstate coverage for a month&lt;/a&gt; (next month it&#39;s $2000+) so we can claim some of that back.&lt;/li&gt;
+&lt;li&gt;When I get another job it&#39;ll be another 30 odd days before I&#39;m covered by that company plan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I miss &lt;a href=&quot;https://www.nhs.uk/&quot; title=&quot;National Health Service website&quot;&gt;the NHS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;With neither of us employed, and no unemployment payments being processed, I applied on &lt;a href=&quot;https://www.healthcare.gov/&quot;&gt;Healthcare.gov&lt;/a&gt; to see if we can get coverage there.&lt;/p&gt;
+&lt;p&gt;Also had to buy a new fridge/freezer as our decided to break down this week.&lt;/p&gt;
+&lt;p&gt;By the way. Did I mention there&#39;s a pandemic going on too?&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Mood</title>
+		<link href="https://davidjohnmead.com/posts/2020-04-26-mood/"/>
+		<updated>2020-04-26T00:00:00-04:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-04-26-mood/</id>
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-04-26-mood.jpg&quot; alt=&quot;dog laying on a leather chair, looking out window&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Mood&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>New beginnings</title>
+		<link href="https://davidjohnmead.com/posts/2020-04-29-new-job/"/>
+		<updated>2020-04-29T00:00:00-04:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-04-29-new-job/</id>
+		<content type="html">&lt;p&gt;I&#39;m excited. Today I join the team at &lt;a href=&quot;http://vitamix.com/&quot; title=&quot;High performance blenders&quot;&gt;Vitamix&lt;/a&gt; as their Lead Designer UI/UX.&lt;/p&gt;
+&lt;p&gt;Looking forward to diving in, learning, and helping. I&#39;ll be working with a friend of mine again, as well a lot of new faces.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>New tools</title>
+		<link href="https://davidjohnmead.com/posts/2020-04-29-new-tools/"/>
+		<updated>2020-04-29T00:00:00-04:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-04-29-new-tools/</id>
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-04-28-new-tools.jpg&quot; alt=&quot;Assorted Apple products on a table&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Took delivery yesterday of some tools for my new job. All set up and ready to go today.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>2020-05-09 retro</title>
+		<link href="https://davidjohnmead.com/posts/2020-05-09-retro/"/>
+		<updated>2020-05-09T00:00:00-04:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-05-09-retro/</id>
+		<content type="html">&lt;p&gt;Grief, time is dragging into itself.&lt;/p&gt;
+&lt;p&gt;This week our &lt;a href=&quot;https://davidjohnmead.com/posts/2020-040-16-retro/&quot; title=&quot;a previous post&quot;&gt;new fridge&lt;/a&gt; decided to stop working. Had to throw out 2 weeks worth of food. Managed to get through to Frigidaire, after calling multiple times, who sent out an engineer the next day. Found the connector to the compressor hadn&#39;t been pushed in all the way when it was built (I assume). Had been cutting in &amp;amp; out this whole time.&lt;/p&gt;
+&lt;p&gt;Still waiting for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$600 from Cigna to come through as a refund for having to buy a prescription while waiting for COBRA to kick in&lt;/li&gt;
+&lt;li&gt;$50 food loss compensation card from Frigidaire&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;any&lt;/strong&gt; money to be paid by &lt;abbr title=&quot;Ohio Deptartment of Jobs and Family Services&quot;&gt;ODJFS&lt;/abbr&gt; for being unemployed the previous 4 weeks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mentally preparing for the &amp;quot;second wave&amp;quot; of this pandemic to hit, thanks to the selfish who insist on protesting en masse rather than follow guidelines. Because being asked to wear a mask and not gather in groups is (in their words) &amp;quot;tyrannical&amp;quot;. People are the worst sometimes.&lt;/p&gt;
+&lt;p&gt;On the plus side, diving into the new job has been great. Meeting (virtually) a lot of the teams and getting to understand the company and goals.&lt;/p&gt;
+&lt;p&gt;Bandcamp waived its commission on all sales, so 100% went to the artist. I dipped in and grabbed a couple of items from my wishlist:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adrift by loscil&lt;/li&gt;
+&lt;li&gt;Faults, Coasts, Lines by loscil&lt;/li&gt;
+&lt;li&gt;Abolition of The Royal Familia by The Orb&lt;/li&gt;
+&lt;li&gt;Stasis Sounds For Long-Distanceby 36 &amp;amp; zakè&lt;/li&gt;
+&lt;li&gt;Field Tangents by Off Land&lt;/li&gt;
+&lt;li&gt;Toll by Kemper Norton&lt;/li&gt;
+&lt;li&gt;Slow Walking by Moss Covered Technology&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All of these have been added to my iPod.&lt;/p&gt;
+&lt;p&gt;Bring on the next week.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>NOM - Left over hash</title>
+		<link href="https://davidjohnmead.com/posts/2020-05-12-corned-beef-hash/"/>
+		<updated>2020-05-12T00:00:00-04:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-05-12-corned-beef-hash/</id>
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-05-12-nom-corned-beef-hash.jpg&quot; alt=&quot;close up of homemade corned beef hash&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Corned beef hash is my &amp;quot;go-to&amp;quot; when visiting a diner for breakfast. Growing up in 70&#39;s England I ate my fair share of the tinned variety.&lt;/p&gt;
+&lt;p&gt;So now I have a simple recipe to make my own with tinned corned beef (foodie snobs be damned).&lt;/p&gt;
+&lt;section class=&quot;h-recipe&quot;&gt;
+&lt;h2&gt;Corned Beef Hash Recipe&lt;/h2&gt;
+&lt;h3&gt;Ingredients&lt;/h3&gt;
+What I generally use is:
+&lt;ul&gt;
+&lt;li class=&quot;p-ingredient&quot;&gt;medium size potatoes	   &lt;/li&gt;
+&lt;li class=&quot;p-ingredient&quot;&gt;half of a onion		   &lt;/li&gt;
+&lt;li class=&quot;p-ingredient&quot;&gt;can of corned beef	   &lt;/li&gt;
+&lt;li class=&quot;p-ingredient&quot;&gt;tablespoon butter	   &lt;/li&gt;
+&lt;li class=&quot;p-ingredient&quot;&gt;cooking oil			   &lt;/li&gt;
+&lt;li class=&quot;p-ingredient&quot;&gt;salt and pepper to taste&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Takes &lt;time class=&quot;dt-duration&quot; datetime=&quot;30M&quot;&gt;30 minutes&lt;/time&gt;, serves &lt;data class=&quot;p-yield&quot; value=&quot;4&quot;&gt;four people&lt;/data&gt;.&lt;/p&gt;
+&lt;div class=&quot;e-instructions&quot;&gt;
+&lt;h3&gt;Directions&lt;/h3&gt;
+Here&#39;s I how make it (mostly)
+&lt;ol&gt;
+&lt;li&gt;Fill a medium saucepan with water, add salt											   &lt;/li&gt;
+&lt;li&gt;Peel and quarter the potatoes, then add to the saucepan								   &lt;/li&gt;
+&lt;li&gt;Simmer for about 15 minutes so they&#39;re just undercooked								   &lt;/li&gt;
+&lt;li&gt;Finely dice the onion																   &lt;/li&gt;
+&lt;li&gt;Cube the corned beef																   &lt;/li&gt;
+&lt;li&gt;While the potatoes are simmering, warm up cast iron skillet or pan over medium/low heat&lt;/li&gt;
+&lt;li&gt;Drain the potatoes and cube															   &lt;/li&gt;
+&lt;li&gt;Add potatoes and corned beef to the pan												   &lt;/li&gt;
+&lt;li&gt;Add a little oil and the butter to the skillet to melt								   &lt;/li&gt;
+&lt;li&gt;Add onions, potatoes, and corned beef												   &lt;/li&gt;
+&lt;li&gt;Pat down to an even layer and cook until crispy									   &lt;/li&gt;
+&lt;li&gt;Slowly flip and cook until the other side is crispy								   &lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;p&gt;Now you can just serve with some eggs, or on it&#39;s own. Keeps well in the fridge for the next day. Josh &amp;amp; I normally have it for dinner and there&#39;s enough for breakfast.&lt;/p&gt;
+&lt;/section&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The new old me</title>
+		<link href="https://davidjohnmead.com/posts/2020-05-16-new-old-me/"/>
+		<updated>2020-05-16T00:00:00-04:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-05-16-new-old-me/</id>
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-05-16-new-old-me.jpg&quot; alt=&quot;Black and white photo of myself&quot;&gt;&lt;/p&gt;
+&lt;p&gt;The new old me. In response to &lt;a href=&quot;https://www.instagram.com/pfresty/&quot; title=&quot;Paul Fresty&#39;s Instagram&quot;&gt;@pfresty&lt;/a&gt; 😁&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>I could hear her...</title>
+		<link href="https://davidjohnmead.com/posts/2020-05-25-dog/"/>
+		<updated>2020-05-25T00:00:00-04:00</updated>
+		<id>https://davidjohnmead.com/posts/2020-05-25-dog/</id>
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-05-25-dog.jpg&quot; alt=&quot;Dog looking down from top stair&quot;&gt;&lt;/p&gt;
+&lt;p&gt;I could hear the tell-tale thump of the tail, but couldn&#39;t see her anywhere. Then I looked up.&lt;/p&gt;
 </content>
 	</entry>
 </feed>
