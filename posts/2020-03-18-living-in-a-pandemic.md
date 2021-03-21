@@ -3,6 +3,8 @@ title: Living in a Pandemic
 description: Never thought this was a thing I'd be doing
 summary: The reality of our globally connected just-in-time world is biting us in the arse.
 
+date: 2020-03-18T00:00:01.00-05:00
+
 tags:
   - post
   - coronavirus

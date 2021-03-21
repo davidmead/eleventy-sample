@@ -3,7 +3,7 @@ title: Problem with Eleventy, RSS, and images
 description: Some images show in my RSS feed, and some don't.
 summary: Some images show in my RSS feed, and some don't. I think it's to do with how and when the content is "built"
 
-date: 2019-12-11
+date: 2019-12-11T00:00:01.00-05:00
 
 tags:
   - post

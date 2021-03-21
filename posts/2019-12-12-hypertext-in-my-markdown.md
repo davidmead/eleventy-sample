@@ -3,7 +3,7 @@ title: Hypertext in my Markdown
 description: Once again I think I've solved images not showing in the RSS feed
 summary: Once again I think I've solved images not showing in the RSS feed
 
-date: 2019-12-12
+date: 2019-12-12T00:00:01.00-05:00
 
 tags:
   - post

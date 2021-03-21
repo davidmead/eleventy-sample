@@ -1,0 +1,46 @@
+---
+layout: layouts/layout-base.njk
+
+---
+<main>
+	<article class="h-entry">
+		<h1 class="title txt-center p-name"><i class="las la-book"></i> {{ title }}</h1>
+		<p class="p-summary txt-center">{{ summary }}</p>
+		<div class="e-content">
+			<div class="wrapper-listen">
+			<div>
+			<p><img class="u-photo img-cover" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+			<ul>
+			<li><a href="{{ artistURL | url }}" title="Read more about {{ artistNAME }}">Artist website</a></li>
+			<li><a href="{{ purchaseURL | url }}" title="Not an affiliate link">Buy this</a></li>
+			</ul>
+			</div>
+
+			<div>{{ content | safe }}</div>
+			</div>
+		</div>
+		<footer class="meta">
+			<h2>Meta</h2>
+			<p>Originally posted on <time class="dt-published" datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>, by <span class="p-author author h-card vcard"><img class="u-photo hide" src="/img/davidmead-social.jpg" alt="Black and white photo of my face"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span>.</p>
+			<p>Tagged:
+				{% for item in tags %}
+				<span>
+                    <a class="p-category" href="/tags/{{ item }}" title="all posts tagged {{ item }}" rel="tag"><i class="la la-tag"></i> {{ item }}</a>
+                 </span>
+                {% endfor %}
+			 </p>
+			<p>Link to, or bookmark, here using this <a class="u-url" href="{{ page.url | url }}" title="{{ title }}">permalink</a>.
+			{% if urlTwitter or urlInstagram or urlFlickr %}
+ 		<p>I also posted this on:
+
+{% if urlTwitter %}
+<i class="lab la-twitter"></i><a class="u-syndication" href="{{ urlTwitter }}" title="view on Twitter" rel="syndication">Twitter</a>{% endif %}
+{% if urlInstagram %}
+<i class="lab la-instagram"></i><a class="u-syndication" href="{{ urlInstagram }}" title="view on Instagram" rel="syndication">Instagram</a>{% endif %}
+{% if urlFlickr %}
+<i class="lab la-flickr"></i><a class="u-syndication" href="{{ urlFlickr }}" title="view on Flickr" rel="syndication">Flickr</a>
+{% endif %}</p>
+{% else %}<p>I only posted this here.</p>{% endif %}
+		</footer>
+	</article>
+</main>

@@ -3,7 +3,7 @@ title: Ambient music from an American painter
 description: Enjoying 'Empty City' by Tor Lundvall
 summary: Empty City by Tor Lundvall
 
-date: 2019-12-06
+date: 2019-12-06T00:00:01.00-05:00
 
 tags:
   - post

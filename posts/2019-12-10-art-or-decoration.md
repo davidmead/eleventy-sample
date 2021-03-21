@@ -3,7 +3,7 @@ title: Art or Decoration?
 description: Hanging objects make up the shape of a suspended Xmas tree
 summary: Very cool company "tree"
 
-date: 2019-12-10
+date: 2019-12-10T00:00:01.00-05:00
 
 tags:
   - post

@@ -3,6 +3,8 @@ title: A new Middle Ages?
 description: Are we in the start of a 21st Century medieval age?
 summary:
 
+date: 2020-02-18T00:00:01.00-05:00
+
 tags:
   - post
   - thinking

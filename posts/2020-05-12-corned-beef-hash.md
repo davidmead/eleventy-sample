@@ -3,6 +3,8 @@ title: NOM - Left over hash
 description: photo, and recipe of corned beef hash
 summary: Delicious the next day
 
+date: 2020-05-12T00:00:01.00-05:00
+
 tags:
   - post
   - photo
@@ -11,6 +13,7 @@ tags:
   - eat
   - food
   - breakfast
+  - cooking
 
 layout: layouts/layout-photo
 imgSRC: /img/2020-05-12-nom-corned-beef-hash.jpg

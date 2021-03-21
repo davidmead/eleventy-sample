@@ -2,8 +2,7 @@
 title: A warm Christmas
 description: It doesn't feel like Xmas
 
-
-date: 2019-12-23
+date: 2019-12-23T00:00:01.00-05:00
 
 tags:
   - post

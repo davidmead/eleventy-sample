@@ -3,7 +3,7 @@ title: Tis The Season
 description: Photo:Starting to put up Xmas decorations
 summary: Starting to put up Xmas decorations
 
-date: 2019-12-06
+date: 2019-12-06T00:00:01.00-05:00
 
 tags:
   - post

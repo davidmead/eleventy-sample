@@ -2,7 +2,7 @@
 title: People are starting to want to own content again?
 description: Thoughts on the recent chatter about moving away from certain web silos
 
-date: 2019-12-14
+date: 2019-12-14T00:00:01.00-05:00
 
 tags:
   - post

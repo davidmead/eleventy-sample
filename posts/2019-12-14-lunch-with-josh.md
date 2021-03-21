@@ -3,7 +3,7 @@ title: Lunch with Josh
 description: Lunch with Josh. Pho at Sugar Bowl.
 summary: Enjoying Pho on a cold day.
 
-date: 2019-12-14
+date: 2019-12-14T00:00:01.00-05:00
 
 tags:
   - post

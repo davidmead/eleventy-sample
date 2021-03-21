@@ -1,10 +1,16 @@
 {
-	"url":"https://davidjohnmead.com",
+	"url":"https://davidjohnmead.com/",
+	"title": "Living and working on the web, with a British point of view.",
+    "subtitle": "The personal website of David Mead. A British guy living in the USA.",
 	"feed": {
 		"filename":"feed.xml",
 		"path":"/feed/feed.xml",
-		"url":"https://davidjohnmead.com",
-		"id":"https://davidjohnmead.com"
+		"url":"https://davidjohnmead.com/feed/feed.xml",
+		"id":"https://davidjohnmead.com/",
+		"author": {
+      "name": "David Mead",
+      "email": "davidmead@hey.com"
+    }
 	}
 
 }

@@ -3,7 +3,7 @@ title: All trimmed up
 description: Photo:Xmas tree trimmed and lit
 summary: Finished hanging lights, tinsel, and ornaments on our tree.
 
-date: 2019-12-07
+date: 2019-12-07T00:00:01.00-05:00
 
 tags:
   - post

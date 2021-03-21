@@ -2,7 +2,7 @@
 title: Capturing something
 description: The need to have a record
 
-date: 2020-01-19
+date: 2020-01-19T00:00:01.00-05:00
 
 tags:
   - post

@@ -2,7 +2,7 @@
 title: WFH Breakfast
 description: Work from home breakfast is great
 
-date: 2019-12-19
+date: 2019-12-19T00:00:01.00-05:00
 
 tags:
   - post
@@ -11,6 +11,7 @@ tags:
   - nom
   - eat
   - breakfast
+  - cooking
 
 layout: layouts/layout-photo
 imgSRC: /img/2019-12-19-breakfast.jpg

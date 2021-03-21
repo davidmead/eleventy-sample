@@ -3,6 +3,7 @@ title: NOM - Leftovers for breakfast
 description: Cooking breakfast
 summary: A little treat before work
 
+date: 2020-03-23T00:00:01.00-05:00
 
 tags:
   - post
@@ -12,6 +13,7 @@ tags:
   - eat
   - food
   - breakfast
+  - cooking
 
 layout: layouts/layout-photo
 imgSRC: /img/2020-03-23-breakfast.jpg

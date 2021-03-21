@@ -3,7 +3,7 @@ title: Thank you breakfast
 description: Our bosses made us breakfast
 
 
-date: 2019-12-20
+date: 2019-12-20T00:00:01.00-05:00
 
 tags:
   - post

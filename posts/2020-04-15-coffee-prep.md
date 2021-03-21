@@ -3,12 +3,13 @@ title: Coffee prep
 description: Photo showing early morning coffee preparation
 summary: Preparing coffee
 
-
+date: 2020-04-15T00:00:01.00-05:00
 
 tags:
   - post
   - photo
   - vsco
+  - vscocam
 
 layout: layouts/layout-photo
 imgSRC: /img/2020-04-15-coffee-prep.jpg

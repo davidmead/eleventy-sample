@@ -3,7 +3,7 @@ title: Green across the board
 description: Running Google's Lighthouse audit tool against new website
 summary: It's a good feeling getting (almost) 100% passing score
 
-date: 2019-12-05
+date: 2019-12-05T00:00:01.00-05:00
 
 tags:
   - post

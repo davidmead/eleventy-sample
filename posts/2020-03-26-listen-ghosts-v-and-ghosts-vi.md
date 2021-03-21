@@ -3,6 +3,8 @@ title: "...everyone is in this thing together and this too shall pass"
 description: Add to your pandemic playlist
 summary: New albums from Nine Inch Nails
 
+date: 2020-03-26T00:00:01.00-05:00
+
 tags:
   - post
   - listen

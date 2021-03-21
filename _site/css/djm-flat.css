@@ -1,3 +1,35 @@
+@font-face {
+    font-family: "Calistoga";
+    src: url("../fonts/Calistoga-Regular.eot");
+    src: url("../fonts/Calistoga-Regular.eot?#iefix") format('embedded-opentype'),
+         url("../fonts/Calistoga-Regular.woff2") format('woff2'),
+         url("../fonts/Calistoga-Regular.woff") format('woff'),
+         url("../fonts/Calistoga-Regular.ttf")  format('truetype'),
+         url("../fonts/Calistoga-Regular.svg#Calistoga") format('svg');
+    font-display: optional;
+}
+
+
+@font-face {
+  font-family: "bodyfont";
+  src: url("../fonts/Atkinson-Hyperlegible-Regular-102.eot");
+  src: url("../fonts/Atkinson-Hyperlegible-Regular-102.eot?#iefix") format('embedded-opentype'),
+  	   url("../fonts/Atkinson-Hyperlegible-Regular-102.woff") format('woff'),
+       url("../fonts/Atkinson-Hyperlegible-Regular-102.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: "bodyfontbold";
+  src: url("../fonts/Atkinson-Hyperlegible-Bold-102.eot");
+  src: url("../fonts/Atkinson-Hyperlegible-Bold-102.eot?#iefix") format('embedded-opentype'),
+       url("../fonts/Atkinson-Hyperlegible-Bold-102.woff") format('woff'),
+       url("../fonts/Atkinson-Hyperlegible-Bold-102.ttf") format('truetype');
+  font-display: optional;
+}
+
 *,
 *:before,
 *:after {
@@ -6,7 +38,7 @@
 
 html {
 	background-color: #FDFCFA;
-	color: #2a0a0a;
+	color: #2e2e2e;
 	}
 
 body {
@@ -16,7 +48,7 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	padding: 0;
-	font: 18px 'Bitter', TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
+	font: 18px "bodyfont", sans-serif;
 	font-variant: common-ligatures tabular-nums;
 	}
 
@@ -26,8 +58,7 @@ main {
 	padding: 0 1.5em;
 	}
 
-header p,
-footer p {
+header p {
 	margin-bottom: 0;
 }
 
@@ -42,7 +73,8 @@ h4, .h4,
 h5, .h5,
 h6, .h6,
 .p-summary {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Calistoga";
+	color: rgba(95, 82, 93, 1);
 	}
 
 h1, .h1,
@@ -55,7 +87,6 @@ h6, .h6 {
 	line-height: 1.8333em; /* 44px */
 	margin-top: 0.9167em;
 	margin-bottom: 0.0000em;
-	color: #535252;
 }
 
 .p-summary {
@@ -73,14 +104,27 @@ p {
 	}
 
 blockquote {
+	padding: 1.2222em;
 	font-style: oblique;
-	color: #6c6c6c;
+	color: #333333;
+	background-color: #FFFFFF;
+	border-left: 4px solid #6c6c6c;
 	}
+
+blockquote p {
+	margin-bottom: 0;
+}
 
 pre {
 /* makes the <code> wrap */
 	white-space:pre-line;
 
+}
+
+strong {
+	padding: 0 0.15em;
+	font-weight: bold;
+	background-color: rgba(238, 255, 110, 0.48);
 }
 
 .title {
@@ -90,7 +134,7 @@ pre {
 	margin-bottom: /* 1.0313em */ 0;
 	letter-spacing: -.04em;
 	font-weight: 800;
-	font-family: 'Calistoga';
+	font-family: "Calistoga";
 	color: #000;
 	}
 
@@ -146,6 +190,10 @@ pre {
 	padding: 1em;
 	background-color: #fff;
 	}
+
+.vignette {
+  box-shadow: inset 0 0 100px rgba(95, 82, 93, 0.5);
+}
 
 /* =IMAGES
 -------------------------------------------------------*/
@@ -240,10 +288,6 @@ img {
 
 @media screen and (max-width : 600px) {
 
-	body {
-		font-size: smaller;
-		}
-
 	.wrapper-listen {
 		grid-template-columns:none;
 		}
@@ -272,5 +316,18 @@ img {
 		border-bottom: 65px solid #efefef;
 		margin: auto auto 2em auto;
 		}
+
+	.vignette {
+		box-shadow: none;
+	}
+
+	.title {
+		font-size: 2em;
+	}
+
+	blockquote {
+		margin-left: 0;
+		margin-right: 0;
+	}
 
 }

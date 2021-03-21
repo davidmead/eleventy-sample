@@ -3,7 +3,7 @@ title: Hello World
 description: A very hard reset of my blog
 summary: The TL;DR is I deleted all my content and built a new blog.
 
-date: 2019-12-03
+date: 2019-12-03T00:00:01.00-05:00
 
 tags:
   - post

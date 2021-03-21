@@ -2,7 +2,7 @@
 title: Declaring podcast bankruptcy
 description: I've hit the tipping point where I can't possible listen to all the podcasts I subscribe to
 
-date: 2019-12-16
+date: 2019-12-16T00:00:01.00-05:00
 
 tags:
   - post

@@ -3,7 +3,7 @@ title: Departmental cooking
 description: Work outing to a cooking school
 summary: Cooking our own lunch
 
-date: 2019-12-19
+date: 2019-12-19T00:00:01.00-05:00
 
 tags:
   - post

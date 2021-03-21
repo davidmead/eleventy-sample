@@ -3,7 +3,7 @@ title: Handling broken links
 description: Creating a 404 page for this static site
 summary: Trying to help with what I broke
 
-date: 2019-12-04
+date: 2019-12-04T00:00:01.00-05:00
 
 tags:
   - post

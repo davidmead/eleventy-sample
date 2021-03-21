@@ -3,7 +3,7 @@ title: Problems with Eleventy pagination
 description: Pagination control in the frontmatter is creating extra folders.
 summary: Showing the last 3 posts is causing extra folders to be created and I don't know why.
 
-date: 2019-12-25
+date: 2019-12-25T00:00:01.00-05:00
 
 tags:
   - post

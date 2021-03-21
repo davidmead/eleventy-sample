@@ -3,6 +3,7 @@ title: Work From Home
 description: Set up my work in the basement
 summary: Setting up for the new normal
 
+date: 2020-03-22T00:00:01.00-05:00
 
 tags:
   - post

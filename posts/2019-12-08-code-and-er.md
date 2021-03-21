@@ -3,7 +3,7 @@ title: Code cleanup and the emergency room
 description: Add some CSS Grid, removed a lot of cruft, and took a trip to the hospital
 summary: Tidied up some Eleventy templates, CSS, and took a trip to the ER
 
-date: 2019-12-08
+date: 2019-12-08T00:00:01.00-05:00
 
 tags:
   - post

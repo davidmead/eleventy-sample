@@ -3,7 +3,7 @@ title: Considered blogging
 description: Long post about not having comments here, or sharing on "social media".
 summary: Long post about not having comments, or sharing on "social media".
 
-date: 2019-12-26
+date: 2019-12-26T00:00:01.00-05:00
 
 tags:
   - post
