@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Updates to the blog">
+		<meta name="robots" content="index, follow">
+		<!--<base href="https://davidjohnmead.com/">-->
+		<link rel="author" href="/humans.txt">
+		<link rel="canonical" href="https://davidjohnmead.com//posts/2021-03-28-code-updates/">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="alternate" type="application/rss+xml" title="Subscribe to What's New" href="/feed/feed.xml" />
+
+		<!-- Webmentions -->
+		<link rel="webmention" href="https://webmention.io/davidjohnmead.com/webmention" />
+		<link rel="pingback" href="https://webmention.io/davidjohnmead.com/xmlrpc" />
+
+		<!-- IndieAuth -->
+		<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+		<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+
+		<!-- Microsub -->
+		<link rel="microsub" href="https://aperture.p3k.io/microsub/195">
+
+		<!-- Fonts Loaded Here -->
+		<!-- <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet"> -->
+		<!-- <link href="https://fonts.googleapis.com/css?family=Calistoga&display=optional" rel="stylesheet"> -->
+
+		<!-- Icons Loaded Here -->
+		<link rel="stylesheet" href="/icons/css/line-awesome.min.css">
+		<!-- <link rel="stylesheet" rel="preload" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"> -->
+
+		<!-- CSS Loaded Here -->
+		<link rel="stylesheet" href="/css/djm-flat.css">
+
+		<title>Code updates</title>
+	</head>
+
+	<body class="vignette">
+		<header class="pg-header">
+			
+			<nav>
+				<p class="txt-center"><a href="/" title="read about the person writing this">home</a></p>
+			</nav>
+			
+		</header>
+		<main>
+	<article class="h-entry">
+		<h1 class="title txt-center p-name">Code updates</h1>
+		<p class="p-summary txt-center">Been tweaking and fixing this blog</p>
+		<div class="e-content">
+			<p>Circumstances dictated I did some work on the infrastructure  of this blog. So I spent most of today searching GitHub, Stack Overflow and the <a href="https://www.11ty.dev">Eleventy website</a> for answers.</p>
+<h2>Pagination problem fixed</h2>
+<p>I blogged about the <a href="/posts/2019-12-25-pagination-problems/" title="pagination problems">issue I was having with showing the three most recents posts on the homepage</a>. I finally figured out how to solve it.</p>
+<p>I removed the pagination from the front matter completely, replacing it with a <a href="https://www.11ty.dev/docs/collections/" title="official documentation">collection call</a> in the page. I also added a Nunjucks &quot;special variable&quot; inside a loop (thanks to <a href="https://github.com/11ty/eleventy/issues/1368#issuecomment-683320630" title="GitHub comment">huphtur's comment</a> on the &quot;Limit the output of a Collection&quot; issue on GitHub) to this.</p>
+<pre><code>&lt;div class=&quot;wrapper-tiles&quot;&gt;
+  {\%- for post in collections.post | reverse -%\}
+    {\%- if loop.index0 &lt; 3 -%\}
+      &lt;div class=&quot;tile&quot;&gt;
+        &lt;div class=&quot;tile-head txt-center&quot;&gt;
+          &lt;time datetime=&quot;2021-03-29T02:15:56.224Z&quot;&gt;March 28, 2021&lt;/time&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;tile-body&quot;&gt;
+         &lt;p&gt;&lt;a href=&quot;.&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+        &lt;/div&gt;
+     &lt;div&gt;
+    {\%- endif -%\}
+  {\%- endfor-%\}
+&lt;/div&gt;
+</code></pre>
+<p>This now shows the last 'n' posts on the front page without creating lots of extra folders in the  <code>_site</code> folder.</p>
+<p>Building on this I also added a new section on the homepage where the latest two posts from some chosen tags are shown.</p>
+<h2>Styling</h2>
+<p>You may have noticed some fancy styling on the code block above.  I added some cue's from Chris Coyier's post <a href="https://css-tricks.com/styling-code-in-and-out-of-blocks/">Styling Code In and Out of Blocks</a> over at CSS Tricks.</p>
+<p>I also added some CSS for the new topics section on the homepage.</p>
+<pre><code>.tile-head * {
+	color: #ffffff !important;
+	margin: 0.25em;
+	padding: 0.25em;
+}
+</code></pre>
+<p>This makes sure whatever I put in to the head section of my tile is coloured white and has some spacing around it.</p>
+<p>I also added a little something for the lists now in the body of the tiles.</p>
+<pre><code>.list-breathe {
+	margin: 0;
+}
+	
+.list-breathe li {
+	padding: 0.9167em 0;
+
+}
+</code></pre>
+<p>This gives me some spacing around each <code>li</code> without playing around with the <code>line-height</code>.</p>
+<h2>Eleventy updated</h2>
+<p>When <a href="https://www.bridgestew.com">Bridget</a> fist helped me put this together Eleventy was on version 9. It's now on version 12 so I took the plunge and updated - But that's a whole blog post of its own.</p>
+
+		</div>
+		<footer class="meta">
+			<h2>Meta</h2>
+			<p>Originally posted on <time class="dt-published" datetime="2021-03-28T05:00:01.000Z">March 28, 2021</time>, by <span class="p-author author h-card vcard"><img class="u-photo hide" src="/img/davidmead-social.jpg" alt="Black and white photo of my face"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span>.</p>
+			<p>Tagged:
+				
+				<span>
+                    <a class="p-category" href="/tags/post" title="all posts tagged post" rel="tag"><i class="la la-tag"></i> post</a>
+                 </span>
+                
+				<span>
+                    <a class="p-category" href="/tags/code" title="all posts tagged code" rel="tag"><i class="la la-tag"></i> code</a>
+                 </span>
+                
+				<span>
+                    <a class="p-category" href="/tags/eleventy" title="all posts tagged eleventy" rel="tag"><i class="la la-tag"></i> eleventy</a>
+                 </span>
+                
+			 </p>
+			<p>Link to, or bookmark, here using this <a class="u-url" href="/posts/2021-03-28-code-updates/" title="Code updates">permalink</a>.
+ 		<p>I only posted this here.</p>
+
+
+		</footer>
+	</article>
+</main>
+		<footer class="pg-footer txt-center">
+			<p><small>&copy; 2005-2021 David Mead</small> | <i class="las la-rss"></i> <a href="https://davidjohnmead.com//feed/feed.xml" title="Subscribe via RSS">RSS feed</a></p>
+		</footer>
+	</body>
+</html>

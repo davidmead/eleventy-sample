@@ -4,7 +4,7 @@
 	<subtitle>The personal website of David Mead. A British guy living in the USA.</subtitle>
 	<link href="https://davidjohnmead.com/feed/feed.xml" rel="self"/>
 	<link href="https://davidjohnmead.com/"/>
-	<updated>2021-03-05T00:00:01-05:00</updated>
+	<updated>2021-03-28T05:00:01Z</updated>
 	<id>https://davidjohnmead.com/</id>
 	<author>
 		<name>David Mead</name>
@@ -14,7 +14,7 @@
 	<entry>
 		<title>Hello World</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-03-hello-world/"/>
-		<updated>2019-12-03T00:00:01-05:00</updated>
+		<updated>2019-12-03T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-03-hello-world/</id>
 		<content type="html">&lt;p&gt;Call it a very hard reset, but I wanted to build something new. From the ground up.&lt;/p&gt;
 &lt;p&gt;All previous content has now been deleted from this server. I really don&#39;t know if I&#39;ll add it back.&lt;/p&gt;
@@ -41,7 +41,7 @@
 	<entry>
 		<title>Handling broken links</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-04-handling-broken-links/"/>
-		<updated>2019-12-04T00:00:01-05:00</updated>
+		<updated>2019-12-04T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-04-handling-broken-links/</id>
 		<content type="html">&lt;p&gt;Deleting all of my existing content, and there was a lot, means I&#39;ve left a lot of broken links in my wake. With something like Wordpress or Known this is handled for you as a 404 error, the &lt;a href=&quot;https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html&quot; title=&quot;W3C information page&quot;&gt;server error code for missing files&lt;/a&gt;, will bring up a pre-built 404 page. Not so when rolling your own.&lt;/p&gt;
 &lt;p&gt;I found &lt;a href=&quot;https://www.11ty.io/docs/quicktips/not-found/&quot; title=&quot;404 page for Eleventy&quot;&gt;an article&lt;/a&gt; with steps to create one on the Eleventy site. Not too hard to implement, just means a little editing of my .htaccess file, and creating a new page to upload.&lt;/p&gt;
@@ -58,11 +58,11 @@
 	<entry>
 		<title>Green across the board</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-05-lighthouse-scores/"/>
-		<updated>2019-12-05T00:00:01-05:00</updated>
+		<updated>2019-12-05T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-05-lighthouse-scores/</id>
 		<content type="html">&lt;p&gt;This was one of the things I had my fingers crossed for when deciding to use a Static Site Generator for my site. As I&#39;m writing my own HTML and CSS from scratch I try and weave in all the best practices I&#39;ve learned over the years.&lt;/p&gt;
 &lt;p&gt;Navigating to the homepage in the Chrome browser (incognito mode to make sure no extensions are effecting the results) I opened the Developer tools and clicked audit.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/lighthouse-results-homepage.png&quot; alt=&quot;Lighthouse audit results all green for new homepage&quot; title=&quot;Audit results all green&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/lighthouse-results-homepage.png&quot; alt=&quot;Lighthouse audit results all green for new homepage&quot; title=&quot;Audit results all green&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Homepage returned the following results:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;98% Performance&lt;/li&gt;
@@ -72,7 +72,7 @@
 &lt;/ul&gt;
 &lt;p&gt;Not too shabby for a first run.&lt;/p&gt;
 &lt;p&gt;My &#39;post&#39; pages faired pretty well too. Only difference was a 97% score for performance.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/lighthouse-results-post.png&quot; alt=&quot;Lighthouse audit results all green for post pages&quot; title=&quot;Audit results all green&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/lighthouse-results-post.png&quot; alt=&quot;Lighthouse audit results all green for post pages&quot; title=&quot;Audit results all green&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;And yes, I know that you can get &lt;a href=&quot;https://www.matuzo.at/blog/building-the-most-inaccessible-site-possible-with-a-perfect-lighthouse-score/&quot; title=&quot;Manuel Matuzovic&#39;s post pointing out the dangers of automated testing&quot;&gt;Lighthouse to give a 100% for accessibility on a completely inaccessible site&lt;/a&gt;, but 100% is a great starting point to make changes from.&lt;/p&gt;
 &lt;p&gt;The ding on performance, on both mobile and desktop tests, is from using Google Fonts. You&#39;ll get that regardless, and I personally think just using two is fairly restrained.&lt;/p&gt;
 &lt;p&gt;Just to be sure I had ran the templates through an HTML validator, and the only thing that it reported was &lt;code&gt;rel=&amp;quot;microsub&amp;quot;&lt;/code&gt; in the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;. I&#39;m sure as &lt;a href=&quot;https://www.w3.org/TR/micropub/#endpoint-discovery&quot; title=&quot;End point discovery in the spec&quot;&gt;microsub is a W3C spec&lt;/a&gt; this will be corrected soon.&lt;/p&gt;
@@ -83,7 +83,7 @@
 	<entry>
 		<title>Ambient music from an American painter</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-06-listen-empty-city/"/>
-		<updated>2019-12-06T00:00:01-05:00</updated>
+		<updated>2019-12-06T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-06-listen-empty-city/</id>
 		<content type="html">&lt;p&gt;I can&#39;t remember when I first heard &lt;a href=&quot;http://torlundvall.com/&quot; title=&quot;official site&quot;&gt;Tor Lundvall&lt;/a&gt;&#39;s work, but I&#39;ve now got 3 of his albums I tend to play back-to-back. Out of the 3, &lt;a href=&quot;https://torlundvall.bandcamp.com/album/empty-city&quot; title=&quot;Buy it on Bandcamp&quot;&gt;Empty City&lt;/a&gt; is my favourite.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -99,24 +99,24 @@
 	<entry>
 		<title>Tis The Season</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-06-tis-the-season/"/>
-		<updated>2019-12-06T00:00:01-05:00</updated>
+		<updated>2019-12-06T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-06-tis-the-season/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-06-xmas-decoration.jpg&quot; alt=&quot;Lit Xmas decoration throwing light pattern on wall&quot;&gt;&lt;/p&gt;</content>
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-06-xmas-decoration.jpg&quot; alt=&quot;Lit Xmas decoration throwing light pattern on wall&quot; /&gt;&lt;/p&gt;</content>
 	</entry>
 	
 	<entry>
 		<title>All trimmed up</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-07-all-trimmed-up/"/>
-		<updated>2019-12-07T00:00:01-05:00</updated>
+		<updated>2019-12-07T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-07-all-trimmed-up/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-07-xmas-tree.jpg&quot; alt=&quot;Xmas tree, decorated and lit.&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-07-xmas-tree.jpg&quot; alt=&quot;Xmas tree, decorated and lit.&quot; /&gt;&lt;/p&gt;
 We get a live tree every year. Normally we all pick it out, but this year I dropped the ball. Ended going by myself.</content>
 	</entry>
 	
 	<entry>
 		<title>Code cleanup and the emergency room</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-08-code-and-er/"/>
-		<updated>2019-12-08T00:00:01-05:00</updated>
+		<updated>2019-12-08T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-08-code-and-er/</id>
 		<content type="html">&lt;p&gt;I had an idea of the look and layout I wanted for this blog, but I didn&#39;t do a mock in Sketch or anything. I wanted to &amp;quot;find&amp;quot; it while I was marking up the templates. It came together pretty quick. I changed the fonts a couple of times but that was about it.&lt;/p&gt;
 &lt;p&gt;But after I launched it I saw there was quite a bit I could clean up. Yeah it validated and was semantic, but there was a few things I could do better with CSS Grid..&lt;/p&gt;
@@ -137,7 +137,7 @@ grid-gap: 1.5em;
 grid-auto-rows: minmax(auto, auto);
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;Emergency room&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2019-12-08-jjm-er.jpg&quot; alt=&quot;Josh in a triage room&quot; title=&quot;Josh in a triage room&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2019-12-08-jjm-er.jpg&quot; alt=&quot;Josh in a triage room&quot; title=&quot;Josh in a triage room&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Halfway through writing this Josh came home with Julie. He had been complaining about a pain in his back in the morning. It hadn&#39;t got better with an Advil. Seeing as the local Urgent Care isn&#39;t open on Sunday, it was a trip to the ER as he was in pain walking around.&lt;/p&gt;
 &lt;p&gt;Pain pills, muscle relaxant injection, and an icy-hot patch later, he feels a little better and has a note to excuse hime from gym this week.&lt;/p&gt;
 &lt;p&gt;Hopefully that&#39;s all the excitement for the week out the way.&lt;/p&gt;
@@ -147,9 +147,9 @@ grid-auto-rows: minmax(auto, auto);
 	<entry>
 		<title>Art or Decoration?</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-10-art-or-decoration/"/>
-		<updated>2019-12-10T00:00:01-05:00</updated>
+		<updated>2019-12-10T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-10-art-or-decoration/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-10-xmas-art.jpg&quot; alt=&quot;Hanging pieces make up shape of xmas tree&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-10-xmas-art.jpg&quot; alt=&quot;Hanging pieces make up shape of xmas tree&quot; /&gt;&lt;/p&gt;
 We have a &#39;Main Street&#39; at my work. The centre place on our ground floor. This year it contains this great piece.
 &lt;p&gt;We have art all around the HQ (not surprising with one of &lt;a href=&quot;https://www.cleveland.com/arts/2019/12/dealer-tire-ceo-scott-mueller-leads-by-example-as-new-chairman-of-cleveland-museum-of-art.html&quot; title=&quot;newspaper article&quot;&gt;our owners&lt;/a&gt; is Chairman of Cleveland Museum of Art) and having something like this beats the normal corporate Xmas trees you see at a lot of places.&lt;/p&gt;
 </content>
@@ -158,7 +158,7 @@ We have a &#39;Main Street&#39; at my work. The centre place on our ground floor
 	<entry>
 		<title>Problem with Eleventy, RSS, and images</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-11-problem-with-rss-and-images/"/>
-		<updated>2019-12-11T00:00:01-05:00</updated>
+		<updated>2019-12-11T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-11-problem-with-rss-and-images/</id>
 		<content type="html">&lt;p&gt;I&#39;ve noticed that in the RSS feed of this site, images within posts only show up some of the time.&lt;/p&gt;
 &lt;p&gt;Looking at the generated source code, they are all within the main block of the content being displayed in the item.&lt;/p&gt;
@@ -181,9 +181,9 @@ imgALT:
 	<entry>
 		<title>NOM - Spicy Chao Shou</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-11-spicy-chao-shou/"/>
-		<updated>2019-12-11T00:00:01-05:00</updated>
+		<updated>2019-12-11T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-11-spicy-chao-shou/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-11-spicy-chao-shou.jpg&quot; alt=&quot;Pork stuffed wontons in spicy chili oil&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-11-spicy-chao-shou.jpg&quot; alt=&quot;Pork stuffed wontons in spicy chili oil&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Not only did I have the normal serving of soup dumplings, but today&#39;s sharp cold weather called for something a little hotter. Love those spicy chao shou from &lt;a href=&quot;https://www.yelp.com/biz/lj-shanghai-cleveland&quot; title=&quot;official Yelp page&quot;&gt;LJ Shanghai&lt;/a&gt;.&lt;/p&gt;
 </content>
 	</entry>
@@ -191,7 +191,7 @@ imgALT:
 	<entry>
 		<title>Hypertext in my Markdown</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-12-hypertext-in-my-markdown/"/>
-		<updated>2019-12-12T00:00:01-05:00</updated>
+		<updated>2019-12-12T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-12-hypertext-in-my-markdown/</id>
 		<content type="html">&lt;p&gt;In my &lt;a href=&quot;https://davidjohnmead.com/posts/2019-12-11-problem-with-rss-and-images/&quot; title=&quot;Problem with Eleventy, RSS, and images&quot;&gt;previous post about this&lt;/a&gt; I thought I&#39;d solved it, but no.&lt;/p&gt;
 &lt;p&gt;Well now I really think I have, but it meant a slight template change as well as adding some HTML into my Markdown files.&lt;/p&gt;
@@ -210,26 +210,26 @@ imgALT:
 	<entry>
 		<title>Crow Tree</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-14-crow-tree/"/>
-		<updated>2019-12-14T00:00:01-05:00</updated>
+		<updated>2019-12-14T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-14-crow-tree/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-14-crow-tree.jpg&quot; alt=&quot;Black and white photo of crows in the Winter trees&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-14-crow-tree.jpg&quot; alt=&quot;Black and white photo of crows in the Winter trees&quot; /&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>Lunch with Josh</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-14-lunch-with-josh/"/>
-		<updated>2019-12-14T00:00:01-05:00</updated>
+		<updated>2019-12-14T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-14-lunch-with-josh/</id>
 		<content type="html">&lt;p&gt;After getting Josh&#39;s haircut, a new style of his choosing, we headed to &lt;a href=&quot;https://sugarbowlwilloughby.com/&quot; title=&quot;Pho and bakery&quot;&gt;Sugar Bowl&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;We both had a bowl Pho Tai. A big serving of Vietnamese noodle soup with rare steak topped with cilantro, scallion and onions. Delicious on a cold rainy day like today. Also shared an appetizer of &#39;Country Wings&#39; (crispy fried with a sweet chili sauce to dip).&lt;/p&gt;
-&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-14-pho.jpg&quot; alt=&quot;Close up of bowl containing Pho&quot;&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-14-pho.jpg&quot; alt=&quot;Close up of bowl containing Pho&quot; /&gt;&lt;/p&gt;</content>
 	</entry>
 	
 	<entry>
 		<title>People are starting to want to own content again?</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-14-people-want-own-the-content/"/>
-		<updated>2019-12-14T00:00:01-05:00</updated>
+		<updated>2019-12-14T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-14-people-want-own-the-content/</id>
 		<content type="html">&lt;p&gt;There seems to be a fair amount of chatter recently about hosting your own content again. This is a good thing.&lt;/p&gt;
 &lt;p&gt;Nathan Curtis tweeted out about how Medium is now changing their policy, and how it effects him...&lt;/p&gt;
@@ -249,7 +249,7 @@ imgALT:
 	<entry>
 		<title>Declaring podcast bankruptcy</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-16-podcast-bankruptcy/"/>
-		<updated>2019-12-16T00:00:01-05:00</updated>
+		<updated>2019-12-16T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-16-podcast-bankruptcy/</id>
 		<content type="html">&lt;p&gt;As with e-mail I&#39;ve hit the tipping point where I can&#39;t possible listen to all the podcasts I subscribe to.&lt;/p&gt;
 &lt;p&gt;I can only listen to &amp;quot;conversational&amp;quot; podcasts when I&#39;m either driving or doing nothing. That doesn&#39;t amount to a lot of time.&lt;/p&gt;
@@ -282,14 +282,14 @@ imgALT:
 	<entry>
 		<title>Departmental cooking</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-19-departmental-cooking/"/>
-		<updated>2019-12-19T00:00:01-05:00</updated>
+		<updated>2019-12-19T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-19-departmental-cooking/</id>
 		<content type="html">&lt;p&gt;As with most companies, I imagine, we&#39;d went for our departmental Xmas lunch. But this was a bit different for me.&lt;/p&gt;
 &lt;p&gt;Out in Chesterland is the &lt;a href=&quot;https://www.lpscinc.com/&quot; title=&quot;Ohio&#39;s premier professional and recreational culinary institute for all levels&quot;&gt;The Loretta Paganini School of Cooking&lt;/a&gt;. Today we were to cook a 3-course meal of Caprese Salad with Balsamic Drizzle, Homemade Pasta with vegetables topped with Chicken Scallopine in Lemon Caper Sauce, and ending with a Peach Cobbler &amp;amp; ice-cream.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2019-12-19-cooking-teams.jpg&quot; alt=&quot;teams cooking in professional kitchen&quot; title=&quot;teams cooking in professional kitchen&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2019-12-19-cooking-teams.jpg&quot; alt=&quot;teams cooking in professional kitchen&quot; title=&quot;teams cooking in professional kitchen&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;After being introduced to our instructors we split into groups. Each handling a certain part of the meal. I was in &#39;Team Chicken&#39;. 3 of us trimmed, cut, and smashed chicken into thin pieces. Then dredged them in seasoned flour.&lt;/p&gt;
 &lt;p&gt;The other 3 prepped vegetables and roasted them for our vegetarians. We all took turns cooking the chicken in oil &amp;amp; butter, making the lemon and caper sauce, and finally adding the chicken back in the sauce.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2019-12-19-lunch.jpg&quot; alt=&quot;the final dish - Chicken Scallopine in Lemon Caper Sauce on a bed of pasta and vegetables&quot; title=&quot;the final dish&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2019-12-19-lunch.jpg&quot; alt=&quot;the final dish - Chicken Scallopine in Lemon Caper Sauce on a bed of pasta and vegetables&quot; title=&quot;the final dish&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;It&#39;s always interesting seeing what, and how, other people work. I picked up a few tips from our great instructors, as well as getting to have some fun with my co-workers and eat a very delicious meal.&lt;/p&gt;
 </content>
 	</entry>
@@ -297,47 +297,47 @@ imgALT:
 	<entry>
 		<title>WFH Breakfast</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-19-wfh-breakfast/"/>
-		<updated>2019-12-19T00:00:01-05:00</updated>
+		<updated>2019-12-19T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-19-wfh-breakfast/</id>
 		<content type="html">&lt;p&gt;On the odd occasion I do work from home, it&#39;s always a treat to cook breakfast. Bacon, egg, and a fried slice is my go-to.&lt;/p&gt;
-&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-19-breakfast.jpg&quot; alt=&quot;Bacon, egg, and fried bread with a black coffee&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-19-breakfast.jpg&quot; alt=&quot;Bacon, egg, and fried bread with a black coffee&quot; /&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>Thank you breakfast</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-20-breakfast/"/>
-		<updated>2019-12-20T00:00:01-05:00</updated>
+		<updated>2019-12-20T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-20-breakfast/</id>
 		<content type="html">&lt;p&gt;As a thank you our bosses cooked us breakfast this morning. Various tamales from Texas including pork, beef, spinach, and black bean. Eggs, blueberry french toast, oats, and (of course) bacon.&lt;/p&gt;
-&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-20-breakfast.jpg&quot; alt=&quot;Various tamales, bacon, eggs, and queso&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-20-breakfast.jpg&quot; alt=&quot;Various tamales, bacon, eggs, and queso&quot; /&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>BACON</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-22-bacon/"/>
-		<updated>2019-12-22T00:00:01-05:00</updated>
+		<updated>2019-12-22T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-22-bacon/</id>
 		<content type="html">&lt;p&gt;Not much beats bacon on a warm baguette for breakfast.&lt;/p&gt;
-&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-22-breakfast.jpg&quot; alt=&quot;close up of cooked bacon on a baguette&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-22-breakfast.jpg&quot; alt=&quot;close up of cooked bacon on a baguette&quot; /&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>A warm Christmas</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-23-a-warm-christmas/"/>
-		<updated>2019-12-23T00:00:01-05:00</updated>
+		<updated>2019-12-23T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-23-a-warm-christmas/</id>
 		<content type="html">&lt;p&gt;Only two days from Xmas and it&#39;s an odd one. In the 50&#39;s and the days don&#39;t seem to be as short as they normally are.&lt;/p&gt;
-&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-23-sunset.jpg&quot; alt=&quot;Sunset with dark trees in front&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2019-12-23-sunset.jpg&quot; alt=&quot;Sunset with dark trees in front&quot; /&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>Problems with Eleventy pagination</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-25-pagination-problems/"/>
-		<updated>2019-12-25T00:00:01-05:00</updated>
+		<updated>2019-12-25T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-25-pagination-problems/</id>
 		<content type="html">&lt;p&gt;Everytime I ran a build I started to notice extra folders being written in the &lt;code&gt;_site&lt;/code&gt; folder. These were named 1, 2, 3, etc. Inside was a copy of the &lt;code&gt;index.html&lt;/code&gt; file - Weird.&lt;/p&gt;
 &lt;p&gt;I am up to 6. I normally just delete them but they&#39;d always came back. I did some searching of the usual places for answers but nothing turned up.&lt;/p&gt;
@@ -360,7 +360,7 @@ imgALT:
 {\%- for post in collections.post | reverse -%\}
   &amp;lt;div class=&amp;quot;tile&amp;quot;&amp;gt;
 			&amp;lt;div class=&amp;quot;tile-head txt-center&amp;quot;&amp;gt;
-			&amp;lt;time datetime=&amp;quot;2021-03-11T02:00:21.373Z&amp;quot;&amp;gt;March 10, 2021&amp;lt;/time&amp;gt;
+			&amp;lt;time datetime=&amp;quot;2021-03-29T02:15:56.206Z&amp;quot;&amp;gt;March 28, 2021&amp;lt;/time&amp;gt;
 		&amp;lt;/div&amp;gt;
 		&amp;lt;div class=&amp;quot;tile-body&amp;quot;&amp;gt;
 		&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;.&amp;quot; title=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
@@ -379,7 +379,7 @@ imgALT:
 	<entry>
 		<title>Considered blogging</title>
 		<link href="https://davidjohnmead.com/posts/2019-12-26-considered-blogging/"/>
-		<updated>2019-12-26T00:00:01-05:00</updated>
+		<updated>2019-12-26T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2019-12-26-considered-blogging/</id>
 		<content type="html">&lt;p&gt;Part of my decision to blow my previous blog/site away and start afresh was technology based. &lt;a href=&quot;https://wordpress.com/&quot;&gt;Wordpress&lt;/a&gt; was becoming too convoluted. &lt;a href=&quot;https://withknown.com/&quot;&gt;Known&lt;/a&gt; (while a lot better) still has too much developer tinkering to get it where I wanted.&lt;/p&gt;
 &lt;p&gt;Enter &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt; and the Static Site Generator choice. It still has its learning curve and frustrations, but they stay on my laptop. Everything I publish to the web is a flat HTML file, which is nice.&lt;/p&gt;
@@ -429,7 +429,7 @@ careful thought, typically over a period of time.&lt;/p&gt;
 	<entry>
 		<title>Capturing something</title>
 		<link href="https://davidjohnmead.com/posts/2020-01-19-capturing-something/"/>
-		<updated>2020-01-19T00:00:01-05:00</updated>
+		<updated>2020-01-19T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-01-19-capturing-something/</id>
 		<content type="html">&lt;p&gt;I&#39;ve never been a diarist, but I keep coming back to the idea of capturing a feel of moment/day/week.&lt;/p&gt;
 &lt;p&gt;With that in mind I am going to try something. A &#39;retrospect&#39; of sorts. Jot down observations at the end of the day, but not daily.&lt;/p&gt;
@@ -440,17 +440,17 @@ careful thought, typically over a period of time.&lt;/p&gt;
 	<entry>
 		<title>Fridge sandwich</title>
 		<link href="https://davidjohnmead.com/posts/2020-01-19-lunch/"/>
-		<updated>2020-01-19T00:00:01-05:00</updated>
+		<updated>2020-01-19T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-01-19-lunch/</id>
 		<content type="html">&lt;p&gt;Fancied a simple lunch, with whatever we had in the fridge - Sliced turkey on sourdough bread, with fried egg.&lt;/p&gt;
-&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-01-19-lunch.jpg&quot; alt=&quot;Egg and turkey on sourdough sandwich&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-01-19-lunch.jpg&quot; alt=&quot;Egg and turkey on sourdough sandwich&quot; /&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>2020-01-20 retro</title>
 		<link href="https://davidjohnmead.com/posts/2020-01-20-retro/"/>
-		<updated>2020-01-20T00:00:01-05:00</updated>
+		<updated>2020-01-20T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-01-20-retro/</id>
 		<content type="html">&lt;p&gt;The unearthly reverberation of a snow plow working above you in a multi-story garage reminds me of going to music shops in the 80’s and playing with synths.&lt;/p&gt;
 &lt;p&gt;Being ruthless with unsubscribing and getting my Gmail Inbox under 2000&lt;/p&gt;
@@ -464,7 +464,7 @@ careful thought, typically over a period of time.&lt;/p&gt;
 	<entry>
 		<title>2020-01-22 retro</title>
 		<link href="https://davidjohnmead.com/posts/2020-01-22-retro/"/>
-		<updated>2020-01-22T00:00:01-05:00</updated>
+		<updated>2020-01-22T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-01-22-retro/</id>
 		<content type="html">&lt;p&gt;I&#39;m always interested in what old art really looked like. So much of our view is informed by previous generations tinkering, not the original creators vision - &lt;a href=&quot;https://www.bbc.com/news/world-europe-51205614&quot; title=&quot;BBC article on painting restoration&quot;&gt;https://www.bbc.com/news/world-europe-51205614&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Terry Jones died today&lt;/p&gt;
@@ -475,7 +475,7 @@ careful thought, typically over a period of time.&lt;/p&gt;
 	<entry>
 		<title>2020-01-26 retro</title>
 		<link href="https://davidjohnmead.com/posts/2020-01-26-retro/"/>
-		<updated>2020-01-26T00:00:01-05:00</updated>
+		<updated>2020-01-26T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-01-26-retro/</id>
 		<content type="html">&lt;p&gt;Steamed Chinese pork bun and a strong cuppa for breakfast.&lt;/p&gt;
 &lt;p&gt;A day of catching up on old things.&lt;/p&gt;
@@ -495,19 +495,19 @@ careful thought, typically over a period of time.&lt;/p&gt;
 	<entry>
 		<title>Birthday Pie</title>
 		<link href="https://davidjohnmead.com/posts/2020-02-04-birthday-pie/"/>
-		<updated>2020-02-04T00:00:01-05:00</updated>
+		<updated>2020-02-04T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-02-04-birthday-pie/</id>
 		<content type="html">&lt;p&gt;51 years old today.&lt;/p&gt;
 &lt;p&gt;Shared my, now traditional, Chinese dinner of potstickers, sweet &amp;amp; sour chicken, and Special Fried Rice with Josh. Rounded off the evening with a lovely slice of my favourite-Lemon Meringue Pie.&lt;/p&gt;
 &lt;p&gt;Big thanks to everyone who sent my brthday wishes.&lt;/p&gt;
-&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-02-04-pie.jpg&quot; alt=&quot;A slice of lemon meringue pie&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-02-04-pie.jpg&quot; alt=&quot;A slice of lemon meringue pie&quot; /&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>A new Middle Ages?</title>
 		<link href="https://davidjohnmead.com/posts/2020-02-18-a-new-middles-ages/"/>
-		<updated>2020-02-18T00:00:01-05:00</updated>
+		<updated>2020-02-18T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-02-18-a-new-middles-ages/</id>
 		<content type="html">&lt;p&gt;Walking the dog I had one of those trains of thought that builds on itself. When did hoods become a thing?&lt;/p&gt;
 &lt;p&gt;It used to be only something I saw in history books, mainly The Middle Ages. Then used in film/TV to indicate someone &amp;quot;out-of-time&amp;quot; or with something to hide. Maybe it&#39;s the &lt;a href=&quot;https://en.wikipedia.org/wiki/Robin_Hood&quot; title=&quot;Wikipedia article&quot;&gt;Robin Hood&lt;/a&gt; connection, but now it seems to have been adopted as a indicator of &lt;a href=&quot;https://www.theguardian.com/uk/2011/aug/09/power-of-the-hoodie&quot; title=&quot;article from The Guardian about the power of the hoodie&quot;&gt;groups of unrest and those who want to avoid indentification&lt;/a&gt;?&lt;/p&gt;
@@ -527,7 +527,7 @@ careful thought, typically over a period of time.&lt;/p&gt;
 	<entry>
 		<title>Living in a Pandemic</title>
 		<link href="https://davidjohnmead.com/posts/2020-03-18-living-in-a-pandemic/"/>
-		<updated>2020-03-18T01:00:01-04:00</updated>
+		<updated>2020-03-18T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-03-18-living-in-a-pandemic/</id>
 		<content type="html">&lt;p&gt;Since &lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019&quot; title=&quot;official WHO page&quot;&gt;Coronavirus (COVID-19)&lt;/a&gt; was officially declared a pandemic by World Health Organization things have been getting serious, and weird, quick.&lt;/p&gt;
 &lt;p&gt;About a week ago our local Aldi had run out of white bread, bottled water, dried pasta, toilet paper, and chicken within 2 hours of them opening. Other large chain stores closed for restocking where they&#39;d normally be open 24 hours.&lt;/p&gt;
@@ -548,9 +548,9 @@ careful thought, typically over a period of time.&lt;/p&gt;
 	<entry>
 		<title>Work From Home</title>
 		<link href="https://davidjohnmead.com/posts/2020-03-22-work-from-home/"/>
-		<updated>2020-03-22T01:00:01-04:00</updated>
+		<updated>2020-03-22T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-03-22-work-from-home/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-03-22-wfh-setup.jpg&quot; alt=&quot;Black and white photo of desk and computer in basement&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-03-22-wfh-setup.jpg&quot; alt=&quot;Black and white photo of desk and computer in basement&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;With the &lt;a href=&quot;https://ohio.gov/wps/portal/gov/site/media-center/news-and-events/ohio-issues-stay-at-home-order-and-new-restrictions-placed-on-day-cares-for-children&quot; title=&quot;State website article&quot;&gt;Ohio Governor&#39;s order of &amp;quot;stay at home&amp;quot;&lt;/a&gt;, I went Sunday and got my monitor, mouse, and keyboard from the office.&lt;/p&gt;
 &lt;p&gt;I had to re-attach the desktop to the legs as it shifted when I cleared it off. Now this is where I spend most of my work day.&lt;/p&gt;
 </content>
@@ -559,9 +559,9 @@ careful thought, typically over a period of time.&lt;/p&gt;
 	<entry>
 		<title>NOM - Leftovers for breakfast</title>
 		<link href="https://davidjohnmead.com/posts/2020-03-23-breakfast/"/>
-		<updated>2020-03-23T01:00:01-04:00</updated>
+		<updated>2020-03-23T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-03-23-breakfast/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-03-23-breakfast.jpg&quot; alt=&quot;fried egg with tomatoes and chilis on top of refried beans and tostados&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-03-23-breakfast.jpg&quot; alt=&quot;fried egg with tomatoes and chilis on top of refried beans and tostados&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;As my commute is now walking downstairs to the basement I decided to cook breakfast, using the leftovers from last night. We had tostados, so the broken ones (held together by refried beans) made the base. Topped with an egg which I cooked along with the tomatoes &amp;amp; chili&#39;s. Delicious with a big mug of black coffee.&lt;/p&gt;
 </content>
 	</entry>
@@ -569,7 +569,7 @@ careful thought, typically over a period of time.&lt;/p&gt;
 	<entry>
 		<title>...everyone is in this thing together and this too shall pass</title>
 		<link href="https://davidjohnmead.com/posts/2020-03-26-listen-ghosts-v-and-ghosts-vi/"/>
-		<updated>2020-03-26T01:00:01-04:00</updated>
+		<updated>2020-03-26T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-03-26-listen-ghosts-v-and-ghosts-vi/</id>
 		<content type="html">&lt;p&gt;As a lot of us are sitting around, self-isolating, Trent Reznor releases two new instrumental works in his &#39;Ghosts&#39; series.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -587,7 +587,7 @@ careful thought, typically over a period of time.&lt;/p&gt;
 	<entry>
 		<title>Laid-off today</title>
 		<link href="https://davidjohnmead.com/posts/2020-04-02-laid-off/"/>
-		<updated>2020-04-02T01:00:01-04:00</updated>
+		<updated>2020-04-02T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-04-02-laid-off/</id>
 		<content type="html">&lt;p&gt;I was laid-off today. Looking for UX/UI opportunities. Reach out at &lt;a href=&quot;https://www.linkedin.com/in/davidmead/&quot; title=&quot;profile&quot;&gt;LinkedIn&lt;/a&gt; if you&#39;re hiring.&lt;/p&gt;
 </content>
@@ -596,9 +596,9 @@ careful thought, typically over a period of time.&lt;/p&gt;
 	<entry>
 		<title>Coffee prep</title>
 		<link href="https://davidjohnmead.com/posts/2020-04-15-coffee-prep/"/>
-		<updated>2020-04-15T01:00:01-04:00</updated>
+		<updated>2020-04-15T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-04-15-coffee-prep/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-04-15-coffee-prep.jpg&quot; alt=&quot;Pour over coffee set up&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-04-15-coffee-prep.jpg&quot; alt=&quot;Pour over coffee set up&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Trying for a little &amp;quot;normal&amp;quot; whilst unemployed during a pandemic.&lt;/p&gt;
 </content>
 	</entry>
@@ -606,7 +606,7 @@ careful thought, typically over a period of time.&lt;/p&gt;
 	<entry>
 		<title>2020-04-16 retro</title>
 		<link href="https://davidjohnmead.com/posts/2020-04-16-retro/"/>
-		<updated>2020-04-16T01:00:01-04:00</updated>
+		<updated>2020-04-16T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-04-16-retro/</id>
 		<content type="html">&lt;p&gt;A day without interviews.&lt;/p&gt;
 &lt;p&gt;Found out my last paycheck &lt;strong&gt;won&#39;t&lt;/strong&gt; include the severance money. Instead will only be for 3 days worked and any accrued vacation days. Severance not coming until May 1st.&lt;/p&gt;
@@ -626,9 +626,9 @@ careful thought, typically over a period of time.&lt;/p&gt;
 	<entry>
 		<title>Mood</title>
 		<link href="https://davidjohnmead.com/posts/2020-04-26-mood/"/>
-		<updated>2020-04-26T01:00:01-04:00</updated>
+		<updated>2020-04-26T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-04-26-mood/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-04-26-mood.jpg&quot; alt=&quot;dog laying on a leather chair, looking out window&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-04-26-mood.jpg&quot; alt=&quot;dog laying on a leather chair, looking out window&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Mood&lt;/p&gt;
 </content>
 	</entry>
@@ -636,7 +636,7 @@ careful thought, typically over a period of time.&lt;/p&gt;
 	<entry>
 		<title>New beginnings</title>
 		<link href="https://davidjohnmead.com/posts/2020-04-29-new-job/"/>
-		<updated>2020-04-29T01:00:01-04:00</updated>
+		<updated>2020-04-29T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-04-29-new-job/</id>
 		<content type="html">&lt;p&gt;I&#39;m excited. Today I join the team at &lt;a href=&quot;http://vitamix.com/&quot; title=&quot;High performance blenders&quot;&gt;Vitamix&lt;/a&gt; as their Lead Designer UI/UX.&lt;/p&gt;
 &lt;p&gt;Looking forward to diving in, learning, and helping. I&#39;ll be working with a friend of mine again, as well a lot of new faces.&lt;/p&gt;
@@ -646,9 +646,9 @@ careful thought, typically over a period of time.&lt;/p&gt;
 	<entry>
 		<title>New tools</title>
 		<link href="https://davidjohnmead.com/posts/2020-04-29-new-tools/"/>
-		<updated>2020-04-29T01:00:01-04:00</updated>
+		<updated>2020-04-29T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-04-29-new-tools/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-04-28-new-tools.jpg&quot; alt=&quot;Assorted Apple products on a table&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-04-28-new-tools.jpg&quot; alt=&quot;Assorted Apple products on a table&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Took delivery yesterday of some tools for my new job. All set up and ready to go today.&lt;/p&gt;
 </content>
 	</entry>
@@ -656,7 +656,7 @@ careful thought, typically over a period of time.&lt;/p&gt;
 	<entry>
 		<title>2020-05-09 retro</title>
 		<link href="https://davidjohnmead.com/posts/2020-05-09-retro/"/>
-		<updated>2020-05-09T01:00:01-04:00</updated>
+		<updated>2020-05-09T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-05-09-retro/</id>
 		<content type="html">&lt;p&gt;Grief, time is dragging into itself.&lt;/p&gt;
 &lt;p&gt;This week our &lt;a href=&quot;https://davidjohnmead.com/posts/2020-040-16-retro/&quot; title=&quot;a previous post&quot;&gt;new fridge&lt;/a&gt; decided to stop working. Had to throw out 2 weeks worth of food. Managed to get through to Frigidaire, after calling multiple times, who sent out an engineer the next day. Found the connector to the compressor hadn&#39;t been pushed in all the way when it was built (I assume). Had been cutting in &amp;amp; out this whole time.&lt;/p&gt;
@@ -686,9 +686,9 @@ careful thought, typically over a period of time.&lt;/p&gt;
 	<entry>
 		<title>NOM - Left over hash</title>
 		<link href="https://davidjohnmead.com/posts/2020-05-12-corned-beef-hash/"/>
-		<updated>2020-05-12T01:00:01-04:00</updated>
+		<updated>2020-05-12T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-05-12-corned-beef-hash/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-05-12-nom-corned-beef-hash.jpg&quot; alt=&quot;close up of homemade corned beef hash&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-05-12-nom-corned-beef-hash.jpg&quot; alt=&quot;close up of homemade corned beef hash&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Corned beef hash is my &amp;quot;go-to&amp;quot; when visiting a diner for breakfast. Growing up in 70&#39;s England I ate my fair share of the tinned variety.&lt;/p&gt;
 &lt;p&gt;So now I have a simple recipe to make my own with tinned corned beef (foodie snobs be damned).&lt;/p&gt;
 &lt;section class=&quot;h-recipe&quot;&gt;
@@ -730,9 +730,9 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>The new old me</title>
 		<link href="https://davidjohnmead.com/posts/2020-05-16-new-old-me/"/>
-		<updated>2020-05-16T01:00:01-04:00</updated>
+		<updated>2020-05-16T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-05-16-new-old-me/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-05-16-new-old-me.jpg&quot; alt=&quot;Black and white photo of myself&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-05-16-new-old-me.jpg&quot; alt=&quot;Black and white photo of myself&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The new old me. In response to &lt;a href=&quot;https://www.instagram.com/pfresty/&quot; title=&quot;Paul Fresty&#39;s Instagram&quot;&gt;@pfresty&lt;/a&gt; 😁&lt;/p&gt;
 </content>
 	</entry>
@@ -740,9 +740,9 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>I could hear her...</title>
 		<link href="https://davidjohnmead.com/posts/2020-05-25-dog/"/>
-		<updated>2020-05-25T01:00:01-04:00</updated>
+		<updated>2020-05-25T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-05-25-dog/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-05-25-dog.jpg&quot; alt=&quot;Dog looking down from top stair&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-05-25-dog.jpg&quot; alt=&quot;Dog looking down from top stair&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I could hear the tell-tale thump of the tail, but couldn&#39;t see her anywhere. Then I looked up.&lt;/p&gt;
 </content>
 	</entry>
@@ -750,7 +750,7 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>Goodbye Gaelic Imports</title>
 		<link href="https://davidjohnmead.com/posts/2020-05-25-gaelic-imports-closes/"/>
-		<updated>2020-05-25T01:00:01-04:00</updated>
+		<updated>2020-05-25T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-05-25-gaelic-imports-closes/</id>
 		<content type="html">&lt;p&gt;Julie told me that &lt;a href=&quot;https://gaelicimport.org/&quot; title=&quot;official site&quot;&gt;Gaelic Imports&lt;/a&gt; has &lt;a href=&quot;https://www.facebook.com/GaelicImports/posts/10157364247730852?__tn__=-R&quot; title=&quot;Facebook post&quot;&gt;closed down&lt;/a&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -764,7 +764,7 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>UX failure during the COVID-19 pandemic</title>
 		<link href="https://davidjohnmead.com/posts/2020-05-25-ux-failure-during-pandemic/"/>
-		<updated>2020-05-25T01:00:01-04:00</updated>
+		<updated>2020-05-25T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-05-25-ux-failure-during-pandemic/</id>
 		<content type="html">&lt;p&gt;Since my lay-off in April I experienced some companies UX completely fall apart. Or I now see how bad it was to start with.&lt;/p&gt;
 &lt;p&gt;These are my experiences. Yours may have been different.&lt;/p&gt;
@@ -813,9 +813,9 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>NOM - Eggplant Curry Rice</title>
 		<link href="https://davidjohnmead.com/posts/2020-06-23-eggplant-curry-rice/"/>
-		<updated>2020-06-23T01:00:01-04:00</updated>
+		<updated>2020-06-23T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-06-23-eggplant-curry-rice/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-06-23-eggplant-curry-rice.jpg&quot; alt=&quot;close up of homemade eggplant curry and rice&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-06-23-eggplant-curry-rice.jpg&quot; alt=&quot;close up of homemade eggplant curry and rice&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I very rarely make anything from YouTube videos but this looked great, and I had most of the ingredients, so why not?&lt;/p&gt;
 &lt;p&gt;It was so good, both Josh and I had it two days in a row. You can watch (and follow) &lt;a href=&quot;https://youtu.be/Bc3olP5d4Uc&quot; title=&quot;YouTube&quot;&gt;RunnyRunny999&#39;s video&lt;/a&gt; on YouTube.&lt;/p&gt;
 &lt;section class=&quot;h-recipe&quot;&gt;
@@ -854,7 +854,7 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>Google finally kills Play Music</title>
 		<link href="https://davidjohnmead.com/posts/2020-07-12-google-kills-play-music/"/>
-		<updated>2020-07-12T01:00:01-04:00</updated>
+		<updated>2020-07-12T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-07-12-google-kills-play-music/</id>
 		<content type="html">&lt;p&gt;So I got the dreaded email. Google is officially shutting down Play Music.&lt;/p&gt;
 &lt;p&gt;Opening line is “Starting today, you can finally enjoy your music on YouTube Music”. Finally? I wasn’t aware that I, or anyone really, was waiting for this.&lt;/p&gt;
@@ -874,9 +874,9 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>Off to recycling...</title>
 		<link href="https://davidjohnmead.com/posts/2020-07-23-old-computers/"/>
-		<updated>2020-07-23T01:00:01-04:00</updated>
+		<updated>2020-07-23T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-07-23-old-computers/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-07-23-old-computers.jpg&quot; alt=&quot;various old computers stacked up&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-07-23-old-computers.jpg&quot; alt=&quot;various old computers stacked up&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;2 desktop towers, 2 laptops, 1 mini-laptop, 1 Chromebook, 1 (beloved) Nexus 7 tablet. Not shown the box of cables, leads, and peripherals.&lt;/p&gt;
 &lt;p&gt;All off to Cleveland Computer Recycling. The traditional beige tower was the first we bought when moving over to the USA. That was in 2002!&lt;/p&gt;
 </content>
@@ -885,7 +885,7 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>Google is losing me, day by day</title>
 		<link href="https://davidjohnmead.com/posts/2020-08-05-google-losing-me/"/>
-		<updated>2020-08-05T01:00:01-04:00</updated>
+		<updated>2020-08-05T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-08-05-google-losing-me/</id>
 		<content type="html">&lt;p&gt;I&#39;ve been an ardent fan of Google products from the get-go.  I&#39;ve always preferred their mobile OS over Apples, owning both Nexus and Pixel phones throughout the years.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&quot;https://www.asus.com/us/Tablets/Nexus_7/&quot;&gt;Nexus 7 tablet&lt;/a&gt; was, hands-down, the device I enjoyed using most out of everything I&#39;ve used.&lt;/p&gt;
@@ -898,7 +898,7 @@ Here&#39;s I how make it (mostly)
 &lt;p&gt;Task app doesn&#39;t do half of what most other apps (Wunderlist, Remember the milk) did, making it worthless.&lt;/p&gt;
 &lt;p&gt;Gmail hasn&#39;t seen any love in ages. YouTube is now an advertising platform, and Google Play Music had a stake driven through its heart in the form of YouTube Music.&lt;/p&gt;
 &lt;p&gt;With that, I recently transferred my music collection over to YTM only to find I can&#39;t play it through my Google Home Mini unless I buy a subscription!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2020-07-25-ss-YouTube-premium.png&quot; alt=&quot;screenshot of YouTube Premium option&quot; title=&quot;screenshot of YouTube Premium option&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2020-07-25-ss-YouTube-premium.png&quot; alt=&quot;screenshot of YouTube Premium option&quot; title=&quot;screenshot of YouTube Premium option&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;What incentive do I have to purchase a $300+ max speaker from them now?&lt;/p&gt;
 &lt;h2&gt;Your old and cheap&lt;/h2&gt;
 &lt;p&gt;Wont&#39; argue there. Yes, I am older. Yes, I don&#39;t like paying for things I don&#39;t have to. But here&#39;s the thing - I happily pay for quite a lot of things that&#39;ve replaced Google&#39;s &amp;quot;FREE&amp;quot; services, because they are better.&lt;/p&gt;
@@ -913,7 +913,7 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>Autumn</title>
 		<link href="https://davidjohnmead.com/posts/2020-09-20-autumn/"/>
-		<updated>2020-09-20T01:00:01-04:00</updated>
+		<updated>2020-09-20T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-09-20-autumn/</id>
 		<content type="html">&lt;p&gt;The get-back-under-covers-quick cold had seeped into the house last night. Prompting the inaugural smell of Summer dust burning off as I fumbled with the nest app.&lt;/p&gt;
 &lt;p&gt;Autumn is finally here, with all that entails.&lt;/p&gt;
@@ -928,7 +928,7 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>Hear, hear</title>
 		<link href="https://davidjohnmead.com/posts/2020-10-06/"/>
-		<updated>2020-10-06T01:00:01-04:00</updated>
+		<updated>2020-10-06T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-10-06/</id>
 		<content type="html">&lt;blockquote cite=&quot;https://catandgirl.com/oh-nothing-much/&quot;&gt;
 &lt;p&gt;It has been hard not to think of Rosencrantz and Guildenstern. It’s been hard not to think we’re at best in the chorus. That we are slogging through history as everyone has always slogged through history. Taking a long walk outside, while that’s still an option. Picking up a meal, while we can afford to. Talking to friends and family, while they’re still around. Somewhere the tragic protagonist is finally brought low. The audience roars. The curtain falls. In the background we labor on. Trying to make a life in the debris.&lt;/p&gt;
@@ -941,9 +941,9 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>Youtube errors</title>
 		<link href="https://davidjohnmead.com/posts/2020-10-23-youtube-errors/"/>
-		<updated>2020-10-23T01:00:01-04:00</updated>
+		<updated>2020-10-23T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-10-23-youtube-errors/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-10-20-ss-YouTube-error.png&quot; alt=&quot;Screenshot showing error on YouTube&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-10-20-ss-YouTube-error.png&quot; alt=&quot;Screenshot showing error on YouTube&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;It used to be just the odd clip from a news outlet I had unpause my adblocker to watch. Now virtually all of my subscriptions (even from the UK) are returning an error on YouTube when the adblocker is running.&lt;/p&gt;
 &lt;p&gt;I tried, for a week, YouTube unblocked and what a nightmare. And not because of the looming election (though Trumps ads were the only I got) but diets, metal roofs, food delivery and soaps. Anything longer than 5 minutes had ads inserted. Pre and post roll ads too. Not forgetting the overlaid banners.&lt;/p&gt;
 &lt;p&gt;Now I&#39;m back using the blocker, and missing out on a lot of the content I&#39;ve subscribed to.&lt;/p&gt;
@@ -953,9 +953,9 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>Meet Milo</title>
 		<link href="https://davidjohnmead.com/posts/2020-10-31-meet-milo/"/>
-		<updated>2020-10-31T01:00:01-04:00</updated>
+		<updated>2020-10-31T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-10-31-meet-milo/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-10-31-meet-milo.jpg&quot; alt=&quot;sheepadoodle puppy looking at camera&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-10-31-meet-milo.jpg&quot; alt=&quot;sheepadoodle puppy looking at camera&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Meet Milo. He&#39;s our new dog.&lt;/p&gt;
 </content>
 	</entry>
@@ -963,14 +963,14 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>2020-11-25 retro</title>
 		<link href="https://davidjohnmead.com/posts/2020-11-25-retro/"/>
-		<updated>2020-11-25T00:00:01-05:00</updated>
+		<updated>2020-11-25T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-11-25-retro/</id>
 		<content type="html">&lt;p&gt;Weather and mood getting grayer by the day as we head into the clutches of Winter.&lt;/p&gt;
 &lt;p&gt;This &lt;a href=&quot;https://futurism.com/the-byte/scientists-discover-mysterious-metal-monolith-wilderness?mc_eid=32992e9027&amp;amp;mc_cid=0c5ed0380b&quot; title=&quot;article from The Futurist&quot;&gt;report of a mysterious metal monolith&lt;/a&gt; spotted by scientist in a helicopter, brightened my day.  An art piece maybe? Practical joke or left-overs of a photo shoot?&lt;/p&gt;
 &lt;p&gt;The Braille Institute has released (for free) &lt;a href=&quot;https://www.brailleinstitute.org/freefont&quot;&gt;Atkinson Hyperlegible font&lt;/a&gt; aimed at &amp;quot;Improve legibility and readability for low vision readers&amp;quot;. I may try it out on this blog for a while.&lt;/p&gt;
 &lt;p&gt;Chatting at work we lamented the rise of the overtly boxy design thats crept in as defacto for websites currently. I have fond memories of waiting for sites like &lt;a href=&quot;https://web.archive.org/web/19970212183913/http://gertrude.art.uiuc.edu/ludgate/the/place/urban_diary/index.html&quot; title=&quot;captured at the Web Archive&quot;&gt;The Urban Diary&lt;/a&gt; to slowly load via my modem. Never knowing what I&#39;d find had a certain appeal.&lt;/p&gt;
 &lt;p&gt;Thoroughly enjoyed watching &#39;23 Frames: A visual journey through the work of Edgar Wright&#39; (via Vimeo) as part of the &lt;a href=&quot;https://belfastfilmfestival.org/&quot;&gt;2020 Belfast Film Festival&lt;/a&gt;. I could listen to these two talk about film for hours.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2020-11-24-edgar-wright-mark-cousins.jpg&quot; alt=&quot;Edgar Wright and Mark Cousins laughing&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2020-11-24-edgar-wright-mark-cousins.jpg&quot; alt=&quot;Edgar Wright and Mark Cousins laughing&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I was supposed to be playing &lt;a href=&quot;https://www.cyberpunk.net/&quot; title=&quot;official website&quot;&gt;Cyberpunk 2077&lt;/a&gt;, but it got delayed yet again.&lt;/p&gt;
 </content>
 	</entry>
@@ -978,7 +978,7 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>Using iBroadcast for playing my music collection online</title>
 		<link href="https://davidjohnmead.com/posts/2020-11-28-iBroadcast/"/>
-		<updated>2020-11-28T00:00:01-05:00</updated>
+		<updated>2020-11-28T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-11-28-iBroadcast/</id>
 		<content type="html">&lt;p&gt;Since Google Play Music shuttered I&#39;ve been looking for an alternative to play &lt;em&gt;my music collection&lt;/em&gt; online. Be it on the web or streaming to Chromecast.&lt;/p&gt;
 &lt;p&gt;I&#39;ve decided to give &lt;a href=&quot;https://www.ibroadcast.com/home/&quot;&gt;iBroadcast&lt;/a&gt; a go. They don&#39;t offer any streaming so it&#39;s &lt;strong&gt;only&lt;/strong&gt; your music. It&#39;s free, with a subscription model on the horizon, and they have apps for iOS and Android.&lt;/p&gt;
@@ -989,7 +989,7 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>Wiring up to Twitter</title>
 		<link href="https://davidjohnmead.com/posts/2020-11-28-wiring/"/>
-		<updated>2020-11-28T00:00:01-05:00</updated>
+		<updated>2020-11-28T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-11-28-wiring/</id>
 		<content type="html">&lt;p&gt;Dusting off the &lt;a href=&quot;http://ifttt.com/&quot;&gt;IFTTT&lt;/a&gt; account to try and push this blogs RSS feed to Twitter. Let&#39;s see if it works.&lt;/p&gt;
 </content>
@@ -998,9 +998,9 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>Toasting the trimmed tree</title>
 		<link href="https://davidjohnmead.com/posts/2020-11-29-egg-nog-xmas-tree/"/>
-		<updated>2020-11-29T00:00:01-05:00</updated>
+		<updated>2020-11-29T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-11-29-egg-nog-xmas-tree/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-11-29-egg-nog-xmas-tree.jpg&quot; alt=&quot;Egg nog in front of the Xmas tree&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-11-29-egg-nog-xmas-tree.jpg&quot; alt=&quot;Egg nog in front of the Xmas tree&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Egg nog after ornamenting the tree today.&lt;/p&gt;
 </content>
 	</entry>
@@ -1008,7 +1008,7 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>Leaving Twitter and Instagram</title>
 		<link href="https://davidjohnmead.com/posts/2020-12-03-leaving-twitter-instagram/"/>
-		<updated>2020-12-03T00:00:01-05:00</updated>
+		<updated>2020-12-03T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-12-03-leaving-twitter-instagram/</id>
 		<content type="html">&lt;p&gt;I&#39;ve decided to delete my accounts on Twitter and Instagram.&lt;/p&gt;
 &lt;p&gt;These two services has become less important &lt;em&gt;for me&lt;/em&gt; over the years. Features I don&#39;t find useful or engaging, increased advertising , willful avoidance on topics like bullying or hate-speech. These have all pushed me further away.&lt;/p&gt;
@@ -1020,7 +1020,7 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>It&#39;s finally here</title>
 		<link href="https://davidjohnmead.com/posts/2020-12-09-cyberpunk-2077/"/>
-		<updated>2020-12-09T00:00:01-05:00</updated>
+		<updated>2020-12-09T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-12-09-cyberpunk-2077/</id>
 		<content type="html">&lt;p&gt;Today is December 9th. Tomorrow the new game by &lt;a href=&quot;https://en.cdprojektred.com/&quot;&gt;CD Project Red&lt;/a&gt;, &lt;a href=&quot;https://www.cyberpunk.net/us/en/&quot;&gt;Cyberpunk 2077&lt;/a&gt;, will be released.&lt;/p&gt;
 &lt;p&gt;I am super excited about this.&lt;/p&gt;
@@ -1039,9 +1039,9 @@ Here&#39;s I how make it (mostly)
 	<entry>
 		<title>First day playing Cyberpunk 2077</title>
 		<link href="https://davidjohnmead.com/posts/2020-12-11-first-day-impressions/"/>
-		<updated>2020-12-11T00:00:01-05:00</updated>
+		<updated>2020-12-11T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-12-11-first-day-impressions/</id>
-		<content type="html">&lt;p&gt;After a full day of playing I can honestly say &lt;strong&gt;I&#39;m really enjoying this game&lt;/strong&gt;. There&#39;s a lot here, but it&#39;s not all &lt;a href=&quot;#good&quot;&gt;good&lt;/a&gt;. There&#39;s a lot of &lt;a href=&quot;#bad&quot;&gt;bad&lt;/a&gt; too.&lt;/p&gt;
+		<content type="html">&lt;p&gt;After a full day of playing I can honestly say &lt;strong&gt;I&#39;m really enjoying this game&lt;/strong&gt;. There&#39;s a lot here, but it&#39;s not all &lt;a href=&quot;https://davidjohnmead.com/posts/2020-12-11-first-day-impressions/#good&quot;&gt;good&lt;/a&gt;. There&#39;s a lot of &lt;a href=&quot;https://davidjohnmead.com/posts/2020-12-11-first-day-impressions/#bad&quot;&gt;bad&lt;/a&gt; too.&lt;/p&gt;
 &lt;h2 id=&quot;good&quot;&gt;The good&lt;/h2&gt;
 The story has pulled me in. Reminding me a lot of the original role-plying game. There&#39;s a lot of name drops I remember from the lore books too. They have captured the look and feel wonderfully well. A mix of that synth-wave retro future of &quot;jacking in to the net&quot;.
 &lt;p&gt;The world feels huge. Just looking around as an NPC drives you from a-to-b lets you drink it all in. The freedom of movement to go, and do, pretty much anything is fantastic.&lt;/p&gt;
@@ -1051,13 +1051,13 @@ The story has pulled me in. Reminding me a lot of the original role-plying game.
 &lt;p&gt;The skill tree is massive and really brings back memories of second-guessing if your spending XP in the right place to improve your character.&lt;/p&gt;
 &lt;h2 id=&quot;bad&quot;&gt;The bad&lt;/h2&gt;
 &lt;p&gt;The graphics! Oh my. They are &lt;em&gt;not&lt;/em&gt; good.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2020-12-11-screenshot-cyberpunk2077-diner.png&quot; alt=&quot;screenshot showing Johnny Silverhand in a diner&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2020-12-11-screenshot-cyberpunk2077-diner.png&quot; alt=&quot;screenshot showing Johnny Silverhand in a diner&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;This game has been in development for about 8 years. It was targeted at the current generation of consoles. It was announced at E3 2018 (primarily an Xbox event). And yet the graphics look blurry and &amp;quot;muddy&amp;quot;. Textures fail to render. Details are completely lost when you walk up close to signs and interfaces.&lt;/p&gt;
 &lt;p&gt;Some of the visual settings you can turn off, like film grain, makes this a little better but not much.&lt;/p&gt;
 &lt;p&gt;Destiny 2 and The Division 2 have been out a couple of years now and have a lot better graphics than this. Cyberpunk looks like an upscaled port from an older system sometimes.&lt;/p&gt;
 &lt;p&gt;I have also experienced three full crashes taking me back to the Xbox dashboard. Thankfully the saves points have been where I didn&#39;t have to replay too much.&lt;/p&gt;
 &lt;p&gt;Objects seem to get left in your way. I couldn&#39;t exit a room to proceed because a suitcase we carried in, appeared in the middle of the door blocking me.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2020-12-11-screenshot-cyberpunk2077-suitcase.png&quot; alt=&quot;screenshot showing suitcase blocking door&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2020-12-11-screenshot-cyberpunk2077-suitcase.png&quot; alt=&quot;screenshot showing suitcase blocking door&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I really hope there are some upcoming patches that improve these issues.&lt;/p&gt;
 &lt;h2&gt;Am I happy I bought it?&lt;/h2&gt;
 Yes. 100%.
@@ -1068,9 +1068,9 @@ Yes. 100%.
 	<entry>
 		<title>NOM - I made sausage rolls!</title>
 		<link href="https://davidjohnmead.com/posts/2020-12-13-sausage-rolls/"/>
-		<updated>2020-12-13T00:00:01-05:00</updated>
+		<updated>2020-12-13T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-12-13-sausage-rolls/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-12-13-sausage-rolls.jpg&quot; alt=&quot;Homemade sausage rolls&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-12-13-sausage-rolls.jpg&quot; alt=&quot;Homemade sausage rolls&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;A staple British food, the sausage roll can be found almost everywhere. Bakers, supermarkets, petrol (gas) stations. Delicious hot or cold.&lt;/p&gt;
 &lt;p&gt;With everything going on this year I haven&#39;t had any. The nearest British specialty shop, Gaelic Imports, &lt;a href=&quot;https://davidjohnmead.com/posts/2020-05-25-gaelic-imports-closes/&quot; title=&quot;my post about it&quot;&gt;closed down&lt;/a&gt; so I decided to have a go myself.&lt;/p&gt;
 &lt;p&gt;A big hurdle is the sausage. British sausage isn&#39;t like the ones over here so I fabricated my own. Adding fresh sage and some cooked diced onions to the minced pork, along with a spoonful of breadcrumbs. Not brave enough to attempt the pastry I grabbed some Pepperidge Farms pre-made puff pastry.&lt;/p&gt;
@@ -1083,7 +1083,7 @@ Yes. 100%.
 	<entry>
 		<title>Where have all the websites gone?</title>
 		<link href="https://davidjohnmead.com/posts/2020-12-17-where-have-the-websites-gone/"/>
-		<updated>2020-12-17T00:00:01-05:00</updated>
+		<updated>2020-12-17T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-12-17-where-have-the-websites-gone/</id>
 		<content type="html">&lt;p&gt;I&#39;m going through the accounts I follow on Twitter and Instagram, looking for URLs.&lt;/p&gt;
 &lt;p&gt;There aren&#39;t many. Hardly any list a website in the bio, even companies. When there is one, it&#39;s very rarely a blog.&lt;/p&gt;
@@ -1102,31 +1102,31 @@ Yes. 100%.
 	<entry>
 		<title>Pie &amp; Mash</title>
 		<link href="https://davidjohnmead.com/posts/2020-12-19-pie-and-mash/"/>
-		<updated>2020-12-19T00:00:01-05:00</updated>
+		<updated>2020-12-19T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-12-19-pie-and-mash/</id>
 		<content type="html">&lt;p&gt;Pie &amp;amp; Mash is a very British food. A very London thing.&lt;/p&gt;
 &lt;p&gt;It&#39;s been hardly changed since Victorian times. A meat pie, scoop of mashed potatoes, covered in a greenish gravy called &amp;quot;Liquor&amp;quot;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/pie-mash-2020-12-13-film-003.png&quot; alt=&quot;a plate of pie and mash&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/pie-mash-2020-12-13-film-003.png&quot; alt=&quot;a plate of pie and mash&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;It is, in a word, &lt;strong&gt;delicious&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Now I&#39;ve never lived in London, but I did work there as well as a regular visitor. It was only a 40 minute train ride away after all.&lt;/p&gt;
 &lt;p&gt;Where I did live (Southend-on-Sea) was at the end of two major train lines coming out of London. East Enders used to come down for weekends and the Pie &amp;amp; Mash shops came to cater for them.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/pie-mash-2020-12-13-film-002.png&quot; alt=&quot;serving up pie and mash&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/pie-mash-2020-12-13-film-002.png&quot; alt=&quot;serving up pie and mash&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Skip forward to the 70&#39;s-80&#39;s and most had disappeared along with the holiday makers, but a few remained. I have fond memories of sitting in those establishments. Steamed-up windows a barrier from the wet and cold outside, tucking into a hot meal amid the noise bouncing off the tiled walls.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://jake.green/&quot; title=&quot;official site&quot;&gt;Jake Green&lt;/a&gt; is a photographer who captured the history in his &lt;a href=&quot;https://jake.green/?project=pie-mash&quot;&gt;&#39;Pie &amp;amp; Mash London&#39;&lt;/a&gt; project.&lt;/p&gt;
 &lt;p&gt;He created a short film, book, and held a &lt;a href=&quot;https://youtu.be/isQ6vQ8QoeU&quot; title=&quot;watch recording&quot;&gt;live event on YouTube&lt;/a&gt; this past Sunday. The pictures in this post come from that event.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/pie-mash-2020-12-13-matt-johnson.png&quot; alt=&quot;Matt Johnson video call&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/pie-mash-2020-12-13-matt-johnson.png&quot; alt=&quot;Matt Johnson video call&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Guests included Matt Johnson (&lt;a href=&quot;https://www.thethe.com/&quot; title=&quot;official site&quot;&gt;The The&lt;/a&gt;) and John Rogers (&lt;a href=&quot;http://thelostbyway.com/&quot; title=&quot;John&#39;s videos and walks around London&quot;&gt;The Lost Byway&lt;/a&gt;).  Talking about the memories, and love, of this food and the shops that served it.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/pie-mash-2020-12-13-john-rogers.png&quot; alt=&quot;John Rogers interview&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/pie-mash-2020-12-13-john-rogers.png&quot; alt=&quot;John Rogers interview&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;It was great to sit and listen to a reading of &lt;a href=&quot;https://spitalfieldslife.com/2018/12/23/jake-greens-pie-mash-shops/&quot;&gt;&#39;For the love of Pie &amp;amp; Mash&#39;&lt;/a&gt; by The Gentle Author. Watch the accompanying film to Jake&#39;s photos. Hear from the owners of shops still running. Live Q&amp;amp;A afterwards.&lt;/p&gt;
 &lt;p&gt;A very enjoyable event that made me nostalgic, and hungry.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/pie-mash-2020-12-13-film-001.png&quot; alt=&quot;in the kitchen making mash&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/pie-mash-2020-12-13-film-001.png&quot; alt=&quot;in the kitchen making mash&quot; /&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>Website updates</title>
 		<link href="https://davidjohnmead.com/posts/2020-12-19-website-updates/"/>
-		<updated>2020-12-19T00:00:01-05:00</updated>
+		<updated>2020-12-19T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-12-19-website-updates/</id>
 		<content type="html">&lt;p&gt;Decided to do a little cleaning to this site.&lt;/p&gt;
 &lt;h2&gt;Fonts&lt;/h2&gt;
@@ -1150,9 +1150,9 @@ Yes. 100%.
 	<entry>
 		<title>NOM - Lil Smokies</title>
 		<link href="https://davidjohnmead.com/posts/2020-12-24-lil-smokies/"/>
-		<updated>2020-12-24T00:00:01-05:00</updated>
+		<updated>2020-12-24T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-12-24-lil-smokies/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-12-24-lil-smokies.jpg&quot; alt=&quot;bowl of cocktail sausages in sauce&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-12-24-lil-smokies.jpg&quot; alt=&quot;bowl of cocktail sausages in sauce&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I love a bowl of these sticky, sweet, and slightly spicy sausages. Time to play Xbox while nibbling.&lt;/p&gt;
 &lt;section class=&quot;h-recipe&quot;&gt;
 &lt;h2&gt;Lil&#39; Smokies&lt;/h2&gt;
@@ -1178,9 +1178,9 @@ Yes. 100%.
 	<entry>
 		<title>Another Xmas done</title>
 		<link href="https://davidjohnmead.com/posts/2020-12-27-another-xmas-done/"/>
-		<updated>2020-12-27T00:00:01-05:00</updated>
+		<updated>2020-12-27T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-12-27-another-xmas-done/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-12-25-dogs-at-xmas.jpg&quot; alt=&quot;dogs looking out of window, xmas tree in foreground&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2020-12-25-dogs-at-xmas.jpg&quot; alt=&quot;dogs looking out of window, xmas tree in foreground&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;This year Christmas felt like an odd affair. The pandemic forcing decisions on gifts. Cash flow has been, &lt;em&gt;unpredictable&lt;/em&gt; to say the least. I was laid off in April, with a new gig (luckily) the next month. Julie&#39;s job has come &amp;amp; gone multiple times as schools close in Ohio seemingly every other month. This also effected Josh&#39;s part-time job.&lt;/p&gt;
 &lt;p&gt;I lost count the times that things came in and out of stock on Amazon. Long delivery times as well as my reticence of actually going in shops didn&#39;t help.&lt;/p&gt;
 &lt;p&gt;Josh&#39;s big gift was a gaming desk from IKEA. What if there&#39;s something missing? How do we return if it doesn&#39;t work out? Can we get it delivered in time? We ended up getting and assembling in his room early. He&#39;s now 16, no longer chomping at the bit to open presents at 5am, so that suited him fine.&lt;/p&gt;
@@ -1195,7 +1195,7 @@ Yes. 100%.
 	<entry>
 		<title>Music finds of 2020</title>
 		<link href="https://davidjohnmead.com/posts/2020-12-31-music-of-2020/"/>
-		<updated>2020-12-31T00:00:01-05:00</updated>
+		<updated>2020-12-31T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2020-12-31-music-of-2020/</id>
 		<content type="html">&lt;p&gt;This is not a top  10, list of faves, or anything like that. Just a list of the albums I&#39;ve bought while getting through this year. Some of these came out decades ago. Some I&#39;d owned on vinyl and never replaced when I moved to the States.&lt;/p&gt;
 &lt;p&gt;I may more on some of these, but for now (in no particular order) here goes:&lt;/p&gt;
@@ -1250,12 +1250,12 @@ Yes. 100%.
 	<entry>
 		<title>New Years Day</title>
 		<link href="https://davidjohnmead.com/posts/2021-01-01-new-years-day/"/>
-		<updated>2021-01-01T00:00:01-05:00</updated>
+		<updated>2021-01-01T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2021-01-01-new-years-day/</id>
 		<content type="html">&lt;p&gt;The ground was hard and covered with frost this morning. Virtually all the Xmas snow had dissapeared yesterday.&lt;/p&gt;
 &lt;p&gt;Then, around midday it started raining. And it kept raining. The dogs seemed in a perpetual state of damp. A small pond forming behind our garden. The bottom of the steps looking more like The Somme every passing hour.&lt;/p&gt;
 &lt;p&gt;One could see that as a world washing this last year off itself.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2021-01-01-054556701.jpg&quot; alt=&quot;rainy street at night, taken inside a car&quot; title=&quot;rainy streets at night&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2021-01-01-054556701.jpg&quot; alt=&quot;rainy street at night, taken inside a car&quot; title=&quot;rainy streets at night&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I went out to collect Chinese food for dinner. Josh &amp;amp; I had sweet &amp;amp; sour pork, as you&#39;re &lt;a href=&quot;https://www.snopes.com/fact-check/new-years-superstitions/&quot; title=&quot;2003 article on Snopes.com about superstitions&quot;&gt;not supposed to eat chicken on the first day&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I played a little Destiny 2, read a little, closed down my Twitter and Instagram accounts, and listened to some of my &lt;a href=&quot;https://davidjohnmead.com/posts/2020-12-31-music-of-2020/&quot; title=&quot;yesterday&#39;s post, Music of 2020&quot;&gt;recent music purchases&lt;/a&gt;. Did a little housekeeping in 1Password. Deleted vaults from previous companies I worked at. Removed sites that no longer exist, and cleaned up a few of those weak and repeated passwords.&lt;/p&gt;
 &lt;p&gt;A little laundry. A little tidying. A day of &amp;quot;pottering&amp;quot;. A glimpse in the coming months activities maybe.&lt;/p&gt;
@@ -1265,7 +1265,7 @@ Yes. 100%.
 	<entry>
 		<title>Lessons from a coal fire</title>
 		<link href="https://davidjohnmead.com/posts/2021-01-03-lessons-from-a-coal-fire/"/>
-		<updated>2021-01-03T00:00:01-05:00</updated>
+		<updated>2021-01-03T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2021-01-03-lessons-from-a-coal-fire/</id>
 		<content type="html">&lt;p&gt;In the 90&#39;s I bought my first house. A 1900&#39;s terraced house with, as it&#39;s sole source of heat, one gas fire in the kitchen. During the Summer, not a problem. But as the colder weather set-in the single-pane windows frosted up, on the inside.&lt;/p&gt;
 &lt;p&gt;The other thing it had was an open fireplace in the Living Room. I decided to use it. Roaring &amp;quot;real&amp;quot; fires here I come.&lt;/p&gt;
@@ -1298,10 +1298,10 @@ I had started later than I should, with way too much coal. I removed everything 
 	<entry>
 		<title>Things I want from The Division 3</title>
 		<link href="https://davidjohnmead.com/posts/2021-01-05-wishlist-part-1-for-the-division/"/>
-		<updated>2021-01-05T00:00:01-05:00</updated>
+		<updated>2021-01-05T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2021-01-05-wishlist-part-1-for-the-division/</id>
 		<content type="html">&lt;p&gt;It seems we may be entering the last throws of &lt;a href=&quot;https://www.ubisoft.com/en-us/game/the-division/the-division-2&quot; title=&quot;Ubisoft site for the game&quot;&gt;The Division 2&lt;/a&gt;. A franchise I&#39;ve enjoyed playing for years now. Last year we saw fewer familiar faces on the &lt;a href=&quot;https://youtu.be/1iqVx69gEtg&quot; title=&quot;December edition on YouTube&quot;&gt;&#39;Sate of the game&#39;&lt;/a&gt; streams. Red Storm&#39;s Terry Spier &lt;a href=&quot;https://twitter.com/The_Spier/status/1250061470827765764&quot; title=&quot;post on Twitter&quot;&gt;tweeted&lt;/a&gt; he no longer worked on it, and we just got an Optimization Station - Something came into the first game at it&#39;s end.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2021-01-04-division2-character.png&quot; alt=&quot;screenshot of my character in The Division 2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2021-01-04-division2-character.png&quot; alt=&quot;screenshot of my character in The Division 2&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Wether or not there&#39;s an actual Division 3, or they go the route Bungie took for Destiny 2, here&#39;s part 1 of things I&#39;d like to see. These are all based on existing game items/mechanics/storylines.&lt;/p&gt;
 &lt;h2&gt;Collectibles&lt;/h2&gt;
 &lt;p&gt;Personally I love apparel, gear dyes, weapon skins, and vanity mods. Anything that makes the grind a little more fruitful.&lt;/p&gt;
@@ -1322,7 +1322,7 @@ I had started later than I should, with way too much coal. I removed everything 
 	<entry>
 		<title>This could have been worse</title>
 		<link href="https://davidjohnmead.com/posts/2021-01-06-trump-mob-storms-capitol/"/>
-		<updated>2021-01-06T00:00:01-05:00</updated>
+		<updated>2021-01-06T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2021-01-06-trump-mob-storms-capitol/</id>
 		<content type="html">&lt;p&gt;Today the US Congress met to confirm the next President, Joe Biden. We knew that some Republicans that hitched their wagon to Trump would object, causing multiple 2 hour debates. Prolonging, but not changing, the outcome.&lt;/p&gt;
 &lt;p&gt;President Trump called for a rally of his loyal supporters. Told them to &lt;q&gt;use their strength&lt;/q&gt; and get to the hill. They did march and didn&#39;t stop. Forcing themselves into the Capitol while this meeting was going on.&lt;/p&gt;
@@ -1340,7 +1340,7 @@ I had started later than I should, with way too much coal. I removed everything 
 	<entry>
 		<title>2021-01-10 retro</title>
 		<link href="https://davidjohnmead.com/posts/2021-01-10-retro/"/>
-		<updated>2021-01-10T00:00:01-05:00</updated>
+		<updated>2021-01-10T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2021-01-10-retro/</id>
 		<content type="html">&lt;p&gt;Conspiracy theorists&#39; image of &lt;a href=&quot;https://boingboing.net/2021/01/04/conspiracy-theorists-image-of-5g-covid-implant-chip-turns-out-to-be-guitar-pedal-schematic.html&quot; title=&quot;BoingBoing article&quot;&gt;5G Covid implant chip&lt;/a&gt; turns out to be guitar pedal schematic.&lt;/p&gt;
 &lt;p&gt;First day back at work and &lt;a href=&quot;https://www.theverge.com/2021/1/4/22213105/slack-outage-down-2021-server-error&quot; title=&quot;The Verge article&quot;&gt;Slack falls over&lt;/a&gt;.&lt;/p&gt;
@@ -1355,7 +1355,7 @@ I had started later than I should, with way too much coal. I removed everything 
 	<entry>
 		<title>My bank is closing</title>
 		<link href="https://davidjohnmead.com/posts/2021-01-11-my-bank-is-closing/"/>
-		<updated>2021-01-11T00:00:01-05:00</updated>
+		<updated>2021-01-11T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2021-01-11-my-bank-is-closing/</id>
 		<content type="html">&lt;p&gt;I remember attending the  SXSWi 2011 panel &lt;a href=&quot;https://austin2011.sched.com/event/2Y3q/banks-innovate-or-die&quot; title=&quot;Panel overview on SCHED.com&quot;&gt;Banks! Innovate or die&lt;/a&gt; and being impressed by the lively discussion. Especially Joshua Reich, the CEO of Simple at that point.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://simple.com/&quot;&gt;Simple&lt;/a&gt; had been going for a couple of years at that point, but seeing Joshua made me want to have them as my bank. Two things stand out from &lt;a href=&quot;https://davidmead-sxswi11.tumblr.com/post/3808589222/session-2&quot; title=&quot;post on Tumblr&quot;&gt;my notes&lt;/a&gt; on that panel.&lt;/p&gt;
@@ -1377,9 +1377,9 @@ I had started later than I should, with way too much coal. I removed everything 
 	<entry>
 		<title>T-shirts</title>
 		<link href="https://davidjohnmead.com/posts/2021-01-14-tshirts/"/>
-		<updated>2021-01-14T00:00:01-05:00</updated>
+		<updated>2021-01-14T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2021-01-14-tshirts/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2021-01-14-tshirts.jpg&quot; alt=&quot;2 t-shirts on a table&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2021-01-14-tshirts.jpg&quot; alt=&quot;2 t-shirts on a table&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I&#39;ve been a fan of &lt;a href=&quot;https://simplebits.com/pages/about&quot; title=&quot;About page&quot;&gt;Dan Cederholm&lt;/a&gt; since the early 2000&#39;s. His blog was among those I visited everyday.&lt;/p&gt;
 &lt;p&gt;I have bought his books in the past, and now he&#39;s &lt;a href=&quot;https://simplebits.com/collections/tees&quot; title=&quot;$10 t-shirts&quot;&gt;having a sale&lt;/a&gt; so I grabbed a couple of t-shirts he designed.&lt;/p&gt;
 &lt;p&gt;These are super comfy and I really love the designs.&lt;/p&gt;
@@ -1390,10 +1390,10 @@ I had started later than I should, with way too much coal. I removed everything 
 	<entry>
 		<title>Things I want from The Division 3, part 2</title>
 		<link href="https://davidjohnmead.com/posts/2021-01-18-wishlist-part-2-for-the-division/"/>
-		<updated>2021-01-18T00:00:01-05:00</updated>
+		<updated>2021-01-18T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2021-01-18-wishlist-part-2-for-the-division/</id>
 		<content type="html">&lt;p&gt;Here&#39;s the second part of my wishlist for &lt;a href=&quot;https://www.ubisoft.com/en-us/game/the-division/the-division-2&quot; title=&quot;Ubisoft site for the game&quot;&gt;The Division 2&lt;/a&gt;. You can read &lt;a href=&quot;https://davidjohnmead.com/posts/2021-01-05-wishlist-part-1-for-the-division&quot;&gt;part 1&lt;/a&gt; to see the other changes.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2021-01-04-division2-character.png&quot; alt=&quot;screenshot of my character in The Division 2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2021-01-04-division2-character.png&quot; alt=&quot;screenshot of my character in The Division 2&quot; /&gt;&lt;/p&gt;
 &lt;h2&gt;Dark Zone&lt;/h2&gt;
 &lt;p&gt;I am not a big PvP fan but, I don&#39;t want the Dark Zones to be solely tailored to a PvE audience.  One thing I really enjoyed about The Division 1 was entering the Dark Zone (solo or in a group) and having ways to hide, or avoid, Rogue Agents/Manhunts if I didn&#39;t want to PvP.&lt;/p&gt;
 &lt;p&gt;The cat and mouse aspect, part of the appeal and danger, has been completely stripped away. The three zones are smaller, only allowing for a reduced number of players in at a time.
@@ -1404,7 +1404,7 @@ Think different&lt;/p&gt;
 &lt;p&gt;In the story there are EMP pulses that disable skills. Make the Occupied Dark Zones &#39;no skill&#39; with these. You want pure DPS matches? Fine. No shield, no healing, no seeker mines. Just you, armor, and weapons.&lt;/p&gt;
 &lt;h3&gt;Perks&lt;/h3&gt;
 &lt;p&gt;Another discarded part of the gameplay was the DZ Perks.  After unlocking the 3 zones as part of the story we had access to a tree with different perks. These would help/hinder depending if you went &amp;quot;Rogue&amp;quot;. This tree was meager to start with, but gutted when the DZ&#39;s were overhauled. As you can see there&#39;s very little options to choose from.  Another mechanic I would like to see expanded and maybe have change depending on seasons, etc.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2021-01-18-division2-dz-perks.png&quot; alt=&quot;screenshot Dark Zone perk tree in The Division 2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://davidjohnmead.com/img/2021-01-18-division2-dz-perks.png&quot; alt=&quot;screenshot Dark Zone perk tree in The Division 2&quot; /&gt;&lt;/p&gt;
 &lt;h2&gt;Specialization Weapons&lt;/h2&gt;
 &lt;p&gt;Each specialization comes with its own weapon. You only get ammo for it by doing things specific for that specialization. Problem is the weapons aren&#39;t that special. For example, a .50 cal sniper rifle that ends up doing less damage than most handguns against enemies, especially &#39;named&#39; bosses.&lt;/p&gt;
 &lt;p&gt;I would love to see these completely overpowered, but reduce the ammo you have. Make the post-collapse scarcity a thing. Hoard your ammo and save it for that one big encounter. Make it a something to grind for, only if, it can 1 or 2-shot a boss in solo play. Scaling with group play.&lt;/p&gt;
@@ -1416,9 +1416,9 @@ Think different&lt;/p&gt;
 	<entry>
 		<title>Photo | Afterward | 001</title>
 		<link href="https://davidjohnmead.com/posts/2021-01-24-afterward-001/"/>
-		<updated>2021-01-24T00:00:01-05:00</updated>
+		<updated>2021-01-24T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2021-01-24-afterward-001/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2021-01-24-after-pancakes-blueberries.jpg&quot; alt=&quot;empty plate stained from syrup and blueberries&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2021-01-24-after-pancakes-blueberries.jpg&quot; alt=&quot;empty plate stained from syrup and blueberries&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The last of the &#39;Easy Morning Pancake&#39; mix from &lt;a href=&quot;https://fowlermill.com/&quot; title=&quot;Cleveland based mill&quot;&gt;Fowler&#39;s Mill&lt;/a&gt; mixed with blueberries (coz I&#39;m healthy now), and a tad of syrup.&lt;/p&gt;
 </content>
 	</entry>
@@ -1426,7 +1426,7 @@ Think different&lt;/p&gt;
 	<entry>
 		<title>No longer an orchestra</title>
 		<link href="https://davidjohnmead.com/posts/2021-01-31-listen-handfuls-of-night/"/>
-		<updated>2021-01-31T00:00:01-05:00</updated>
+		<updated>2021-01-31T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2021-01-31-listen-handfuls-of-night/</id>
 		<content type="html">&lt;p&gt;I first encountered the sounds of Penguin Cafe Orchestra on &lt;a href=&quot;https://youtu.be/ZV43lkJ7xNs&quot; title=&quot;video on YouTube&quot;&gt;The South Bank Show&lt;/a&gt; in 1987. It was a mix of &amp;quot;new age&amp;quot;, classical, avant-garde, and just plain fun.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -1444,7 +1444,7 @@ Think different&lt;/p&gt;
 	<entry>
 		<title>I found a kindred voice, too late</title>
 		<link href="https://davidjohnmead.com/posts/2021-01-31-read-mark-fisher/"/>
-		<updated>2021-01-31T00:00:01-05:00</updated>
+		<updated>2021-01-31T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2021-01-31-read-mark-fisher/</id>
 		<content type="html">&lt;p&gt;Until the beginning of 2021 I had no recollection of knowing about Mark Fisher, or his writing.  Being name-dropped in a few unrelated recent videos and podcasts, and having a connection to &lt;a href=&quot;https://en.wikipedia.org/wiki/Hauntology&quot; title=&quot;wikipedia entry&quot;&gt;hauntology&lt;/a&gt; tickled something in my brain.&lt;/p&gt;
 &lt;p&gt;I watched his talk, &lt;a href=&quot;https://youtu.be/aCgkLICTskQ&quot; title=&quot;video on YouTube&quot;&gt;The Slow Cancellation of the Future&lt;/a&gt;, and it struck such a nerve with me I grabbed his book &#39;&lt;a href=&quot;https://www.johnhuntpublishing.com/zer0-books/our-books/ghosts-my-life&quot;&gt;Ghosts of My Life: Writings on Depression, Hauntology and Lost Futures&lt;/a&gt;&#39;.&lt;/p&gt;
@@ -1474,9 +1474,9 @@ Think different&lt;/p&gt;
 	<entry>
 		<title>fifty two</title>
 		<link href="https://davidjohnmead.com/posts/2021-02-04-52nd-birthday/"/>
-		<updated>2021-02-04T00:00:01-05:00</updated>
+		<updated>2021-02-04T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2021-02-04-52nd-birthday/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2021-02-09-52-self-portrait.jpg&quot; alt=&quot;black and white self photo&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2021-02-09-52-self-portrait.jpg&quot; alt=&quot;black and white self photo&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;52 times around the sun.&lt;/p&gt;
 &lt;p&gt;A quiet day, with wishes online and in person.&lt;/p&gt;
 </content>
@@ -1485,9 +1485,9 @@ Think different&lt;/p&gt;
 	<entry>
 		<title>NOM - Jerk Chicken</title>
 		<link href="https://davidjohnmead.com/posts/2021-03-05-jerk-chicken/"/>
-		<updated>2021-03-05T00:00:01-05:00</updated>
+		<updated>2021-03-05T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2021-03-05-jerk-chicken/</id>
-		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2021-03-05-nom-jerk-chicken.jpg&quot; alt=&quot;Jerk chicken and rice in takeout container&quot;&gt;&lt;/p&gt;
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2021-03-05-nom-jerk-chicken.jpg&quot; alt=&quot;Jerk chicken and rice in takeout container&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I decided to treat myself to something different for lunch. Jamaican food from &lt;a href=&quot;https://elas-caribbean-grill-restaurant.business.site/&quot;&gt;Ela&#39;s Caribbean Grill&lt;/a&gt;. This was the Jerk Chicken with red beans &amp;amp; rice, and cabbage.  It was the &amp;quot;mild&amp;quot; version, so it had a nice kick but not too spicy. Chased it with some strong Ginger beer.&lt;/p&gt;
 &lt;p&gt;The chicken was nice and succulent. Large amount of rice. All-in-all a great lunch. I&#39;ll certainly be back to try some of the other dishes.&lt;/p&gt;
 </content>
@@ -1496,7 +1496,7 @@ Think different&lt;/p&gt;
 	<entry>
 		<title>TikTok</title>
 		<link href="https://davidjohnmead.com/posts/2021-03-05-tiktok/"/>
-		<updated>2021-03-05T00:00:01-05:00</updated>
+		<updated>2021-03-05T05:00:01Z</updated>
 		<id>https://davidjohnmead.com/posts/2021-03-05-tiktok/</id>
 		<content type="html">&lt;p&gt;I had an account for Musical.ly just to secure my &amp;quot;namespace&amp;quot;. I think I used it once.&lt;/p&gt;
 &lt;p&gt;Fast Forward a few years and it becomes the behemoth that is TikTok. My profile didn&#39;t get moved over and I have no interest in social networks at the moment. But my wife and son use it.&lt;/p&gt;
@@ -1508,6 +1508,69 @@ Think different&lt;/p&gt;
 &lt;p&gt;Anyway while scrolling in horror through TikTok I suddenly had the blinding flash of recognition of what it would have been like for me in 1988. It would almost certainly have been full of slightly older cute goth girls in their best going out outfits doing make-up tutorials, interspersed with the odd spotty spike-haired dude showing you how to play the riff from a Joy Division song, and it would have been absolutely compelling. That’s what TikTok is, I reckon.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;But this is my sons 1988, not mine. I&#39;ll leave it to him.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>1st Jab</title>
+		<link href="https://davidjohnmead.com/posts/2021-03-24-1st-jab/"/>
+		<updated>2021-03-24T05:00:01Z</updated>
+		<id>https://davidjohnmead.com/posts/2021-03-24-1st-jab/</id>
+		<content type="html">&lt;p&gt;&lt;img class=&quot;u-photo img-polaroid&quot; src=&quot;https://davidjohnmead.com/img/2021-03-24-1st-jab.jpg&quot; alt=&quot;Close-up of my shoulder injection site&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Got my first, of the two, Covid-19 vaccination jabs today. Feels a little sore, but no effects.&lt;/p&gt;
+&lt;p&gt;Doing my part to protect myself, and others.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Code updates</title>
+		<link href="https://davidjohnmead.com/posts/2021-03-28-code-updates/"/>
+		<updated>2021-03-28T05:00:01Z</updated>
+		<id>https://davidjohnmead.com/posts/2021-03-28-code-updates/</id>
+		<content type="html">&lt;p&gt;Circumstances dictated I did some work on the infrastructure  of this blog. So I spent most of today searching GitHub, Stack Overflow and the &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy website&lt;/a&gt; for answers.&lt;/p&gt;
+&lt;h2&gt;Pagination problem fixed&lt;/h2&gt;
+&lt;p&gt;I blogged about the &lt;a href=&quot;https://davidjohnmead.com/posts/2019-12-25-pagination-problems/&quot; title=&quot;pagination problems&quot;&gt;issue I was having with showing the three most recents posts on the homepage&lt;/a&gt;. I finally figured out how to solve it.&lt;/p&gt;
+&lt;p&gt;I removed the pagination from the front matter completely, replacing it with a &lt;a href=&quot;https://www.11ty.dev/docs/collections/&quot; title=&quot;official documentation&quot;&gt;collection call&lt;/a&gt; in the page. I also added a Nunjucks &amp;quot;special variable&amp;quot; inside a loop (thanks to &lt;a href=&quot;https://github.com/11ty/eleventy/issues/1368#issuecomment-683320630&quot; title=&quot;GitHub comment&quot;&gt;huphtur&#39;s comment&lt;/a&gt; on the &amp;quot;Limit the output of a Collection&amp;quot; issue on GitHub) to this.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;wrapper-tiles&amp;quot;&amp;gt;
+  {\%- for post in collections.post | reverse -%\}
+    {\%- if loop.index0 &amp;lt; 3 -%\}
+      &amp;lt;div class=&amp;quot;tile&amp;quot;&amp;gt;
+        &amp;lt;div class=&amp;quot;tile-head txt-center&amp;quot;&amp;gt;
+          &amp;lt;time datetime=&amp;quot;2021-03-29T02:15:56.224Z&amp;quot;&amp;gt;March 28, 2021&amp;lt;/time&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;div class=&amp;quot;tile-body&amp;quot;&amp;gt;
+         &amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;.&amp;quot; title=&amp;quot;&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+        &amp;lt;/div&amp;gt;
+     &amp;lt;div&amp;gt;
+    {\%- endif -%\}
+  {\%- endfor-%\}
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This now shows the last &#39;n&#39; posts on the front page without creating lots of extra folders in the  &lt;code&gt;_site&lt;/code&gt; folder.&lt;/p&gt;
+&lt;p&gt;Building on this I also added a new section on the homepage where the latest two posts from some chosen tags are shown.&lt;/p&gt;
+&lt;h2&gt;Styling&lt;/h2&gt;
+&lt;p&gt;You may have noticed some fancy styling on the code block above.  I added some cue&#39;s from Chris Coyier&#39;s post &lt;a href=&quot;https://css-tricks.com/styling-code-in-and-out-of-blocks/&quot;&gt;Styling Code In and Out of Blocks&lt;/a&gt; over at CSS Tricks.&lt;/p&gt;
+&lt;p&gt;I also added some CSS for the new topics section on the homepage.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.tile-head * {
+	color: #ffffff !important;
+	margin: 0.25em;
+	padding: 0.25em;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This makes sure whatever I put in to the head section of my tile is coloured white and has some spacing around it.&lt;/p&gt;
+&lt;p&gt;I also added a little something for the lists now in the body of the tiles.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;.list-breathe {
+	margin: 0;
+}
+	
+.list-breathe li {
+	padding: 0.9167em 0;
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This gives me some spacing around each &lt;code&gt;li&lt;/code&gt; without playing around with the &lt;code&gt;line-height&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Eleventy updated&lt;/h2&gt;
+&lt;p&gt;When &lt;a href=&quot;https://www.bridgestew.com/&quot;&gt;Bridget&lt;/a&gt; fist helped me put this together Eleventy was on version 9. It&#39;s now on version 12 so I took the plunge and updated - But that&#39;s a whole blog post of its own.&lt;/p&gt;
 </content>
 	</entry>
 </feed>

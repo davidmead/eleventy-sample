@@ -4,34 +4,135 @@ description: The personal website of David Mead. A British guy living in the USA
 
 isFront: true
 
-pagination:
-  data: collections.post
-  size: 3
-  reverse: true
-  alias: posts
 
 layout: layouts/layout-page
 ---
 <h1 class="title txt-center">David John Mead</h1>
 <section>
 
-	<h2>Recent posts:</h2>
+<h2>Most recent posts:</h2>
+<div class="wrapper-tiles">
+	{% for post in collections.post | reverse %}
+		{% if loop.index0 < 3 %}
+			<div class="tile">
+				<div class="tile-head txt-center">
+					<time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+				</div>
+				<div class="tile-body">
+					<p><a href="{{ post.url | url }}" title="">{{ post.data.summary }}</a></p>
+				</div>
+			</div>
+		{% endif %}
+	{% endfor %}
+</div>
+	
+	<p>See <a href="/tags/post/" title="">all posts</a>.</p>
 
-	<div class="wrapper-tiles">
-	{% for post in posts %}
-		<div class="tile">
-			<div class="tile-head txt-center">
-			<time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+<h2>Topics</h2>
+<p>See the latest posts in the following categories:</p>
+
+
+
+<div class="wrapper-tiles">
+
+	<div class="tile">
+		<div class="tile-head txt-center">
+			<h3><a href="/tags/listen/" title="all posts tagged listen">#listen</a></h3>
 		</div>
 		<div class="tile-body">
-		<p><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></p>
-		<p class="snippet hide-sml">{{ post.data.summary }}</p>
+			<ul class="list-plain list-breathe">
+			{% for post in collections.listen | reverse %}
+			  {% if loop.index0 < 2 %}
+			    <li><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></li>
+			  {% endif %}
+			{% endfor %}
+			</ul>
 		</div>
 	</div>
-	{% endfor %}
+	
+	<div class="tile">
+		<div class="tile-head txt-center">
+			<h3><a href="/tags/play/" title="all posts tagged play">#play</a></h3>
+		</div>
+		<div class="tile-body">
+			<ul class="list-plain list-breathe">
+			{% for post in collections.play | reverse %}
+			  {% if loop.index0 < 2 %}
+			    <li><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></li>
+			  {% endif %}
+			{% endfor %}
+			</ul>
+		</div>
 	</div>
+	
+	<div class="tile">
+		<div class="tile-head txt-center">
+			<h3><a href="/tags/eat/" title="all posts tagged eat">#eat</a></h3>
+		</div>
+		<div class="tile-body">
+			<ul class="list-plain list-breathe">
+			{% for post in collections.eat | reverse %}
+			  {% if loop.index0 < 2 %}
+			    <li><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></li>
+			  {% endif %}
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+	
+	<div class="tile">
+		<div class="tile-head txt-center">
+			<h3><a href="/tags/read/" title="all posts tagged read">#read</a></h3>
+		</div>
+		<div class="tile-body">
+			<ul class="list-plain list-breathe">
+			{% for post in collections.read | reverse %}
+			  {% if loop.index0 < 2 %}
+			    <li><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></li>
+			  {% endif %}
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+	
+	<div class="tile">
+		<div class="tile-head txt-center">
+			<h3><a href="/tags/watch/" title="all posts tagged watch">#watch</a></h3>
+		</div>
+		<div class="tile-body">
+			<ul class="list-plain list-breathe">
+			{% for post in collections.watch | reverse %}
+			  {% if loop.index0 < 2 %}
+			    <li><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></li>
+			  {% endif %}
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+	
+	<div class="tile">
+		<div class="tile-head txt-center">
+			<h3><a href="/tags/code/" title="all posts tagged code">#code</a></h3>
+		</div>
+		<div class="tile-body">
+			<ul class="list-plain list-breathe">
+			{% for post in collections.code | reverse %}
+			  {% if loop.index0 < 2 %}
+			    <li><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></li>
+			  {% endif %}
+			{% endfor %}
+			</ul>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+</div>
 
-<p>See <a href="/tags/post/" title="">all posts</a>.</p>
 </section>
 
 <section class="p-author h-card">

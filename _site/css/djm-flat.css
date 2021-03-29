@@ -6,9 +6,8 @@
          url("../fonts/Calistoga-Regular.woff") format('woff'),
          url("../fonts/Calistoga-Regular.ttf")  format('truetype'),
          url("../fonts/Calistoga-Regular.svg#Calistoga") format('svg');
-    font-display: optional;
+    font-display: swap;
 }
-
 
 @font-face {
   font-family: "bodyfont";
@@ -18,7 +17,7 @@
        url("../fonts/Atkinson-Hyperlegible-Regular-102.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-display: optional;
+  font-display: swap;
 }
 
 @font-face {
@@ -27,7 +26,7 @@
   src: url("../fonts/Atkinson-Hyperlegible-Bold-102.eot?#iefix") format('embedded-opentype'),
        url("../fonts/Atkinson-Hyperlegible-Bold-102.woff") format('woff'),
        url("../fonts/Atkinson-Hyperlegible-Bold-102.ttf") format('truetype');
-  font-display: optional;
+  font-display: swap;
 }
 
 *,
@@ -115,11 +114,6 @@ blockquote p {
 	margin-bottom: 0;
 }
 
-pre {
-/* makes the <code> wrap */
-	white-space:pre-line;
-
-}
 
 strong {
 	padding: 0 0.15em;
@@ -147,11 +141,16 @@ strong {
 	margin-top:0;
 	padding: 0.5em 0;
 	background-color: #350000;
-	color: #fff;
 	}
+	
+.tile-head * {
+	color: #ffffff !important;
+	margin: 0.25em;
+	padding: 0.25em;
+}
 
 .tile-body {
-	margin: 0.75em;
+	padding: 0.75em;
 	}
 
 .wrapper-tiles {
@@ -195,6 +194,43 @@ strong {
   box-shadow: inset 0 0 100px rgba(95, 82, 93, 0.5);
 }
 
+pre {
+/* makes the <code> wrap */
+	white-space:pre-line;
+	background-color: #00002e;
+	color: #00F900;
+	border-radius: .6rem;
+	padding: 1rem;
+	
+}
+
+code {
+  font-family: monospace;
+  font-size: inherit;
+}
+
+pre code {
+  display: block;
+  background: none;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+  max-width: 100%;
+  min-width: 100px;
+  padding: 0;
+}
+
+p > code,
+li > code,
+dd > code,
+td > code {
+  background: #ffeff0;
+  word-wrap: break-word;
+  box-decoration-break: clone;
+  padding: .1rem .3rem .2rem;
+  border-radius: .2rem;
+}
+
 /* =IMAGES
 -------------------------------------------------------*/
 
@@ -207,6 +243,14 @@ img {
 .img-small {
 	max-width: 160px;
 	}
+	
+.img-half {
+	width: 50%;
+}
+
+.img-border {
+	border: 1em #ffffff solid;
+}
 
 .img-cover {
 	margin-top: 20px;
@@ -235,6 +279,15 @@ img {
 	column-count: 4;
 	overflow-wrap: break-word;
 	}
+	
+.list-breathe {
+	margin: 0;
+}
+	
+.list-breathe li {
+	padding: 0.9167em 0;
+
+}
 
 
 /* =HELPERS
@@ -254,6 +307,10 @@ img {
 	margin-left:0;
 	margin-right: 1em;
 	}
+	
+.left-minus {
+	margin-left: -4em;
+}
 
 .right {
 	float: right;
