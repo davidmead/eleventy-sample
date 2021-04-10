@@ -14,11 +14,12 @@ tags:
   - instrumental
   - free
 
-imgSRC: /img/cover-ghosts-nin.png
+imgSRC: /img/cover-ghosts-v-together.jpg
 imgALT: Covers for Ghosts V and VI
 
 artistURL: https://www.nin.com/
 artistNAME: Nine Inch Nails
+albumTITLE: Ghosts V:Together, Ghosts VI:Locusts
 purchaseURL: https://store.nin.com/collections/music/products/ghosts-digital-download
 
 urlTwitter:

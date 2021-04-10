@@ -12,11 +12,12 @@ tags:
   - modern
   - classical
 
-imgSRC: /img/cover-handfuls-penguin-cafe.jpg
+imgSRC: /img/cover-handfuls-of-night.jpg
 imgALT: Album cover
 
 artistURL: https://www.penguincafe.com
 artistNAME: The Penguin Cafe
+albumTITLE: Handfuls of Night
 purchaseURL: https://penguincafe.bandcamp.com/album/handfuls-of-night
 
 layout: layouts/layout-listen

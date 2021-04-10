@@ -8,21 +8,15 @@ layout: layouts/layout-base.njk
 		<p class="p-summary txt-center">{{ summary }}</p>
 		<div class="e-content">
 			<div class="wrapper-listen">
-			<div class="attributes">
+			<div>
 			<p><img class="u-photo img-cover" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
-			<dl class="list-attributes">
-				<dt>Artist</dt>
-				<dd>{{ artistNAME }}</dd>
-				<dt>Title</dt>
-				<dd>{{ albumTITLE }}</dd>
-				<dt>Website</dt>
-				<dd><a href="{{ artistURL | url }}" title="Read more about {{ artistNAME }}">{{ artistURL }}</a></dd>
-				<dt>Buy from</dt>
-				<dd><a href="{{ purchaseURL | url }}" title="Not an affiliate link">{{ purchaseURL }}</a></dd>
-			</dl>
+			<ul>
+			<li><a href="{{ artistURL | url }}" title="Read more about {{ artistNAME }}">Artist website</a></li>
+			<li><a href="{{ purchaseURL | url }}" title="Not an affiliate link">Buy this</a></li>
+			</ul>
 			</div>
 
-			<div class="thoughts">{{ content | safe }}</div>
+			<div>{{ content | safe }}</div>
 			</div>
 		</div>
 		<footer class="meta">

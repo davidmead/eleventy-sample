@@ -161,12 +161,28 @@ strong {
 	margin-bottom: 1em;
 	}
 
-.wrapper-listen {
+.wrapper-listen .attributes {
+	position:relative;
 	display: grid;
 	grid-template-columns: 240px 1fr;
 	grid-gap: 1.5em;
 	grid-auto-rows: minmax(auto, auto);
+	margin-bottom: 3em;
+	border-top: 6px solid #082f37;
+	border-bottom: 6px solid #082f37;
 	}
+	
+.wrapper-listen .attributes:before {	
+	content: " ";
+  position: absolute;
+  z-index: -1;
+  top: -15px;
+  left: 0;
+  right: 0;
+  bottom: -15px;
+  border-top: 2px solid #082f37;
+  border-bottom: 2px solid #082f37;
+  }
 
 .wrapper-taglist {
 	display:grid;
@@ -255,7 +271,7 @@ img {
 .img-cover {
 	margin-top: 20px;
 	box-shadow: 3px 3px 3px #ccc;
-	transform: rotate(-4deg);
+/* 	transform: rotate(-4deg); */
 	}
 
 .img-polaroid {
@@ -287,6 +303,18 @@ img {
 .list-breathe li {
 	padding: 0.9167em 0;
 
+}
+
+.list-attributes dt {
+	margin-top: 0.5em;
+	color: rgba(95, 82, 93, 1);
+	
+}
+
+.list-attributes dd {
+	margin-left: 0;
+	padding-left: 0;
+	font-weight: 600;
 }
 
 
@@ -345,8 +373,13 @@ img {
 
 @media screen and (max-width : 600px) {
 
-	.wrapper-listen {
+	p {
+		font-size: 1.5rem;
+	}
+
+	.wrapper-listen .attributes {
 		grid-template-columns:none;
+		grid-gap: 0;
 		}
 
 	.wrapper-tiles {

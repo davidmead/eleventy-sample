@@ -16,6 +16,7 @@ imgALT: Painted cover of album
 
 artistURL: http://torlundvall.com/
 artistNAME: Tor Lundvall
+albumTITLE: Empty City
 purchaseURL: https://torlundvall.bandcamp.com/album/empty-city
 
 layout: layouts/layout-listen
