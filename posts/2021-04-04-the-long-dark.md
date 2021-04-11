@@ -21,6 +21,8 @@ Quite a few of my friends had already played this and, with it being on Xbox Gam
 ## Look & feel
 There is a sense of walking through a painting with this game. And it's not always the typical soft Kincaid-esque view of Winter.
 
+<p><img class="img-border" alt="screen shot of frozen lake" src="/img/screenshot-thelongdark-001.png"></p>
+
 Deep greys and blues abound. The subtle orange light from my meager fires, dispel the barest of shadows in dark buildings I seek shelter.  Sometimes it's bright and I can see far away. But an instant whiteout can appear and I can't tell direction or see a foot in front of me.
 
 The sound design is immersive. Tin roofs rattle in the wind, wood creaks, wolves howl and the slow trudge of your feet in the snow seems hypnotic. There's also a great score of plaintive piano and strings that ebb in and out.
@@ -31,6 +33,8 @@ I decide to play through the story, rather than dive in with the survival mode s
 You play a charter plane pilot with one passenger. During a storm there are green lights in the sky and you lose all electrics. The plane goes down and you, not only have to survive, but reunite with your separated passenger.
 
 They give you enough backstory to make you care about the characters, and a dash of mystery about what has happened to cause this "quiet apocalypse".
+
+<p><img class="img-border" alt="screen shot of aurora in the sky" src="/img/screenshot-thelongdark-002.png"></p>
 
 ## Everything hurts
 Stand too close to a fire, I burn myself. Walk up/down a steep incline, sprain my ankle/wrist. Stay out too long, hypothermia. Eat something kinda dodgy, food poisoning.
