@@ -35,6 +35,6 @@ They give you enough backstory to make you care about the characters, and a dash
 ## Everything hurts
 Stand too close to a fire, I burn myself. Walk up/down a steep incline, sprain my ankle/wrist. Stay out too long, hypothermia. Eat something kinda dodgy, food poisoning.
 
-Add in wolves, bears, thin ice, you get the picture. As there's no fast travel. You have to walk everywhere, so standing still to get your bearings, or carrying too much making you slower, can be a death sentence.
+Add in wolves, bears, thin ice, you get the picture. As there's no fast travel. You have to <strong>walk everywhere</strong>, so standing still to get your bearings, or carrying too much making you slower, can be a death sentence.
 
 Even with all this, the foraging and keeping a cabin is therapeutic. Until the dread sets in when you run out of wood. 

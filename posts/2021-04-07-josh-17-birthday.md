@@ -11,6 +11,7 @@ tags:
   - vscocam
   - josh
   - birthday
+  - vaccination
 
 layout: layouts/layout-photo
 imgSRC: /img/2021-04-07-josh-birthday-balloons.jpg
@@ -22,4 +23,6 @@ urlFlickr:
 <p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
 
 Our baby is now 17 years old. Where does the time go to?
+
+Also, he had his first COVID-19 vaccination today. Happy Birthday!
 

@@ -21,18 +21,18 @@ I removed the pagination from the front matter completely, replacing it with a [
 
 ```
 <div class="wrapper-tiles">
-  {\%- for post in collections.post | reverse -%\}
-    {\%- if loop.index0 < 3 -%\}
-      <div class="tile">
-        <div class="tile-head txt-center">
-          <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
-        </div>
-        <div class="tile-body">
-         <p><a href="{{ post.url | url }}" title="">{{ post.data.summary }}</a></p>
-        </div>
-     <div>
-    {\%- endif -%\}
-  {\%- endfor-%\}
+    {\%- for post in collections.post | reverse -%\}
+        {\%- if loop.index0 < 3 -%\}
+        <div class="tile">
+            <div class="tile-head txt-center">
+                <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+            </div>
+            <div class="tile-body">
+                <p><a href="{{ post.url | url }}" title="">{{ post.data.summary }}</a></p>
+            </div>
+        <div>
+        {\%- endif -%\}
+    {\%- endfor-%\}
 </div>
 ``` 
 This now shows the last 'n' posts on the front page without creating lots of extra folders in the  `_site` folder.
@@ -46,23 +46,22 @@ I also added some CSS for the new topics section on the homepage.
 
 ```
 .tile-head * {
-	color: #ffffff !important;
-	margin: 0.25em;
-	padding: 0.25em;
-}
+    color: #ffffff !important;
+    margin: 0.25em;
+    padding: 0.25em;
+    }
 ```
 This makes sure whatever I put in to the head section of my tile is coloured white and has some spacing around it.
 
 I also added a little something for the lists now in the body of the tiles.
 ```
 .list-breathe {
-	margin: 0;
-}
+    margin: 0;
+    }
 	
 .list-breathe li {
-	padding: 0.9167em 0;
-
-}
+    padding: 0.9167em 0;
+    }
 ```
 This gives me some spacing around each `li` without playing around with the `line-height`.
 

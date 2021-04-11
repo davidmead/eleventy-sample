@@ -16,7 +16,7 @@ layout: layouts/layout-post
 ---
 Here's the second part of my wishlist for [The Division 2](https://www.ubisoft.com/en-us/game/the-division/the-division-2 "Ubisoft site for the game"). You can read [part 1](/posts/2021-01-05-wishlist-part-1-for-the-division '') to see the other changes.
 
-![screenshot of my character in The Division 2](/img/2021-01-04-division2-character.png "")
+<p><img class="img-border" alt="screen shot of my character in The Division 2" src="/img/2021-01-04-division2-character.png"></p>
 
 ## Dark Zone
 
@@ -37,8 +37,7 @@ In the story there are EMP pulses that disable skills. Make the Occupied Dark Zo
 
 Another discarded part of the gameplay was the DZ Perks.  After unlocking the 3 zones as part of the story we had access to a tree with different perks. These would help/hinder depending if you went "Rogue". This tree was meager to start with, but gutted when the DZ's were overhauled. As you can see there's very little options to choose from.  Another mechanic I would like to see expanded and maybe have change depending on seasons, etc.
 
-![screenshot Dark Zone perk tree in The Division 2](/img/2021-01-18-division2-dz-perks.png "")
-
+<p><img class="img-border" alt="screen shot Dark Zone perk tree in The Division 2" src="/img/2021-01-18-division2-dz-perks.png"></p>
 
 ## Specialization Weapons
 

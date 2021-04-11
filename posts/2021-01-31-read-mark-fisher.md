@@ -9,12 +9,15 @@ tags:
   - post
   - read
   - book
+  - hauntology
 
 imgSRC: /img/cover-read-ghosts.png
 imgALT: Book cover
 
 artistURL: http://k-punk.org
 artistNAME: Mark Fisher
+bookTITLE: Ghosts of My Life - Writings on Depression, Hauntology and Lost Futures
+bookISBN: 978-1-78279-624-4
 purchaseURL: https://www.johnhuntpublishing.com/zer0-books/our-books/ghosts-my-life
 
 layout: layouts/layout-read

@@ -7,13 +7,21 @@ layout: layouts/layout-base.njk
 		<h1 class="title txt-center p-name"><i class="las la-book"></i> {{ title }}</h1>
 		<p class="p-summary txt-center">{{ summary }}</p>
 		<div class="e-content">
-			<div class="wrapper-listen">
-			<div>
+			<div class="wrapper-read">
+			<div class="attributes">
 			<p><img class="u-photo img-cover" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
-			<ul>
-			<li><a href="{{ artistURL | url }}" title="Read more about {{ artistNAME }}">Artist website</a></li>
-			<li><a href="{{ purchaseURL | url }}" title="Not an affiliate link">Buy this</a></li>
-			</ul>
+			<dl class="list-attributes">
+				<dt>Artist</dt>
+				<dd>{{ artistNAME }}</dd>
+				<dt>Title</dt>
+				<dd>{{ bookTITLE }}</dd>
+				<dt>ISBN</dt>
+				<dd>{{ bookISBN }}</dd>
+				<dt>Website</dt>
+				<dd><a href="{{ artistURL | url }}" title="Read more about {{ artistNAME }}">{{ artistURL }}</a></dd>
+				<dt>Buy from</dt>
+				<dd><a href="{{ purchaseURL | url }}" title="Not an affiliate link">{{ purchaseURL }}</a></dd>
+			</dl>
 			</div>
 
 			<div>{{ content | safe }}</div>
