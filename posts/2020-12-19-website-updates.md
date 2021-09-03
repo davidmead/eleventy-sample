@@ -10,6 +10,7 @@ tags:
   - website
   - html
   - css
+  - code
   - design
 
 
@@ -19,8 +20,11 @@ Decided to do a little cleaning to this site.
 
 ## Fonts
 I kept [Calistoga](https://fonts.google.com/specimen/Calistoga "Google fonts") as the heading and "title" font. I still like the rounded and heavy-ish look of it. The body font is now [Atkinson Hyperlegible Font](https://brailleinstitute.org/freefont "free download from Braille Institute"). A new font that...
-
-> focuses on letterform distinction to increase character recognition, ultimately improving readability.
+<figure class="blockquote">
+    <blockquote cite="https://brailleinstitute.org/freefont">
+        <p>focuses on letterform distinction to increase character recognition, ultimately improving readability.</p>
+    </blockquote>
+</figure>
 
 It has a clean look that I think pairs well with Calistoga. I host it on this site, so one less external call. And I think the '0' looks cool.
 

@@ -4,13 +4,16 @@ layout: layouts/layout-base.njk
 ---
 <main>
 	<article class="h-entry">
-		<h1 class="title txt-center p-name"><i class="las la-headphones"></i> {{ title }}</h1>
-		<p class="p-summary txt-center">{{ summary }}</p>
+		<h1 class="title p-name">{{ title }}</h1>
+		<p class="summary">{{ summary }}</p>
 		<div class="e-content">
-			<div class="wrapper-listen">
-			<div class="attributes">
-			<p><img class="u-photo img-cover" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
-			<dl class="list-attributes">
+		
+		<figure class="attributes">
+		<img class="u-photo img-cover" src="{{ imgSRC }}" alt="{{ imgALT }}">
+		
+		<figcaption>
+		
+		<dl class="list-attributes">
 				<dt>Artist</dt>
 				<dd>{{ artistNAME }}</dd>
 				<dt>Title</dt>
@@ -18,25 +21,19 @@ layout: layouts/layout-base.njk
 				<dt>Website</dt>
 				<dd><a href="{{ artistURL | url }}" title="Read more about {{ artistNAME }}">{{ artistURL }}</a></dd>
 				<dt>Buy from</dt>
-				<dd><a href="{{ purchaseURL | url }}" title="Not an affiliate link">{{ purchaseURL }}</a></dd>
+				<dd><a href="{{ purchaseURL | url }}" title="Not an affiliate link">{{ purchaseDOMAIN }}</a></dd>
 			</dl>
-			</div>
+		</figcaption>
+		</figure>
 
 			<div class="thoughts">{{ content | safe }}</div>
 			</div>
 		</div>
 		<footer class="meta">
 			<h2>Meta</h2>
-			<p>Originally posted on <time class="dt-published" datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>, by <span class="p-author author h-card vcard"><img class="u-photo hide" src="/img/davidmead-social.jpg" alt="Black and white photo of my face"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span>.</p>
-			<p>Tagged:
-				{% for item in tags %}
-				<span>
-                    <a class="p-category" href="/tags/{{ item }}" title="all posts tagged {{ item }}" rel="tag"><i class="la la-tag"></i> {{ item }}</a>
-                 </span>
-                {% endfor %}
-			 </p>
-			<p>Link to, or bookmark, here using this <a class="u-url" href="{{ page.url | url }}" title="{{ title }}">permalink</a>.
-			{% if urlTwitter or urlInstagram or urlFlickr %}
+			<p>Originally posted on <time class="dt-published" datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>, by <span class="p-author author h-card vcard"><img class="u-photo hide" width="300px" height="300px" src="/img/davidmead-social-sml.jp2" alt="Black and white photo of my face"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span>.</p>
+			
+ 		{% if urlTwitter or urlInstagram or urlFlickr %}
  		<p>I also posted this on:
 
 {% if urlTwitter %}
@@ -47,6 +44,17 @@ layout: layouts/layout-base.njk
 <i class="lab la-flickr"></i><a class="u-syndication" href="{{ urlFlickr }}" title="view on Flickr" rel="syndication">Flickr</a>
 {% endif %}</p>
 {% else %}<p>I only posted this here.</p>{% endif %}
+
+<p>Link to, or bookmark, here using this <a class="u-url" href="{{ page.url | url }}" title="{{ title }}">permalink</a>.
+
+			<h3>Tags</h3>
+			<ul class="list-plain list-inline">
+				{% for item in tags %}
+				<li>
+                    <a class="p-category" href="/tags/{{ item }}" title="all posts tagged {{ item }}" rel="tag">{{ item }}</a>
+                 </li>
+                {% endfor %}
+			 </ul>
 		</footer>
 	</article>
 </main>

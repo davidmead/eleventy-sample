@@ -27,7 +27,12 @@ Companies aside, when there is a site in people's bio some don't have RSS feeds.
 It's a shame that everything is poured into these silos. That there's still a perceived barrier of complexity to having your own site.
 
 When exporting my data from Twitter they start with the line...
+<figure class="blockquote">
+    <blockquote>
+        <p>You can request a ZIP file with an archive of the data <strong>we think</strong> is most important to you.</p>
+    </blockquote>
+</figure>
 
-> "You can request a ZIP file with an archive of the data <strong>we think</strong> is most important to you." (emphasis mine).
+(emphasis mine)
 
 So I'm not going to get everything anymore. Another reason I'm searching for those links.

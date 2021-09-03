@@ -9,6 +9,7 @@ tags:
   - post
   - code
   - css
+  - eleventy
   - design
 
 layout: layouts/layout-post

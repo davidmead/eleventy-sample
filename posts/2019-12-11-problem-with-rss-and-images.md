@@ -10,6 +10,8 @@ tags:
   - eleventy
   - problem
   - code
+  - html
+  - markdown
 
 layout: layouts/layout-post
 ---

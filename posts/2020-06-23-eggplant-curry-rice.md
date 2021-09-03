@@ -14,6 +14,7 @@ tags:
   - food
   - dinner
   - cooking
+  - recipe
 
 layout: layouts/layout-photo
 imgSRC: /img/2020-06-23-eggplant-curry-rice.jpg

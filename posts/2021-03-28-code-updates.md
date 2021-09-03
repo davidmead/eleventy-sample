@@ -8,6 +8,8 @@ date: 2021-03-28T00:00:01.00-05:00
 tags:
   - post
   - code
+  - html
+  - css
   - eleventy
 
 layout: layouts/layout-post

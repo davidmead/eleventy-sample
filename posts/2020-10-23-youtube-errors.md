@@ -1,5 +1,5 @@
 ---
-title: Youtube errors
+title: YouTube errors
 description: Videos won't play when using an ad blocker
 summary: No ads, no videos.
 
@@ -20,7 +20,7 @@ imgALT: Screenshot showing error on YouTube
 
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-border" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
 
 <p>It used to be just the odd clip from a news outlet I had unpause my adblocker to watch. Now virtually all of my subscriptions (even from the UK) are returning an error on YouTube when the adblocker is running.</p>
 

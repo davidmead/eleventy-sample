@@ -8,142 +8,97 @@ isFront: true
 layout: layouts/layout-page
 ---
 <h1 class="title txt-center">David John Mead</h1>
+<p class="summary">This is my personal site where I post thoughts, photos, links, and sometimes experiment with HTML &amp; CSS.</p>
+
 <section>
 
 <h2>Most recent posts:</h2>
-<div class="wrapper-tiles">
+<div class="tile-wrapper">
 	{% for post in collections.post | reverse %}
 		{% if loop.index0 < 3 %}
 			<div class="tile">
-				<div class="tile-head txt-center">
-					<time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
-				</div>
-				<div class="tile-body">
-					<p><a href="{{ post.url | url }}" title="">{{ post.data.summary }}</a></p>
-				</div>
-			</div>
+				<a class="" href="{{ post.url | url }}" title="">
+					<div class="tile-head">
+						<h3 class="tile-heading">{{ post.data.title }}</h3>
+					</div>
+					<div class="tile-body">
+						<time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+						<p>{{ post.data.summary }}</p>
+					</div>
+				 </a>
+			 </div>
 		{% endif %}
 	{% endfor %}
 </div>
 	
 	<p>See <a href="/tags/post/" title="">all posts</a>.</p>
 
+
+<div class="caption">
 <h2>Topics</h2>
-<p>See the latest posts in the following categories:</p>
+<p>Most of what I post fits under the following topics: <a href="/tags/listen/" title="all posts tagged listen">listen</a>, <a href="/tags/play/" title="all posts tagged play">play</a>, <a href="/tags/eat/" title="all posts tagged eat">eat</a>, <a href="/tags/read/" title="all posts tagged read">read</a>, <a href="/tags/watch/" title="all posts tagged watch">watch</a>, and <a href="/tags/code/" title="all posts tagged code">code</a>.</p>
+<p>Here's the latest posts under each topic.</p>
 
-
-
-<div class="wrapper-tiles">
-
-	<div class="tile">
-		<div class="tile-head txt-center">
-			<h3><a href="/tags/listen/" title="all posts tagged listen"><i class="las la-headphones"></i>listen</a></h3>
-		</div>
-		<div class="tile-body">
-			<ul class="list-plain list-breathe">
+			<h3>listen</h3>
+			<ul>
 			{% for post in collections.listen | reverse %}
 			  {% if loop.index0 < 2 %}
 			    <li><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></li>
 			  {% endif %}
 			{% endfor %}
 			</ul>
-		</div>
-	</div>
-	
-	<div class="tile">
-		<div class="tile-head txt-center">
-			<h3><a href="/tags/play/" title="all posts tagged play"><i class="las la-gamepad"></i>play</a></h3>
-		</div>
-		<div class="tile-body">
-			<ul class="list-plain list-breathe">
+			<h3>play</h3>
+			<ul>
 			{% for post in collections.play | reverse %}
 			  {% if loop.index0 < 2 %}
 			    <li><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></li>
 			  {% endif %}
 			{% endfor %}
 			</ul>
-		</div>
-	</div>
-	
-	<div class="tile">
-		<div class="tile-head txt-center">
-			<h3><a href="/tags/eat/" title="all posts tagged eat"><i class="las la-utensils"></i>eat</a></h3>
-		</div>
-		<div class="tile-body">
-			<ul class="list-plain list-breathe">
+			<h3 class="">eat</h3>
+			<ul class="">
 			{% for post in collections.eat | reverse %}
 			  {% if loop.index0 < 2 %}
 			    <li><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></li>
 			  {% endif %}
 			{% endfor %}
 			</ul>
-		</div>
-	</div>
-	
-	<div class="tile">
-		<div class="tile-head txt-center">
-			<h3><a href="/tags/read/" title="all posts tagged read"><i class="las la-book"></i>read</a></h3>
-		</div>
-		<div class="tile-body">
-			<ul class="list-plain list-breathe">
+			<h3 class="">read</h3>
+			<ul class="">
 			{% for post in collections.read | reverse %}
 			  {% if loop.index0 < 2 %}
 			    <li><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></li>
 			  {% endif %}
 			{% endfor %}
 			</ul>
-		</div>
-	</div>
-	
-	<div class="tile">
-		<div class="tile-head txt-center">
-			<h3><a href="/tags/watch/" title="all posts tagged watch"><i class="las la-eye"></i>watch</a></h3>
-		</div>
-		<div class="tile-body">
-			<ul class="list-plain list-breathe">
+			<h3 class="">watch</h3>
+			<ul class="">
 			{% for post in collections.watch | reverse %}
 			  {% if loop.index0 < 2 %}
 			    <li><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></li>
 			  {% endif %}
 			{% endfor %}
 			</ul>
-		</div>
-	</div>
-	
-	<div class="tile">
-		<div class="tile-head">
-			<h3 class="txt-center"><a href="/tags/code/" title="all posts tagged code"><i class="las la-laptop-code"></i>code</a></h3>
-		</div>
-		<div class="tile-body">
-			<ul class="list-plain list-breathe">
+			<h3 class="">code</h3>
+			<ul class="">
 			{% for post in collections.code | reverse %}
 			  {% if loop.index0 < 2 %}
 			    <li><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></li>
 			  {% endif %}
 			{% endfor %}
 			</ul>
-		</div>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-</div>
-
+			</div>
 </section>
 
 <section class="p-author h-card">
 	<div class="clearfix">
-		<img class="u-photo img-small left circle" src="/img/davidmead-social.jpg" alt="black and white profile photo">
 		<h2>About <span class="p-name"><a class="u-url url fn" href="https://davidjohnmead.com" rel="me">
 			<span class="p-given-name given-name">David</span>
 			<span class="p-family-name family-name">Mead</span>
 		</a></span></h2>
-	<p>An Englishman abroad - Been working with the web since the 90's, main focus now is User Experience. Moved to Cleveland, Ohio in 2001.</p>
-	<p>This is my personal site where I post thoughts, photos, links, and sometimes experiment with HTML &amp; CSS.</p>
+		<p><img class="u-photo left img-small img-border" width="300px" height="300px" src="/img/davidmead-social-sml.jp2" alt="black and white profile photo"></p>
+	<p>I've been working with the web since the 90's. Started as Front-end Developer, focus now is User Experience.</p>
+	<p>An Englishman abroad. Has called Cleveland, <abbr title="Ohio">OH</abbr> home since 2001.</p>
 	</div>
 
 	<div>

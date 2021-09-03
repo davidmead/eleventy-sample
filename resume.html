@@ -6,43 +6,121 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="">
-		<meta name="robots" content="index, follow">
-		<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+		<meta name="robots" content="noindex, nofollow">
 		<style>
-			body {
-				font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-/* Only supported on Chromium-based browsers and Safari */
-font-family: system-ui;
-background-color:#fdfdfd;}
+:root {
+  color-scheme: light dark;
+}			
+			
+html,
+body {
+	height: 100%; 
+	}
 
-h3 {
-	color: #202421;
+body {
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+	/* Only supported on Chromium-based browsers and Safari */
+	font-family: system-ui;
+	font-variant: common-ligatures tabular-nums;
+	}
+	
+main {
+	margin: 30px 15px;
+/* 	max-width: 670px; */
+max-width: 45rem;
+	}
+	
+	
+h1, h2, h3 {
+	margin: 0;
+	font-weight: 700;
+}
+	
+
+p {
+/*
+font-size: 16px;
+line-height: 26px;
+*/
+margin: 0;
+font-size: 1em; /* 18px */
+line-height: 1.5000em; /* 27px */
+word-wrap: break-word;
+overflow-wrap: break-word;
+hyphens: auto;
+	
+}
+	
+
+* + p {
+margin-top: 1.1250em; /* 0.75 baselines */
+
 }
 
-		.thing {
-			background-color: #FFFFFF;
-			padding: 0.5em;
-			margin: 0.5em;
-			box-shadow: 1px 1px 1px #9b9b9b;
+h1 + p,
+h2 + p,
+h3 + p,
+h3 + ul,
+h2 + h3 {
+  margin-top: 0.750em; /* 0.5 baselines */
+
+  
+}
+	
+
+
+p + h2,
+p + h3,
+.job {
+  margin-top: 2.250em; /* 1.5 baselines */
+
+}
+
+ 
+
+
+
+.job {
+border-bottom: 1px dotted #ccc;
+padding-bottom: 1.1250em;
+	}
+
+.position {
+	display: block;
+	color: #f74b0d;
+	}
+
+.hide {
+	display: none;
+	/* 			tweak this later to not show on screens but have it for screen readers etc. */
+	}
+
+.details { padding: 0; list-style-type: none; color: #666;}
+
+.details li {display: block; margin-right: 1em;}
+
+@media screen and (min-width: 600px) {
+		main { 
+			padding: 0 30px;
+		}
+		
+		p { 
+	font-size: 18px;
+	line-height: 30px;
+	}
+	
+	.position {
+	display: inline;
+	}
+		
+		.details li {display: inline-block;}
+
+			
 		}
 
-		.company {
-			display: inline-block;
-			padding-right: 1em;
-			border-right: 2px solid #999;
-			margin-right: 1em;
-			color: #f74b0d;
-
-		}
-
-		.hide {
-			display: none;
-/* 			tweak this later to not show on screens but have it for screen readers etc. */
-		}
-
-		.details {margin: 0; padding: 0; list-style-type: none;}
-		.details li {display: inline-block; margin-right: 1em; color: #666;}
-		.details li i {padding-right: 0.25em; color: #000;}
 
 		</style>
 </head>
@@ -62,32 +140,32 @@ h3 {
 <p>Keeping up with the latest thinking and methodologies has enabled me to deliver great results for every project I've been involved with.</p>
 
 <h2>Experience</h2>
-<div class="thing">
-<h3><span class="company">Vitamix</span><span class="hide">,</span> Lead Designer UI/UX</h3>
+
+<div class="job">
+<h3><span class="position">Lead Designer <abbr title="User Interface">UI</abbr>/<abbr title="User Experience">UX</abbr></span> at <span class="company">Vitamix</span></h3>
 <ul class="details">
-	<li><i class="las la-hourglass-start"></i>Full-time</li>
-	<li><i class="las la-calendar"></i>Apr 2020 – Present</li>
-	<li><i class="las la-map-marker"></i>Ohio, United States</li>
+	<li>Full-time</li>
+	<li>April 2020&ndash;Present</li>
+	<li>N.Olmstead, Ohio USA</li>
 </ul>
 <p>Description goes here</p>
 </div>
 
 
-<div class="thing">
-<h3>Manager of User Experience</h3>
-<p>Company Name Dealer Tire Full-time
-Dates EmployedMay 2016 – Apr 2020
-Employment Duration4 yrs
-LocationCleveland/Akron, Ohio Area</p>
+<div class="job">
+<h3><span class="position">Manager of User Experience</span> at <span class="company">Dealer Tire</span></h3>
+<ul class="details">
+	<li>Full-time</li>
+	<li>May 2016&ndash;April 2020</li>
+	<li>Cleveland, Ohio USA</li>
+</ul>
+<p>I managed the User Experience team for Dealer Tire. Responsible for shaping digital products in B2B & B2C channels.</p>
 
+<p>Championed adoption of accessibility practices. Organized the creation of a design system. Introduced user-centric design as standard. Worked across departments to improve workflows, and communication.</p>
 
-
-<p>I managed the User Experience team for Dealer Tire. Responsible for shaping digital products in B2B & B2C channels.
-
-Championed adoption of accessibility practices. Organized the creation of a design system. Introduced user-centric design as standard. Worked across departments to improve workflows, and communication.
-
-User testing, ethnographic research, wireframes, and clickable mocks were our daily bread & butter.</p>
+<p>User testing, ethnographic research, wireframes, and clickable mocks were our daily bread & butter.</p>
 </div>
+
 
 
 

@@ -26,7 +26,12 @@ My experience with Simple has been nothing but <strong>excellent</strong>. The r
 
 I will miss the clarity in their email, messaging, and UI. I'll miss seeing exactly what is 'Safe-to-Spend' and having 'Goals' to squirrel away small amounts to pay for a specific thing later on. In a [tweet](https://twitter.com/i2pi/status/1347266937932316673) Joshua said
 
-> Our first mission statement was to help people worry less about money. It morphed to ‘help people feel confidence’. Either way, we wanted to help people.
+<figure class="blockquote">
+    <blockquote cite="https://twitter.com/i2pi/status/1347266937932316673">
+        <p>Our first mission statement was to help people worry less about money. It morphed to ‘help people feel confidence’. Either way, we wanted to help people.</p>
+    </blockquote>
+    <figcaption>— Joshua Reich</figcaption>
+</figure>
 
 I feel they achieved this in my eyes.
 

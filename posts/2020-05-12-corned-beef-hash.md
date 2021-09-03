@@ -14,6 +14,7 @@ tags:
   - food
   - breakfast
   - cooking
+  - recipe
 
 layout: layouts/layout-photo
 imgSRC: /img/2020-05-12-nom-corned-beef-hash.jpg

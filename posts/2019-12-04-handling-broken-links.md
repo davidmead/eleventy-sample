@@ -21,8 +21,13 @@ This should now be working.
 
 I included an explanation of why the content someone was looking for may not be there, along with a link to the Wayback Machine which has snapshots of billions of web pages.
 
->On December 2nd 2019 I deleted all my content, and started fresh. If you're following a link from elsewhere you can try the Wayback Machine which may have a copy.
->
->You can also visit the home page to read anything new I've posted.
+<figure class="blockquote">
+    <blockquote>
+        <p>On December 2nd 2019 I deleted all my content, and started fresh. If you're following a link from elsewhere you can try the Wayback Machine which may have a copy.</p>
+        <p>You can also visit the home page to read anything new I've posted.</p>
+    </blockquote>
+    
+</figure>
+
 
 Hopefully that should be helpful.

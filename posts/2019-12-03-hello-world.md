@@ -20,9 +20,15 @@ All previous content has now been deleted from this server. I really don't know 
 
 I wanted to get out of my technology comfort zone. Use something I'm not familiar with. That's why I ended up using an SSG, or Static Site Generator in longhand. It builds everything locally, using Javascript (shudder), and you just FTP the flat files up to the server.
 
->"Sometimes, the old ways are the best."
+<figure class="blockquote">
+    <blockquote>
+        <p>Sometimes, the old ways are the best.</p>
+    </blockquote>
+    <figcaption>— Moneypenny, <cite>Skyfall</cite></figcaption>
+</figure>
 
-Thanks to [Chris](https://ctmiller.net/ "Chris Miller's website") for hearing me out when I wondered how hard is it *really* to build a CMS from scratch. And thanks to [Bridget](https://www.bridgestew.com/ "Bridget's blog") for guiding me through some potholes as she'd built her site using [Eleventy](https://www.11ty.io/ "official site") too.
+
+Thanks to [Chris](https://ctmiller.net/ "Chris Miller's website") for hearing me out when I wondered how hard is it *really* to build a CMS from scratch. And huge thanks to [Bridget](https://www.bridgestew.com/ "Bridget's blog") for guiding me through some potholes as she'd built her site using [Eleventy](https://www.11ty.io/ "official site") too.
 
 I'm sure there's a lot that may **not** work initially. I'm also sure there's a lot better ways of doing some of the workflow and code. But it's in a state where I feel "confident" putting it up. Let's see what breaks.
 

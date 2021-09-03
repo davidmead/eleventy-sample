@@ -9,6 +9,7 @@ tags:
   - post
   - technology
   - web
+  - google
 
 layout: layouts/layout-post
 ---
@@ -38,9 +39,9 @@ With that, I recently transferred my music collection over to YTM only to find I
 
 What incentive do I have to purchase a $300+ max speaker from them now?
 
-## Your old and cheap
+## You're old and cheap
 
-Wont' argue there. Yes, I am older. Yes, I don't like paying for things I don't have to. But here's the thing - I happily pay for quite a lot of things that've replaced Google's "FREE" services, because they are better.
+Won't argue there. Yes, I am older. Yes, I don't like paying for things I don't have to. But here's the thing - I happily pay for quite a lot of things that replace "FREE" services from Google, because they are <em>better</em>.
 
 [Hey](https://hey.com) is the new email service from Basecamp. I pay for it.
 

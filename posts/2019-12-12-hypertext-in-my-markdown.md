@@ -9,6 +9,8 @@ tags:
   - post
   - code
   - eleventy
+  - html
+  - markdown
 
 layout: layouts/layout-post
 ---

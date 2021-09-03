@@ -18,7 +18,12 @@ Today the US Congress met to confirm the next President, Joe Biden. We knew that
 
 President Trump called for a rally of his loyal supporters. Told them to <q>use their strength</q> and get to the hill. They did march and didn't stop. Forcing themselves into the Capitol while this meeting was going on.
 
->Protesters in support of US President Donald Trump swarmed the Capitol building, forcing officials to order lawmakers to shelter in place and halting debate in both the House and Senate. Congress was meeting to confirm President-elect Joe Biden's electoral college victory.
+<figure class="blockquote">
+    <blockquote cite="https://www.bbc.com/news/world-us-canada-55568131">
+        <p>Protesters in support of US President Donald Trump swarmed the Capitol building, forcing officials to order lawmakers to shelter in place and halting debate in both the House and Senate. Congress was meeting to confirm President-elect Joe Biden's electoral college victory.</p>
+    </blockquote>
+    <figcaption>— BBC World News</figcaption>
+</figure>
 
 [Shocking photos](https://www.bbc.com/news/world-us-canada-55568131 "BBC News photos") capture what we watched live happen.
 

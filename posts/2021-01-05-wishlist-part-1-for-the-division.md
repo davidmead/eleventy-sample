@@ -16,7 +16,7 @@ layout: layouts/layout-post
 ---
 It seems we may be entering the last throws of [The Division 2](https://www.ubisoft.com/en-us/game/the-division/the-division-2 "Ubisoft site for the game"). A franchise I've enjoyed playing for years now. Last year we saw fewer familiar faces on the ['Sate of the game'](https://youtu.be/1iqVx69gEtg "December edition on YouTube") streams. Red Storm's Terry Spier [tweeted](https://twitter.com/The_Spier/status/1250061470827765764 "post on Twitter") he no longer worked on it, and we just got an Optimization Station - Something came into the first game at it's end.
 
-![screenshot of my character in The Division 2](/img/2021-01-04-division2-character.png "")
+<p><img class="img-border" src="/img/2021-01-04-division2-character.png" alt="screenshot of my character in The Division 2"></p>
 
 Wether or not there's an actual Division 3, or they go the route Bungie took for Destiny 2, here's part 1 of things I'd like to see. These are all based on existing game items/mechanics/storylines.
 

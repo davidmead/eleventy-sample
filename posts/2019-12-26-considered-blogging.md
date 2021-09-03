@@ -36,9 +36,11 @@ A month long pilgrimage to the "local" monastery vs. millisecond glances at the 
 
 Pair that with the ability for almost anyone to contribute and _change_ that information, rather than the monks-Huge!
 
-> im·pulse
-> /ˈimˌpəls/
-> a sudden strong and unreflective urge or desire to act.
+<figure class="blockquote">
+    <blockquote>
+        <p>im·pulse /ˈimˌpəls/ a sudden strong and unreflective urge or desire to act.</p>
+    </blockquote>
+</figure>
 
 But with that access and speed has come the proliferation of the "[hot take](https://en.wikipedia.org/wiki/Hot_take "Wikipedia entry")", the "well actually", "[virtue signalling](https://en.wikipedia.org/wiki/Virtue_signalling "Wikipedia entry")", and the business models that feed off of (and in to) this.  The dopamine + financial reward of "likes" for impulsiveness is rampant.
 
@@ -56,9 +58,11 @@ A few words kept floating around me; mindful, thoughtful, measured. But one stuc
 
 Considered. I wanted consideration to play a part of what I put out.
 
-> con·sid·er·a·tion
-> /kənˌsidərˈāSH(ə)n/
-> careful thought, typically over a period of time.
+<figure class="blockquote">
+    <blockquote>
+        <p>con·sid·er·a·tion /kənˌsidərˈāSH(ə)n/ careful thought, typically over a period of time.</p>
+    </blockquote>
+</figure>
 
 This is what made the choice of a static site generator the right one.
 
@@ -78,5 +82,9 @@ At this point-in-time I am also not concerned with sharing them into the silos. 
 
 [Amy Hoy](https://twitter.com/amyhoy/status/1210253110599241728 "tweet") summed up how I feel...
 
-> i extremely do not care about who faved 2 of my tweets! that’s the equivalent of a notification popping up that “this random person in the convenience store glanced at your sneakers”
-
+<figure class="blockquote">
+    <blockquote cite="https://twitter.com/amyhoy/status/1210253110599241728">
+        <p>i extremely do not care about who faved 2 of my tweets! that’s the equivalent of a notification popping up that “this random person in the convenience store glanced at your sneakers</p>
+    </blockquote>
+    <figcaption>— Amy Hoy, <cite>Twitter</cite></figcaption>
+</figure>

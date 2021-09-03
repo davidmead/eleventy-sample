@@ -19,14 +19,17 @@ artistURL: https://www.penguincafe.com
 artistNAME: The Penguin Cafe
 albumTITLE: Handfuls of Night
 purchaseURL: https://penguincafe.bandcamp.com/album/handfuls-of-night
+purchaseDOMAIN: https://penguincafe.bandcamp.com/
 
 layout: layouts/layout-listen
 ---
 I first encountered the sounds of Penguin Cafe Orchestra on [The South Bank Show](https://youtu.be/ZV43lkJ7xNs "video on YouTube") in 1987. It was a mix of "new age", classical, avant-garde, and just plain fun.
-
-> There are long tables and everyone sits together, and it’s very cheerfully chaotic. In the back there is always a band playing music that you are sure you’ve heard somewhere but you have no idea where – and that is the Penguin Cafe Orchestra – they play this music.
->
-> -Arthur Jeffes
+<figure class="blockquote">
+    <blockquote cite="https://www.penguincafe.com/more">
+        <p>There are long tables and everyone sits together, and it’s very cheerfully chaotic. In the back there is always a band playing music that you are sure you’ve heard somewhere but you have no idea where – and that is the Penguin Cafe Orchestra – they play this music.</p>
+    </blockquote>
+    <figcaption>— Arthur Jeffes, <cite>Official website</cite></figcaption>
+</figure>
 
 I remember hunting down the 'Music from the Penguin Cafe' record and feeling equal parts joy & confusion as I listened. The same for the other albums I bought by them over the years.
 

@@ -19,7 +19,12 @@ Nathan Curtis tweeted out about how Medium is now changing their policy, and how
 
 Laura Kalbag wrote [It’s Time to Get Personal](https://24ways.org/2019/its-time-to-get-personal/ "article on 24 ways") where she looks at the wasteland of personal websites, that could start to become a lush community garden of shared thoughts.
 
->Essentially it means when we are not paying for mainstream tech with money, we are paying for it with our privacy.
+<figure class="blockquote">
+    <blockquote cite="https://24ways.org/2019/its-time-to-get-personal/">
+        <p>Essentially it means when we are not paying for mainstream tech with money, we are paying for it with our privacy.</p>
+    </blockquote>
+    <figcaption>— Laura Kalbag, <cite>It’s Time to Get Personal</cite></figcaption>
+</figure>
 
 Even Jack Dorsey tweeted out that they are funding a team to develop something "new"...
 

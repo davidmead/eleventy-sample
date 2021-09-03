@@ -22,11 +22,18 @@ Opening line is “Starting today, you can finally enjoy your music on YouTube M
 
 The death knell comes in the opening paragraph, where they talk about [transferring your library](https://support.google.com/youtubemusic/answer/9698084?p=gpm_transfer&visit_id=637301787710178298-334405885&rd=1 "Google support article").
 
-> “YouTube Music will eventually replace Google Play Music later this year”
+<figure class="blockquote">
+    <blockquote>
+        <p>YouTube Music will eventually replace Google Play Music later this year</p>
+    </blockquote>
+</figure>
 
 So without much choice I started the process.  And while they acknowledge it “looks a bit different’ we now know why Play Music hasn’t seen any updates or improvements.
-
-> YouTube Music “was built by the same team with the same passion”.
+<figure class="blockquote">
+    <blockquote>
+        <p>YouTube Music “was built by the same team with the same passion</p>
+    </blockquote>
+</figure>
 
 This seems a 100% algorithm-based streaming service. Something I am not remotely interested in.
 
