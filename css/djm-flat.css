@@ -89,6 +89,10 @@ blockquote p, blockquote footer {
   display: inline;
 }
 
+abbr {
+	border-bottom: 1px dotted rgba(var(--color-003), var(--op-100));
+}
+
 /* =STYLES
 ------------------------------- */
 html {
