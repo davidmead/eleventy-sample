@@ -7,10 +7,11 @@ date: 2021-04-04T00:00:01.00-05:00
 
 tags:
   - post
+  - game
   - play
   - xbox
+  - videogames
   - thelongdark
-  - game
 
 layout: layouts/layout-post
 ---

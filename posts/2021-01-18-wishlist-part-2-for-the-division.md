@@ -10,7 +10,8 @@ tags:
   - game
   - play
   - xbox
-  - TheDivision2
+  - videogames
+  - thedivision2
 
 layout: layouts/layout-post
 ---

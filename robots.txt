@@ -1,2 +1,5 @@
 User-agent: TurnitinBot
 Disallow: /
+
+User-agent: *
+Sitemap: https://davidjohnmead.com/sitemap.xml

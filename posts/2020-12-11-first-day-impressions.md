@@ -7,12 +7,12 @@ date: 2020-12-11T00:00:01.00-05:00
 
 tags:
   - post
-  - play
   - game
+  - play
+  - xbox
+  - videogames
   - rpg
   - cyberpunk2077
-  - videogame
-  - xbox
 
 layout: layouts/layout-post
 ---
