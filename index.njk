@@ -7,8 +7,11 @@ isFront: true
 
 layout: layouts/layout-page
 ---
-<h1 class="title txt-center">David John Mead</h1>
-<p class="summary">This is my personal site where I post thoughts, photos, links, and sometimes experiment with HTML &amp; CSS.</p>
+<!--<h1 class="title txt-center">David John Mead</h1>
+<p class="summary">This is my personal site where I post thoughts, photos, links, and sometimes experiment with HTML &amp; CSS.</p>-->
+
+<h1 class="title">My personal site. I post thoughts, photos, and links</h1>
+<p class="summary">Sometimes I experiment with HTML &amp; CSS.</p>
 
 <section>
 
@@ -34,61 +37,60 @@ layout: layouts/layout-page
 	<p>See <a href="/tags/post/" title="">all posts</a>.</p>
 
 
-<div class="caption">
+<div class="">
 <h2>Topics</h2>
-<p>Most of what I post fits under the following topics: <a href="/tags/listen/" title="all posts tagged listen">listen</a>, <a href="/tags/play/" title="all posts tagged play">play</a>, <a href="/tags/eat/" title="all posts tagged eat">eat</a>, <a href="/tags/read/" title="all posts tagged read">read</a>, <a href="/tags/watch/" title="all posts tagged watch">watch</a>, and <a href="/tags/code/" title="all posts tagged code">code</a>.</p>
-<p>Here's the latest posts under each topic.</p>
+<p>Most, but not all, of what I post fits under the following topics:</p>
 
-			<h3>listen</h3>
-			<ul>
-			{% for post in collections.listen | reverse %}
-			  {% if loop.index0 < 2 %}
-			    <li><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></li>
-			  {% endif %}
-			{% endfor %}
-			</ul>
-			<h3>play</h3>
-			<ul>
-			{% for post in collections.play | reverse %}
-			  {% if loop.index0 < 2 %}
-			    <li><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></li>
-			  {% endif %}
-			{% endfor %}
-			</ul>
-			<h3 class="">eat</h3>
-			<ul class="">
-			{% for post in collections.eat | reverse %}
-			  {% if loop.index0 < 2 %}
-			    <li><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></li>
-			  {% endif %}
-			{% endfor %}
-			</ul>
-			<h3 class="">read</h3>
-			<ul class="">
-			{% for post in collections.read | reverse %}
-			  {% if loop.index0 < 2 %}
-			    <li><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></li>
-			  {% endif %}
-			{% endfor %}
-			</ul>
-			<h3 class="">watch</h3>
-			<ul class="">
-			{% for post in collections.watch | reverse %}
-			  {% if loop.index0 < 2 %}
-			    <li><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></li>
-			  {% endif %}
-			{% endfor %}
-			</ul>
-			<h3 class="">code</h3>
-			<ul class="">
-			{% for post in collections.code | reverse %}
-			  {% if loop.index0 < 2 %}
-			    <li><a href="{{ post.url | url }}" title="">{{ post.data.title }}</a></li>
-			  {% endif %}
-			{% endfor %}
-			</ul>
-			</div>
+<div class="tile-wrapper">
+<a class="tile txt-center" href="/tags/listen/" title="all posts tagged listen">listen</a>
+<a class="tile txt-center" href="/tags/play/" title="all posts tagged play">play</a>
+<a class="tile txt-center" href="/tags/eat/" title="all posts tagged eat">eat</a>
+<a class="tile txt-center" href="/tags/read/" title="all posts tagged read">read</a>
+<a class="tile txt-center" href="/tags/watch/" title="all posts tagged watch">watch</a>
+<a class="tile txt-center" href="/tags/code/" title="all posts tagged code">code</a>
+</div>
+
+</div>
 </section>
+
+
+
+<div class="caption">
+<h2>Blogroll</h2>
+<ul class="list-plain list-social">
+	<li class=""><a href="https://ctmiller.net" class="h-card" rel="friend met">Chris Miller</a></li>
+	<li class=""><a href="https://www.bridgestew.com" class="h-card" rel="friend met">Bridget Stewart</a></li>
+
+	<li class=""><a href="https://adactio.com" class="h-card" rel="colleague met">Jeremy Keith</a></li>
+	<li class=""><a href="https://werd.io" class="h-card" rel="colleague">Ben Werdmüller</a></li>
+	<li class=""><a href="https://stuffandnonsense.co.uk" class="h-card" rel="colleague">Andy Clarke</a></li>
+	<li class=""><a href="https://karlhyde.underworldlive.com" class="h-card" rel="">Karl Hyde</a></li>
+	<li class=""><a href="https://kottke.org" class="h-card" rel="">Jason Kottke</a></li>
+	<li class=""><a href="https://lucybellwood.com" class="h-card" rel="">Lucy Bellwood</a></li>
+	<li class=""><a href="https://martinbelam.com" class="h-card" rel="colleague met">Martin Belam</a></li>
+	<li class=""><a href="https://www.robinrendle.com" class="h-card" rel="colleague">Robin Rendle</a></li>
+	<li class=""><a href="https://colly.com" class="h-card" rel="">Simon Collinson</a></li>
+	<li class=""><a href="https://tantek.com" class="h-card" rel="colleague met">Tantek Çelik</a></li>
+	<li class=""><a href="https://atlasminor.com" class="h-card" rel="">James A. Reeves</a></li>
+	<li class=""><a href="https://boffosocko.com" class="h-card" rel="">Chris Aldrich</a></li>
+	<li class=""><a href="https://craigmod.com" class="h-card" rel="">Craig Mod</a></li>
+	<li class=""><a href="https://disquiet.com" class="h-card" rel="">Marc Weidenbaum</a></li>
+	<li class=""><a href="https://jamesg.blog" class="h-card" rel="">James</a></li>
+	<li class=""><a href="https://www.manton.org" class="h-card" rel="colleague">Manton Reece</a></li>
+
+	<!--<li class=""><a href="http://joshuajohnmead.com" class="h-card" rel="child met">Joshua Mead</a></li>
+	<li class=""><a href="http://julieannmead.com" class="h-card" rel="spouse sweetheart met">Julie Mead</a></li>-->
+</ul>
+	
+	
+	<p><a href="http://gmpg.org/xfn">
+ <img src="/img/xfn-btn.gif" alt="XFN Friendly" />
+</a></p>
+
+</div>
+
+
+
 
 <section class="p-author h-card">
 	<div class="clearfix">

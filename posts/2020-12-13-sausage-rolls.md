@@ -13,7 +13,7 @@ tags:
   - food
   - british
   - homemade
-  - cooking
+  - cook
 
 layout: layouts/layout-photo
 imgSRC: /img/2020-12-13-sausage-rolls.jpg

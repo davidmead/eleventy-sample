@@ -13,7 +13,7 @@ tags:
   - eat
   - food
   - dinner
-  - cooking
+  - cook
   - recipe
 
 layout: layouts/layout-photo

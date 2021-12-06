@@ -2,7 +2,7 @@
 
 	Site Name:   David John Mead
 	Site URL:    https://davidjohnmead.com/
-	Standards:   HTML5, CSS3
+	Standards:   HTML5, CSS3, XFN
 	Web Design:  David Mead
 
 /* AUTHOR */
@@ -18,3 +18,5 @@
 /* THANKS */
 
 	To everyone who shares, likes, comments, and contributes!
+	
+	XFN icons from Fugue set by https://p.yusukekamiyamane.com

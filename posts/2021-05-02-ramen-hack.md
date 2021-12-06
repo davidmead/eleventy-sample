@@ -12,7 +12,7 @@ tags:
 - food
 - lunch
 - photo
-- cooking
+- cook
 - recipe
 
 imgSRC: /img/2021-05-04-everything-bagel-ramen.jpeg

@@ -8,8 +8,8 @@ date: 2019-12-19T00:00:01.00-05:00
 tags:
   - post
   - work
-  - DealerTire
-  - cooking
+  - dealertire
+  - cook
   - xmas2019
   - nom
   - eat

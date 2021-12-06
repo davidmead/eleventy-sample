@@ -11,7 +11,7 @@ tags:
 - eat
 - food
 - photo
-- cooking
+- cook
 - lunch
 
 imgSRC: /img/2021-06-01-egg-avocado.jpeg

@@ -13,7 +13,7 @@ tags:
   - eat
   - food
   - breakfast
-  - cooking
+  - cook
 
 layout: layouts/layout-photo
 imgSRC: /img/2020-03-23-breakfast.jpg

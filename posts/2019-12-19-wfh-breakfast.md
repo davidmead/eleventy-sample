@@ -11,7 +11,7 @@ tags:
   - nom
   - eat
   - breakfast
-  - cooking
+  - cook
 
 layout: layouts/layout-photo
 imgSRC: /img/2019-12-19-breakfast.jpg

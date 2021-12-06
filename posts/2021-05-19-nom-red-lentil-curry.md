@@ -11,7 +11,7 @@ tags:
 - eat
 - food
 - photo
-- cooking
+- cook
 - recipe
 - indian
 - vegan

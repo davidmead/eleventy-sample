@@ -15,7 +15,8 @@ permalink: /tags/{{ tag }}/
 <dl class="wrapper-taglist">
 {% set taglist = collections[ tag ] %}
 {% for post in taglist | reverse %}
-  <dt><time  style="" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></dt>
-  <dd><a href="{{ post.url | url }}">{{ post.data.title }}</a></dd>
+  <dt><a href="{{ post.url | url }}">{{ post.data.title }}</a></dt>
+  <dd><time  class="small" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></dd>
+  
 {% endfor %}
 </dl>

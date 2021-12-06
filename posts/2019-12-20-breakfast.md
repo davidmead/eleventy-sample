@@ -13,7 +13,7 @@ tags:
   - eat
   - breakfast
   - work
-  - DealerTire
+  - dealertire
   - xmas2019
 
 layout: layouts/layout-photo

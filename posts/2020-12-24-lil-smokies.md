@@ -11,7 +11,7 @@ tags:
   - nom
   - eat
   - food
-  - cooking
+  - cook
   - recipe
   - xmas2020
 

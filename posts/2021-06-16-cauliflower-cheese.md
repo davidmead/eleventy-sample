@@ -10,7 +10,7 @@ tags:
 - nom
 - eat
 - food
-- cooking
+- cook
 - dinner
 - photo
 

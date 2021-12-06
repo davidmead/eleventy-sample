@@ -223,10 +223,10 @@ margin-top: 0.375em; /* 0.25 baseline */
 .title {
 margin-top:0;
 	margin-bottom: 0.25em;
-	font-size: 3.5556em; /* 64px */
+	font-size: 2.5556em; /* 64px */
 	line-height: 1.0313em; /* 66px */
-	letter-spacing: -.04em;
-	font-weight: 800;
+/* 	letter-spacing: -.04em; */
+/* 	font-weight: 800; */
 	font-family: "font-heading";
 	color: rgba(var(--color-002), var(--op-100));
 }
@@ -296,6 +296,50 @@ small,
 	background-color: rgba(var(--color-002), var(--op-018));
 	color: rgba(var(--color-002), var(--op-100));
 }
+
+
+
+/* =XFN
+------------------------------- */
+
+	a[rel~="friend"]::after,
+	a[rel~="colleague"]::after,
+	a[rel~="co-worker"]::after,
+	a[rel~="child"]::after,
+	a[rel~="spouse"]::after {
+		padding-left: 0.5em;
+		}
+		
+	a[rel~="friend"]::after {
+		content: url("/img/xfn-friend.png");
+		}
+		
+	a[rel~="friend"][rel~="met"]::after {
+		content: url("/img/xfn-friend-met.png");
+		}
+
+		
+	a[rel~="colleague"]::after,
+	a[rel~="co-worker"]::after {
+		content: url("/img/xfn-colleague.png");
+		}
+	
+	a[rel~="colleague"][rel~="met"]::after,
+	a[rel~="co-worker"][rel~="met"]::after {
+		content: url("/img/xfn-colleague-met.png");
+		align-items: baseline;
+		}
+		
+	a[rel~="sweetheart"]::after {
+		content: url("/img/xfn-sweetheart-met.png");
+		}
+		
+	a[rel~="child"][rel~="met"]::after {
+		content: url("/img/xfn-friend-met.png");
+		}
+
+
+
 	
 	
 /* =HELPERS
@@ -475,11 +519,11 @@ figure {
 	
 .h-recipe {
 	border: 1px solid rgba(var(--color-003), var(--op-018));
-	background-color: rgba(var(--color-001), var(--op-018));
 	padding: 1rem 2rem;
-}
-	
-	
+	background: rgba(var(--color-001), var(--op-100)) url(/img/stain.webp) no-repeat right -50px top -25px;
+	box-shadow: 4px 4px 4px rgba(var(--color-004), var(--op-025));
+	}
+
 	
 .tile {
 	margin-bottom: 1.1250em; /* 0.75 baselines */
@@ -537,9 +581,9 @@ text-decoration: none!important;
 
 .wrapper-taglist {
 	display:grid;
-	grid-template-columns: 180px 1fr;
+	grid-template-columns: 65% 35%;
 	grid-gap: 20px 10px;
-	padding: 1em;
+	padding: 0.5em;
 /* 	border: 1px dotted rgba(95, 82, 93, 1); */
 /* 	background-color: rgba(255, 255, 255, 1); */
 }
@@ -598,6 +642,20 @@ text-decoration: none!important;
 }
 
 @media screen and (min-width: 799px) {
+
+.title {
+margin-top:0;
+	margin-bottom: 0.25em;
+	font-size: 3.5556em; /* 64px */
+	line-height: 1.0313em; /* 66px */
+/* 	letter-spacing: -.04em; */
+/* 	font-weight: 800; */
+	font-family: "font-heading";
+	color: rgba(var(--color-002), var(--op-100));
+}
+
+
+
 	
 	.list-social {
 	column-count: 4;
