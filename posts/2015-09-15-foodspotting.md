@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5575631.jpg
-imgAlt: Chicken Tacos
+imgALT: Chicken Tacos
 
 restaurantName: Outback Steakhouse
 caption: Had it with the Aussie fries. This is the lunch portion.

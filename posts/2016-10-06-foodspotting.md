@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5942348.jpg
-imgAlt: tortilla with goopy cheese egg mix
+imgALT: tortilla with goopy cheese egg mix
 
 restaurantName: McDonald's
 caption: Ugh. Why do I do this? Stodgy tortilla with goopy cheese egg mix. Barely any sausage.

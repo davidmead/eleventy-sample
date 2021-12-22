@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5931952.jpg
-imgAlt: Bi Cuon (Shredded Pork Rolls)
+imgALT: Bi Cuon (Shredded Pork Rolls)
 
 restaurantName: Number One Pho
 caption: Tasted good. Nice about of pork.

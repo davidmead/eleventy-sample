@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5930972.jpg
-imgAlt: Sausage & Egg Biscuit
+imgALT: Sausage & Egg Biscuit
 
 restaurantName: Burger King
 caption: Meh

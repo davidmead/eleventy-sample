@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5699516.jpg
-imgAlt: Two Timer Taco
+imgALT: Two Timer Taco
 
 restaurantName: Qdoba Mexican Grill
 caption: Good, but a bit wet.

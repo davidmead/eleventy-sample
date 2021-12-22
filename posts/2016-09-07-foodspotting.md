@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5923458.jpg
-imgAlt: Kimchee Dolsot Bibimbab
+imgALT: Kimchee Dolsot Bibimbab
 
 restaurantName: Korean House
 caption: Great taste. Big portion.

@@ -16,7 +16,7 @@ tags:
 - recipe
 
 imgSRC: /img/2021-12-01-sausage-gravy.jpeg
-imgAlt: Sausage gravy, sausage, fried bread
+imgALT: Sausage gravy, sausage, fried bread
 
 restaurantName: Home
 caption: 

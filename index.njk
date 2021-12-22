@@ -10,12 +10,12 @@ layout: layouts/layout-page
 <!--<h1 class="title txt-center">David John Mead</h1>
 <p class="summary">This is my personal site where I post thoughts, photos, links, and sometimes experiment with HTML &amp; CSS.</p>-->
 
-<h1 class="title">My personal site. I post thoughts, photos, and links</h1>
-<p class="summary">Sometimes I experiment with HTML &amp; CSS.</p>
+<h1 class="title">Living and working on the web, with a British point of view.</h1>
+<p class="summary">A personal site—The posted thoughts, photos, and bookmarks of David Mead.</p>
 
 <section>
 
-<h2>Most recent posts:</h2>
+<h2>Most recent posts</h2>
 <div class="tile-wrapper">
 	{% for post in collections.post | reverse %}
 		{% if loop.index0 < 3 %}
@@ -25,8 +25,8 @@ layout: layouts/layout-page
 						<h3 class="tile-heading">{{ post.data.title }}</h3>
 					</div>
 					<div class="tile-body">
-						<time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
-						<p>{{ post.data.summary }}</p>
+						<time class="small collapse-top" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+						<!--<p>{{ post.data.summary }}</p>-->
 					</div>
 				 </a>
 			 </div>
@@ -34,8 +34,25 @@ layout: layouts/layout-page
 	{% endfor %}
 </div>
 	
-	<p>See <a href="/tags/post/" title="">all posts</a>.</p>
+	<p class="">See <a href="/tags/post/" title="">all posts</a>.</p>
 
+<div class="caption">
+<h2>Most recent bookmarks</h2>
+
+{% for post in collections.bookmark | reverse %}
+		{% if loop.index0 < 3 %}
+			<article class="h-entry">
+		<p class="p-name collapse-bottom">
+			<a class="u-bookmark-of h-cite" href="{{ post.data.description }}" title="" rel="external">{{ post.data.title }}</a>
+		</p>
+		<footer class="small collapse-top">
+			<p class="collapse-top">Added on <a class="u-url" href="{{ post.url }}"><time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></a>, from {{ post.data.summary }} <span class="p-author author h-card vcard hide"><img class="u-photo" width="300" height="300" src="/img/davidmead-social-sml.jp2" alt="Black and white photo of my face"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span></p>
+		</footer>
+	</article>
+		{% endif %}
+	{% endfor %}
+<p class="border-top">See <a href="/bookmarks/" title="">all bookmarked links</a>.</p>
+</div>
 
 <div class="">
 <h2>Topics</h2>
@@ -52,8 +69,6 @@ layout: layouts/layout-page
 
 </div>
 </section>
-
-
 
 <div class="caption">
 <h2>Blogroll</h2>
@@ -98,9 +113,8 @@ layout: layouts/layout-page
 			<span class="p-given-name given-name">David</span>
 			<span class="p-family-name family-name">Mead</span>
 		</a></span></h2>
-		<p><img class="u-photo left img-small img-border" width="300px" height="300px" src="/img/davidmead-social-sml.jp2" alt="black and white profile photo"></p>
-	<p>I've been working with the web since the 90's. Started as Front-end Developer, focus now is User Experience.</p>
-	<p>An Englishman abroad. Has called Cleveland, <abbr title="Ohio">OH</abbr> home since 2001.</p>
+		<p><img class="u-photo left img-small img-border" width="200" height="200" src="/img/davidmead-social-sml.jp2" alt="black and white profile photo"></p>
+	<p class="p-note">I've been working with the web since the 90's. Started as Front-end Developer, focus now is User Experience. An Englishman abroad. Has called Cleveland, <abbr title="Ohio">OH</abbr> home since 2001.</p>
 	</div>
 
 	<div>

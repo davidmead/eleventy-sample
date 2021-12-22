@@ -15,7 +15,7 @@ tags:
 - rustbeltrefresh
 
 imgSRC: /img/foodspotting/5909284.jpg
-imgAlt: Chicken Tacos
+imgALT: Chicken Tacos
 
 restaurantName: Barrio
 caption: Love thier coleslaw. Great tasting ingredients all around. This was build your own for the Rustbelt Refresh conference.

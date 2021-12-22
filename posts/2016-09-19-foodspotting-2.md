@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5931953.jpg
-imgAlt: Beef Pho
+imgALT: Beef Pho
 
 restaurantName: Number One Pho
 caption: This was the P2 (rare beef & brisket). Big portion and tasty. But broth is a little plain on its own.

@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5585021.jpg
-imgAlt: Various Sushi
+imgALT: Various Sushi
 
 restaurantName: Sushi Sai
 caption: Great value for $20. Freshly prepared, really tasty.

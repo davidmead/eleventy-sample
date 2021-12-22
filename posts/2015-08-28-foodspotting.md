@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5551719.jpg
-imgAlt: Italian Sausage Sub
+imgALT: Italian Sausage Sub
 
 restaurantName: Gentiles Bakery Deli
 caption:

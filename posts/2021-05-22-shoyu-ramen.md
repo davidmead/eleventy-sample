@@ -16,7 +16,7 @@ tags:
 - ramen
 
 imgSRC: /img/2021-05-22-shoyu-ramen.jpeg
-imgAlt: Close of a bowl of ramen with pork
+imgALT: Close of a bowl of ramen with pork
 
 restaurantName: Issho Ni Ramen
 caption: Delicious bowl of ramen. Egg was creamy and the broth rich.

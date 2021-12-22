@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/lamb-balti.jpg
-imgAlt: Indian lamb dish in thick sauce
+imgALT: Indian lamb dish in thick sauce
 
 restaurantName: The Indian Kitchen
 caption: Delicious boneless marinated lamb in a thick spiced sauce. Really good.

@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5696521.jpg
-imgAlt: Broccoli And Cheddar Soup
+imgALT: Broccoli And Cheddar Soup
 
 restaurantName: Panera Bread
 caption: 

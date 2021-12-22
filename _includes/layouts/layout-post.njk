@@ -11,7 +11,11 @@ layout: layouts/layout-base.njk
 		</div>
 		<footer class="meta">
 			<h2>Meta</h2>
-			<p>Originally posted on <time class="dt-published" datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>, by <span class="p-author author h-card vcard"><img class="u-photo hide" width="300px" height="300px" src="/img/davidmead-social-sml.jp2" alt="Black and white photo of my face"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span>.</p>
+			<p>Originally posted on <time class="dt-published" datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>, by <span class="p-author author h-card vcard"><img class="u-photo hide" width="300" height="300" src="/img/davidmead-social-sml.jp2" alt="Black and white photo of my face"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span>.</p>
+			
+			{% if updated %}
+			<p>Updated on <time class="" datetime="{{ updated | dateIso }}">{{ updated | dateReadable }}</time>
+			{% endif %}
 			
  		{% if urlTwitter or urlInstagram or urlFlickr or urlMedium %}
  		<p>I also posted this on:

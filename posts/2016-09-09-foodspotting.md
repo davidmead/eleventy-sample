@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5924518.jpg
-imgAlt: BBQ Pork Rice Bowl
+imgALT: BBQ Pork Rice Bowl
 
 restaurantName: Koko Bakery
 caption: Great for lunch. About $6 and packed with steamed veg and rice.

@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5673115.jpg
-imgAlt: 1/4 Chicken, green beans, and stuffing
+imgALT: 1/4 Chicken, green beans, and stuffing
 
 restaurantName: Boston Market
 caption: Really tasty.

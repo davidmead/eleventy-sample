@@ -15,7 +15,7 @@ tags:
 - scratchcook
 
 imgSRC: /img/2021-09-03-guacamole.jpeg
-imgAlt: close-up of homemade guacamole 
+imgALT: close-up of homemade guacamole 
 
 restaurantName: Home
 caption: 

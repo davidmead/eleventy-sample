@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5941652.jpg
-imgAlt: Everything Bagel With Black Pepper & Horseradish Schmear
+imgALT: Everything Bagel With Black Pepper & Horseradish Schmear
 
 restaurantName: Six Shooter Coffee
 caption: Great. CLE Bagel Co are the best.

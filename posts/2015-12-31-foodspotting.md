@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5695903.jpg
-imgAlt: Beef Brisket, fries, and hush puppies
+imgALT: Beef Brisket, fries, and hush puppies
 
 restaurantName: Hot Or Mild
 caption: Got it to go. Very tasty.

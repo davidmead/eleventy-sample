@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5695910.jpg
-imgAlt: Cheese, Jalapeño, Potato Pierogi
+imgALT: Cheese, Jalapeño, Potato Pierogi
 
 restaurantName: The BottleHouse Brewing Company
 caption: Delicious.

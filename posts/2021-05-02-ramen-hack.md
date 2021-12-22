@@ -16,7 +16,7 @@ tags:
 - recipe
 
 imgSRC: /img/2021-05-04-everything-bagel-ramen.jpeg
-imgAlt: ramne noodles with broccoli
+imgALT: ramne noodles with broccoli
 
 restaurantName: Home
 caption: Very tasty and pretty quick to assemble

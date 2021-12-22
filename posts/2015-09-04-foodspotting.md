@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5560805.jpg
-imgAlt: Chicken gumbo on a bowl of rice
+imgALT: Chicken gumbo on a bowl of rice
 
 restaurantName: J Gumbos
 caption:

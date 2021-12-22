@@ -136,12 +136,14 @@ main {
 .p-category {
 	display: inline-block;
 	background-image: url('../img/ico-tag.svg');
-	background-size: 16px 16px;
-padding-left: 20px;
-background-position: left center;
+	background-size: contain;
+	padding-left: 30px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	}
 
-	background-repeat: no-repeat; 
-	
+h1 .p-category {
+	padding-left: 74px;
 }
 
 /*
@@ -151,6 +153,17 @@ background-position: left center;
 }
 */
 
+.border-bottom {
+	margin-bottom: 1.1250em; /* 0.75 baselines */
+	padding-bottom: 1.1250em; /* 0.75 baselines */
+	border-bottom: 1px dotted rgba(var(--color-003), var(--op-100));
+}
+
+.border-top {
+	margin-top: 1.1250em; /* 0.75 baselines */
+	padding-top: 1.1250em; /* 0.75 baselines */
+	border-top: 1px dotted rgba(var(--color-003), var(--op-100));
+}
 	
 h1, .h1,
 h2, .h2,
@@ -175,8 +188,16 @@ line-height: 1.2273em; /* 27px */
 }
 
 h3, .h3 {
+color: rgba(var(--color-004), var(--op-100));
 font-size: 1.1111em; /* 20px */
 line-height: 1.3500em; /* 27px */
+/* font-family: font-body-bold; */
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip: edges;
+text-decoration-color: rgba(var(--color-004), var(--op-025));
+text-decoration-thickness: 5px;
+text-underline-offset: 0.15em;
 }
 
 p {
@@ -254,6 +275,16 @@ small,
   margin-top: 1.9286em;  margin-bottom: 0.0000em;
 }
 
+a[rel~="external"]::after {
+    margin-left: .5em;
+    margin-right: .5em;
+    background: url(/img/external-link.svg) no-repeat;
+    content: "";
+    display: inline-block;
+    width: .5em;
+    height: .5em;
+    vertical-align: baseline;
+}
 
 .pg-header,
 .pg-footer {
@@ -297,6 +328,13 @@ small,
 	color: rgba(var(--color-002), var(--op-100));
 }
 
+.collapse-top {
+	margin-top:0;
+}
+
+.collapse-bottom {
+	margin-bottom:0;
+}
 
 
 /* =XFN
@@ -371,11 +409,13 @@ margin-left: 0;
 	margin-left:1em;
 	}
 	
+/*
 .circle {
 	shape-outside: circle(66px at 79px 80px);
 	clip-path: circle(71px at center center);
 	shape-margin: 1em;
 	}
+*/
 	
 .clearfix {
 	display: flow-root;
@@ -549,6 +589,7 @@ text-decoration: none!important;
 	margin: 0;
 	color: rgba(var(--color-005), var(--op-100))!important;
 	font-family: "font-heading";
+	text-decoration: none;
 }
 
 .tile-body p {
@@ -565,8 +606,7 @@ text-decoration: none!important;
 .tile-body time {
 	display: block;
 	font-weight: 600;
-	color: rgba(var(--color-003), var(--op-050));
-	background-color: rgba(var(--color-003), var(--op-002));
+	color: rgba(var(--color-003), var(--op-075));
 }
 	
 	
@@ -610,7 +650,9 @@ text-decoration: none!important;
 ------------------------------- */
 @media screen and (min-width: 600px) {
 
-	
+	main {
+		min-width: 760px;
+	}
 	
 	.list-social {
 	column-count: 3;
@@ -669,7 +711,7 @@ margin-top:0;
 }	
 
 .tile-head {
-	min-height: 100px;
+	min-height: 70%;
 	}
 
 .tile-wrapper {
@@ -710,11 +752,10 @@ margin-top:0;
 /* 	grid-row: 1/4; */
 }
 
-.nom h1,
+.nom h1
  {
 	grid-column: 2 / 2;
 /* 	grid-row: 1 / 1; */
-	border: 1px solid red;
 }
 
 

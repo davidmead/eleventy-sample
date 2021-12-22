@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5695930.jpg
-imgAlt: Spicy Cheddar Smokies
+imgALT: Spicy Cheddar Smokies
 
 restaurantName: The BottleHouse Brewing Company
 caption: Really good. Made by Saucisson Cleveland.

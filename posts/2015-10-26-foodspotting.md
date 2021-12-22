@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5624788.jpg
-imgAlt: Dr Pepper Braised Pork Shank
+imgALT: Dr Pepper Braised Pork Shank
 
 restaurantName: The Oak Barrel
 caption: OMG! So tasty. Served with roasted garlic whipped potatoes and soy chile jam.

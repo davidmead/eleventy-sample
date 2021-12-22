@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5699485.jpg
-imgAlt: Yardbird Taco
+imgALT: Yardbird Taco
 
 restaurantName: Qdoba Mexican Grill
 caption: Really tasty.

@@ -15,7 +15,7 @@ tags:
 - photo
 
 imgSRC: /img/2021-06-16-cauliflower-cheese.jpeg
-imgAlt: Closeup of cauliflower cheese straight out of the oven
+imgALT: Closeup of cauliflower cheese straight out of the oven
 
 restaurantName: Home
 caption: 

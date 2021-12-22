@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5672649.jpg
-imgAlt: Deep fried pork, dumplings, and sushi
+imgALT: Deep fried pork, dumplings, and sushi
 
 restaurantName: Mizu Sushi
 caption: Deep fried pork, dumplings, and sushi. Tasted really nice.

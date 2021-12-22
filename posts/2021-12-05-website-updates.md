@@ -26,7 +26,7 @@ That's right. Added back a blogroll—Just a small portion of other blogs I'm re
 
 At the moment I'm using a simple <code>&lt;ul&gt;</code> and adding a <code>class="h-card"</code> to each link. I'm also adding back in the [XFN](http://www.gmpg.org/xfn/ "XHTML Friends Network") markup, such as <code>rel="friend met"</code> to each entry that warrants it.
 
-I even went and found the original Fugue icons from [Yusuke Kamiyamane](https://p.yusukekamiyamane.com "title attribute") to give it that old familiar feel. These are added by CSS when the attributes match.
+I even went and found the original Fugue icons from [Yusuke Kamiyamane](https://p.yusukekamiyamane.com "Designers website") to give it that old familiar feel. These are added by CSS when the attributes match.
 
 ## Styles
 I updated the recipes to now included a background graphic, as well as adding a background color and drop shadow.

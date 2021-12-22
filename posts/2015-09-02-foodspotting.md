@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5558676.jpg
-imgAlt: Turkey burger
+imgALT: Turkey burger
 
 restaurantName: The Oak Barrel
 caption: Well seasoned. Filling.

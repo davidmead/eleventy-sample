@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5940776.jpg
-imgAlt: Wasabi Turkey Club Sandwich
+imgALT: Wasabi Turkey Club Sandwich
 
 restaurantName: Koko Bakery
 caption: Sweet taste roll (honey?) with turkey, lettuce, tomatoes, cucumber, mayonnaise, and a thin spread of wasabi. Very tasty, and you get two in a serving.

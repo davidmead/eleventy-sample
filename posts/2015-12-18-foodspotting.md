@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5680714.jpg
-imgAlt: Beef Brisket, fries, and hush puppies
+imgALT: Beef Brisket, fries, and hush puppies
 
 restaurantName: Old Angle Tavern
 caption: This was delicious. Huge portions. Hush puppies too.

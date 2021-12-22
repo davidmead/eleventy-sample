@@ -15,7 +15,7 @@ tags:
 - scratchcook
 
 imgSRC: /img/2021-09-05-chilaquiles.jpeg
-imgAlt: chilaquiles topped with queso fresco, fried eggs, and avocado
+imgALT: chilaquiles topped with queso fresco, fried eggs, and avocado
 
 restaurantName: Home
 caption: 

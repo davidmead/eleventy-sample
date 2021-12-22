@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5571516.jpg
-imgAlt: 
+imgALT: 
 
 restaurantName: 5th Avenue Deli
 caption: Love this. Especially with poached eggs.

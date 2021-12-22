@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5929288.jpg
-imgAlt: Pad Thai Country Style
+imgALT: Pad Thai Country Style
 
 restaurantName: Map of Thailand
 caption: Delicious. Filling, but not that spicy to me.

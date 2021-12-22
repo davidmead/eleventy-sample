@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5938424.jpg
-imgAlt: Beef Pho
+imgALT: Beef Pho
 
 restaurantName: DiBella's Old Fashioned Submarines
 caption: Really tasty.

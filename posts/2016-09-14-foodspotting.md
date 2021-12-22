@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5928287.jpg
-imgAlt: Lemon Loaf
+imgALT: Lemon Loaf
 
 restaurantName: Starbucks
 caption: My favourite at any Starbucks.

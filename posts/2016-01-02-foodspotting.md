@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5699075.jpg
-imgAlt: Cherry Cake Donut and coffee on a counter
+imgALT: Cherry Cake Donut and coffee on a counter
 
 restaurantName: Biagio's Donut Shop & Pizzeria
 caption: They make the best donuts. This is my favorite.

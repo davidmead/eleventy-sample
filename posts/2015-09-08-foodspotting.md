@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5566892.jpg
-imgAlt: Corned Beef Sliders
+imgALT: Corned Beef Sliders
 
 restaurantName: Beal's Pickles & Pints
 caption: Had it with the tater tots. Nice size.

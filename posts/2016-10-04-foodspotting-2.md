@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5941280.jpg
-imgAlt: Infused Cucumber Lime Water
+imgALT: Infused Cucumber Lime Water
 
 restaurantName: Cafe 55
 caption: Refreshing.

@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5567026.jpg
-imgAlt: Stuffed sandwich
+imgALT: Stuffed sandwich
 
 restaurantName: Gentiles Bakery & Deli
 caption: Awesome sandwich, served hot.

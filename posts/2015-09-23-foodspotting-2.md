@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5585652.jpg
-imgAlt: Bacon, Dates & Goat Cheese Empanada
+imgALT: Bacon, Dates & Goat Cheese Empanada
 
 restaurantName: Empanadas 5411
 caption: Awesome!

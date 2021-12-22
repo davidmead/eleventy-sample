@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5578035.jpg
-imgAlt: Tempura, Sweet & Sour chicken, rice
+imgALT: Tempura, Sweet & Sour chicken, rice
 
 restaurantName: Kumo Japanese Seafood Buffet
 caption: 

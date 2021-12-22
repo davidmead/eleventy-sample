@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5586766.jpg
-imgAlt: Bibimbab
+imgALT: Bibimbab
 
 restaurantName: Lai Lai Express
 caption: Really tasty.

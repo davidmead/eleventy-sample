@@ -10,7 +10,7 @@ pagination:
 permalink: /tags/{{ tag }}/
 
 ---
-<h1 class="title txt-center">Everything <svg alt="tag" width="58" height="58" xmlns="http://www.w3.org/2000/svg"><g stroke-width="2" stroke="#000" fill-rule="nonzero" fill="none"><path fill="#FFF" d="M56.496 1.5l-.183 24.18-30.508 30.612-24.1-24.18L32.216 1.5z"/><path fill="#000" d="M50 8v3h-3V8z"/></g></svg> {{ tag }}</h1>
+<h1 class="title txt-center">Everything <span class="p-category">{{ tag }}</span></h1>
 
 <dl class="wrapper-taglist">
 {% set taglist = collections[ tag ] %}

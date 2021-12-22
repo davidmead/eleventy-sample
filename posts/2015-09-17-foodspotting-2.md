@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5578036.jpg
-imgAlt: Sashimi And More
+imgALT: Sashimi And More
 
 restaurantName: Kumo Japanese Seafood Buffet
 caption: 

@@ -17,7 +17,7 @@ tags:
 - vegan
 
 imgSRC: /img/2021-05-19-nom-red-lentil-curry.jpeg
-imgAlt: Close up of red lentil curry on white basmati rice
+imgALT: Close up of red lentil curry on white basmati rice
 
 restaurantName: Home
 caption: 

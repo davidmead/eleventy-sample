@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5941278.jpg
-imgAlt: Coastline bowl, With Chicken And Brown Rice
+imgALT: Coastline bowl, With Chicken And Brown Rice
 
 restaurantName: Cafe 55
 caption: Extremely tasty. Great ingredients.

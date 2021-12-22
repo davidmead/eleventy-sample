@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5612484.jpg
-imgAlt: Beer Braised Brisket Sandwich
+imgALT: Beer Braised Brisket Sandwich
 
 restaurantName: Winking Lizard Tavern
 caption: Really tasty. Guinness sauce and Havarti cheese with mushrooms.

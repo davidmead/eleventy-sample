@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/2021-06-19-yakiniku-don.jpeg
-imgAlt: Close up of Yakiniku Don
+imgALT: Close up of Yakiniku Don
 
 restaurantName: Kiko's Kitchen
 caption: Really tasty. Sliced Ribeye & onions on a rice bowl.

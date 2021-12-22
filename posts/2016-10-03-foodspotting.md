@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5940771.jpg
-imgAlt: Egg custard
+imgALT: Egg custard
 
 restaurantName: Koko Bakery
 caption: Wonderful. Only place I've found that makes these.

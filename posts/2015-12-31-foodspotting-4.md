@@ -14,7 +14,7 @@ tags:
 - photo
 
 imgSRC: /img/foodspotting/5696515.jpg
-imgAlt: Asiago Steak Sandwich
+imgALT: Asiago Steak Sandwich
 
 restaurantName: Panera Bread
 caption: Pretty tasty.

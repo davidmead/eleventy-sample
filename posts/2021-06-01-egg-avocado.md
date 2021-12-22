@@ -15,7 +15,7 @@ tags:
 - lunch
 
 imgSRC: /img/2021-06-01-egg-avocado.jpeg
-imgAlt: Fried eggs and avocado on English Muffin
+imgALT: Fried eggs and avocado on English Muffin
 
 restaurantName: Home
 caption: Quick lunch. Sprinkled everything bagel topping all over. Delicious.
