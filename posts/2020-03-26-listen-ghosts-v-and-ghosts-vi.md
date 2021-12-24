@@ -42,7 +42,7 @@ Both come with a colon title - Ghosts V:Together and Ghosts VI:Locusts...
     <blockquote>
         <p>Ghosts V: Together is for when things seem like it might all be okay, and Ghosts VI: Locusts… well, you’ll figure it out.</p>
     </blockquote>
-    <figcaption>— Trent Reznor></figcaption>
+    <figcaption>— Trent Reznor</figcaption>
 </figure>
 
 

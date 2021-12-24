@@ -1,0 +1,261 @@
+/* =MEDIA QUERIES
+------------------------------- */
+@media screen and (max-width: 600px) {
+
+	main {
+		min-width: 760px;
+	}
+	
+	.list-social {
+	column-count: 3;
+	}
+	
+	.list-inline {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+
+.list-inline li {
+	margin-right: 1em;
+}
+
+.img-polaroid {
+	border: 25px solid rgba(239, 239, 239, 1);
+	border-bottom: 115px solid rgba(239, 239, 239, 1);
+	box-shadow: 3px 3px 3px rgba(45, 45, 46, 0.25);
+	border-radius: 1%;
+	transform: rotate(1deg);
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+
+	}
+
+	
+}
+
+
+@media screen and (max-width: 880px) {
+	
+	main.homepage {
+		background-color: blue;
+	}
+	
+	
+}
+
+@media screen and (min-width: 1199px) {
+
+	main.homepage {
+		display: grid;
+		max-width: 100%;
+		grid-template-columns: repeat(4, 18.4% [col-start]);
+		grid-template-rows: repeat(5, auto [row-start]);
+		grid-gap: 0 1.5em;
+		grid-template-areas: 
+			"header header header header"
+			"main main main sidebar"
+			"third third third sidebar"
+			"second second second sidebar"
+			"footer footer footer footer";
+		justify-content: center;
+		
+		background-color: green;
+	}
+	
+	.area-title {
+		grid-area: header;
+	}
+	
+	.module-posts {
+		grid-area: main;
+	}
+	
+	.module-topics {
+		grid-area: third;
+	}
+	
+	.module-bookmarks {
+		grid-area: second;
+		place-self: top stretch;
+	}
+	
+	.module-blogroll {
+		grid-area: sidebar;
+		place-self: top stretch;
+	}
+	
+	.module-about {
+		grid-area: footer;
+	}
+
+.tile-wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 8px;
+	grid-auto-rows: minmax(auto, auto);
+	margin-bottom: 1em;
+	}
+	
+	.tile-head {
+	min-height: 70%;
+	}
+
+	
+}
+
+	
+@media screen and (min-width: 1200px) {
+	
+	main.homepage {
+	display: grid;
+	max-width: 1199px;
+	grid-template-columns: repeat(5, 18.4% [col-start]);
+	grid-template-rows: repeat(4, auto [row-start]);
+	grid-gap: 0 20px;
+	grid-template-areas: 
+		"header header header . ."
+		"main main main second sidebar"
+		"third third third second sidebar"
+		"footer footer footer second sidebar";
+	justify-content: center;	
+	background-color: aqua;
+}
+
+.area-title {
+	grid-area: header;
+}
+
+.module-posts {
+	grid-area: main;
+}
+
+.module-topics {
+	grid-area: third;
+}
+
+.module-bookmarks {
+	grid-area: second;
+}
+
+.module-blogroll {
+	grid-area: sidebar;
+}
+
+.module-about {
+	grid-area: footer;
+}
+	
+	
+.title {
+margin-top:0;
+	margin-bottom: 0.25em;
+	font-size: 3.5556em; /* 64px */
+	line-height: 1.0313em; /* 66px */
+/* 	letter-spacing: -.04em; */
+/* 	font-weight: 800; */
+	font-family: "font-heading";
+	color: rgba(var(--color-002), var(--op-100));
+}
+
+
+
+	
+	.list-social {
+	column-count: 4;
+	}	
+	
+.attributes {
+	display: grid;
+	grid-template-areas: "artwork details";
+	grid-template-columns: 240px 1fr;
+	grid-gap: 1em;	
+}	
+
+.tile-head {
+	min-height: 70%;
+	}
+
+.tile-wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 8px;
+	grid-auto-rows: minmax(auto, auto);
+	margin-bottom: 1em;
+	}
+
+.tile {
+	margin-bottom: 0;
+}
+
+
+.nom {
+	margin-top: 3em;
+	display: grid;
+	grid-template-columns: 400px 288px;
+	grid-gap: 1em;
+/* 	grid-template-rows: 100px 50px 1fr; */	
+}
+
+
+.caption {
+	display: block;
+/* 	margin-top: 1.1250em; */ /* 0.75 baselines */
+	background-color: rgba(var(--color-005), var(--op-018));
+	padding: 0 1em;
+	border-color: rgba(var(--color-005), var(--op-018));
+	border-width: 0.1em;
+	border-style: inset;
+	border-radius: 0.3em;
+}
+
+.caption2 {
+	display: block;
+/* 	margin-top: 1.1250em; */ /* 0.75 baselines */
+	background-color: rgba(var(--color-001), var(--op-075));
+	padding: 0 1em;
+	border-color: rgba(var(--color-005), var(--op-018));
+	border-width: 0.1em;
+	border-style: inset;
+	border-radius: 0.3em;
+}
+
+.nom img {
+	grid-column: 1 / 2;
+/* 	grid-row: 1/4; */
+}
+
+.nom h1
+ {
+	grid-column: 2 / 2;
+/* 	grid-row: 1 / 1; */
+}
+
+
+.nom .summary {
+/* 	grid-row; 2 / 3; */
+}
+
+
+.bubbles {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items:center;
+	}
+	
+	.bubble {
+		flex-basis: content;
+		margin: 0.25em;
+	}
+	
+	.wrapper-taglist {
+	display:grid;
+	grid-template-columns: 1fr 45%;
+	grid-gap: 20px 10px;
+/* 	padding: 0.5em; */
+	}	
+	
+}
+

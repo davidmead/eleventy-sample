@@ -34,6 +34,6 @@ layout: layouts/layout-nom
 	<figcaption>
 		<h1 class="title p-name">{{ title }}</h1>
 		<p class="summary">{{ summary }}</p>
-		<p>Ate this at {{ restaurantName }} on <time class="dt-published" datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>{% if caption %}, and noted <q class="caption">{{ caption }}</q>{% endif %}
+		<p>Ate this at {{ restaurantName }} on <time class="dt-published" datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>{% if caption %}, and noted <q class="">{{ caption }}</q>{% endif %}
 	</figcaption>
 </figure>

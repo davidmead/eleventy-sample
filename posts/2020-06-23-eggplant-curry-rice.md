@@ -28,6 +28,8 @@ I very rarely make anything from YouTube videos but this looked great, and I had
 
 It was so good, both Josh and I had it two days in a row. You can watch (and follow) [RunnyRunny999's video](https://youtu.be/Bc3olP5d4Uc "YouTube") on YouTube.
 
+As with most curry its flavour only improved overnight in the fridge.
+
 <section class="h-recipe">
 <h2>Eggplant Curry Rice</h2>
 
@@ -62,5 +64,4 @@ It was so good, both Josh and I had it two days in a row. You can watch (and fol
 </ol>
 </div>
 
-<p>As with most curry its flavour only improved overnight in the fridge.</p>
 </section>

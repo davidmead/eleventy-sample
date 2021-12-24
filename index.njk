@@ -5,16 +5,14 @@ description: The personal website of David Mead. A British guy living in the USA
 isFront: true
 
 
-layout: layouts/layout-page
+layout: layouts/layout-home
 ---
-<!--<h1 class="title txt-center">David John Mead</h1>
-<p class="summary">This is my personal site where I post thoughts, photos, links, and sometimes experiment with HTML &amp; CSS.</p>-->
-
+<div class="area-title">
 <h1 class="title">Living and working on the web, with a British point of view.</h1>
 <p class="summary">A personal site—The posted thoughts, photos, and bookmarks of David Mead.</p>
+</div>
 
-<section>
-
+<section class="module-posts">
 <h2>Most recent posts</h2>
 <div class="tile-wrapper">
 	{% for post in collections.post | reverse %}
@@ -22,12 +20,18 @@ layout: layouts/layout-page
 			<div class="tile">
 				<a class="" href="{{ post.url | url }}" title="">
 					<div class="tile-head">
-						<h3 class="tile-heading">{{ post.data.title }}</h3>
+						<time class="small collapse-top" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
 					</div>
 					<div class="tile-body">
-						<time class="small collapse-top" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
-						<!--<p>{{ post.data.summary }}</p>-->
+						<p class="tile-heading">{{ post.data.title }}</p>
 					</div>
+					<!--
+					{% if post.data.summary %}
+					<div class="tile-foot">
+						<p>{{ post.data.summary }}</p>
+					</div>
+					{% endif%}
+					-->
 				 </a>
 			 </div>
 		{% endif %}
@@ -35,12 +39,14 @@ layout: layouts/layout-page
 </div>
 	
 	<p class="">See <a href="/tags/post/" title="">all posts</a>.</p>
+</section>
 
-<div class="caption">
-<h2>Most recent bookmarks</h2>
-
+<section class="module-bookmarks pop2">
+<h2>Bookmarks</h2>
+<ul class="list-plain">
 {% for post in collections.bookmark | reverse %}
 		{% if loop.index0 < 3 %}
+		<li class="border-bottom">
 			<article class="h-entry">
 		<p class="p-name collapse-bottom">
 			<a class="u-bookmark-of h-cite" href="{{ post.data.description }}" title="" rel="external">{{ post.data.title }}</a>
@@ -49,33 +55,55 @@ layout: layouts/layout-page
 			<p class="collapse-top">Added on <a class="u-url" href="{{ post.url }}"><time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></a>, from {{ post.data.summary }} <span class="p-author author h-card vcard hide"><img class="u-photo" width="300" height="300" src="/img/davidmead-social-sml.jp2" alt="Black and white photo of my face"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span></p>
 		</footer>
 	</article>
+	</li>
 		{% endif %}
 	{% endfor %}
-<p class="border-top">See <a href="/bookmarks/" title="">all bookmarked links</a>.</p>
-</div>
-
-<div class="">
-<h2>Topics</h2>
-<p>Most, but not all, of what I post fits under the following topics:</p>
-
-<div class="tile-wrapper">
-<a class="tile txt-center" href="/tags/listen/" title="all posts tagged listen">listen</a>
-<a class="tile txt-center" href="/tags/play/" title="all posts tagged play">play</a>
-<a class="tile txt-center" href="/tags/eat/" title="all posts tagged eat">eat</a>
-<a class="tile txt-center" href="/tags/read/" title="all posts tagged read">read</a>
-<a class="tile txt-center" href="/tags/watch/" title="all posts tagged watch">watch</a>
-<a class="tile txt-center" href="/tags/code/" title="all posts tagged code">code</a>
-</div>
-
-</div>
+	</ul>
+<p class="">See <a href="/bookmarks/" title="">all bookmarks</a>.</p>
 </section>
 
-<div class="caption">
+<section class="module-topics">
+<h2>Topics</h2>
+<ul class="list-plain tile-wrapper">
+	<li class="tile txt-center">
+		<a class="" href="/tags/listen/" title="all posts tagged listen">
+		<div class="tile-body tile-heading">listen</div>
+		</a>
+	</li>
+	<li class="tile txt-center">
+		<a class="" href="/tags/play/" title="all posts tagged play">
+		<div class="tile-body tile-heading">play</div>
+		</a>
+	</li>
+	<li class="tile txt-center">
+		<a class="" href="/tags/eat/" title="all posts tagged eat">
+		<div class="tile-body tile-heading">eat</div>
+		</a>
+	</li>
+	<li class="tile txt-center">
+		<a class="" href="/tags/read/" title="all posts tagged read">
+		<div class="tile-body tile-heading">read</div>
+		</a>
+	</li>
+	<li class="tile txt-center">
+		<a class="" href="/tags/watch/" title="all posts tagged watch">
+		<div class="tile-body tile-heading">watch</div>
+		</a>
+	</li>
+	<li class="tile txt-center">
+		<a class="" href="/tags/code/" title="all posts tagged code">
+		<div class="tile-body tile-heading">code</div>
+		</a>
+	</li>
+	</ul>
+</section>
+
+
+<section class="module-blogroll pop">
 <h2>Blogroll</h2>
-<ul class="list-plain list-social">
+<ul class="list-plain columns">
 	<li class=""><a href="https://ctmiller.net" class="h-card" rel="friend met">Chris Miller</a></li>
 	<li class=""><a href="https://www.bridgestew.com" class="h-card" rel="friend met">Bridget Stewart</a></li>
-
 	<li class=""><a href="https://adactio.com" class="h-card" rel="colleague met">Jeremy Keith</a></li>
 	<li class=""><a href="https://werd.io" class="h-card" rel="colleague">Ben Werdmüller</a></li>
 	<li class=""><a href="https://stuffandnonsense.co.uk" class="h-card" rel="colleague">Andy Clarke</a></li>
@@ -92,132 +120,138 @@ layout: layouts/layout-page
 	<li class=""><a href="https://disquiet.com" class="h-card" rel="">Marc Weidenbaum</a></li>
 	<li class=""><a href="https://jamesg.blog" class="h-card" rel="">James</a></li>
 	<li class=""><a href="https://www.manton.org" class="h-card" rel="colleague">Manton Reece</a></li>
-
-	<!--<li class=""><a href="http://joshuajohnmead.com" class="h-card" rel="child met">Joshua Mead</a></li>
-	<li class=""><a href="http://julieannmead.com" class="h-card" rel="spouse sweetheart met">Julie Mead</a></li>-->
+	<li class=""><a href="http://joshuajohnmead.com" class="h-card" rel="child met">Joshua Mead</a></li>
+	<li class=""><a href="http://julieannmead.com" class="h-card" rel="spouse sweetheart met">Julie Mead</a></li>
 </ul>
 	
 	
 	<p><a href="http://gmpg.org/xfn">
- <img src="/img/xfn-btn.gif" alt="XFN Friendly" />
+ <img width="85" height="15" src="/img/xfn-btn.gif" alt="XFN Friendly" />
 </a></p>
 
-</div>
+</section>
 
 
 
 
-<section class="p-author h-card">
+<section class="module-about p-author h-card">
 	<div class="clearfix">
 		<h2>About <span class="p-name"><a class="u-url url fn" href="https://davidjohnmead.com" rel="me">
 			<span class="p-given-name given-name">David</span>
 			<span class="p-family-name family-name">Mead</span>
 		</a></span></h2>
 		<p><img class="u-photo left img-small img-border" width="200" height="200" src="/img/davidmead-social-sml.jp2" alt="black and white profile photo"></p>
-	<p class="p-note">I've been working with the web since the 90's. Started as Front-end Developer, focus now is User Experience. An Englishman abroad. Has called Cleveland, <abbr title="Ohio">OH</abbr> home since 2001.</p>
+	<div class="p-note">
+	<p>I'm an Englishman abroad, calling the U.S.A. "Home" since 2001.</p>
+
+<p>Designing & building things on the web since the 90's. Starting as Front-end Developer, my focus now is User Experience.</p>
+
+<p>There's no expectation that anyone will ever read what's here. But I do enjoy jotting down my thoughts, memories, and experiences.</p>
+
+	</div>
 	</div>
 
 	<div>
 	<h3>Elsewhere online:</h3>
-	<ul class="list-plain list-social">
+	<ul class="list-plain columns">
 	<li>
-	<i class="las la-link"></i> <a href="https://letterboxd.com/davidmead/" rel="me" class="u-url">Letterboxd</a>
+	 <a href="https://letterboxd.com/davidmead/" rel="me" class="u-url">Letterboxd</a>
 	</li>
         <li>
-            <i class="lab la-github"></i> <a href="https://github.com/davidmead" rel="me" class="u-url">Github</a>
+             <a href="https://github.com/davidmead" rel="me" class="u-url">Github</a>
         </li>
         <li>
-            <i class="lab la-linkedin"></i> <a href="https://www.linkedin.com/in/davidmead" rel="me" class="u-url">LinkedIn</a>
+             <a href="https://www.linkedin.com/in/davidmead" rel="me" class="u-url">LinkedIn</a>
         </li>
         <li>
-            <i class="lab la-flickr"></i> <a href="http://www.flickr.com/people/davidmead/" rel="me" class="u-url">Flickr</a>
+             <a href="http://www.flickr.com/people/davidmead/" rel="me" class="u-url">Flickr</a>
         </li>
         <li>
-            <i class="lab la-soundcloud"></i> <a href="http://soundcloud.com/davidmead-1" rel="me" class="u-url">Soundcloud</a>
+             <a href="http://soundcloud.com/davidmead-1" rel="me" class="u-url">Soundcloud</a>
         </li>
         <li>
-            <i class="las la-link"></i> <a href="https://indieweb.org/User:Davidjohnmead.com" rel="me" class="u-url">Indieweb</a>
+             <a href="https://indieweb.org/User:Davidjohnmead.com" rel="me" class="u-url">Indieweb</a>
         </li>
         <li>
-            <i class="las la-link"></i> <a href="https://huffduffer.com/davidmead" rel="me" class="u-url">Huffduffer</a>
+             <a href="https://huffduffer.com/davidmead" rel="me" class="u-url">Huffduffer</a>
         </li>
         <li>
-            <i class="las la-rss"></i> <a href="https://micro.blog/davidmead" rel="me" class="u-url">Micro.blog</a>
+             <a href="https://micro.blog/davidmead" rel="me" class="u-url">Micro.blog</a>
         </li>
         <li>
-            <i class="lab la-medium"></i> <a href="https://medium.com/@davidmead" rel="me" class="u-url">Medium</a>
+             <a href="https://medium.com/@davidmead" rel="me" class="u-url">Medium</a>
         </li>
         <li>
-            <i class="las la-anchor"></i> <a href="https://anchor.fm/davidmead" rel="me" class="u-url">Anchor.FM</a>
+             <a href="https://anchor.fm/davidmead" rel="me" class="u-url">Anchor.FM</a>
         </li>
         <li>
-            <i class="lab la-keybase"></i> <a href="https://keybase.io/davidmead" rel="me" class="u-url">KeyBase</a>
+             <a href="https://keybase.io/davidmead" rel="me" class="u-url">KeyBase</a>
         </li>
         <li>
-            <i class="lab la-foursquare"></i> <a href="https://foursquare.com/davidmead" rel="me" class="u-url">Foursquare</a>
+             <a href="https://foursquare.com/davidmead" rel="me" class="u-url">Foursquare</a>
         </li>
         <li>
-            <i class="lab la-lastfm"></i> <a href="http://www.last.fm/user/DaveMead" rel="me" class="u-url">Last.FM</a>
+             <a href="http://www.last.fm/user/DaveMead" rel="me" class="u-url">Last.FM</a>
         </li>
         <li>
-            <i class="las la-calendar-day"></i> <a href="https://upcoming.org/@davidmead" rel="me" class="u-url">Upcoming</a>
+             <a href="https://upcoming.org/@davidmead" rel="me" class="u-url">Upcoming</a>
         </li>
         <li>
-            <i class="lab la-periscope"></i> <a href="https://www.periscope.tv/davidmead" rel="me" class="u-url">Periscope</a>
+             <a href="https://www.periscope.tv/davidmead" rel="me" class="u-url">Periscope</a>
         </li>
         <li>
-            <i class="lab la-ello"></i> <a href="http://ello.co/davidmead" rel="me" class="u-url">Ello</a>
+             <a href="http://ello.co/davidmead" rel="me" class="u-url">Ello</a>
         </li>
         <li>
-            <i class="las la-link"></i> <a href="http://gentlemint.com/users/davidmead/" rel="me" class="u-url">Gentlemint</a>
+             <a href="http://gentlemint.com/users/davidmead/" rel="me" class="u-url">Gentlemint</a>
         </li>
         <li>
-            <i class="lab la-pinterest"></i> <a href="https://www.pinterest.com/davidmead/" rel="me" class="u-url">Pinterest</a>
+             <a href="https://www.pinterest.com/davidmead/" rel="me" class="u-url">Pinterest</a>
         </li>
         <li>
-            <i class="las la-link"></i> <a href="http://davidmead.listal.com/" rel="me" class="u-url">Listal</a>
+             <a href="http://davidmead.listal.com/" rel="me" class="u-url">Listal</a>
         </li>
         <li>
-            <i class="las la-link"></i> <a href="http://www.neonmob.com/@davidmead" rel="me" class="u-url">Neonmob</a>
+             <a href="http://www.neonmob.com/@davidmead" rel="me" class="u-url">Neonmob</a>
         </li>
         <li>
-            <i class="lab la-tumblr"></i> <a href="http://davidmead.tumblr.com/" rel="me" class="u-url">Tumblr</a>
+             <a href="http://davidmead.tumblr.com/" rel="me" class="u-url">Tumblr</a>
         </li>
         <li>
-            <i class="lab la-vine"></i> <a href="http://vine.co/davidjohnmead" rel="me" class="u-url">Vine</a>
+             <a href="http://vine.co/davidjohnmead" rel="me" class="u-url">Vine</a>
         </li>
         <li>
-            <i class="lab la-youtube"></i> <a href="http://www.youtube.com/user/davidjohnmead" rel="me" class="u-url">YouTube</a>
+             <a href="http://www.youtube.com/user/davidjohnmead" rel="me" class="u-url">YouTube</a>
         </li>
         <li>
-            <i class="las la-money-bill"></i> <a href="http://cash.me/$davidmead" rel="me" class="u-url">Cash.me</a>
+             <a href="http://cash.me/$davidmead" rel="me" class="u-url">Cash.me</a>
         </li>
         <li>
-            <i class="lab la-product-hunt"></i> <a href="https://www.producthunt.com/@davidmead" rel="me" class="u-url">Product Hunt</a>
+             <a href="https://www.producthunt.com/@davidmead" rel="me" class="u-url">Product Hunt</a>
         </li>
         <li>
-            <i class="lab la-delicious"></i> <a href="http://del.icio.us/davidmead" rel="me" class="u-url">del.icio.us</a>
+             <a href="http://del.icio.us/davidmead" rel="me" class="u-url">del.icio.us</a>
         </li>
         <li>
-            <i class="lab la-codepen"></i> <a href="http://codepen.io/davidmead/" rel="me" class="u-url">Code Pen</a>
+             <a href="http://codepen.io/davidmead/" rel="me" class="u-url">Code Pen</a>
         </li>
         <li>
-            <i class="lab la-mixcloud"></i> <a href="https://www.mixcloud.com/davidmead/" rel="me" class="u-url">Mixcloud</a>
+             <a href="https://www.mixcloud.com/davidmead/" rel="me" class="u-url">Mixcloud</a>
         </li>
         <li>
-            <i class="lab la-stack-overflow"></i> <a href="http://stackoverflow.com/users/4166790/david-mead" rel="me" class="u-url">Stack Overflow</a>
+             <a href="http://stackoverflow.com/users/4166790/david-mead" rel="me" class="u-url">Stack Overflow</a>
         </li>
         <li>
-            <i class="lab la-reddit"></i> <a href="https://www.reddit.com/user/davidjohnmead/" rel="me" class="u-url">Reddit</a>
+             <a href="https://www.reddit.com/user/davidjohnmead/" rel="me" class="u-url">Reddit</a>
         </li>
         <li>
-            <i class="lab la-twitch"></i> <a href="https://www.twitch.tv/davidmead" rel="me" class="u-url">Twitch</a>
+             <a href="https://www.twitch.tv/davidmead" rel="me" class="u-url">Twitch</a>
         </li>
         <li>
-            <i class="lab la-untappd"></i> <a href="https://untappd.com/user/davidmead" rel="me" class="u-url">Untappd</a>
+             <a href="https://untappd.com/user/davidmead" rel="me" class="u-url">Untappd</a>
         </li>
         <li>
-            <i class="lab la-goodreads"></i> <a href="http://goodreads.com/davidmead" rel="me" class="u-url">Goodreads</a>
+             <a href="http://goodreads.com/davidmead" rel="me" class="u-url">Goodreads</a>
         </li>
 	</ul>
 	</div>

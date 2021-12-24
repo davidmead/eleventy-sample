@@ -5,17 +5,17 @@ description: Storing my bookmarks on my own site
 layout: layouts/layout-page
 
 ---
-<h1 class="txt-center title">Bookmarks</h1>
+<h1 class="txt-center title">Bookmarks 🔖</h1>
 <p>Decided to store all my bookmarks here on the site. These are things I want to read/watch/play when I have the time, or found useful and will reference later.</p>
 
 <ul class="list-plain">
 {%- for post in collections.bookmark | reverse -%}
   <li class="border-bottom">
   <article class="h-entry">
-		<p class="p-name collapse-bottom">
-			🔖 <a class="u-bookmark-of h-cite" href="{{ post.data.description }}" title="" rel="external">{{ post.data.title }}</a>
+		<p class="p-name collapse">
+			<a class="u-bookmark-of h-cite" href="{{ post.data.description }}" title="" rel="external">{{ post.data.title }}</a>
 		</p>
-		<footer class="small collapse-top">
+		<footer class="small">
 			<p class="collapse-top">Added on <a class="u-url" href="{{ post.url }}"><time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></a>, from {{ post.data.summary }} <span class="p-author author h-card vcard hide"><img class="u-photo" width="300" height="300" src="/img/davidmead-social-sml.jp2" alt="Black and white photo of my face"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span></p>
 		</footer>
 	</article>
