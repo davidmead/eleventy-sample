@@ -17,6 +17,5 @@ permalink: /tags/{{ tag }}/
 {% for post in taglist | reverse %}
   <dt class="collapse-bottom"><a href="{{ post.url | url }}">{{ post.data.title }}</a></dt>
   <dd class="small collapse-top"><time  class="" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></dd>
-  
 {% endfor %}
 </dl>
