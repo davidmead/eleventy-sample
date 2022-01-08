@@ -28,7 +28,7 @@ Sitting in my garden, the sun feeling good on my arms, it doesn't feel like I'm 
 ## Misconceptions
 Pandemics, whether real (viral) or make-believe (zombie), are depicted pretty much in the same way for the last decade or so. Empty cities, burnt-out cars, abandoned medical equipment, and everything in muted colors.
 
-<img class="img-border" src="/img/2020-04-05 11.06.32 1.jpg" alt="3M face masks">
+<img class="img-border img-med img-left left" src="/img/2020-04-05 11.06.32 1.jpg" alt="3M face masks">
 
 And while the first months showed eerily similar scenes in hospitals across the world (freezer trucks as morgues) as medical staff battled against the unbelievable toll of COVID-19, a lot of things kept going as normal.
 

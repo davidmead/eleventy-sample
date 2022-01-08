@@ -19,7 +19,9 @@ Described as a <q>requiem mass for our present times of difficulty</q>, it rises
 
 You can listen live, on [his YouTube channel](https://www.youtube.com/channel/UCMi8tQF_L7rd6YcmSt7MXrQ ""), to the different cycles on separate days. Each is accompanied by generative visuals.  Today is "Meditations" (embedded below).
 
-<p><iframe width="100%" height="380" src="https://www.youtube.com/embed/Ivpq4VDFC1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<div class="yt-container">
+<iframe width="100%" height="380" src="https://www.youtube.com/embed/Ivpq4VDFC1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Like most of his work it has a highly personal reason for existing...
 
