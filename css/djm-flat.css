@@ -546,7 +546,7 @@ a[rel~="child"][rel~="met"] {
 .tile-head {
 	background-color: rgba(var(--color-001), var(--op-100));
 		}
-
+		
 .tile time {
 	display: block;
 	font-weight: 600;
@@ -559,6 +559,10 @@ a[rel~="child"][rel~="met"] {
 	font-family: "font-body-bold";
 	text-decoration: none;
 	}
+	
+.tile-foot {
+	color: rgba(var(--color-002), var(--op-100));
+}
 
 .bubble {
 	background-color: rgba(var(--color-001), var(--op-100));
@@ -613,6 +617,11 @@ a[rel~="child"][rel~="met"] {
     width: 100%;
     height: 100%;
 	}
+	
+	
+.badge-pixel {
+	image-rendering:pixelated;
+}
 
 /* =MEDIA QUERIES
 ------------------------------- */
@@ -621,6 +630,15 @@ a[rel~="child"][rel~="met"] {
 	section + section {
 		margin-top: 0;
 		}
+		
+	.list-badges {
+		justify-content: center;
+		align-items: center!important;
+	}
+	
+	.list-badges li {
+		background-color: rgba(var(--color-004), var(--op-100));
+	}
 
 	.list-inline {
 		display: flex;
@@ -714,15 +732,17 @@ a[rel~="child"][rel~="met"] {
 
 	.p-category {
 	display: inline-block;
+/*
 	background-image: url('../img/ico-tag.svg');
 	background-size: contain;
 	padding-left: 30px;
 	background-position: left center;
 	background-repeat: no-repeat;
+*/
 	}
 
 h1 .p-category {
-	padding-left: 74px;
+/* 	padding-left: 74px; */
 	}
 	
 

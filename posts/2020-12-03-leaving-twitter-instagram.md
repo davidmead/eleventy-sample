@@ -8,7 +8,7 @@ date: 2020-12-03T00:00:01.00-05:00
 tags:
   - post
   - web
-  - social media
+  - social-media
   - Twitter
   - Instagram
 

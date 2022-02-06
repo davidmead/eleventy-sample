@@ -9,7 +9,7 @@ tags:
   - post
   - listen
   - music
-  - nine inch nails
+  - nine-inch-nails
   - atmospheric
   - instrumental
   - free

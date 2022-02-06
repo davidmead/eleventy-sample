@@ -9,7 +9,7 @@ tags:
   - bookmark
   - del.icio.us
   - ma.gnolia
-  - touch screen
+  - touch-screen
   - technology
 
 layout: layouts/layout-bookmark

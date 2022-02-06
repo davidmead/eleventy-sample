@@ -11,7 +11,7 @@ tags:
   - blogger
   - ma.gnolia
   - m2
-  - open source
+  - open-source
   - web
   - technology
   

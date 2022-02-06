@@ -9,7 +9,7 @@ tags:
   - post
   - watch
   - ia
-  - information architecture
+  - information-architecture
 
 layout: layouts/layout-post
 ---

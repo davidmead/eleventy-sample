@@ -12,6 +12,7 @@ tags:
   - eat
   - dessert
   - 51stbirthday
+  - birthday
   - vscocam
 
 layout: layouts/layout-photo

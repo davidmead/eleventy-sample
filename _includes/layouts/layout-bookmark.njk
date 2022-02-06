@@ -4,7 +4,7 @@ layout: layouts/layout-base.njk
 ---
 <main>
 	<article class="h-entry">
-		<h1 class="p-name">{{ title }}</h1>
+		<h1 class="p-name">🔖 {{ title }}</h1>
 		<p class=""><a class="u-bookmark-of h-cite" href="{{ description }}" title="" rel="external">{{ summary }}</a></p>
 		<div class="e-content">
 			{{ content | safe }}
@@ -37,7 +37,7 @@ layout: layouts/layout-base.njk
 			<ul class="list-plain list-inline">
 				{% for item in tags %}
 				<li>
-                    <a class="p-category" href="/tags/{{ item }}" title="all posts tagged {{ item }}" rel="tag">{{ item }}</a>
+				🏷️ <a class="p-category" href="/tags/{{ item }}" title="all posts tagged {{ item }}" rel="tag">{{ item }}</a>
                  </li>
                 {% endfor %}
 			 </ul>

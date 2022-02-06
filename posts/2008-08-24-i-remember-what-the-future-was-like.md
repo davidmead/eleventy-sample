@@ -13,8 +13,8 @@ tags:
   - read
   - web
   - technology
-  - howard rheingold
-  - social media
+  - howard-rheingold
+  - social-media
   - web2.0
   - vlog
 

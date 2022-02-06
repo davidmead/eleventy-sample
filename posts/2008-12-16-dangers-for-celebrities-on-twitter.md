@@ -12,7 +12,7 @@ tags:
   - web
   - celebrities
   - twitter
-  - social networks
+  - social-networks
   - marketing
   
 urlBlogger: http://www.davidjohnmead.com/2008/12/as-weve-seen-technology-such-as.html
