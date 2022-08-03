@@ -4,11 +4,12 @@ description: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-file
 summary: evilmartians.com
 
 date: 2021-12-20T00:00:01.00-05:00
-updated: 
+updated:
 
 tags:
   - bookmark
   - ux
+  - user-experience
   - web
   - code
 

@@ -32,7 +32,7 @@ I met up with Linda, Adam, and Tom at [Cask 307](https://www.cask307.com ""). We
 
 Another bottle of delicious Pinot, and an hour of memories later, it was time for me to head home. It was fantastic catching up with some the "the coolest co-workers" again.
 
-I stopped in to [The Indian Kitchen](http://theindiankitchenmentor.com "Indian restaurant") on the way. It was about 6pm by the time Josh & I enjoyed out Chien Tikka Masala and Balti style Lamb. At 8pm the lights went out.
+I stopped in to [The Indian Kitchen](http://theindiankitchenmentor.com "Indian restaurant") on the way. It was about 6pm by the time Josh & I enjoyed out Chicken Tikka Masala and Balti style Lamb. At 8pm the lights went out.
 
 ## Power cut
 Come 9pm it was getting quite cold in the house, even with all the candles we had lit. As with most of these types of power cuts, I could still see some lights on in the street behind us, but pretty much <a href="https://patch.com/ohio/mentor/power-outages-more-2-500-lake-county-residents-dark" title="Article about power outage on Patch.com">everyone else was dark</a>.

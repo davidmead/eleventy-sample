@@ -10,8 +10,9 @@ tags:
   - instagram
   - social
   - ux
+  - user-experience
   - medium
-  
+
 urlMedium: https://medium.com/@davidmead/instagram-s-timeline-and-ios-users-28a4d43e62cd
 
 layout: layouts/layout-post

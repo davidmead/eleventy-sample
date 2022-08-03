@@ -28,6 +28,9 @@
 		<link rel="microsub" href="https://aperture.p3k.io/microsub/195">
 
 		<!-- Fonts Loaded Here -->
+		<link rel="preload" type="font/woff2" href="/fonts/Calistoga-Regular.woff2" as="font" crossorigin=""/>
+		<link rel="preload" type="font/woff2" href="/fonts/Atkinson-Hyperlegible-Regular-102a.woff2" as="font" crossorigin=""/>
+		<link rel="preload" type="font/woff2" href="/fonts/Atkinson-Hyperlegible-Bold-102a.woff2" as="font" crossorigin=""/>
 
 		<!-- Icons Loaded Here -->
 
@@ -38,12 +41,22 @@
 	</head>
 
 	<body class="">
+	<a class="skip-link" href="#maincontent">Skip to main content</a>
 		<header class="pg-header">
 			{% if isFront %}
-			<!--list-badges
+			<!--
 			{% endif %}
 			<nav>
-				<p class="txt-center"><a href="/" title="read about the person writing this">home</a></p>
+				<ul class="list-plain list-inline">
+					<li><a href="/" title="read about the person writing this">Home</a></li>
+					{% if nextPost.url %}
+					<li><a href="{{ nextPost.url }}" title="next post">Next entry <!--{{ nextPost.data.title }}--></a></li>
+					{% endif %}
+
+					{% if prevPost.url %}
+					<li><a href="{{ prevPost.url }}" title="previous post">Previous entry <!--{{ prevPost.data.title }}--></a></li>
+					{% endif %}
+				</ul>
 			</nav>
 			{% if isFront %}
 			-->
@@ -53,7 +66,7 @@
 		<footer class="pg-footer txt-center">
 			<p><small>&copy; 2005-2022 David Mead</small></p>
 			<p><a href="{{ metadata.url }}/feed/feed.xml" title="Subscribe via RSS">RSS feed</a></p>
-			
+
 <ul class="list-plain list-inline list-badges">
 <li><a href="https://anybrowser.org/campaign/" title=""><img class="badge-pixel" width="85" height="15" alt="Any Browser Campaign" src="/img/anybrowser.png"></a></li>
 <li><a href="https://indieweb.org/" title=""><img class="badge-pixel" width="85" height="15" alt="IndieWebCamp" src="/img/indieweb-badge.png"></a></li>
@@ -64,7 +77,7 @@
 <li><img class="badge-pixel" width="85" height="15" alt="HTML5" src="/img/valid_html5.png"></li>
 <li><img class="badge-pixel" width="85" height="15" alt="RSS2.0" src="/img/valid_rss20.png"></li>
 <li><a href="https://indieweb.org/Webmention" title=""><img class="badge-pixel" width="85" height="15" alt="Webmentions" src="/img/webmention-badge.png"></a></li>
-<li><a href="http://gmpg.org/xfn" title=""><img class="badge-pixel" width="85" height="15" src="/img/xfn-btn.gif" alt="XFN Friendly"></a></li>
+<li><a href="http://gmpg.org/xfn/" title=""><img class="badge-pixel" width="85" height="15" src="/img/xfn-btn.gif" alt="XFN Friendly"></a></li>
 <li><a href="https://humanstxt.org/" title=""><img class="badge-pixel" width="85" height="15" alt="Humans text" src="/img/humanstxt-transparent-color.png"></a></li>
 </ul>
 		</footer>

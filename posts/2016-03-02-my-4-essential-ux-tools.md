@@ -1,18 +1,19 @@
 ---
 title: My 4 essential UX project tools
-description: 
-summary: 
+description:
+summary:
 
 date: 2016-03-02T00:00:01.00-05:00
 
 tags:
   - post
   - ux
+  - user-experience
   - tools
   - software
   - notebooks
   - medium
-  
+
 urlMedium: https://medium.com/@davidmead/my-4-essential-ux-project-tools-40bc22fe2457
 
 layout: layouts/layout-post

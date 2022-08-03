@@ -1,0 +1,33 @@
+#BEGIN https rewrite
+
+#Options +FollowSymLinks
+#RewriteEngine on
+#RewriteCond %{HTTP_HOST} ^davidjohnmead.com [NC]
+#RewriteRule ^(.*)$ http://www.davidjohnmead.com/$1 [R=301,L]
+
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://davidjohnmead.com/$1 [R,L]
+
+#END https rewrite
+
+ErrorDocument 404 /404.html
+
+AddType video/ogg .ogv
+AddType video/mp4 .mp4
+AddType video/webm .webm
+
+#BEGIN redirects
+
+Redirect 301 /blog/2017/02/26/happy-40th-2000ad-40-years-old-today/ https://davidjohnmead.com/posts/2017-02-26-happy-40th-2000ad/
+
+Redirect 301 /tags/open%20source https://davidjohnmead.com/tags/open-source/
+
+#END redirects
+
+# BEGIN add custom header to multiple files
+<Files ~ "\.(jpe?g|png|gif|mp3|wav|ogg|m4a|mp4|mov|wmv|avi|ico|woff2|jp2)$">
+	Header set Cache-Control "max-age=63072000, public"
+</Files>
+
+# END add custom header to multiple files
