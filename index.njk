@@ -17,8 +17,9 @@ layout: layouts/layout-home
 <div class="tile-wrapper">
 	{% for post in collections.post | reverse %}
 		{% if loop.index0 < 3 %}
+			<a class="" href="{{ post.url | url }}" title="">
 			<div class="tile">
-				<a class="" href="{{ post.url | url }}" title="">
+
 					<div class="tile-head">
 						<time class="small collapse-top" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
 					</div>
@@ -32,8 +33,9 @@ layout: layouts/layout-home
 					</div>
 					{% endif%}
 					-->
-				 </a>
+
 			 </div>
+			 </a>
 		{% endif %}
 	{% endfor %}
 </div>

@@ -384,8 +384,6 @@ a[rel~="sweetheart"] {
 .title {
 	margin-top:0;
 	margin-bottom: 0.25em;
-	font-size: 2.5556em; /* 64px */
-	line-height: 1.0313em; /* 66px */
 	font-family: "font-heading";
 	color: rgba(var(--color-002), var(--op-100));
 	}
@@ -692,6 +690,8 @@ a[rel~="sweetheart"] {
 
 	.tile {
 		margin: 0;
+		overflow: auto;
+		height: 100%;
 		}
 
 	.tile-wrapper {
@@ -751,6 +751,11 @@ a[rel~="sweetheart"] {
 
 	.h-recipe {
 	background-size: auto;
+	}
+
+	.title {
+	font-size: 2.5556em; /* 64px */
+	line-height: 1.0313em; /* 66px */
 	}
 
 /* moved to large screens as its causing text size to shrink on mobile	 */
