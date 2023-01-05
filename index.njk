@@ -11,35 +11,31 @@ layout: layouts/layout-home
 <h1 class="title">Living and working on the web, with a British point of view.</h1>
 <p class="summary">A personal site—The posted thoughts, photos, and bookmarks of David Mead.</p>
 </div>
-
 <section class="module-posts">
 <h2>Most recent posts</h2>
 <div class="tile-wrapper">
 	{% for post in collections.post | reverse %}
 		{% if loop.index0 < 3 %}
-			<a class="" href="{{ post.url | url }}" title="">
+			<a class="tile-link" href="{{ post.url | url }}" title="">
 			<div class="tile">
-
-					<div class="tile-head">
-						<time class="small collapse-top" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
-					</div>
-					<div class="tile-body">
-						<p class="tile-heading">{{ post.data.title }}</p>
-					</div>
-					<!--
-					{% if post.data.summary %}
-					<div class="tile-foot">
-						<p>{{ post.data.summary }}</p>
-					</div>
-					{% endif%}
-					-->
-
+				<div class="tile-head">
+					<time class="small collapse-top" datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+				</div>
+				<div class="tile-body">
+					<p class="tile-heading">{{ post.data.title }}</p>
+				</div>
+				<!--
+				{% if post.data.summary %}
+				<div class="tile-foot">
+					<p>{{ post.data.summary }}</p>
+				</div>
+				{% endif%}
+				-->
 			 </div>
 			 </a>
 		{% endif %}
 	{% endfor %}
 </div>
-
 	<p class="">See <a href="/tags/post/" title="">all posts</a>.</p>
 </section>
 
@@ -54,7 +50,8 @@ layout: layouts/layout-home
 			<a class="u-bookmark-of h-cite" href="{{ post.data.description }}" title="" rel="external">{{ post.data.title }}</a>
 		</p>
 		<footer class="small collapse-top">
-			<p class="collapse-top">Added on <a class="u-url" href="{{ post.url }}"><time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></a>, from {{ post.data.summary }} <span class="p-author author h-card vcard hide"><img class="u-photo" width="300" height="300" src="/img/davidmead-social-sml.jp2" alt="Black and white photo of my face"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span></p>
+			<p class="collapse-top">Added on <a class="u-url" href="{{ post.url }}"><time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time></a>, from {{ post.data.summary }} <span class="p-author author h-card vcard hide"><img class="u-photo" width="300" height="300" src="/img/davidmead-social-sml.jp2" alt="Black and white photo of my face"><a class="p-name fn u-url url" href="https://davidjohnmead.com" rel="me">David Mead</a></span>
+			</p>
 		</footer>
 	</article>
 	</li>
@@ -164,17 +161,17 @@ layout: layouts/layout-home
         	<li><a href="https://foursquare.com/davidmead" rel="me" class="u-url">Foursquare</a></li>
         	<li><a href="https://www.last.fm/user/DaveMead" rel="me" class="u-url">Last.FM</a></li>
         	<li><a href="https://upcoming.org/@davidmead" rel="me" class="u-url">Upcoming</a></li>
-        	<li><del>Periscope</del></li>
-			<li><del>Facebook</del></li>
+        	<!--<li><del>Periscope</del></li>-->
+			<!--<li><del>Facebook</del></li>-->
         	<li><a href="https://ello.co/davidmead" rel="me" class="u-url">Ello</a></li>
-        	<li><del>Gentlemint</del></li>
+        	<!--<li><del>Gentlemint</del></li>-->
         	<li><a href="https://www.pinterest.com/davidmead/" rel="me" class="u-url">Pinterest</a></li>
         	<li><a href="http://davidmead.listal.com/" rel="me" class="u-url">Listal</a></li>
         	<li><a href="https://www.neonmob.com/davidmead/collection/" rel="me" class="u-url">Neonmob</a></li>
         	<li><a href="http://davidmead.tumblr.com/" rel="me" class="u-url">Tumblr</a></li>
         	<li><a href="https://vine.co/davidjohnmead" rel="me" class="u-url">Vine</a></li>
         	<li><a href="https://www.youtube.com/user/davidjohnmead" rel="me" class="u-url">YouTube</a></li>
-        	<li><del>Cash.me</del></li>
+        	<!--<li><del>Cash.me</del></li>-->
         	<li><a href="https://www.producthunt.com/@davidmead" rel="me" class="u-url">Product Hunt</a></li>
         	<li><a href="https://del.icio.us/davidmead" rel="me" class="u-url">del.icio.us</a></li>
         	<li><a href="https://codepen.io/davidmead/" rel="me" class="u-url">Code Pen</a></li>
@@ -184,7 +181,7 @@ layout: layouts/layout-home
         	<li><a href="https://www.twitch.tv/davidmead" rel="me" class="u-url">Twitch</a></li>
         	<li><a href="https://untappd.com/user/davidmead" rel="me" class="u-url">Untappd</a></li>
         	<li><a href="https://www.goodreads.com/user/show/91778136-david-mead" rel="me" class="u-url">Goodreads</a></li>
-			<li><del>Twitter</del></li>
+			<!--<li><del>Twitter</del></li>-->
 		</ul>
 	</div>
 </section>
