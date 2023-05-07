@@ -93,6 +93,62 @@ line-height: 26px;
 			background-color: #FFF;
 		}
 
+		section + section {
+		margin-top: 2.250em; /* 1.5 baselines */
+		}
+
+		ul,
+		ol {
+			margin-top: 1.1250em; /* 0.75 baselines */
+			margin-left: 1em;
+			padding: 0;
+			list-style-position: outside;
+			}
+
+		li,
+		dt,
+		dd {
+			margin-top: 0.375em; /* 0.25 baseline */
+			}
+
+		dd {
+			margin-left: 0;
+			}
+
+		li + li,
+		dt + dt {
+			margin-top: 0.375em; /* 0.25 baseline */
+			}
+
+		nav > ul {
+align-content: space-around;
+		  align-items: center;
+		  display: flex;
+		  flex-direction: row;
+		  flex-wrap: wrap;
+		  justify-content: center;
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+
+		}
+
+		nav ul li,
+		nav ol li {
+		  display: inline-block;
+		}
+
+		header > nav a,
+		header > nav a:visited {
+		  margin: 0 0.5rem 1rem 0.5rem;
+		  border: 1px solid var(--border);
+		  border-radius: 5px;
+		  color: var(--text);
+		  display: inline-block;
+		  padding: 0.1rem 1rem;
+		  text-decoration: none;
+		}
+
 		p+h2,
 		p+h3,
 		.job+h2,
@@ -143,13 +199,23 @@ line-height: 26px;
 
 		.details {
 			padding: 0;
-			list-style-type: none;
 			color: #666;
 		}
 
 		.details li {
 			display: block;
-			margin-right: 1em;
+			/* margin-right: 1em; */
+		}
+
+		.list-plain {
+		margin-left: 0;
+		list-style: none;
+		}
+
+		header > nav {
+		  font-size: 1rem;
+		  line-height: 2;
+		  padding: 1rem 0 0 0;
 		}
 
 		@media screen and (min-width: 600px) {
@@ -179,29 +245,33 @@ line-height: 26px;
 	<a href="#content-main" class="skip-link sr-only sr-only--focusable">Skip to content</a>
 	<header>
 		<nav>
-			<ul>
+			<ul class="list-plain">
 				<li><a href="#content-about" title="">About</a></li>
 				<li><a href="#content-experience" title="">Experience</a></li>
 				<li><a href="#content-education" title="">Education</a></li>
 				<li><a href="#content-volunteering" title="">Volunteering</a></li>
+				<li><a href="https://www.linkedin.com/in/davidmead/" title="">LinkedIn profile</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main id="content-main">
 		<h1>Resume of David Mead</h1>
 		<p>User Experience Designer. Information Architect.</p>
-
+<section>
 		<h2 id="content-about">About</h2>
 		<p>Over 20 years of experience in the design & development of web sites, Intranets, advertising projects, and apps. Working with large corporations, and small companies, both as clients and employers.</p>
 
 		<p>I am self-motivated, have excellent communication skills, and a passion for web standards. I create user-centered designs, based on feedback, interviews, analytics, and user testing. I hand-code my own semantic, accessible, HTML mocks. Comfortable in programs such as Sketch/InVision for static mocks.</p>
 
 		<p>Keeping up with the latest thinking & methodologies has helped me to deliver great results for every project I'm involved with.</p>
+
+		</section>
+		<section>
 		<h2 id="content-experience">Experience</h2>
 
 		<div class="job">
 			<h3><span class="position">Lead Designer <abbr title="User Interface">UI</abbr>/<abbr title="User Experience">UX</abbr></span> at <span class="company">Vitamix</span></h3>
-			<ul class="details">
+			<ul class="list-plain details">
 				<li>Full-time</li>
 				<li><time datetime="2020-04">April 2020</time>&ndash;present</li>
 				<li>N.Olmstead, Ohio USA</li>
@@ -212,7 +282,7 @@ line-height: 26px;
 
 		<div class="job">
 			<h3><span class="position">Manager of User Experience</span> at <span class="company">Dealer Tire</span></h3>
-			<ul class="details">
+			<ul class="list-plain details">
 				<li>Full-time</li>
 				<li><time datetime="2016-05">May 2016</time>&ndash;<time datetime="2020-04">April 2020</time></li>
 				<li>Cleveland, Ohio USA</li>
@@ -226,7 +296,7 @@ line-height: 26px;
 
 		<div class="job">
 			<h3><span class="position">Creative Lead (UI/UX)</span> at <span class="company">Photon</span></h3>
-			<ul class="details">
+			<ul class="list-plain details">
 				<li>Full-time</li>
 				<li><time datetime="2015-11">November 2015</time>&ndash;<time datetime="2016-04">April 2016</time></li>
 				<li>Brooklyn, Ohio USA</li>
@@ -238,7 +308,7 @@ line-height: 26px;
 
 		<div class="job">
 			<h3><span class="position">Senior UX Designer</span> at <span class="company">DialogTech</span></h3>
-			<ul class="details">
+			<ul class="list-plain details">
 				<li>Full-time</li>
 				<li><time datetime="2014-06">June 2014</time>&ndash;<time datetime="2015-11">November 2015</time></li>
 				<li>Independence, Ohio USA & Chicago, IL USA</li>
@@ -248,16 +318,34 @@ line-height: 26px;
 			<p>Since joining I unified the visual design of the Mongoose Metrics application as well as audited the site, improving the workflow. Overhauled the HTML and CSS. Created a style guide and pattern library. Completely redesigned a product for creating reports from large sets of transcribed calls (Conversation Insights) that works across both companies customer bases.</p>
 			<p>Sketching, wireframing, prototyping, helping to develop products from customer needs.</p>
 		</div>
-
+</section>
+<section>
 <h2 id="content-education">Education</h2>
 <ul>
-	<li>1990&mdash;South East Essex College of Arts and Technology City&Guilds, Media Techniques/TV & Video Competencies</li>
+	<li>1990&mdash;South East Essex College of Arts and Technology City & Guilds, Media Techniques/TV & Video Competencies</li>
 	<li>1990&mdash;South East Essex College of Arts and Technology College Certificate, Video Production Workshop</li>
 	<li>1997&mdash;SEEVIC College'A'Level, Art</li>
 </ul>
+</section>
+<section>
+<h2 id="content-volunteering">Volunteering</h2>
+
+<div class="job">
+<h3><span class="position">UI & Front end coder</span> for <span class="company">Long Term Care Ombudsman</span></h3>
+<ul class="list-plain details">
+	<li>Volunteer</li>
+	<li><time datetime="2012-07">July 2012</time>&ndash;<time datetime="2012-07">July 2012</time></li>
+	<li>Cleveland, Ohio USA</li>
+</ul>
 
 
-
+<p>Volunteered my time over a weekend as part of <a href="https://clevelandgivecamp.org" title="">Cleveland Give Camp</a>. Though we couldn't give them a wholly new site (they'd already invested in a CMS) we focussed on two priorities:</p>
+<ol>
+<li>Write new content to help educate visitors, and to improve search engine results</li>
+<li>Change the site architecture to make it easier to navigate</li>
+</ol>
+<p>It was a great experience and the client was happy and grateful of the updates.</p>
+</section>
 	</main>
 	<footer>
 		<small>&copy;David Mead 2021

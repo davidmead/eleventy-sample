@@ -1,6 +1,6 @@
 ---
 title: Experiments with Chili
-description:
+description: scratch cooking my way to a decent chili recipe
 summary:
 
 date: 2022-11-22T00:00:01.00-05:00
@@ -11,6 +11,7 @@ tags:
   - eat
   - recipe
   - chili
+  - cooking
 
 layout: layouts/layout-post
 ---
@@ -22,7 +23,7 @@ I've always liked Chili. With rice, on a jacket potato, or just on its own. So I
 
 The fire roasted tomatoes gave it a nice taste. I ended up taking out the chipotle peppers halfway through cooking. In the end it was good, but more chili pepper than chili.
 
-<img class="img-border" src="/img/2022-11-22-chili-cooking.jpeg" title="chili cooking in pot" />
+<img class="img-border" src="/img/2022-11-22-chili-cooking.jpeg" title="chili cooking in pot" width="706" height="706" />
 
 This gave me 6 servings (3 lunches, 3 for the freezer) and a good base to start swapping out ingredients.
 
@@ -34,7 +35,7 @@ This gave me 6 servings (3 lunches, 3 for the freezer) and a good base to start 
 <h2>Chili Experiment 001</h2>
 
 <h3>Ingredients</h3>
-<img src="/img/2022-11-22-chili-ingredients.jpeg" title="ingredients assembled" />
+<img src="/img/2022-11-22-chili-ingredients.jpeg" title="chili ingredients assembled" width="500" height="500" />
 <ul>
 <li class="p-ingredient">2 <abbr title="tablespoons">tbs</abbr> oil</li>
 <li class="p-ingredient">3 Jalapeño peppers</li>

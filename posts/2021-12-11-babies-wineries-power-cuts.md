@@ -1,6 +1,6 @@
 ---
 title: Babies, wineries, and a power cut
-description: 
+description:
 summary: A weekend of ups & downs
 
 date: 2021-12-12T00:00:01.00-05:00
@@ -8,13 +8,16 @@ date: 2021-12-12T00:00:01.00-05:00
 tags:
   - post
   - personal
-  
+  - drink
+  - memories
+
+
 
 layout: layouts/layout-post
 ---
 
 ## Babies
-Josh arrived home from [school](https://www.weschools.org/northhighschool_home.aspx "North High School") with a "baby" this weekend. As part of his Child Development class he has to feed, burp, rock, change, and generally care for a <a href="https://www.bostonglobe.com/2020/01/14/magazine/my-teenager-brought-an-infant-simulator-home-school-i-think-im-grandma-now/" title="Article from Boston Globe about infant simulators">doll that cries at pre-programmed times</a>. 
+Josh arrived home from [school](https://www.weschools.org/northhighschool_home.aspx "North High School") with a "baby" this weekend. As part of his Child Development class he has to feed, burp, rock, change, and generally care for a <a href="https://www.bostonglobe.com/2020/01/14/magazine/my-teenager-brought-an-infant-simulator-home-school-i-think-im-grandma-now/" title="Article from Boston Globe about infant simulators">doll that cries at pre-programmed times</a>.
 
 He couldn't fob it on us, or just leave it in his room, as it's linked to a wristband he wears for the weekend.  And it's just not him that it wakes. One of dogs started barking when the infant cries started emanating from his room early in the morning.
 
@@ -50,7 +53,7 @@ We'd <a href="https://www.cdc.gov/foodsafety/food-safety-during-a-power-outage.h
 I did wonder if getting a gas oven would've helped. Turns out our technical and safety advances means they don't come with pilot lights anymore, but with a "glow plug" which needs a certain voltage running through before it will light the oven. We could still use the hobs though.
 
 I also looked at gas heaters. Some of those need some kind of power to ignite. And even if they are labelled for "home" use, you still have to watch out as it means tent or covered porch.
-  
+
 
 
 

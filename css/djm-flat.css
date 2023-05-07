@@ -354,6 +354,11 @@ a[rel~="sweetheart"] {
 
 /* =HELPERS
 ------------------------------- */
+.expand {
+	margin-top: 2.250em !important; /* 1.5 baselines */
+	margin-bottom: 2.250em !important; /* 1.5 baselines */
+}
+
 .list-plain {
 	margin-left: 0;
 	list-style: none;
@@ -449,8 +454,6 @@ a[rel~="sweetheart"] {
 	/* column-rule: 1px dotted rgba(var(--color-002), var(--op-050)); */
 	/* text-align: center; */
 	}
-
-
 
 .columns li {
 	display: inline-block;
@@ -654,6 +657,28 @@ a[rel~="sweetheart"] {
 
 .badge-pixel {
 	image-rendering:pixelated;
+	margin: 0 auto;
+	background-color: rgba(var(--color-004), var(--op-100));
+}
+
+
+.list-badges {
+	columns: 2;
+	margin: 10%;
+}
+
+
+.list-badges li {
+
+}
+
+.list-badges li img {
+	align: center;
+}
+
+.list-badges li  {
+padding: 0.25em;
+
 }
 
 /* =MEDIA QUERIES
@@ -665,12 +690,10 @@ a[rel~="sweetheart"] {
 		}
 
 	.list-badges {
+		margin-top: 1.1250em; /* 0.75 baselines */
+		margin-bottom: : 1.1250em; /* 0.75 baselines */
 		justify-content: center;
 		align-items: center!important;
-	}
-
-	.list-badges li {
-		background-color: rgba(var(--color-004), var(--op-100));
 	}
 
 	.list-inline {

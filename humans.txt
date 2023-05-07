@@ -10,23 +10,25 @@
 	Name:        David Mead
 	Location:    Cleveland, OH
 	Site:        https://davidjohnmead.com/
-	
+
 /* SOCIAL */
 
 
 
 /* META */
 
-	Built with: Eleventy, HTML, CSS, .htaccess
+	Built with: Nova, Eleventy, HTML, CSS, .htaccess
 
 /* THANKS */
 
 	To everyone who shares, likes, comments, and contributes!
-	
+
 	XFN icons from Fugue set by https://p.yusukekamiyamane.com
-	
+
 	IndieWeb badges from https://aaronparecki.com/2017/12/30/7/indieweb-badge
-	
+
 	W3C badges from https://venturas.org/badges
-	
-	
+
+	AI Free content badge from https://notbyai.fyi
+
+
