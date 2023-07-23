@@ -1,7 +1,7 @@
 ---
 title: Dogs in snow
 description: Photo of my dogs in the deep snow
-summary: 
+summary:
 
 date: 2022-01-17T00:00:01.00-05:00
 
@@ -16,10 +16,10 @@ layout: layouts/layout-photo
 imgSRC: /img/2022-01-17-dogs-in-snow.jpeg
 imgALT: 2 dogs covered in deep snow
 
-urlFlickr: 
+urlFlickr:
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 Last night the snow came. Boy did it come. About 20" of the white stuff got dumped on us. Dogs didn't know what to do when I let them out, so they just came straight back in.
 

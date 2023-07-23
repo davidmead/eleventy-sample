@@ -24,6 +24,6 @@ urlTwitter:
 urlFlickr:
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 As my commute is now walking downstairs to the basement I decided to cook breakfast, using the leftovers from last night. We had tostados, so the broken ones (held together by refried beans) made the base. Topped with an egg which I cooked along with the tomatoes &amp; chili's. Delicious with a big mug of black coffee.

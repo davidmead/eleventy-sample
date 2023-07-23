@@ -16,9 +16,9 @@ layout: layouts/layout-photo
 imgSRC: /img/2021-02-26-julies-50th-cake.jpg
 imgALT: Julie's birthday cake
 
-urlFlickr: 
+urlFlickr:
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 For her 50<sup>th</sup> Julie wanted a specific cake, so I obliged. Over an hour drive to get this luxurious red velvet cake from [Kelsey Elizabeth](https://kelseyelizabethcakes.com "amazing cakes and sweets"). It was so heavy and decadent.

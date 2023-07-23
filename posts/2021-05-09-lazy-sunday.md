@@ -18,7 +18,7 @@ layout: layouts/layout-photo
 imgSRC: /img/2021-05-09-dogs.jpeg
 imgALT: Dogs laying together on a couch
 
-urlFlickr: 
+urlFlickr:
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>

@@ -16,7 +16,7 @@ layout: layouts/layout-photo
 imgSRC: /img/2021-05-20-walking-dogs.jpeg
 imgALT: Walking dogs
 
-urlFlickr: 
+urlFlickr:
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>

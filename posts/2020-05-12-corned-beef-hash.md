@@ -25,7 +25,7 @@ urlTwitter:
 urlFlickr:
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 Corned beef hash is my "go-to" when visiting a diner for breakfast. Growing up in 70's England I ate my fair share of the tinned variety.
 

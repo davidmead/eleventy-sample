@@ -18,7 +18,7 @@ imgALT: A stack of cassette tapes, labels brightly coloured by felt-tip pen
 urlFlickr:
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 While going through multiple boxes in the loft I found a box of Dad's old cassette tapes.  He used to decorate a lot of them with felt-tip. A big childhood memory for me.
 

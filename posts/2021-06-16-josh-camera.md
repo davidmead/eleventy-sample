@@ -17,10 +17,10 @@ layout: layouts/layout-photo
 imgSRC: /img/2021-06-16-josh-camera.jpeg
 imgALT: Polaroid pictures of our dog Milo
 
-urlFlickr: 
+urlFlickr:
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 He returned from dropping off clothes at the Goodwill with a "new" camera. A [Polaroid 600](https://us.polaroid.com/products/square-600-polaroid-camera " ") with one cartridge of film. Proclaiming the film (at $20) cost more than the camera, we went online to find a manual.
 

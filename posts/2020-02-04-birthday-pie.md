@@ -30,5 +30,5 @@ Shared my, now traditional, Chinese dinner of potstickers, sweet & sour chicken,
 
 Big thanks to everyone who sent my brthday wishes.
 
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 

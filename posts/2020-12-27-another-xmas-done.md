@@ -16,7 +16,7 @@ imgALT: dogs looking out of window, xmas tree in foreground
 
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 This year Christmas felt like an odd affair. The pandemic forcing decisions on gifts. Cash flow has been, <em>unpredictable</em> to say the least. I was laid off in April, with a new gig (luckily) the next month. Julie's job has come & gone multiple times as schools close in Ohio seemingly every other month. This also effected Josh's part-time job.
 

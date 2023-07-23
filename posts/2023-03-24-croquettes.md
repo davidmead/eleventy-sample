@@ -23,7 +23,7 @@ imgALT: Potato and vegatable croquettes with katsu sauce
 urlFlickr:
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 I was in Mentor on Friday and treated myself to lunch at <a href="https://kikos-kitchen.square.site" title="Japanese style food made fresh">Kiko's Kitchen</a>. I went for a Chicken Katsu rice bowl, but they also had a special Potato & Vegetable Croquette served with Katsu sauce (photo).
 

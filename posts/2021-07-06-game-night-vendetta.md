@@ -12,15 +12,15 @@ tags:
   - gamenight
   - boardgame
   - vampire
-  
+
 
 layout: layouts/layout-photo
 imgSRC: /img/2021-07-06-game-night-vendetta.jpeg
 imgALT: Close up of my game card on table
 
-urlFlickr: 
+urlFlickr:
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 Tonight was the first Game Night for over a year. It was great to be able to catch-up with each other, share stories, and have fun playing [Vampire: The Masquerade – Vendetta](https://www.horribleguild.com/vampire-the-masquerade-vendetta/ "official site").

@@ -18,7 +18,7 @@ imgALT: The neon sign at night, outside Johnny's Bar
 urlFlickr:
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 Tonight I enjoyed a night out with my co-workers. Guests of our new (again) technical partner, we dined at <a href="http://www.johnnysonfulton.com" title="">Johnny's Bar</a> on Fulton Road.
 

@@ -24,4 +24,4 @@ After getting Josh's haircut, a new style of his choosing, we headed to [Sugar B
 
 We both had a bowl Pho Tai. A big serving of Vietnamese noodle soup with rare steak topped with cilantro, scallion and onions. Delicious on a cold rainy day like today. Also shared an appetizer of 'Country Wings' (crispy fried with a sweet chili sauce to dip).
 
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>

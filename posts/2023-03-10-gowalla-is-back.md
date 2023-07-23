@@ -1,6 +1,6 @@
 ---
 title: Gowalla is back
-description:
+description: Geo-location app returns
 summary:
 
 date: 2023-03-10T00:00:01.00-05:00

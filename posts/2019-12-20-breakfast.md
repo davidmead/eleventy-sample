@@ -24,4 +24,4 @@ imgALT: Various tamales, bacon, eggs, and queso
 ---
 As a thank you our bosses cooked us breakfast this morning. Various tamales from Texas including pork, beef, spinach, and black bean. Eggs, blueberry french toast, oats, and (of course) bacon.
 
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>

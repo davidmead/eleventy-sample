@@ -18,10 +18,10 @@ layout: layouts/layout-photo
 imgSRC: /img/2022-03-08-homemade-ramen.jpeg
 imgALT: Noodles, egg, baby corn, and steak with a broth in a white bowl
 
-urlFlickr: 
+urlFlickr:
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 My nephew, Sammy, made his homemade ramen for us tonight. It was great. He cooked the steak, added the broccoli and corn, as well as sprinkling over the sesame seeds.
 

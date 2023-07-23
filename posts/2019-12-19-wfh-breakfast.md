@@ -21,4 +21,4 @@ imgALT: Bacon, egg, and fried bread with a black coffee
 ---
 On the odd occasion I do work from home, it's always a treat to cook breakfast. Bacon, egg, and a fried slice is my go-to.
 
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>

@@ -17,4 +17,4 @@ imgALT: Sunset with dark trees in front
 
 ---
 Only two days from Xmas and it's an odd one. In the 50's and the days don't seem to be as short as they normally are.
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>

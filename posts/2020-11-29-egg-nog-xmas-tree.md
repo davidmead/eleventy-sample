@@ -22,6 +22,6 @@ urlTwitter:
 urlFlickr: https://flic.kr/p/2kbTPG1
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 Egg nog after ornamenting the tree today.

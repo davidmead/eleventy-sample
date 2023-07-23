@@ -22,7 +22,7 @@ imgALT: Homemade sausage rolls
 urlFlickr: https://flic.kr/p/2kgHpwD
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 A staple British food, the sausage roll can be found almost everywhere. Bakers, supermarkets, petrol (gas) stations. Delicious hot or cold.
 

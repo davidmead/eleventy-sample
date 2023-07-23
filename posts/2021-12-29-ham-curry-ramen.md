@@ -18,7 +18,7 @@ layout: layouts/layout-photo
 imgSRC: /img/2021-12-29-ham-curry-ramen.jpeg
 imgALT: Looking down into bowl of curry noodles, with ham and onions.
 
-urlFlickr: 
+urlFlickr:
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>

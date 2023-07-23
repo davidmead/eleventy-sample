@@ -21,10 +21,10 @@ layout: layouts/layout-photo
 imgSRC: /img/2021-11-27-watchful-hounds.jpeg
 imgALT: 2 dogs looking out of snowy window
 
-urlFlickr: 
+urlFlickr:
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 Just before Thanksgiving saw the start of Little Snow, according to The Small Seasons Guide.
 

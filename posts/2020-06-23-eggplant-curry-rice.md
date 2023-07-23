@@ -22,7 +22,7 @@ imgALT: close up of homemade eggplant curry and rice
 
 urlFlickr: https://flic.kr/p/2jfZVyP
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 I very rarely make anything from YouTube videos but this looked great, and I had most of the ingredients, so why not?
 

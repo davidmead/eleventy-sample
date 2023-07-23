@@ -1,6 +1,6 @@
 ---
 title: A doner to remember
-description: This tasted just as it did when I lived in the UK 
+description: This tasted just as it did when I lived in the UK
 summary: Turkish staple, post drinks.
 
 date: 2022-03-08T21:00:01.00-05:00
@@ -12,16 +12,16 @@ tags:
   - nom
   - eat
   - uk
-  
+
 
 layout: layouts/layout-photo
 imgSRC: /img/2022-03-08-doner-kebab.jpeg
 imgALT: Close-up of a Lamb doner kebab
 
-urlFlickr: 
+urlFlickr:
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 I'm sure this picture doesn't make it look <em>that</em> appealing to some, but to me this was <strong>delicious</strong>.
 

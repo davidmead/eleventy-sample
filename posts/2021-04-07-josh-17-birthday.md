@@ -17,10 +17,10 @@ layout: layouts/layout-photo
 imgSRC: /img/2021-04-07-josh-birthday-balloons.jpg
 imgALT: Birthday balloons
 
-urlFlickr: 
+urlFlickr:
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 Our baby is now 17 years old. Where does the time go to?
 

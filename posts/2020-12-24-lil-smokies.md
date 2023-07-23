@@ -22,7 +22,7 @@ imgALT: bowl of cocktail sausages in sauce
 urlFlickr: https://www.flickr.com/gp/davidmead/z9928f
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 I love a bowl of these sticky, sweet, and slightly spicy sausages. Time to play Xbox while nibbling.
 

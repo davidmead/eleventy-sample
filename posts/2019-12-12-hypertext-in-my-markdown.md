@@ -22,7 +22,7 @@ In my `layout-photo.njk` file I had the following block
 
 ```
 <div class="e-content">
-	<p><img class="u-photo img-polaroid" src="'{'{ imgSRC }'}'" alt="'{'{ imgALT }'}'"></p>
+	<p><img class="u-photo img-polaroid" src="'{'{ imgSRC }'}'" alt="'{'{ imgALT }'}'" width="500" height="500"></p>
 	'{'{ content | safe }'}'
 </div>
 ```

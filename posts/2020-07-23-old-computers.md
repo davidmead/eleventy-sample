@@ -19,7 +19,7 @@ imgALT: various old computers stacked up
 urlFlickr: https://flic.kr/p/2jp5yRR
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 2 desktop towers, 2 laptops, 1 mini-laptop, 1 Chromebook, 1 (beloved) Nexus 7 tablet. Not shown the box of cables, leads, and peripherals.
 

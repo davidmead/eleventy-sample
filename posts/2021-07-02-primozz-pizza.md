@@ -1,6 +1,6 @@
 ---
 title: Last pizza
-description: 
+description:
 summary: My favourite pizza place is shutting down
 
 date: 2021-07-02T00:00:01.00-05:00
@@ -16,10 +16,10 @@ layout: layouts/layout-photo
 imgSRC: /img/2021-07-02-primozz-pizza.jpeg
 imgALT: closeup of pepperoni pizza
 
-urlFlickr: 
+urlFlickr:
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 When I first visited Ohio I really enjoyed the pizza from [Primozz Pizza](https://www.primozzpizzeria.com " ") in Mentor. So much so that I wrote them a letter (this was late 90's, so no social media) when I got back to the UK.
 

@@ -18,10 +18,10 @@ layout: layouts/layout-photo
 imgSRC: /img/2022-03-09-fish-and-chips.jpeg
 imgALT: Close-up of battered cod and chips in paper
 
-urlFlickr: 
+urlFlickr:
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 There's very few things that can beat a battered piece of cod accompanied with thick chips, soaked with malt vinegar & salt.
 

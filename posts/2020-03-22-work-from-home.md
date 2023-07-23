@@ -24,7 +24,7 @@ urlTwitter:
 urlFlickr: https://www.flickr.com/photos/davidmead/49695899382
 
 ---
-<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}"></p>
+<p><img class="u-photo img-polaroid" src="{{ imgSRC }}" alt="{{ imgALT }}" width="500" height="500"></p>
 
 With the [Ohio Governor's order of "stay at home"](https://ohio.gov/wps/portal/gov/site/media-center/news-and-events/ohio-issues-stay-at-home-order-and-new-restrictions-placed-on-day-cares-for-children "State website article"), I went Sunday and got my monitor, mouse, and keyboard from the office.
 

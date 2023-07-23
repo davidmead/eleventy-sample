@@ -9,6 +9,7 @@ tags:
   - post
   - nom
   - food
+  - eat
   - dinner
   - cleveland
   - lakewood
