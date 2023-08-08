@@ -26,3 +26,4 @@ He was always curious. Asking questions about a multitude of topics. But we coul
 
 He was a big part of my life.  He was my second father. We will all miss him.
 
+
