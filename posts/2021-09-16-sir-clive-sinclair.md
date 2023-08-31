@@ -1,7 +1,7 @@
 ---
 title: R.I.P. Sir Clive Sinclair
 description: British inventor who had a huge impact on my future
-summary: 
+summary:
 
 date: 2021-09-16T00:00:01.00-05:00
 
@@ -11,6 +11,7 @@ tags:
   - memories
   - mortality
   - personal
+  - obituary
 
 layout: layouts/layout-post
 ---
@@ -28,7 +29,7 @@ I remember sitting with my Dad, re-typing programs on the rubber keys from newsp
 By the end I had a huge library of games on cassette tape; The Hobbit, Manic Miner, anything from [Ultimate](https://en.wikipedia.org/wiki/Ultimate_Play_the_Game "Wikipedia entry about games maker").
 
 
-The BBC has a nice [2013 video clip with Sir Clive](https://www.bbc.com/news/uk-58587521 "") where he states he doesn't use a computer as its <q>too distracting</q>. 
+The BBC has a nice [2013 video clip with Sir Clive](https://www.bbc.com/news/uk-58587521 "") where he states he doesn't use a computer as its <q>too distracting</q>.
 
 Having this affordable computer changed my life. Thanks Sir Clive.
 

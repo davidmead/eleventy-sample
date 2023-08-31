@@ -10,6 +10,7 @@ tags:
   - personal
   - family
   - loss
+  - obituary
 
 
 layout: layouts/layout-post

@@ -9,6 +9,7 @@ tags:
   - post
   - uk
   - personal
+  - obituary
 
 layout: layouts/layout-post
 ---
