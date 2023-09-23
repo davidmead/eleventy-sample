@@ -75,6 +75,7 @@ html {
 ------------------------------- */
 img {
 	max-width: 100%;
+	/* added height to overcome the size in HTML skewing img */
 	height: auto;
 	display: block;
     object-fit: cover;
