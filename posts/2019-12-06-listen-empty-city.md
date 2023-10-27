@@ -10,7 +10,8 @@ tags:
   - listen
   - music
   - ambient
-  
+  - bandcamp
+
 imgSRC: /img/cover-empty-city.jpg
 imgALT: Painted cover of album
 

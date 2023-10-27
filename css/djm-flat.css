@@ -397,12 +397,16 @@ a[rel~="sweetheart"] {
 
 .summary {
 	margin-top: 0;
-	margin-bottom: 2.250em;
+	/* margin-bottom: 2.250em; */
 	line-height: 1;
 	font-size: 1.3333em; /* 24px */
 	font-family: "font-heading";
 	color: rgba(var(--color-002), var(--op-075));
 	}
+
+.e-content {
+	margin-top: 2.250em;
+}
 
 .blockquote {
 	margin: 1.3750em 0;

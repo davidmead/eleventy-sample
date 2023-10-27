@@ -11,6 +11,7 @@ tags:
   - music
   - modern
   - classical
+  - bandcamp
 
 imgSRC: /img/cover-handfuls-of-night.jpg
 imgALT: Album cover

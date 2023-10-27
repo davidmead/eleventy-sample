@@ -12,6 +12,7 @@ tags:
   - ambient
   - electronic
   - dance
+  - bandcamp
 
 layout: layouts/layout-post
 ---

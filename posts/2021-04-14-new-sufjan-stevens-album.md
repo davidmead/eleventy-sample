@@ -10,6 +10,7 @@ tags:
   - music
   - listen
   - instrumental
+  - bandcamp
 
 layout: layouts/layout-post
 ---

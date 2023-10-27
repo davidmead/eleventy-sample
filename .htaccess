@@ -27,6 +27,8 @@ Redirect 301 /blog/2017/02/26/happy-40th-2000ad-40-years-old-today/ https://davi
 
 Redirect 301 /tags/open%20source https://davidjohnmead.com/tags/open-source/
 
+Redirect 301 /posts/2015-09-23-2-foodspotting/ /posts/2015-09-23-foodspotting-2/
+
 #END redirects
 
 # BEGIN add custom header to multiple files
