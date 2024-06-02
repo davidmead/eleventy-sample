@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="">
+		<meta name="robots" content="index, follow">
+
+</head>
+
+<body>
+	<h1>Markup for legal documents</h1>
+	<p>This is my answer to <a href="https://siderea.dreamwidth.org/1819759.html" title="">Siderea's posted example of an ordered list</a> and <a href="https://zegnat.neocities.org/ordered_list" title="">Zegnat's response</a>.</p>
+	<p>I spent <strong>way too much</strong> time on this ;-)</p>
+
+<img src="https://zegnat.neocities.org/ordered_list.png" alt />
+
+
+<h2>Version A</h2>
+<p>This uses only nested ordered lists (<code>&lt;ol&gt;</code>) and some CSS.</p>
+
+	<style>
+	ol,
+	ol ol,
+	ol ol ol,
+	ol ol ol ol {
+		margin-left: 0;
+		padding-left: 0;
+		counter-reset: count 0;
+	}
+
+	ol {
+		margin-left: 2em;
+	}
+
+	ol ol ol {
+		margin-left: 1em;
+	}
+
+	ol ol ol ol {
+		margin-left: 2em;
+	}
+
+	ol li {
+		counter-increment: count 1;
+	}
+
+	ol li::marker {
+		content: "(" counter(count, lower-alpha) ") ";
+	}
+
+	ol ol li::marker {
+		content: "(" counter(count, decimal) ") ";
+	}
+
+	ol ol ol li::marker {
+		content: "(" counter(count, lower-roman) ") ";
+	}
+
+	ol ol ol ol li::marker {
+		content: "(" counter(count, upper-alpha) ") ";
+	}
+
+	li.elide {
+		margin: 1em 0;
+	}
+
+	li.elide::marker {
+		content: "[..." counter(count, lower-roman) ": ";
+	}
+
+	li.elide::after {
+		content: "...]";
+	}
+
+
+</style>
+
+<blockquote>
+<ol>
+	<li>&nbsp;
+		<ol>
+			<li>Standard: Right of an individual to request restriction of uses and disclosures.
+				<ol>
+					<li>A covered entity must permit an individual to request that the covered entity restrict:
+						<ol>
+							<li>Uses or disclosures of protected health information about the individual to carry out treatment, payment, or health care operations; and</li>
+							<li>Disclosures permitted under§ 164.510(b).</li>
+						</ol>
+					</li>
+					<li>Except as provided in paragraph (a)(1)(vi) of this section, a covered entity is not required to agree to a restriction.</li>
+					<li class="elide">if you do agree, you have to keep your promise, except in emergencies</li>
+					<li value="6">A covered entity must agree to the request of an individual to restrict disclosure of protected health information about the individual to a health plan if:
+						<ol>
+					<li>The disclosure is for the purpose of carrying out payment or health care operations and is not otherwise required by law; and</li>
+					<li>The protected health information pertains solely to a health care item or service for which the individual, or person other than the health plan on behalf of the individual, has paid the covered entity in full.</li>
+						</ol>
+				</ol>
+			</li>
+		</ol>
+	</li>
+</ol>
+</blockquote>
+<hr />
+
+<h2>Version B</h2>
+<p>This version
+<style>
+	.tiered-list {
+	 margin-left: 2em;
+	 display: list-item;
+	 counter-reset: count 0;
+	 counter-increment: count 1;
+	}
+
+	.tiered-list::marker {
+	  content: "(" counter(count, lower-alpha) ") ";
+	}
+
+	.tiered-list+.tiered-list {
+		counter-reset: count 1;
+	}
+
+	.tiered-list p {
+	 margin-left: 2em;
+	 display: list-item;
+	 counter-reset: count 1;
+	 counter-increment: count 1;
+	}
+
+	.tiered-list p::marker {
+	  content: "(" counter(count, decimal) ") ";
+	}
+
+
+</style>
+
+
+	<section class="tiered-list">
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+	</section>
+	<section class="tiered-list">
+		<p></p>
+		<p></p>
+		<p></p>
+	</section>
+
+
+
+	test
+	test
+
+
+</body>
+</html>

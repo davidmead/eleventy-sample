@@ -1,23 +1,24 @@
 ---
-title: Pastrami Reuben sandwich
-description: Pastrami Reuben sandwich from Manhattan Deli Bar & Grille, Willoughby OH
-summary: Manhattan Deli Bar & Grille
+title: Soup Dumplings
+description: Soup dumplings from LJ Shanghai, Cleveland OH
+summary: LJ Shanghai
 
-date: 2022-02-05T00:00:01.00-05:00
+date: 2024-03-29T00:00:01.00-05:00
 
 tags:
 - post
 - nom
 - eat
 - food
+- lunch
+- shanghaiese
 - photo
-- dinner
 
-imgSRC: /img/2022-02-05-pastrami-reuben.jpeg
-imgAlt: Pastrami Reuben sandwich
+imgSRC: /img/2024-03-29-soup-dumplings.jpeg
+imgAlt: Soup dumplings in a bamboo steamer
 
-restaurantName: Manhattan Deli Bar & Grille
-caption: Ages since I had one of these. Delicious. Thousand Island dressing really makes it.
+restaurantName: <a href="https://ljshanghaicle.com/" title="">LJ Shanghai</a>
+caption: Hadn't had these delicious steamed soup dumplings (XIAOLONGBAO) in while. I also had the Fried Rice Cakes.
 
 urlFoodspotting:
 urlNosh:

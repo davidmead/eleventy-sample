@@ -16,7 +16,7 @@ tags:
 imgSRC: /img/foodspotting/6159212.jpg
 imgAlt: Shrimp Rice Crepes drizzled with soy sauce
 
-restaurantName: Emperor's Palace
+restaurantName: <a href="https://www.emperorspalacecleveland.com" title="">Emperor's Palace</a>
 caption: Tasty.
 
 urlFoodspotting: y

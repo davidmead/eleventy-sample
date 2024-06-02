@@ -1,23 +1,24 @@
 ---
-title: Pastrami Reuben sandwich
-description: Pastrami Reuben sandwich from Manhattan Deli Bar & Grille, Willoughby OH
-summary: Manhattan Deli Bar & Grille
+title: Jerk Chicken and ground provision lunch
+description: Jerk Chicken, ground provision, and cabbage from Gar & Mar Jamaican American Cuisine, Berea OH
+summary: Gar & Mar Jamaican American Cuisine
 
-date: 2022-02-05T00:00:01.00-05:00
+date: 2024-03-20T00:00:01.00-05:00
 
 tags:
 - post
 - nom
 - eat
 - food
+- lunch
+- jamaican
 - photo
-- dinner
 
-imgSRC: /img/2022-02-05-pastrami-reuben.jpeg
-imgAlt: Pastrami Reuben sandwich
+imgSRC: /img/2024-03-20-jerk-chicken.jpeg
+imgAlt: Jerk chicken, ground provisions
 
-restaurantName: Manhattan Deli Bar & Grille
-caption: Ages since I had one of these. Delicious. Thousand Island dressing really makes it.
+restaurantName: <a href="https://garandmar.com" title="">Gar & Mar Jamaican American Cuisine</a>
+caption: Really tasty, and a lot for the lunch price. Had the sauce on the side.
 
 urlFoodspotting:
 urlNosh:

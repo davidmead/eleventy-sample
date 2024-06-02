@@ -1,6 +1,6 @@
 ---
 title: My Father-in-law died
-description:
+description: My Father-in-law, Jim Hux, died today
 summary: Jim Hux. 1948-2023
 
 date: 2023-05-22T00:00:01.00-05:00
@@ -21,7 +21,7 @@ After a long struggle with various health issues, compounded by cancer, Julie's 
 
 He served as a Marine in the Vietnam War. Worked as a telephone engineer for "<a href="https://en.wikipedia.org/wiki/Bell_System" title="Wikipedia entry for Bell Telephone Company">Ma Bell</a>", AT&T, and later as an independent contractor.
 
-I always felt welcomed and supported by Jim. He helped financially when we moved over by co-signing, led me through the radically different taxes system, helped with practical home repairs, and what little I know of US sports is pretty much thanks to him.
+I always felt welcomed and supported by Jim. He helped with my visa, financially when we moved over by co-signing, led me through the radically different taxes system, helped with practical home repairs, and what little I know of US sports is pretty much thanks to him.
 
 He was always curious. Asking questions about a multitude of topics. But we could also just sit and watch a crazy 80's action film.
 

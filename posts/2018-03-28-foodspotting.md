@@ -16,7 +16,7 @@ tags:
 imgSRC: /img/foodspotting/6160892.jpg
 imgAlt: Beef Curry Soup With Vermicelli Noodles
 
-restaurantName: LJ Shanghai
+restaurantName: <a href="https://ljshanghaicle.com/" title="">LJ Shanghai</a>
 caption: Delicious. Great for a cold wet day.
 
 urlFoodspotting: y

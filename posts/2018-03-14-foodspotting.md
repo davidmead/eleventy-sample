@@ -16,7 +16,7 @@ tags:
 imgSRC: /img/foodspotting/6158999.jpg
 imgAlt: Wood-fire Pizza topped with meats and peppers
 
-restaurantName: Citizen Pie
+restaurantName: <a href="https://www.citizenpie.com/collinwood/" title="">Citizen Pie</a>
 caption: Delicious. Meaty and spicy.
 
 urlFoodspotting: y

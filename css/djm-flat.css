@@ -281,6 +281,11 @@ strong {
 	background-color: rgba(var(--color-005), var(--op-025));
 	}
 
+.bold {
+	font-family: "font-body-bold";
+	color: rgba(var(--color-002), var(--op-075));
+}
+
 small,
 .small {
 	font-size: 0.7778em; /* 14px */
@@ -514,7 +519,7 @@ a[rel~="sweetheart"] {
 	}
 
 .img-med {
-		max-width: 320px;
+	max-width: 320px;
 	max-height: 320px;
 }
 

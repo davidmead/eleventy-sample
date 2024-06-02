@@ -16,7 +16,7 @@ tags:
 imgSRC: /img/foodspotting/6159211.jpg
 imgAlt: Turnip Cake
 
-restaurantName: Emperor's Palace
+restaurantName: <a href="https://www.emperorspalacecleveland.com" title="">Emperor's Palace</a>
 caption: Delicious with some soy sauce and hot oil.
 
 urlFoodspotting: y
