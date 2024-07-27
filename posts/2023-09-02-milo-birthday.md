@@ -9,7 +9,10 @@ tags:
   - post
   - photo
   - challenge
+  - pet
+  - dog
   - milo
+  - birthday
 
 
 layout: layouts/layout-post

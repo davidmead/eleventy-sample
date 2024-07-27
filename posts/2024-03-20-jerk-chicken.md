@@ -13,6 +13,7 @@ tags:
 - lunch
 - jamaican
 - photo
+- wednesday-nom-club
 
 imgSRC: /img/2024-03-20-jerk-chicken.jpeg
 imgAlt: Jerk chicken, ground provisions

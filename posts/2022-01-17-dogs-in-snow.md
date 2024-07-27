@@ -8,6 +8,9 @@ date: 2022-01-17T00:00:01.00-05:00
 tags:
   - post
   - photo
+  - pet
+  - dog
+  - dogs
   - milo
   - rosie
   - snow

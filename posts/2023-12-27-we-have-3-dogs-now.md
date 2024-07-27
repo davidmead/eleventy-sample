@@ -9,6 +9,8 @@ tags:
   - post
   - photo
   - westcameraapp
+  - pet
+  - dog
   - dogs
   - milo
   - rosie

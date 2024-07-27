@@ -9,6 +9,8 @@ tags:
   - post
   - photo
   - challenge
+  - pet
+  - dog
   - rosie
 
 

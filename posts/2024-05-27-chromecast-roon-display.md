@@ -27,7 +27,7 @@ Luckily a quick search on Duck-Duck-Go surfaced <a href="https://www.reddit.com/
 
 <figure class="blockquote">
 	<blockquote cite="https://www.reddit.com/r/Chromecast/comments/fbrsd5/for_those_still_using_1st_gen_chromecast_and/">
-		<p> In his steps he had to go into his iphone wifi settings and connect to the Chromecast's own self-created wifi network. I had a look on my phone and there it was, so I connected to that, shut down the Google Home app and reopened it, searched for devices again and hey presto, it picked up the chromecast. After, it then prompted me to select the actual network and I was all set up in the space of 5 minutes.</p>
+		<p>In his steps he had to go into his iphone wifi settings and connect to the Chromecast's own self-created wifi network. I had a look on my phone and there it was, so I connected to that, shut down the Google Home app and reopened it, searched for devices again and hey presto, it picked up the chromecast. After, it then prompted me to select the actual network and I was all set up in the space of 5 minutes.</p>
 	</blockquote>
 	<figcaption>— cowegonnabechopps, <cite>Reddit r/Chromecast</cite></figcaption>
 </figure>

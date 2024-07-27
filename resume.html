@@ -18,6 +18,25 @@ body {
 	height: 100%;
 }
 
+/* =VARIABLES
+------------------------------- */
+html {
+	--color-001: 255, 255, 255;
+	--color-002: 0, 0, 0;
+	--color-003: 200, 76, 34;
+	--color-004: 254, 250, 250;
+	--op-100: 1;
+	--op-075: 0.75;
+	--op-050: 0.50;
+	--op-025: 0.25;
+	--op-018: 0.18;
+	--op-014: 0.14;
+	--op-002: 0.02;
+
+	background-color: rgba(var(--color-004), var(--op-100));
+	color: rgba(var(--color-002), var(--op-075));
+	}
+
 body {
 	margin: auto;
 	min-height: 100vh;
@@ -30,7 +49,7 @@ body {
 }
 
 main {
-	margin: 30px 15px;
+	margin: 2rem 2rem;
 	/* 	max-width: 670px; */
 	max-width: 45rem;
 }
@@ -48,14 +67,15 @@ h1 {
 }
 
 h1 .p-name {
-	display: block;
+	display: inline-block;
 	font-size: 1.5em;
+	color: rgba(var(--color-003), var(--op-100));
 }
 
 h2 {
 	margin-left: -1em;
 	padding-left: 0.75em;
-	border-left: 0.25em solid white;
+	border-left: 0.25em solid rgba(var(--color-001), var(--op-100));
 }
 
 
@@ -69,9 +89,9 @@ line-height: 26px;
 	/* 18px */
 	line-height: 1.5000em;
 	/* 27px */
-	word-wrap: break-word;
-	overflow-wrap: break-word;
-	hyphens: auto;
+	word-wrap: normal;
+	overflow-wrap: normal;
+	hyphens: manual;
 	max-width: 80ch;
 }
 
@@ -102,8 +122,8 @@ li {
 
 header,
 footer {
-	color: #000;
-	background-color: #FFF;
+	color: rgba(var(--color-002), var(--op-100));
+	background-color: rgba(var(--color-001), var(--op-100));
 }
 
 footer {
@@ -166,7 +186,7 @@ header>nav a:visited {
 	margin: 0 0.5rem 1rem 0.5rem;
 	border: 1px solid var(--border);
 	border-radius: 5px;
-	color: var(--text);
+	color: rgba(var(--color-002), var(--op-100));
 	display: inline-block;
 	padding: 0.1rem 1rem;
 	text-decoration: none;
@@ -181,7 +201,7 @@ p+h3,
 }
 
 .job {
-	border-bottom: 1px dotted #ccc;
+	border-bottom: 1px dotted rgba(var(--color-002), var(--op-050));
 	padding-bottom: 1.1250em;
 }
 
@@ -190,8 +210,7 @@ p+h3,
 }
 
 .position {
-	color:
-		#d93f00;
+	color: rgba(var(--color-003), var(--op-100));
 }
 
 .company {
@@ -231,7 +250,7 @@ p+h3,
 
 .details {
 	padding: 0;
-	color: #666;
+	color: rgba(var(--color-002), var(--op-050));
 }
 
 .details li {
@@ -250,10 +269,25 @@ header>nav {
 	padding: 1rem 0 0 0;
 }
 
+.columns {
+	columns: 13ch auto;
+	overflow-wrap: break-word;
+	column-gap: 3em;
+	column-rule: 1px dotted rgba(var(--color-002), var(--op-050));
+	/* text-align: center; */
+	}
+
+.columns li {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 0.25em;
+	}
+
 
 @media screen and (min-width: 600px) {
 	main {
-		padding: 0 30px;
+		margin: 32px auto;
+		padding: 2rem;
 	}
 
 	p {
@@ -283,30 +317,30 @@ header>nav {
 				<li><a href="#content-experience" title="">Experience</a></li>
 				<li><a href="#content-education" title="">Education</a></li>
 				<li><a href="#content-volunteering" title="">Volunteering</a></li>
-				<li><a href="https://www.linkedin.com/in/davidmead/" title="" rel="external">LinkedIn profile</a></li>
+				<li><a href="/portfolio/" title="">Portfolio</a>
+				<li><a href="https://www.linkedin.com/in/davidmead/" title="" rel="external">LinkedIn</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main id="content-main" class="h-resume">
-		<h1>Resume of <span class="p-name">David Mead</span></h1>
+		<h1>Resume of <span class="p-name">David Mead</span>.<br  /><span class="details">User Experience Designer, Information Architect</span>.</h1>
+
 		<section class="p-summary">
 			<h2 id="content-about">About</h2>
-			<p>20+ years of experience in digital design & development. Projects include web sites, Intranets, mobile apps, and omni-channel campaigns.</p>
+			<p>Over 20 years of experience in designing & building for users on digital platforms. Providing results across a variety of industries. Working for start-ups, agencies, up through large corporations.</p>
 
-			<p>I am self-motivated, have excellent communication skills, and a passion for web standards. I create user-centered designs based on feedback, interviews, analytics, and user testing. I hand-code my own semantic, accessible, HTML mocks.</p>
+			<p>Self-motivated user advocate, with a passion for web standards. Creating user-centered designs based off of feedback, interviews, analytics, and user testing.</p>
 
-			<p>Comfortable in programs such as Sketch/InVision for static mocks.</p>
-		</section>
-		<section>
-			<h2 id="content-skills">Skills</h2>
-			<ul>
+			<h3 id="content-skills">Skills</h3>
+			<ul class="columns list-plain">
 				<li class="p-skill">User Experience Design</li>
 				<li class="p-skill">User Interface Design</li>
 				<li class="p-skill">User Research</li>
 				<li class="p-skill">Information Architecture</li>
-				<li class="p-skill">Accessibility</li>
-				<li class="p-skill">Semantic HTML</li>
-				<li class="p-skill">CSS</li>
+				<li class="p-skill">Interaction Flows</li>
+				<li class="p-skill">Wireframing</li>
+				<li class="p-skill">Prototyping (Semantic HTML, CSS)</li>
+				<li class="p-skill">Accessibility (WCAG)</li>
 			</ul>
 		</section>
 		<section>
@@ -316,11 +350,36 @@ header>nav {
 				<h3><span class="position p-name">Lead Designer <abbr title="User Interface">UI</abbr>/<abbr title="User Experience">UX</abbr></span> at <span class="company p-location h-card"><a class="p-fn p-org u-url" title="" href="https://www.vitamix.com">Vitamix</a></span></h3>
 				<ul class="list-plain details">
 					<li>Full-time</li>
-					<li class="duration"><time datetime="2020-04" class="dt-start">April 2020</time>&ndash;<time datetime="" class="dt-end">present</time></li>
+					<li class="duration"><time datetime="2020-04" class="dt-start">April 2020</time>&ndash;<time datetime="2024-07" class="dt-end">July 2024</time></li>
 					<!-- <li>N.Olmstead, Ohio USA</li> -->
 				</ul>
 				<div class="p-summary">
-					<p>Oversaw the migration from Oracle ATG to Adobe Commerce & Adobe Experience Manager. Introduced a "mobile-first" approach to the ongoing redesign of pages. Implemented a Design System.</p>
+					<p>Migration from Oracle ATG to Adobe Commerce & Adobe Experience Manager as the "lift & shift" of the Vitamix website:</p>
+					<ul>
+						<li>Lead and managed web & project team while Vitamix transitioned managers</li>
+						<li>Created content models, content audits, designed page templates, and IA site maps</li>
+						<li>SME for Accessibility, data schemas, SEO, responsive design</li>
+					</ul>
+
+					<p>Header & Navigation:</p>
+					<ul>
+						<li>Watched user sessions, and commissioned card sort, of existing navigation</li>
+						<li>Created product taxonomy to align internal and external product naming</li>
+						<li>Designs in Sketch for Household & Commercial verticals. Variations for each respective global market (US, CA, MX, and International) as well as translations</li>
+					</ul>
+
+					<p>Design System:</p>
+					<ul>
+						<li>Conducted interviews and workshops to understand internal needs</li>
+						<li>Adopted 'Atomic Design' method as industry best practice</li>
+						<li>Visual designs created in Sketch</li>
+						<li>Managed as separate project in Confluence & Jira - 50% of new components released to production for use</li>
+					</ul>
+					<p>Created user flows, wireframes, and designs for Apple Pay, Salesforce, Forter, and Affirm integrations. Day-to-day technical resource for SEO, Accessibility, and site performance.</p>
+
+					<p>Introduced tools for continual monitoring and research of the site, to the organization. Browserstack, Fullstory, Speedcurve, and Level Access.</p>
+					<p>Pushed for the adoption of asynchronous collaboration tools. InVision and Confluence enabled internal & external teams to reach goals faster.</p>
+					<p>Advocated and worked towards a more accessible, mobile-first website.</p>
 				</div>
 			</div>
 
@@ -333,11 +392,11 @@ header>nav {
 					<!-- <li>Cleveland, Ohio USA</li> -->
 				</ul>
 				<div class="p-summary">
-					<p>Responsible for shaping digital products in <abbr title="Business to business">B2B</abbr>, and <abbr title="Business to consumer">B2C</abbr>, channels.</p>
+					<p>Responsible for the team handling user experience in all <abbr title="Business to business">B2B</abbr> and <abbr title="Business to consumer">B2C</abbr> digital channels. Including white-labelled eCommerce funnels, business ordering portals, and internal digital tools.  User testing, ethnographic research, wireframes, and clickable mocks were our daily bread & butter.</p>
 
-					<p>Championed adoption of accessibility practices. Organized the creation of a design system. Introduced user-centric design as standard. Worked across departments to improve workflows, and communication.</p>
+					<p>Championed accessibility adoption of into our products. Co-founded a User Council for B2B customer research. Provided guidance across all departments on user-centered design.</p>
 
-					<p>User testing, ethnographic research, wireframes, and clickable mocks were our daily bread & butter.</p>
+					<p>Headed new design for the online B2B ordering portals. Achieved higher conversion rates for white-label eCommerce tire stores. New modular, responsive templates managed through one CMS, used by thousands of dealerships.</p>
 				</div>
 			</div>
 
@@ -375,7 +434,7 @@ header>nav {
 			<ul>
 				<li class="p-education h-event"><time datetime="1990" class="dt-start dt-end">1990</time>&mdash;<span class="p-name">South East Essex College of Arts and Technology City & Guilds, Media Techniques/TV & Video Competencies</span></li>
 				<li class="p-education h-event"><time datetime="1990" class="dt-start dt-end">1990</time>&mdash;<span class="p-name">South East Essex College of Arts and Technology College Certificate, Video Production Workshop</span></li>
-				<li class="p-education h-event"><time datetime="1997" class="dt-start dt-end">1997</time>&mdash;<span class="p-name">SEEVIC College'A'Level, Art</span></li>
+				<li class="p-education h-event"><time datetime="1987" class="dt-start dt-end">1987</time>&mdash;<span class="p-name">SEEVIC College'A'Level, Art</span></li>
 			</ul>
 		</section>
 		<section>
@@ -386,21 +445,20 @@ header>nav {
 				<ul class="list-plain details">
 					<li>Volunteer</li>
 					<li><time datetime="2012-07">July 2012</time>&ndash;<time datetime="2012-07">July 2012</time></li>
-					<li>Cleveland, Ohio USA</li>
+					<!-- <li>Cleveland, Ohio USA</li> -->
 				</ul>
-
 
 				<p>Volunteered my time over a weekend as part of <a href="https://clevelandgivecamp.org" title="">Cleveland Give Camp</a>. Though we couldn't give them a wholly new site (they'd already invested in a CMS) we focussed on two priorities:</p>
 				<ol>
 					<li>Write new content to help educate visitors, and to improve search engine results</li>
 					<li>Change the site architecture to make it easier to navigate</li>
 				</ol>
-				<p>It was a great experience and the client was happy and grateful of the updates.</p>
+				<p>It was a great experience. Client was happy, and grateful, for the updates.</p>
 			</div>
 		</section>
 	</main>
 	<footer>
-		<small>&copy;David Mead 2023</small>
+		<small>&copy;David Mead 2024</small>
 	</footer>
 
 

@@ -8,6 +8,8 @@ date: 2021-05-20T00:00:01.00-05:00
 tags:
   - post
   - photo
+  - pet
+  - dog
   - dogs
   - rosie
   - milo

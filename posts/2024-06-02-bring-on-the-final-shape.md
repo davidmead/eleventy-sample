@@ -23,7 +23,7 @@ That means I had to; craft everything I need, spend in-game currency (most of wh
 I've made my peace with <abbr title="fear of missing out">FOMO</abbr> and switching it off.
 
 <figure>
-<img class="img-border" src="/img/ss-2024-06-02-destin2-inventory.png" alt="my inventory screen in Destiny 2" width="1000" height="562" />
+<img class="img-border" src="/img/ss-2024-06-02-destiny2-inventory.png" alt="my inventory screen in Destiny 2" width="1000" height="562" />
   <figcaption>Everything left in my characters inventory</figcaption>
 </figure>
 

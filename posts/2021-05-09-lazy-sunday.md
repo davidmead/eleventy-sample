@@ -13,6 +13,7 @@ tags:
   - milo
   - pet
   - dog
+  - dogs
 
 layout: layouts/layout-photo
 imgSRC: /img/2021-05-09-dogs.jpeg

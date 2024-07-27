@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>New Header/Navigation for Vitamix. Portfolio of David Mead. User Experience Designer. Information Architect.</title>
+	<meta name="description" content="New Header/Navigation for Vitamix.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="David John Mead">
+	<meta name="robots" content="index, follow">
+
+	<style>
+		:root {
+			/* color-scheme: light dark; */
+		}
+
+		html,
+		body {
+			height: 100%;
+		}
+
+		/* =VARIABLES
+	------------------------------- */
+		html {
+			--color-001: 255, 255, 255;
+			--color-002: 0, 0, 0;
+			--color-003: 200, 76, 34;
+			--color-004: 254, 250, 250;
+			--color-005: 244, 218, 81;
+			--op-100: 1;
+			--op-075: 0.75;
+			--op-050: 0.50;
+			--op-025: 0.25;
+			--op-018: 0.18;
+			--op-014: 0.14;
+			--op-002: 0.02;
+
+			background-color: rgba(var(--color-004), var(--op-100));
+			color: rgba(var(--color-002), var(--op-075));
+		}
+
+		body {
+			margin: auto;
+			display:grid;
+			grid-gap: 1em;
+			grid-template-rows: auto 1fr auto;
+
+			min-height: 100vh;
+			font-size: 18px;
+			font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+			/* Only supported on Chromium-based browsers and Safari */
+			font-family: system-ui;
+			font-variant: common-ligatures tabular-nums;
+			line-height: 1.5;
+		}
+
+		main {
+			margin: 2rem 2rem;
+			/* 	max-width: 670px; */
+			max-width: 45rem;
+		}
+
+
+		h1,
+		h2,
+		h3 {
+			margin: 0;
+			font-weight: 700;
+		}
+
+		h1 {
+			line-height: 1;
+		}
+
+		h1 .p-name {
+			display: inline-block;
+			font-size: 1.5em;
+			color: rgba(var(--color-003), var(--op-100));
+		}
+
+		h2 {
+			margin-left: -1em;
+			padding-left: 0.75em;
+			border-left: 0.25em solid rgba(var(--color-001), var(--op-100));
+		}
+
+
+		p {
+			/*
+	font-size: 16px;
+	line-height: 26px;
+	*/
+			margin: 0;
+			font-size: 1em;
+			/* 18px */
+			line-height: 1.5000em;
+			/* 27px */
+			word-wrap: normal;
+			overflow-wrap: normal;
+			hyphens: manual;
+			max-width: 80ch;
+		}
+
+
+		*+p {
+			margin-top: 1.1250em;
+			/* 0.75 baselines */
+
+		}
+
+		h1+p,
+		h2+p
+		h2+ul,
+		h3+p,
+		h3+ul,
+		h2+h3 {
+			margin-top: 0.750em;
+			/* 0.5 baselines */
+		}
+
+		h3+.details {
+			margin-top: 0;
+		}
+
+		li {
+			line-height: 1.5000em;
+
+		}
+
+		strong {
+			font-weight: 600;
+			color: rgba(var(--color-002), var(--op-100));
+			background-color: rgba(var(--color-005), var(--op-100));
+		}
+
+		header,
+		footer {
+			color: rgba(var(--color-002), var(--op-100));
+			background-color: rgba(var(--color-001), var(--op-100));
+		}
+
+		footer {
+			padding-bottom: 1em;
+			text-align: center;
+		}
+
+		h1+section,
+		section+section {
+			margin-top: 2.250em;
+			/* 1.5 baselines */
+		}
+
+		ul,
+		ol {
+			margin-top: 1.1250em;
+			/* 0.75 baselines */
+			margin-left: 1em;
+			padding: 0;
+			list-style-position: outside;
+		}
+
+		li,
+		dt,
+		dd {
+			margin-top: 0.375em;
+			/* 0.25 baseline */
+		}
+
+		dd {
+			margin-left: 0;
+		}
+.list-tight li,
+		.list-tight li+li,
+		.list-tight li+ul+ul {
+			margin-top: 0;
+		}
+
+		li+li,
+		dt+dt {
+			margin-top: 0.375em;
+			/* 0.25 baseline */
+		}
+
+		nav>ul {
+			align-content: space-around;
+			align-items: center;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+
+		}
+
+		nav ul li,
+		nav ol li {
+			display: inline-block;
+		}
+
+		header>nav a,
+		header>nav a:visited {
+			margin: 0 0.5rem 1rem 0.5rem;
+			border: 1px solid var(--border);
+			border-radius: 5px;
+			color: rgba(var(--color-002), var(--op-100));
+			display: inline-block;
+			padding: 0.1rem 1rem;
+			text-decoration: none;
+		}
+
+		p+h2,
+		p+h3,
+		.job+h2,
+		.job {
+			margin-top: 2.250em;
+			/* 1.5 baselines */
+		}
+
+		.job {
+			border-bottom: 1px dotted rgba(var(--color-002), var(--op-050));
+			padding-bottom: 1.1250em;
+		}
+
+		.job:last-of-type {
+			border-bottom: none;
+		}
+
+		.position {
+			color: rgba(var(--color-003), var(--op-100));
+		}
+
+		.company {
+			/* display: block; */
+		}
+
+		/* 	from https://kittygiraudel.com/2020/12/06/a11y-advent-skip-to-content/	 */
+		.skip-link {
+			z-index: 100;
+			background-color: white;
+			padding: 0.5em;
+			display: block;
+		}
+
+		.sr-only {
+			border: 0 !important;
+			clip: rect(1px, 1px, 1px, 1px) !important;
+			-webkit-clip-path: inset(50%) !important;
+			clip-path: inset(50%) !important;
+			height: 1px !important;
+			overflow: hidden !important;
+			position: absolute !important;
+			width: 1px !important;
+			white-space: nowrap !important;
+		}
+
+		.sr-only.sr-only--focusable:focus,
+		.sr-only.sr-only--focusable:active {
+			clip: auto !important;
+			-webkit-clip-path: none !important;
+			clip-path: none !important;
+			height: auto !important;
+			overflow: visible !important;
+			width: auto !important;
+			white-space: normal !important;
+		}
+
+		.details {
+			padding: 0;
+			color: rgba(var(--color-002), var(--op-050));
+		}
+
+		.details li {
+			display: block;
+			/* margin-right: 1em; */
+		}
+
+		.list-plain {
+			margin-left: 0;
+			list-style: none;
+		}
+
+		header>nav {
+			font-size: 1rem;
+			line-height: 2;
+			padding: 1rem 0 0 0;
+		}
+
+		.project-outcome {
+			display: block;
+			margin: 8px;
+			padding: 8px;
+			border: 1px solid rgba(var(--color-003), var(--op-050));
+			border-radius: 0.25em;
+			background-color: rgba(var(--color-001), var(--op-100));
+		}
+
+		img {
+			max-width: 100%;
+			/* added height to overcome the size in HTML skewing img */
+			height: auto;
+			display: block;
+			object-fit: cover;
+		}
+
+
+		.img-border {
+			border: 0.25em solid rgba(var(--color-001), var(--op-100));
+			outline: 1px solid rgba(var(--color-002), var(--op-025));
+			box-shadow: 4px 4px 4px rgba(var(--color-002), var(--op-025));
+		}
+
+
+		@media screen and (min-width: 600px) {
+			main {
+				margin: 32px auto;
+				padding: 2rem;
+			}
+
+			p {
+				font-size: 18px;
+				line-height: 30px;
+			}
+
+			.position {
+				display: inline;
+			}
+
+			.details li {
+				display: inline-block;
+			}
+
+			.img-right {
+				float: right;
+				margin-right: -5em;
+				margin-left: 1em;
+			}
+
+			.img-50 {
+				width: 50%;
+			}
+
+
+		}
+	</style>
+
+</head>
+
+<body id="port-dt">
+	<a href="#content-main" class="skip-link sr-only sr-only--focusable">Skip to content</a>
+	<header>
+		<nav>
+<ul class="list-plain">
+			<li><a href="/portfolio/" title="">Portfolio</a></li>
+			<li><a href="/portfolio/portfolio-vitamix/" title="">Vitamix</a></li>
+			<li><a href="/portfolio/portfolio-dealer-tire/" title="">Dealer Tire</a></li>
+			<li><a href="/portfolio/portfolio-progressive/" title="">Progressive</a></li>
+			<li><a href="/resume/" title="">Resume</a></li>
+		</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Header/Navigation, <span class="details">Vitamix (2024)</span>.</h1>
+
+		<section>
+			<h2>Overview</h2>
+			<p>A left-over from the "lift & shift" migration, the header and navigation had not been really looked at for 5+ years.</p>
+			<h2>Goals</h2>
+			<img class="img-border img-right" alt="taxonomy" width="250" height="252" src="/img/portfolio-vitamix-current-mobile-nav.png" />
+			<ul>
+				<li>To better serve users on mobile devices</li>
+				<li>Clarify product offering</li>
+				<li>Consolidate different levels of navigation</li>
+				<li>Flex for differences between territories and verticals</li>
+				<li>Accommodate translations</li>
+				<li>Easily updatable within Adobe Experience Manager</li>
+				<li>Make use of Design System components</li>
+				</ul>
+
+
+			<h2>Work</h2>
+			<p>Engaged an agency to run a card sort on the (then) current navigation. This also included user interviews.</p>
+			<p>Paired down the amount of primary links. Confusion between "What You Can Make" and "Recipes" was one example.</p>
+			<p><img class="img-border img-right img-50" alt="taxonomy" width="1000" height="562" src="/img/portfolio-vitamix-product-taxonomy.png" /> Taxonomy created, verified by product team, to clarify differences between internal & external naming. This followed a structure of:</p>
+			<ul class="list-tight">
+				<li>Product
+					<ul>
+						<li>Vertical (Household, Commercial)
+							<ul>
+								<li>Type (Blender, Attachment, etc.)</li>
+								<li>Series
+									<ul><li>Category (Smart System)</li></ul>
+								</li>
+							</ul>
+						</li>
+					</ul></li>
+			</ul>
+
+			<p>Clickable mocks created in Sketch & InVision</p>
+			<p>Submitted mock for accessibility review by Level Access team</p>
+			<p>Multiple rounds of internal stakeholder review</p>
+			<p>HTML & CSS mocks created</p>
+			<h2>Results</h2>
+<p>Even though development work had started, unfortunately I never saw it implemented.</p>
+			<img class="img-border" alt="taxonomy" width="1000" height="671" src="/img/portfolio-vitamix-new-desktop-nav.png" />
+<p>The mobile-first designs worked well to clarify the product offerings in a scannable way. It could be easily managed with changes to the product lines.</p>
+<p>The responsive construction helped transition between devices.</p>
+<p>Reducing the primary links, as well as focusing on the vertical you were viewing assisted in reducing the amount of real-estate the header occupied.</p>
+<p>Leveraging the Design System made brand consistency less of an issue when offerings changed between territories.</p>
+			<img class="img-border" alt="taxonomy" width="1000" height="894" src="/img/portfolio-vitamix-new-mobile-nav.png" />
+		</section>
+	</main>
+	<footer>
+		<small>&copy;David Mead 2024</small>
+	</footer>
+</body>

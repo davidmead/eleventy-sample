@@ -14,6 +14,8 @@ tags:
   - rosie
   - milo
   - dogs
+  - pet
+  - dog
   - pandemic
   - covid19
 

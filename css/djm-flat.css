@@ -124,6 +124,11 @@ abbr {
 	border-bottom: 1px dotted rgba(var(--color-003), var(--op-100));
 	}
 
+del {
+	color: rgba(var(--color-003), var(--op-050));
+	text-decoration: line-through;
+}
+
 /* =STYLES
 ------------------------------- */
 body {

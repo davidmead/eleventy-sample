@@ -12,6 +12,9 @@ tags:
   - analog
   - josh
   - use
+  - pet
+  - dog
+  - milo
 
 layout: layouts/layout-photo
 imgSRC: /img/2021-06-16-josh-camera.jpeg

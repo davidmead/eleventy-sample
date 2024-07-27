@@ -7,6 +7,7 @@ date: 2020-02-04T00:00:01.00-05:00
 
 tags:
   - post
+  - personal
   - photo
   - nom
   - eat
